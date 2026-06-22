@@ -1,0 +1,4865 @@
+{
+  "id": "7ad7a0ce2ef2618bb59b066da5642f70",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-22T21:00:00Z",
+  "home_team": "France",
+  "away_team": "Iraq",
+  "bookmakers": [
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 165
+            },
+            {
+              "name": "No",
+              "price": -238
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:53Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 165
+            },
+            {
+              "name": "No",
+              "price": -238
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:08Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 165
+            },
+            {
+              "name": "No",
+              "price": -240
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:08Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -375
+            },
+            {
+              "name": "Iraq",
+              "price": 1400
+            },
+            {
+              "name": "Draw",
+              "price": 290
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:08Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ali Al-Hamadi",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Malo Gusto",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 112
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Konate",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -118
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Rebin Sulaka",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Aurelien Tchouameni",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Aimar Sher",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Cherki",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Maxence Lacroix",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Marko Farji",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Kevin Yakob",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -250
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Frans Dhia Putros",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Jasim Elaibi Al Tameemi",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Theo Hernandez",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Manaf Younis",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Youssef Amyn",
+              "price": 1050
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T04:48:08Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Kevin Yakob",
+              "price": 420,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Frans Dhia Putros",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibraheem Bayesh",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": -235,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 270,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Marko Farji",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Konate",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Ismail",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Youssef Amyn",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": -315,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Amir Al Ammari",
+              "price": 460,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 205,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -112,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -1667,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -335,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": 200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": -210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Malo Gusto",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aurelien Tchouameni",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Theo Hernandez",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": -480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 102,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Hussein Ali",
+              "price": 900,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Maxence Lacroix",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 185,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": 360,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 540,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 430,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Zidane Iqbal",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -106,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": 135,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Al-Hamadi",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Jasim Elaibi Al Tameemi",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aimar Sher",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Tahseen",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Qasem",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 900,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 700,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 600,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 250,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 700,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -138,
+              "point": -2.5
+            },
+            {
+              "name": "Iraq",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -259
+            },
+            {
+              "name": "Iraq",
+              "price": 1757
+            },
+            {
+              "name": "Draw",
+              "price": 256
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -113,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:47:51Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -148,
+              "point": -2.5
+            },
+            {
+              "name": "Iraq",
+              "price": 128,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:51Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 191
+            },
+            {
+              "name": "No",
+              "price": -272
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:47:58Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -250
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Philippe Mateta",
+              "price": -143
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Thuram",
+              "price": -125
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -115
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Cherki",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Maghnes Akliouche",
+              "price": 162
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Manu Kone",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Warren Zaire-Emery",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "N'Golo Kante",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Aurelien Tchouameni",
+              "price": 510
+            },
+            {
+              "name": "Yes",
+              "description": "Theo Hernandez",
+              "price": 510
+            },
+            {
+              "name": "Yes",
+              "description": "Mohanad Ali",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Al-Hamadi",
+              "price": 710
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 710
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Yousif Hashim",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Hernandez",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Maxence Lacroix",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Malo Gusto",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Marko Farji",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Konate",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Youssef Amyn",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Kevin Yakob",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 1450
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Jasim Elaibi Al Tameemi",
+              "price": 1450
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1450
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 1450
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Aimar Sher",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Maknzi",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Frans Dhia Putros",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Mustafa Saadoon Abbood Al-Korji",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Manaf Younis",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Rebin Sulaka",
+              "price": 4000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T04:47:58Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": -161,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 1200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Rebin Sulaka",
+              "price": 1200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Frans Dhia Putros",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": -400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 110,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 333,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 1100,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 205,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jean-Philippe Mateta",
+              "price": -1111,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jean-Philippe Mateta",
+              "price": -227,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jean-Philippe Mateta",
+              "price": 135,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jean-Philippe Mateta",
+              "price": 350,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Thuram",
+              "price": -588,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Thuram",
+              "price": -125,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Thuram",
+              "price": 160,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Thuram",
+              "price": 700,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Konate",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Konate",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Theo Hernandez",
+              "price": -152,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Theo Hernandez",
+              "price": 330,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Theo Hernandez",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Aurelien Tchouameni",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aurelien Tchouameni",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Aurelien Tchouameni",
+              "price": 3500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kevin Yakob",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kevin Yakob",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -2000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -345,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -161,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 220,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "N'Golo Kante",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "N'Golo Kante",
+              "price": 550,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "N'Golo Kante",
+              "price": 2800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Hernandez",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Hernandez",
+              "price": 1200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Maxence Lacroix",
+              "price": 165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Maxence Lacroix",
+              "price": 1000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Hussein Ali",
+              "price": 1100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohanad Ali",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohanad Ali",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 5400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -455,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 260,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 950,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Aimar Sher",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": -500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": -111,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 350,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 850,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": -370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": 125,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": 350,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": 1300,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Amir Al Ammari",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Malo Gusto",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Malo Gusto",
+              "price": 1000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Qasem",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Qasem",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Maghnes Akliouche",
+              "price": -385,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Maghnes Akliouche",
+              "price": 120,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Maghnes Akliouche",
+              "price": 380,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Maghnes Akliouche",
+              "price": 1200,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Marko Farji",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marko Farji",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Zidane Iqbal",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Al-Hamadi",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Al-Hamadi",
+              "price": 950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Al-Hamadi",
+              "price": 5400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Manaf Younis",
+              "price": 2200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": -556,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": -120,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": 350,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": 750,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Warren Zaire-Emery",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Warren Zaire-Emery",
+              "price": 550,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Warren Zaire-Emery",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Merchas Doski",
+              "price": 1300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Youssef Amyn",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Youssef Amyn",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibraheem Bayesh",
+              "price": 295,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibraheem Bayesh",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Tahseen",
+              "price": 1200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Jasim Elaibi Al Tameemi",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Jasim Elaibi Al Tameemi",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Akam Hashim",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mustafa Saadoon Abbood Al-Korji",
+              "price": 850,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Ismail",
+              "price": 550,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:46:57Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -139,
+              "point": -2.5
+            },
+            {
+              "name": "Iraq",
+              "price": 113,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:04Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 175
+            },
+            {
+              "name": "No",
+              "price": -250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:40Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -114,
+              "point": -2.75
+            },
+            {
+              "name": "Iraq",
+              "price": -102,
+              "point": 2.75
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:36Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -334
+            },
+            {
+              "name": "Iraq",
+              "price": 1924
+            },
+            {
+              "name": "Draw",
+              "price": 313
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -240
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Cherki",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Malo Gusto",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Theo Hernandez",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Aurelien Tchouameni",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Konate",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Maxence Lacroix",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Al-Hamadi",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Marko Farji",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Youssef Amyn",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Jasim Elaibi Al Tameemi",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Kevin Yakob",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Aimar Sher",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Frans Dhia Putros",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Rebin Sulaka",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Manaf Younis",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": 122
+            },
+            {
+              "name": "No",
+              "description": "Ousmane Dembele",
+              "price": -148
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 138
+            },
+            {
+              "name": "No",
+              "description": "Michael Olise",
+              "price": -168
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": 164
+            },
+            {
+              "name": "No",
+              "description": "Desire Doue",
+              "price": -200
+            },
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -201
+            },
+            {
+              "name": "No",
+              "description": "Kylian Mbappe",
+              "price": 164
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 175
+            },
+            {
+              "name": "No",
+              "description": "Bradley Barcola",
+              "price": -214
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T04:48:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "France",
+              "price": 118,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "France",
+              "price": -157,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Iraq",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Iraq",
+              "price": -241,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -119,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:03Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -137,
+              "point": -2.5
+            },
+            {
+              "name": "Iraq",
+              "price": 121,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:44Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -310
+            },
+            {
+              "name": "Iraq",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 290
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T04:48:44Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "France",
+              "price": 135,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "France",
+              "price": -155,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Iraq",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Iraq",
+              "price": -200,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:44Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -108,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:45:26Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -115,
+              "point": -2.75
+            },
+            {
+              "name": "Iraq",
+              "price": -105,
+              "point": 2.75
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 178
+            },
+            {
+              "name": "No",
+              "price": -240
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -335
+            },
+            {
+              "name": "Iraq",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 6000
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Hernandez",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Aimar Sher",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Warren Zaire-Emery",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 6500
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Konate",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "N'Golo Kante",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Yousif Hashim",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Manaf Younis",
+              "price": 6500
+            },
+            {
+              "name": "Yes",
+              "description": "Mustafa Saadoon Abbood Al-Korji",
+              "price": 6000
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Al-Hamadi",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 5500
+            },
+            {
+              "name": "Yes",
+              "description": "Maxence Lacroix",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -112
+            },
+            {
+              "name": "Yes",
+              "description": "Frans Dhia Putros",
+              "price": 6000
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Maknzi",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Rebin Sulaka",
+              "price": 7500
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Kevin Yakob",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Marko Farji",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Malo Gusto",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Theo Hernandez",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Jasim Elaibi Al Tameemi",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Youssef Amyn",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Manu Kone",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -225
+            },
+            {
+              "name": "Yes",
+              "description": "Mohanad Ali",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 6500
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Maghnes Akliouche",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Thuram",
+              "price": -112
+            },
+            {
+              "name": "Yes",
+              "description": "Aurelien Tchouameni",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Philippe Mateta",
+              "price": -117
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Cherki",
+              "price": 125
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -118,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -102,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:59Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 180
+            },
+            {
+              "name": "No",
+              "price": -235
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:47:59Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -340
+            },
+            {
+              "name": "Iraq",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:47:59Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -220
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Philippe Mateta",
+              "price": -115
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Thuram",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Cherki",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Maghnes Akliouche",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Warren Zaire-Emery",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "N'Golo Kante",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Theo Hernandez",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Aurelien Tchouameni",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Mohanad Ali",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Yousif Hashim",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Al-Hamadi",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Marko Farji",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Jasim Elaibi Al Tameemi",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Maxence Lacroix",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Malo Gusto",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Hernandez",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Youssef Amyn",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Konate",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Kevin Yakob",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Aimar Sher",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Maknzi",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 5500
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 6000
+            },
+            {
+              "name": "Yes",
+              "description": "Mustafa Saadoon Abbood Al-Korji",
+              "price": 6000
+            },
+            {
+              "name": "Yes",
+              "description": "Frans Dhia Putros",
+              "price": 6000
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 6500
+            },
+            {
+              "name": "Yes",
+              "description": "Manaf Younis",
+              "price": 6500
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 6500
+            },
+            {
+              "name": "Yes",
+              "description": "Rebin Sulaka",
+              "price": 7500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 180
+            },
+            {
+              "name": "No",
+              "price": -278
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:47:52Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -333
+            },
+            {
+              "name": "Iraq",
+              "price": 1100
+            },
+            {
+              "name": "Draw",
+              "price": 275
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 180
+            },
+            {
+              "name": "No",
+              "price": -250
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:47:54Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -303
+            },
+            {
+              "name": "Iraq",
+              "price": 1200
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:32Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 190
+            },
+            {
+              "name": "No",
+              "price": -250
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:35Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -300
+            },
+            {
+              "name": "Iraq",
+              "price": 1250
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:35Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -275
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Philippe Mateta",
+              "price": -150
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Thuram",
+              "price": -130
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -102
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Cherki",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "Maghnes Akliouche",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Warren Zaire-Emery",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "N'Golo Kante",
+              "price": 425
+            },
+            {
+              "name": "Yes",
+              "description": "Mohanad Ali",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Aurelien Tchouameni",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Theo Hernandez",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Al-Hamadi",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Yousif Hashim",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Maxence Lacroix",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Malo Gusto",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Marko Farji",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Hernandez",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 825
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Konate",
+              "price": 825
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 825
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 825
+            },
+            {
+              "name": "Yes",
+              "description": "Kevin Yakob",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Youssef Amyn",
+              "price": 875
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Aimar Sher",
+              "price": 1550
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Manaf Younis",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Rebin Sulaka",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Mustafa Saadoon Abbood Al-Korji",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Frans Dhia Putros",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T04:48:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "France",
+              "price": 115,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "France",
+              "price": -160,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Iraq",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Iraq",
+              "price": -235,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:21Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 200
+            },
+            {
+              "name": "No",
+              "price": -280
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:21Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -320
+            },
+            {
+              "name": "Iraq",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 270
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:21Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -220
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Thuram",
+              "price": -130
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -105
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Cherki",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Manu Kone",
+              "price": 470
+            },
+            {
+              "name": "Yes",
+              "description": "Theo Hernandez",
+              "price": 490
+            },
+            {
+              "name": "Yes",
+              "description": "Aurelien Tchouameni",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Al-Hamadi",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 2700
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Mustafa Saadoon Abbood Al-Korji",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Maknzi",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 5000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T04:48:21Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 185,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Thuram",
+              "price": 500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 950,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 1200,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": 1400,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 1400,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": 1400,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -140,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Thuram",
+              "price": 175,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 300,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": 420,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 430,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": 430,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 1400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -2500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Thuram",
+              "price": -900,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": -425,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": -380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": -380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": -370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": -160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Theo Hernandez",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aurelien Tchouameni",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Al-Hamadi",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 320,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibraheem Bayesh",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Qasem",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Ismail",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Amir Al Ammari",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zidane Iqbal",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Maknzi",
+              "price": 1100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Akam Hashim",
+              "price": 1300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mustafa Saadoon Abbood Al-Korji",
+              "price": 1300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Merchas Doski",
+              "price": 1400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hussein Ali",
+              "price": 1400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Tahseen",
+              "price": 1600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -425,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Thuram",
+              "price": -180,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -110,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 110,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": 120,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": 120,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 120,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 330,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Theo Hernandez",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Aurelien Tchouameni",
+              "price": 950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Al-Hamadi",
+              "price": 1200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 1200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 3000,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:21Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -104,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -130,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:43Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 188
+            },
+            {
+              "name": "No",
+              "price": -250
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:43Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Theo Hernandez",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": 100
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Thuram",
+              "price": -137
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Aurelien Tchouameni",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Manu Kone",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Cherki",
+              "price": 138
+            },
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -250
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Mustafa Saadoon Abbood Al-Korji",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Al-Hamadi",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Maknzi",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 4000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:41Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 200
+            },
+            {
+              "name": "No",
+              "price": -300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:53Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 194
+            },
+            {
+              "name": "No",
+              "price": -213
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:53Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -189
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 132
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Theo Hernandez",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Manu Kone",
+              "price": 540
+            },
+            {
+              "name": "Yes",
+              "description": "Aurelien Tchouameni",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Konate",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:16Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 162
+            },
+            {
+              "name": "No",
+              "price": -225
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:47:28Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -275
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Philippe Mateta",
+              "price": -143
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Thuram",
+              "price": -125
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -120
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Cherki",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": -105
+            },
+            {
+              "name": "Yes",
+              "description": "Maghnes Akliouche",
+              "price": 162
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "N'Golo Kante",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Warren Zaire-Emery",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Manu Kone",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Aurelien Tchouameni",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Theo Hernandez",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Mohanad Ali",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Yousif Hashim",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Al-Hamadi",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Marko Farji",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Jasim Elaibi Al Tameemi",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Hernandez",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Maxence Lacroix",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Malo Gusto",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Youssef Amyn",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Konate",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Kevin Yakob",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Aimar Sher",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Maknzi",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Mustafa Saadoon Abbood Al-Korji",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Frans Dhia Putros",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Manaf Younis",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Rebin Sulaka",
+              "price": 4000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T04:47:28Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -286,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -105,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 225,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 450,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Thuram",
+              "price": -667,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Thuram",
+              "price": -154,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Thuram",
+              "price": 175,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Thuram",
+              "price": 380,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Jean-Philippe Mateta",
+              "price": -650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jean-Philippe Mateta",
+              "price": -138,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jean-Philippe Mateta",
+              "price": 190,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Jean-Philippe Mateta",
+              "price": 450,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -118,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 250,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 550,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": -500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": -105,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 280,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 650,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": -450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 110,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 300,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 750,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": -450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": 110,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": 300,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": 750,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": -350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": 120,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": 340,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Cherki",
+              "price": 800,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Maghnes Akliouche",
+              "price": -333,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Maghnes Akliouche",
+              "price": 138,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Maghnes Akliouche",
+              "price": 380,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Maghnes Akliouche",
+              "price": 850,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 333,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 900,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 2200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Theo Hernandez",
+              "price": -110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Theo Hernandez",
+              "price": 380,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Theo Hernandez",
+              "price": 1100,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Theo Hernandez",
+              "price": 2500,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Warren Zaire-Emery",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Warren Zaire-Emery",
+              "price": 450,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Warren Zaire-Emery",
+              "price": 1200,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Warren Zaire-Emery",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 1400,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 4000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "N'Golo Kante",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "N'Golo Kante",
+              "price": 750,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Maxence Lacroix",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Maxence Lacroix",
+              "price": 750,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Aurelien Tchouameni",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aurelien Tchouameni",
+              "price": 800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 850,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Malo Gusto",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Malo Gusto",
+              "price": 850,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Konate",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Konate",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Hernandez",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Hernandez",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 550,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ali Al-Hamadi",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Al-Hamadi",
+              "price": 800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Mohanad Ali",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohanad Ali",
+              "price": 850,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Marko Farji",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marko Farji",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ali Yousif Hashim",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Yousif Hashim",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Youssef Amyn",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Youssef Amyn",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ali Jasim Elaibi Al Tameemi",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Jasim Elaibi Al Tameemi",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Kevin Yakob",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kevin Yakob",
+              "price": 1200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Aimar Sher",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aimar Sher",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Qasem",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Qasem",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Zidane Iqbal",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zidane Iqbal",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ibraheem Bayesh",
+              "price": 380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibraheem Bayesh",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Ismail",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Ismail",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Hussein Ali",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hussein Ali",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Merchas Doski",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Merchas Doski",
+              "price": 2800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Amir Al Ammari",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Amir Al Ammari",
+              "price": 2800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Akam Hashim",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Akam Hashim",
+              "price": 2800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Maknzi",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Maknzi",
+              "price": 3300,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Mustafa Saadoon Abbood Al-Korji",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mustafa Saadoon Abbood Al-Korji",
+              "price": 3300,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Frans Dhia Putros",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Frans Dhia Putros",
+              "price": 3300,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Tahseen",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Tahseen",
+              "price": 3300,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Manaf Younis",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Manaf Younis",
+              "price": 3300,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Rebin Sulaka",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rebin Sulaka",
+              "price": 4000,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:03Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -137,
+              "point": -2.5
+            },
+            {
+              "name": "Iraq",
+              "price": 117,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:03Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -310
+            },
+            {
+              "name": "Iraq",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 290
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -108,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:47:52Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -135,
+              "point": -2.5
+            },
+            {
+              "name": "Iraq",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:04Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -137,
+              "point": -2.5
+            },
+            {
+              "name": "Iraq",
+              "price": 121,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:38Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -109,
+              "point": -2.75
+            },
+            {
+              "name": "Iraq",
+              "price": 100,
+              "point": 2.75
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:38Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 200
+            },
+            {
+              "name": "No",
+              "price": -213
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

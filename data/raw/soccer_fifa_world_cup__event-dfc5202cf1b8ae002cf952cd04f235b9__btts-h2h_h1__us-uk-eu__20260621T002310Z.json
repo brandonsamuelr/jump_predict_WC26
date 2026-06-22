@@ -1,0 +1,562 @@
+{
+  "id": "dfc5202cf1b8ae002cf952cd04f235b9",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-21T04:00:00Z",
+  "home_team": "Tunisia",
+  "away_team": "Japan",
+  "bookmakers": [
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:07Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 108
+            },
+            {
+              "name": "No",
+              "price": -150
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:23:07Z",
+          "outcomes": [
+            {
+              "name": "Japan",
+              "price": -104
+            },
+            {
+              "name": "Tunisia",
+              "price": 540
+            },
+            {
+              "name": "Draw",
+              "price": 123
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:29Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 108
+            },
+            {
+              "name": "No",
+              "price": -149
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:55Z",
+          "outcomes": [
+            {
+              "name": "Japan",
+              "price": 106
+            },
+            {
+              "name": "Tunisia",
+              "price": 595
+            },
+            {
+              "name": "Draw",
+              "price": 122
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:42Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 108
+            },
+            {
+              "name": "No",
+              "price": -149
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 122
+            },
+            {
+              "name": "No",
+              "price": -166
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:37Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 122
+            },
+            {
+              "name": "No",
+              "price": -156
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:37Z",
+          "outcomes": [
+            {
+              "name": "Japan",
+              "price": -115
+            },
+            {
+              "name": "Tunisia",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:07Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "price": -167
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:21Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -149
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:04Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 134
+            },
+            {
+              "name": "No",
+              "price": -137
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:57Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 115
+            },
+            {
+              "name": "No",
+              "price": -140
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:57Z",
+          "outcomes": [
+            {
+              "name": "Japan",
+              "price": 100
+            },
+            {
+              "name": "Tunisia",
+              "price": 744
+            },
+            {
+              "name": "Draw",
+              "price": 139
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:44Z",
+          "outcomes": [
+            {
+              "name": "Japan",
+              "price": 103
+            },
+            {
+              "name": "Tunisia",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 136
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:24Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 118
+            },
+            {
+              "name": "No",
+              "price": -155
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:24Z",
+          "outcomes": [
+            {
+              "name": "Japan",
+              "price": -460
+            },
+            {
+              "name": "Tunisia",
+              "price": 340
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:09Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -155
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:23:09Z",
+          "outcomes": [
+            {
+              "name": "Japan",
+              "price": -105
+            },
+            {
+              "name": "Tunisia",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 135
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "price": -167
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Japan",
+              "price": -105
+            },
+            {
+              "name": "Tunisia",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -167
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:54Z",
+          "outcomes": [
+            {
+              "name": "Japan",
+              "price": 100
+            },
+            {
+              "name": "Tunisia",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 140
+            },
+            {
+              "name": "No",
+              "price": -185
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:11Z",
+          "outcomes": [
+            {
+              "name": "Japan",
+              "price": -102
+            },
+            {
+              "name": "Tunisia",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:43Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -143
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:23:07Z",
+          "outcomes": [
+            {
+              "name": "Japan",
+              "price": 103
+            },
+            {
+              "name": "Tunisia",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 136
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 134
+            },
+            {
+              "name": "No",
+              "price": -137
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

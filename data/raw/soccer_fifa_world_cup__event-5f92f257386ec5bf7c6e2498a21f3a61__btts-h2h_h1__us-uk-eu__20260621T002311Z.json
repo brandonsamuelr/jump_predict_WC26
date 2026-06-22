@@ -1,0 +1,562 @@
+{
+  "id": "5f92f257386ec5bf7c6e2498a21f3a61",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-21T19:00:00Z",
+  "home_team": "Belgium",
+  "away_team": "Iran",
+  "bookmakers": [
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:57Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 101
+            },
+            {
+              "name": "No",
+              "price": -128
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:57Z",
+          "outcomes": [
+            {
+              "name": "Belgium",
+              "price": -106
+            },
+            {
+              "name": "Iran",
+              "price": 679
+            },
+            {
+              "name": "Draw",
+              "price": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -102
+            },
+            {
+              "name": "No",
+              "price": -133
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:55Z",
+          "outcomes": [
+            {
+              "name": "Belgium",
+              "price": -103
+            },
+            {
+              "name": "Iran",
+              "price": 575
+            },
+            {
+              "name": "Draw",
+              "price": 141
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:07Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -102
+            },
+            {
+              "name": "No",
+              "price": -128
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:07Z",
+          "outcomes": [
+            {
+              "name": "Belgium",
+              "price": -450
+            },
+            {
+              "name": "Iran",
+              "price": 335
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:27Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 100
+            },
+            {
+              "name": "No",
+              "price": -130
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:27Z",
+          "outcomes": [
+            {
+              "name": "Belgium",
+              "price": -105
+            },
+            {
+              "name": "Iran",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 105
+            },
+            {
+              "name": "No",
+              "price": -143
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:54Z",
+          "outcomes": [
+            {
+              "name": "Belgium",
+              "price": -110
+            },
+            {
+              "name": "Iran",
+              "price": 475
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 105
+            },
+            {
+              "name": "No",
+              "price": -143
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Belgium",
+              "price": -110
+            },
+            {
+              "name": "Iran",
+              "price": 475
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 105
+            },
+            {
+              "name": "No",
+              "price": -140
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:27Z",
+          "outcomes": [
+            {
+              "name": "Belgium",
+              "price": -110
+            },
+            {
+              "name": "Iran",
+              "price": 500
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -104
+            },
+            {
+              "name": "No",
+              "price": -122
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:00Z",
+          "outcomes": [
+            {
+              "name": "Belgium",
+              "price": -120
+            },
+            {
+              "name": "Iran",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:55Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:55Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:29Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 100
+            },
+            {
+              "name": "No",
+              "price": -137
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:42Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 100
+            },
+            {
+              "name": "No",
+              "price": -137
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 100
+            },
+            {
+              "name": "No",
+              "price": -137
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:54Z",
+          "outcomes": [
+            {
+              "name": "Belgium",
+              "price": -117
+            },
+            {
+              "name": "Iran",
+              "price": 540
+            },
+            {
+              "name": "Draw",
+              "price": 138
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:18Z",
+          "outcomes": [
+            {
+              "name": "Belgium",
+              "price": -105
+            },
+            {
+              "name": "Iran",
+              "price": 560
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:43Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 100
+            },
+            {
+              "name": "No",
+              "price": -133
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:23:07Z",
+          "outcomes": [
+            {
+              "name": "Belgium",
+              "price": -105
+            },
+            {
+              "name": "Iran",
+              "price": 560
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -115
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

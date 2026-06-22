@@ -1,0 +1,23 @@
+{
+  "match": "New Zealand vs Egypt",
+  "kickoff_utc": "2026-06-22T01:00:00Z",
+  "captured_at": "2026-06-22T00:35:00Z",
+  "source": "manual_test_fixture",
+  "notes": "Sample data for smoke-test of lineup integration. Status taxonomy: starter | bench_high_usage | bench_low_usage | bench_unknown | out_of_squad | unknown. expected_minutes is optional (null allowed) -- never fabricate it. Use out_of_squad ONLY when the bench is confirmed; otherwise a non-XI player is bench_unknown.",
+  "players": {
+    "Ben Waine": {
+      "team": "New Zealand",
+      "status": "bench_unknown",
+      "role": "central_attacker",
+      "expected_minutes": null,
+      "source": "manual_lineup"
+    },
+    "Mahmoud Trezeguet": {
+      "team": "Egypt",
+      "status": "bench_unknown",
+      "role": "wide_attacker",
+      "expected_minutes": null,
+      "source": "manual_lineup"
+    }
+  }
+}

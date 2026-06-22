@@ -1,0 +1,686 @@
+{
+  "n_rows": 367,
+  "n_matches": 38,
+  "n_question_types": 42,
+  "n_with_market_context": 31,
+  "cv": {
+    "strategy": "GroupKFold",
+    "n_splits": 5,
+    "group": "match_norm"
+  },
+  "overall": {
+    "model_ridge_logit": {
+      "mae": 0.08271843188488884,
+      "rmse": 0.11462670795525384,
+      "mean_signed_error": 0.003555776439885141,
+      "median_abs_err": 0.05828599987855598,
+      "max_abs_err": 0.4604982688894678,
+      "n": 367
+    },
+    "baseline_50": {
+      "mae": 0.10760217983651227,
+      "rmse": 0.13276046323907972,
+      "mean_signed_error": 0.007220708446866486,
+      "median_abs_err": 0.09000000000000002,
+      "max_abs_err": 0.42000000000000004,
+      "n": 367
+    },
+    "baseline_qt_mean": {
+      "mae": 0.08017031987719418,
+      "rmse": 0.111585423764605,
+      "mean_signed_error": -0.0019448965398528217,
+      "median_abs_err": 0.05749999999999994,
+      "max_abs_err": 0.44769230769230767,
+      "n": 367
+    },
+    "baseline_role_qt_mean": {
+      "mae": 0.08546569270199268,
+      "rmse": 0.11362331937722908,
+      "mean_signed_error": 0.0021576054711449255,
+      "median_abs_err": 0.06622837370242224,
+      "max_abs_err": 0.4303651866151866,
+      "n": 367
+    },
+    "baseline_v2_heuristic": {
+      "mae": 0.08268418194487072,
+      "rmse": 0.1096125962809259,
+      "mean_signed_error": -0.002184970714813392,
+      "median_abs_err": 0.06363636363636366,
+      "max_abs_err": 0.44088235294117645,
+      "n": 367
+    }
+  },
+  "model_beats_v2": false,
+  "model_mae_by_question_type": {
+    "both_teams_sot_2h_1plus": {
+      "mae": 0.06479114845841094,
+      "rmse": 0.07085014514761225,
+      "mean_signed_error": -0.019804556701377995,
+      "median_abs_err": 0.06296704400127229,
+      "max_abs_err": 0.09555517489692777,
+      "n": 5
+    },
+    "both_teams_sot_h1_1plus": {
+      "mae": 0.0502317121822299,
+      "rmse": 0.06196676823902591,
+      "mean_signed_error": -0.03523066060396558,
+      "median_abs_err": 0.03745707845568691,
+      "max_abs_err": 0.09675349758744933,
+      "n": 5
+    },
+    "compound_btts_over_2_5": {
+      "mae": 0.06289472881224195,
+      "rmse": 0.0977054625506319,
+      "mean_signed_error": 0.008193807739088094,
+      "median_abs_err": 0.04500217454485053,
+      "max_abs_err": 0.329423670158065,
+      "n": 16
+    },
+    "compound_first_goal_score_2h": {
+      "mae": 0.041312815950153535,
+      "rmse": 0.049443789361172275,
+      "mean_signed_error": 0.041312815950153535,
+      "median_abs_err": 0.037379566780508244,
+      "max_abs_err": 0.08970923125573615,
+      "n": 5
+    },
+    "halftime_draw": {
+      "mae": 0.021116399875047296,
+      "rmse": 0.026687005021811847,
+      "mean_signed_error": 0.005010231754811546,
+      "median_abs_err": 0.011520779208876286,
+      "max_abs_err": 0.04847922079112371,
+      "n": 7
+    },
+    "halftime_team_lead": {
+      "mae": 0.16468947974096537,
+      "rmse": 0.16468947974096537,
+      "mean_signed_error": 0.16468947974096537,
+      "median_abs_err": 0.16468947974096537,
+      "max_abs_err": 0.16468947974096537,
+      "n": 1
+    },
+    "halftime_team_winning": {
+      "mae": 0.09040294140668276,
+      "rmse": 0.11186364297402297,
+      "mean_signed_error": 0.02815445529553982,
+      "median_abs_err": 0.07457465852920792,
+      "max_abs_err": 0.17783609505333386,
+      "n": 3
+    },
+    "match_total_over": {
+      "mae": 0.0512501134598797,
+      "rmse": 0.05567191252672909,
+      "mean_signed_error": -0.007775921063824058,
+      "median_abs_err": 0.05500000000000002,
+      "max_abs_err": 0.07765154866826512,
+      "n": 6
+    },
+    "match_total_sot_over": {
+      "mae": 0.06791396837520658,
+      "rmse": 0.08359780826279804,
+      "mean_signed_error": -0.02305208253597894,
+      "median_abs_err": 0.04009884789323437,
+      "max_abs_err": 0.13644907636677828,
+      "n": 3
+    },
+    "match_total_under": {
+      "mae": 0.07499849329375176,
+      "rmse": 0.10621744866659055,
+      "mean_signed_error": 0.006946621753366994,
+      "median_abs_err": 0.045187312635197846,
+      "max_abs_err": 0.2586139808032176,
+      "n": 8
+    },
+    "penalty_awarded": {
+      "mae": 0.03544030832190878,
+      "rmse": 0.04130740130621528,
+      "mean_signed_error": 0.03544030832190878,
+      "median_abs_err": 0.03910840201278598,
+      "max_abs_err": 0.06125214731214357,
+      "n": 4
+    },
+    "penalty_or_red_card": {
+      "mae": 0.017901435932461567,
+      "rmse": 0.02078746126863119,
+      "mean_signed_error": -0.002837555652830448,
+      "median_abs_err": 0.017842987932564974,
+      "max_abs_err": 0.03376148620734187,
+      "n": 14
+    },
+    "player_goal": {
+      "mae": 0.05805231120214068,
+      "rmse": 0.05999138596133366,
+      "mean_signed_error": -0.0008037036723838598,
+      "median_abs_err": 0.061665032068283,
+      "max_abs_err": 0.07656075941219603,
+      "n": 5
+    },
+    "player_goal_or_assist": {
+      "mae": 0.07582937927457811,
+      "rmse": 0.08723134648908196,
+      "mean_signed_error": -0.0027393110047488197,
+      "median_abs_err": 0.06685183108994946,
+      "max_abs_err": 0.17887425476778268,
+      "n": 13
+    },
+    "player_sot_2h_over": {
+      "mae": 0.0746379801960423,
+      "rmse": 0.08721627054513871,
+      "mean_signed_error": -0.0029089770399655717,
+      "median_abs_err": 0.07758140707514394,
+      "max_abs_err": 0.1536656681803657,
+      "n": 9
+    },
+    "player_sot_over": {
+      "mae": 0.09743431124058778,
+      "rmse": 0.11595399802615096,
+      "mean_signed_error": -0.006794817460089539,
+      "median_abs_err": 0.10118362914635765,
+      "max_abs_err": 0.2216510540556677,
+      "n": 31
+    },
+    "second_half_corners_over": {
+      "mae": 0.06286172029679937,
+      "rmse": 0.06286172029679937,
+      "mean_signed_error": -0.06286172029679937,
+      "median_abs_err": 0.06286172029679937,
+      "max_abs_err": 0.06286172029679937,
+      "n": 1
+    },
+    "second_half_goals_over": {
+      "mae": 0.09205767218178858,
+      "rmse": 0.0962568846528914,
+      "mean_signed_error": 0.023556444800049633,
+      "median_abs_err": 0.08577722821971373,
+      "max_abs_err": 0.1370024547634779,
+      "n": 4
+    },
+    "second_half_more_goals": {
+      "mae": 0.016641563822772865,
+      "rmse": 0.02008007958999732,
+      "mean_signed_error": -0.007107330469068441,
+      "median_abs_err": 0.014937306269371398,
+      "max_abs_err": 0.03424677206904336,
+      "n": 5
+    },
+    "second_half_total_sot_over": {
+      "mae": 0.029097926044739063,
+      "rmse": 0.030292131808797168,
+      "mean_signed_error": -0.004678442810184013,
+      "median_abs_err": 0.034785313881404045,
+      "max_abs_err": 0.03548963022369522,
+      "n": 5
+    },
+    "team_card_2h": {
+      "mae": 0.04078500318167485,
+      "rmse": 0.049671959829468156,
+      "mean_signed_error": -0.013133422394994376,
+      "median_abs_err": 0.02125455010611277,
+      "max_abs_err": 0.08087763836500383,
+      "n": 3
+    },
+    "team_corners_over": {
+      "mae": 0.11644262399517206,
+      "rmse": 0.14163310149080585,
+      "mean_signed_error": 0.01401676193267488,
+      "median_abs_err": 0.1114080695129687,
+      "max_abs_err": 0.26186957536471106,
+      "n": 6
+    },
+    "team_more_cards": {
+      "mae": 0.055918979316092375,
+      "rmse": 0.066487781805549,
+      "mean_signed_error": 0.016656621371773553,
+      "median_abs_err": 0.041553392735008354,
+      "max_abs_err": 0.12049039404015127,
+      "n": 11
+    },
+    "team_more_corners_2h": {
+      "mae": 0.15662445106616235,
+      "rmse": 0.19603719126429772,
+      "mean_signed_error": -0.03400349789694016,
+      "median_abs_err": 0.11069750587593441,
+      "max_abs_err": 0.3065523829230555,
+      "n": 5
+    },
+    "team_more_corners_full": {
+      "mae": 0.1158925752046706,
+      "rmse": 0.1420614819142344,
+      "mean_signed_error": 0.006575576602867728,
+      "median_abs_err": 0.08973213352986323,
+      "max_abs_err": 0.2789754979027043,
+      "n": 6
+    },
+    "team_more_corners_h1": {
+      "mae": 0.07146971725603475,
+      "rmse": 0.07530767352047373,
+      "mean_signed_error": 0.0012177329994367408,
+      "median_abs_err": 0.07268745025547149,
+      "max_abs_err": 0.10176628083168421,
+      "n": 4
+    },
+    "team_more_fouls": {
+      "mae": 0.08156386964115543,
+      "rmse": 0.09386558152152212,
+      "mean_signed_error": -0.0015966747392343569,
+      "median_abs_err": 0.08030324688032225,
+      "max_abs_err": 0.20098689222003963,
+      "n": 30
+    },
+    "team_more_goals_2h": {
+      "mae": 0.034482822997228185,
+      "rmse": 0.037453943794609465,
+      "mean_signed_error": -0.010035969718730137,
+      "median_abs_err": 0.04147679151780859,
+      "max_abs_err": 0.04553085567479753,
+      "n": 4
+    },
+    "team_more_sot_2h": {
+      "mae": 0.16227876620787296,
+      "rmse": 0.19141657010092905,
+      "mean_signed_error": 0.007810750306965994,
+      "median_abs_err": 0.1657064611100041,
+      "max_abs_err": 0.33534633446799156,
+      "n": 26
+    },
+    "team_offsides_over": {
+      "mae": 0.041039291825572574,
+      "rmse": 0.050280276170314005,
+      "mean_signed_error": 0.0012340234655165597,
+      "median_abs_err": 0.035159323130534714,
+      "max_abs_err": 0.10942699661836225,
+      "n": 33
+    },
+    "team_score_1h": {
+      "mae": 0.1950461130172471,
+      "rmse": 0.1951101899008269,
+      "mean_signed_error": -0.1950461130172471,
+      "median_abs_err": 0.1950461130172471,
+      "max_abs_err": 0.20004611301724712,
+      "n": 2
+    },
+    "team_score_2h": {
+      "mae": 0.12005891785950691,
+      "rmse": 0.1426600385460049,
+      "mean_signed_error": -0.0014898232867929363,
+      "median_abs_err": 0.11243190095788427,
+      "max_abs_err": 0.2819842844343325,
+      "n": 18
+    },
+    "team_score_any": {
+      "mae": 0.01745955262092798,
+      "rmse": 0.02482502767022981,
+      "mean_signed_error": -0.0022740646475171017,
+      "median_abs_err": 0.01512365864894058,
+      "max_abs_err": 0.03946723453689016,
+      "n": 4
+    },
+    "team_score_first_2h": {
+      "mae": 0.1109046221095552,
+      "rmse": 0.11091651713976855,
+      "mean_signed_error": 0.1109046221095552,
+      "median_abs_err": 0.1109046221095552,
+      "max_abs_err": 0.11252898941818029,
+      "n": 2
+    },
+    "team_sot_2h_over": {
+      "mae": 0.08895991019695365,
+      "rmse": 0.1064280956713828,
+      "mean_signed_error": 0.08895991019695365,
+      "median_abs_err": 0.09675279851257929,
+      "max_abs_err": 0.15931699282032064,
+      "n": 4
+    },
+    "team_sot_over": {
+      "mae": 0.11483290675630198,
+      "rmse": 0.13060627860136578,
+      "mean_signed_error": 0.023675262751995906,
+      "median_abs_err": 0.097871752124534,
+      "max_abs_err": 0.2060816544187512,
+      "n": 10
+    },
+    "team_total_goals_over": {
+      "mae": 0.140525415786596,
+      "rmse": 0.140525415786596,
+      "mean_signed_error": -0.140525415786596,
+      "median_abs_err": 0.140525415786596,
+      "max_abs_err": 0.140525415786596,
+      "n": 1
+    },
+    "team_win": {
+      "mae": 0.13599251872931156,
+      "rmse": 0.18874496603064994,
+      "mean_signed_error": 0.020018747959485616,
+      "median_abs_err": 0.10192715535453767,
+      "max_abs_err": 0.4604982688894678,
+      "n": 34
+    },
+    "total_cards_2h_over": {
+      "mae": 0.0009449151268715594,
+      "rmse": 0.0009449151268715594,
+      "mean_signed_error": 0.0009449151268715594,
+      "median_abs_err": 0.0009449151268715594,
+      "max_abs_err": 0.0009449151268715594,
+      "n": 1
+    },
+    "total_cards_over": {
+      "mae": 0.034081291636452175,
+      "rmse": 0.03806452471722927,
+      "mean_signed_error": 0.002881993114486725,
+      "median_abs_err": 0.03311908189731322,
+      "max_abs_err": 0.06654967119849958,
+      "n": 11
+    },
+    "total_corners_over": {
+      "mae": 0.0048453511029816765,
+      "rmse": 0.0048453511029816765,
+      "mean_signed_error": 0.0048453511029816765,
+      "median_abs_err": 0.0048453511029816765,
+      "max_abs_err": 0.0048453511029816765,
+      "n": 1
+    },
+    "total_sot_2h_over": {
+      "mae": 0.003514199155168818,
+      "rmse": 0.003514199155168818,
+      "mean_signed_error": -0.003514199155168818,
+      "median_abs_err": 0.003514199155168818,
+      "max_abs_err": 0.003514199155168818,
+      "n": 1
+    }
+  },
+  "model_mae_by_role_bucket": {
+    "favorite": {
+      "mae": 0.06797960057489007,
+      "rmse": 0.08592383935186292,
+      "mean_signed_error": 0.05042026929263806,
+      "median_abs_err": 0.05319967120105906,
+      "max_abs_err": 0.16468947974096537,
+      "n": 9
+    },
+    "neutral_or_unknown": {
+      "mae": 0.08127246957872941,
+      "rmse": 0.12340990517281243,
+      "mean_signed_error": 0.01896662383668125,
+      "median_abs_err": 0.03745707845568691,
+      "max_abs_err": 0.329423670158065,
+      "n": 17
+    },
+    "underdog": {
+      "mae": 0.13026677048735555,
+      "rmse": 0.15339266076902117,
+      "mean_signed_error": 0.05431811957305475,
+      "median_abs_err": 0.12119194083813728,
+      "max_abs_err": 0.2819842844343325,
+      "n": 5
+    },
+    "unknown": {
+      "mae": 0.08247881625388398,
+      "rmse": 0.11416250142227853,
+      "mean_signed_error": 0.0007653700199858593,
+      "median_abs_err": 0.05811621804782141,
+      "max_abs_err": 0.4604982688894678,
+      "n": 336
+    }
+  },
+  "model_mae_by_has_market_context": {
+    "0": {
+      "mae": 0.08247881625388398,
+      "rmse": 0.11416250142227853,
+      "mean_signed_error": 0.0007653700199858593,
+      "median_abs_err": 0.05811621804782141,
+      "max_abs_err": 0.4604982688894678,
+      "n": 336
+    },
+    "1": {
+      "mae": 0.0853155561435222,
+      "rmse": 0.11954251197129806,
+      "mean_signed_error": 0.03380018150718057,
+      "median_abs_err": 0.06314710895842782,
+      "max_abs_err": 0.329423670158065,
+      "n": 31
+    }
+  },
+  "model_worst_20_misses": [
+    {
+      "match_norm": "Saudi Arabia vs Uruguay",
+      "question_number": "Q8",
+      "question_type": "team_win",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.18,
+      "pred": 0.6404982688894678,
+      "abs_err": 0.4604982688894678,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Scotland vs Morocco",
+      "question_number": "Q7",
+      "question_type": "team_win",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.24,
+      "pred": 0.6764436711395843,
+      "abs_err": 0.43644367113958427,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Australia vs Turkey",
+      "question_number": "Q7",
+      "question_type": "team_win",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.26,
+      "pred": 0.6764436711395843,
+      "abs_err": 0.41644367113958425,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Iraq vs Norway",
+      "question_number": "Q3",
+      "question_type": "team_more_sot_2h",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.24,
+      "pred": 0.5753463344679915,
+      "abs_err": 0.33534633446799156,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Spain vs Saudi Arabia",
+      "question_number": "Q6",
+      "question_type": "compound_btts_over_2_5",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.33,
+      "pred": 0.659423670158065,
+      "abs_err": 0.329423670158065,
+      "has_market_context": 1,
+      "target_role_bucket": "neutral_or_unknown"
+    },
+    {
+      "match_norm": "Spain vs Cape Verde",
+      "question_number": "Q7",
+      "question_type": "team_win",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.92,
+      "pred": 0.5932142413838634,
+      "abs_err": 0.3267857586161367,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Spain vs Cape Verde",
+      "question_number": "Q4",
+      "question_type": "team_more_sot_2h",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.84,
+      "pred": 0.5280436252588478,
+      "abs_err": 0.3119563747411521,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Germany vs Cura\u00e7ao",
+      "question_number": "Q6",
+      "question_type": "team_win",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.92,
+      "pred": 0.6125893604305089,
+      "abs_err": 0.3074106395694911,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Haiti vs Scotland",
+      "question_number": "Q2",
+      "question_type": "team_more_corners_2h",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.3,
+      "pred": 0.6065523829230555,
+      "abs_err": 0.3065523829230555,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Austria vs Jordan",
+      "question_number": "Q3",
+      "question_type": "team_more_sot_2h",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.27,
+      "pred": 0.5753463344679915,
+      "abs_err": 0.30534633446799153,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Ivory Coast vs Ecuador",
+      "question_number": "Q6",
+      "question_type": "team_win",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.34,
+      "pred": 0.6404982688894678,
+      "abs_err": 0.3004982688894678,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Germany vs Ivory Coast",
+      "question_number": "Q6",
+      "question_type": "team_more_sot_2h",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.27,
+      "pred": 0.5688327361130617,
+      "abs_err": 0.2988327361130617,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Haiti vs Scotland",
+      "question_number": "Q3",
+      "question_type": "team_more_sot_2h",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.27,
+      "pred": 0.5640221339366672,
+      "abs_err": 0.2940221339366672,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Spain vs Cape Verde",
+      "question_number": "Q2",
+      "question_type": "team_more_corners_2h",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.79,
+      "pred": 0.5025055644372952,
+      "abs_err": 0.2874944355627048,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Uruguay vs Cape Verde",
+      "question_number": "Q8",
+      "question_type": "team_score_2h",
+      "target_team": "cape verde",
+      "target_player": NaN,
+      "y_field": 0.29,
+      "pred": 0.5719842844343325,
+      "abs_err": 0.2819842844343325,
+      "has_market_context": 1,
+      "target_role_bucket": "underdog"
+    },
+    {
+      "match_norm": "Australia vs Turkey",
+      "question_number": "Q4",
+      "question_type": "team_more_corners_full",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.64,
+      "pred": 0.3610245020972957,
+      "abs_err": 0.2789754979027043,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Germany vs Cura\u00e7ao",
+      "question_number": "Q2",
+      "question_type": "team_more_sot_2h",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.84,
+      "pred": 0.5753463344679915,
+      "abs_err": 0.2646536655320084,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Brazil vs Haiti",
+      "question_number": "Q7",
+      "question_type": "team_score_2h",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.78,
+      "pred": 0.5169573690528038,
+      "abs_err": 0.26304263094719627,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    },
+    {
+      "match_norm": "Ecuador vs Cura\u00e7ao",
+      "question_number": "Q8",
+      "question_type": "team_corners_over",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.63,
+      "pred": 0.36813042463528894,
+      "abs_err": 0.26186957536471106,
+      "has_market_context": 1,
+      "target_role_bucket": "neutral_or_unknown"
+    },
+    {
+      "match_norm": "Belgium vs Egypt",
+      "question_number": "Q4",
+      "question_type": "team_more_sot_2h",
+      "target_team": "",
+      "target_player": NaN,
+      "y_field": 0.31,
+      "pred": 0.5688327361130617,
+      "abs_err": 0.25883273611306173,
+      "has_market_context": 0,
+      "target_role_bucket": "unknown"
+    }
+  ]
+}

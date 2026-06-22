@@ -1,0 +1,562 @@
+{
+  "id": "c1ec9a65f4b4cf74477b368a7d6282de",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-22T01:00:00Z",
+  "home_team": "New Zealand",
+  "away_team": "Egypt",
+  "bookmakers": [
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:48:27Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -102
+            },
+            {
+              "name": "No",
+              "price": -135
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:48:15Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -102
+            },
+            {
+              "name": "No",
+              "price": -135
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:48:20Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -103
+            },
+            {
+              "name": "No",
+              "price": -136
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T00:48:20Z",
+          "outcomes": [
+            {
+              "name": "Egypt",
+              "price": 110
+            },
+            {
+              "name": "New Zealand",
+              "price": 450
+            },
+            {
+              "name": "Draw",
+              "price": 118
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T00:48:39Z",
+          "outcomes": [
+            {
+              "name": "Egypt",
+              "price": 125
+            },
+            {
+              "name": "New Zealand",
+              "price": 488
+            },
+            {
+              "name": "Draw",
+              "price": 129
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:48:02Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 106
+            },
+            {
+              "name": "No",
+              "price": -132
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:48:14Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:47:45Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 108
+            },
+            {
+              "name": "No",
+              "price": -138
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T00:47:45Z",
+          "outcomes": [
+            {
+              "name": "Egypt",
+              "price": 110
+            },
+            {
+              "name": "New Zealand",
+              "price": 500
+            },
+            {
+              "name": "Draw",
+              "price": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:47:55Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 100
+            },
+            {
+              "name": "No",
+              "price": -137
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:47:56Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -154
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:48:38Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 114
+            },
+            {
+              "name": "No",
+              "price": -116
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:48:26Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -105
+            },
+            {
+              "name": "No",
+              "price": -115
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T00:48:26Z",
+          "outcomes": [
+            {
+              "name": "Egypt",
+              "price": 131
+            },
+            {
+              "name": "New Zealand",
+              "price": 531
+            },
+            {
+              "name": "Draw",
+              "price": 126
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T00:47:56Z",
+          "outcomes": [
+            {
+              "name": "Egypt",
+              "price": 128
+            },
+            {
+              "name": "New Zealand",
+              "price": 515
+            },
+            {
+              "name": "Draw",
+              "price": 123
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:48:14Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 113
+            },
+            {
+              "name": "No",
+              "price": -148
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T00:48:14Z",
+          "outcomes": [
+            {
+              "name": "Egypt",
+              "price": -320
+            },
+            {
+              "name": "New Zealand",
+              "price": 255
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:47:42Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -140
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T00:47:42Z",
+          "outcomes": [
+            {
+              "name": "Egypt",
+              "price": 125
+            },
+            {
+              "name": "New Zealand",
+              "price": 500
+            },
+            {
+              "name": "Draw",
+              "price": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:48:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -149
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T00:48:06Z",
+          "outcomes": [
+            {
+              "name": "Egypt",
+              "price": 120
+            },
+            {
+              "name": "New Zealand",
+              "price": 425
+            },
+            {
+              "name": "Draw",
+              "price": 110
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:46:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -140
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T00:47:51Z",
+          "outcomes": [
+            {
+              "name": "Egypt",
+              "price": 120
+            },
+            {
+              "name": "New Zealand",
+              "price": 450
+            },
+            {
+              "name": "Draw",
+              "price": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:48:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -149
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T00:48:03Z",
+          "outcomes": [
+            {
+              "name": "Egypt",
+              "price": 120
+            },
+            {
+              "name": "New Zealand",
+              "price": 425
+            },
+            {
+              "name": "Draw",
+              "price": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:47:51Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 105
+            },
+            {
+              "name": "No",
+              "price": -143
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T00:48:27Z",
+          "outcomes": [
+            {
+              "name": "Egypt",
+              "price": 128
+            },
+            {
+              "name": "New Zealand",
+              "price": 515
+            },
+            {
+              "name": "Draw",
+              "price": 123
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T00:48:38Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 116
+            },
+            {
+              "name": "No",
+              "price": -116
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

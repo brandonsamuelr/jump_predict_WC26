@@ -1,0 +1,4460 @@
+{
+  "id": "fd8533b650e655030f6a7946f8795db2",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-23T03:00:00Z",
+  "home_team": "Jordan",
+  "away_team": "Algeria",
+  "bookmakers": [
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:47:51Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": 165,
+              "point": -1.5
+            },
+            {
+              "name": "Jordan",
+              "price": -194,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:51Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -101
+            },
+            {
+              "name": "No",
+              "price": -134
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:04Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Amine Gouiri",
+              "price": 128
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed El Amine Amoura",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Nadhir Benbouali",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Adil Boulbina",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Riyad Mahrez",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Ghedjemis",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Anis Hadj Moussa",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Houssem Aouar",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Maza",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Olwan",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Chaibi",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Yassine Titraoui",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Musa Al Tamari",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Abu Zrayq",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Al-Azaizeh",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Odeh Al-Fakhouri",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Jaouen Hadjam",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Mahmoud Al-Mardi",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Nabil Bentaleb",
+              "price": 590
+            },
+            {
+              "name": "Yes",
+              "description": "Hicham Boudaoui",
+              "price": 630
+            },
+            {
+              "name": "Yes",
+              "description": "Ramiz Zerrouki",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Rafik Belghali",
+              "price": 740
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed Amine Tougai",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Al-Dawoud",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Amer Jamous",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Noor Al Rawabdeh",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Zineddine Belaid",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Samir Chergui",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Ait Nouri",
+              "price": 880
+            },
+            {
+              "name": "Yes",
+              "description": "Ramy Bensebaini",
+              "price": 880
+            },
+            {
+              "name": "Yes",
+              "description": "Aissa Mandi",
+              "price": 880
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Taha",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Sadeh",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Achref Abada",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Mohannad Abu Taha",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Abdullah Nasib",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Abu Hasheesh",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Yazan Al Arab",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Rajaei Ayed",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Nizar Al-Rashdan",
+              "price": 1350
+            },
+            {
+              "name": "Yes",
+              "description": "Saed Ahmad Al-Rosan",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Husam Abu Dahab",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Saleem Obaid",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Mo Abualnadi",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Anas Badawi",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Ihsan Haddad",
+              "price": 1800
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T04:48:04Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Aissa Mandi",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nabil Bentaleb",
+              "price": 135,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nabil Bentaleb",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nabil Bentaleb",
+              "price": 4000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": -182,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": 265,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": 550,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ramy Bensebaini",
+              "price": 380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Houssem Aouar",
+              "price": -147,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Houssem Aouar",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Houssem Aouar",
+              "price": 1400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": -286,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": 160,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": 400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": 1800,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Saleem Obaid",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Ait Nouri",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Ait Nouri",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Musa Al Tamari",
+              "price": -120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Musa Al Tamari",
+              "price": 425,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Musa Al Tamari",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Samir Chergui",
+              "price": 475,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hicham Boudaoui",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hicham Boudaoui",
+              "price": 950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Hicham Boudaoui",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ramiz Zerrouki",
+              "price": 135,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ramiz Zerrouki",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ramiz Zerrouki",
+              "price": 3500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Noor Al Rawabdeh",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Noor Al Rawabdeh",
+              "price": 1900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jaouen Hadjam",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jaouen Hadjam",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Rajaei Ayed",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Olwan",
+              "price": -116,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Olwan",
+              "price": 475,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Olwan",
+              "price": 800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Mahmoud Al-Mardi",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mahmoud Al-Mardi",
+              "price": 850,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Sadeh",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Sadeh",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdullah Nasib",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nizar Al-Rashdan",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nizar Al-Rashdan",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohammad Abu Hasheesh",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed Amine Tougai",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed Amine Tougai",
+              "price": 2800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed El Amine Amoura",
+              "price": -196,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed El Amine Amoura",
+              "price": 245,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed El Amine Amoura",
+              "price": 900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Fares Chaibi",
+              "price": -120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Fares Chaibi",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Fares Chaibi",
+              "price": 1200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Nadhir Benbouali",
+              "price": -263,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Nadhir Benbouali",
+              "price": 175,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Nadhir Benbouali",
+              "price": 600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Nadhir Benbouali",
+              "price": 2000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Maza",
+              "price": -152,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Maza",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Maza",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Rafik Belghali",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rafik Belghali",
+              "price": 950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Fares Ghedjemis",
+              "price": -172,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Fares Ghedjemis",
+              "price": 280,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Fares Ghedjemis",
+              "price": 1100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Zineddine Belaid",
+              "price": 425,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohannad Abu Taha",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ihsan Haddad",
+              "price": 390,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anis Hadj Moussa",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anis Hadj Moussa",
+              "price": 290,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Anis Hadj Moussa",
+              "price": 1100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Mo Abualnadi",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Yassine Titraoui",
+              "price": 165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Yassine Titraoui",
+              "price": 1000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Amer Jamous",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Amer Jamous",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Saed Ahmad Al-Rosan",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Odeh Al-Fakhouri",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Odeh Al-Fakhouri",
+              "price": 1000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Odeh Al-Fakhouri",
+              "price": 5900,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -108
+            },
+            {
+              "name": "No",
+              "price": -128
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:53Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -108
+            },
+            {
+              "name": "No",
+              "price": -128
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:46Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -108
+            },
+            {
+              "name": "No",
+              "price": -129
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:46Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": 108
+            },
+            {
+              "name": "Jordan",
+              "price": 475
+            },
+            {
+              "name": "Draw",
+              "price": 132
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:46Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ramy Bensebaini",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Anis Hadj Moussa",
+              "price": 195
+            },
+            {
+              "name": "Yes",
+              "description": "Anas Badawi",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Amine Gouiri",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Ramiz Zerrouki",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Saed Ahmad Al-Rosan",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Ihsan Haddad",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Abu Hasheesh",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Samir Chergui",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Zineddine Belaid",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Nizar Al-Rashdan",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Yassine Titraoui",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Mahmoud Al-Mardi",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Yazan Al Arab",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Achref Abada",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Maza",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Ait Nouri",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Aissa Mandi",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Chaibi",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Saleem Obaid",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Noor Al Rawabdeh",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Odeh Fakhoury",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed El Amine Amoura",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Riyad Mahrez",
+              "price": 165
+            },
+            {
+              "name": "Yes",
+              "description": "Hicham Boudaoui",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Mohannad Abu Taha",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Husam Abu Dahab",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Abdullah Nasib",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Houssem Aouar",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Rafik Belghali",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Olwan",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Mo Abualnadi",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Musa Al Tamari",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Nabil Bentaleb",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Abu Zrayq",
+              "price": 460
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T04:48:46Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ihsan Haddad",
+              "price": 575,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Ait Nouri",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anis Hadj Moussa",
+              "price": 310,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ramiz Zerrouki",
+              "price": 320,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Yassine Titraoui",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Odeh Fakhoury",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Odeh Fakhoury",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed El Amine Amoura",
+              "price": 255,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Mahmoud Al-Mardi",
+              "price": 140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohammad Abu Hasheesh",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdullah Nasib",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Maza",
+              "price": -134,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Musa Al Tamari",
+              "price": -121,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Noor Al Rawabdeh",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mo Abualnadi",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nizar Al-Rashdan",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ramy Bensebaini",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anas Badawi",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rafik Belghali",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohannad Abu Taha",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": -225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Achref Abada",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anis Hadj Moussa",
+              "price": -129,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Saed Ahmad Al-Rosan",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Saleem Obaid",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nabil Bentaleb",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Musa Al Tamari",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Zineddine Belaid",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Fares Chaibi",
+              "price": 360,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": 850,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": 550,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Maza",
+              "price": 300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed El Amine Amoura",
+              "price": -165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aissa Mandi",
+              "price": 475,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": 190,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Yazan Al Arab",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hicham Boudaoui",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": 250,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Husam Abu Dahab",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohammad Abu Zrayq",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Fares Chaibi",
+              "price": -121,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Houssem Aouar",
+              "price": -104,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Houssem Aouar",
+              "price": 420,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Samir Chergui",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Olwan",
+              "price": -122,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Olwan",
+              "price": 350,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": -173,
+              "point": -0.5
+            },
+            {
+              "name": "Jordan",
+              "price": 139,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": 117
+            },
+            {
+              "name": "Jordan",
+              "price": 489
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 185,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -244,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:46:57Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": -103,
+              "point": -1.0
+            },
+            {
+              "name": "Jordan",
+              "price": -118,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:04Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 100
+            },
+            {
+              "name": "No",
+              "price": -137
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:22Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -105
+            },
+            {
+              "name": "No",
+              "price": -133
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:13Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 100
+            },
+            {
+              "name": "No",
+              "price": -128
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:13Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": 100
+            },
+            {
+              "name": "Jordan",
+              "price": 500
+            },
+            {
+              "name": "Draw",
+              "price": 125
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:13Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Amine Gouiri",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Riyad Mahrez",
+              "price": 155
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Chaibi",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Olwan",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Musa Al Tamari",
+              "price": 470
+            },
+            {
+              "name": "Yes",
+              "description": "Hicham Boudaoui",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Nabil Bentaleb",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Ramy Bensebaini",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Rafik Belghali",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Ait Nouri",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Odeh Fakhoury",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Aissa Mandi",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Ramiz Zerrouki",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Nizar Al-Rashdan",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Mohannad Abu Taha",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Noor Al Rawabdeh",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Abdullah Nasib",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Yazan Al Arab",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Ihsan Haddad",
+              "price": 2500
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T04:48:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": -330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": -250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Olwan",
+              "price": -175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Fares Chaibi",
+              "price": -140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Musa Al Tamari",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hicham Boudaoui",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nabil Bentaleb",
+              "price": 140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ramiz Zerrouki",
+              "price": 140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Odeh Fakhoury",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nizar Al-Rashdan",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohannad Abu Taha",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aissa Mandi",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ihsan Haddad",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Noor Al Rawabdeh",
+              "price": 340,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdullah Nasib",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Yazan Al Arab",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": 1700,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": 2700,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": 145,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": 195,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Olwan",
+              "price": 280,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Fares Chaibi",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Musa Al Tamari",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Hicham Boudaoui",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ramiz Zerrouki",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nabil Bentaleb",
+              "price": 950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Odeh Fakhoury",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohannad Abu Taha",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nizar Al-Rashdan",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Aissa Mandi",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ihsan Haddad",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Noor Al Rawabdeh",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": 500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": 750,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Olwan",
+              "price": 1100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Fares Chaibi",
+              "price": 1700,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Musa Al Tamari",
+              "price": 3000,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:13Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": -6000,
+              "point": 1.5
+            },
+            {
+              "name": "Jordan",
+              "price": 1400,
+              "point": -1.5
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T04:48:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Algeria",
+              "price": -142,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Algeria",
+              "price": 112,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan",
+              "price": -142,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Jordan",
+              "price": 112,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 180,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -235,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:28Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -120
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:28Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ihsan Haddad",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Noor Al Rawabdeh",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Odeh Fakhoury",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Nizar Al-Rashdan",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Abdullah Nasib",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Olwan",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Yazan Al Arab",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Musa Al Tamari",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Mohannad Abu Taha",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Nabil Bentaleb",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Ramy Bensebaini",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Ramiz Zerrouki",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Chaibi",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Aissa Mandi",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Ait Nouri",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Hicham Boudaoui",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Rafik Belghali",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Riyad Mahrez",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Amine Gouiri",
+              "price": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:27Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 106
+            },
+            {
+              "name": "No",
+              "price": -114
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:27Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Riyad Mahrez",
+              "price": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:40Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": -102,
+              "point": -1.0
+            },
+            {
+              "name": "Jordan",
+              "price": -109,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:45Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -103
+            },
+            {
+              "name": "No",
+              "price": -123
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:45Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": 109
+            },
+            {
+              "name": "Jordan",
+              "price": 557
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:45Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Amine Gouiri",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed El Amine Amoura",
+              "price": 143
+            },
+            {
+              "name": "Yes",
+              "description": "Riyad Mahrez",
+              "price": 145
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Chaibi",
+              "price": 185
+            },
+            {
+              "name": "Yes",
+              "description": "Anis Hadj Moussa",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Houssem Aouar",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Musa Al Tamari",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Maza",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Olwan",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Yassine Titraoui",
+              "price": 430
+            },
+            {
+              "name": "Yes",
+              "description": "Mahmoud Al-Mardi",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Abu Zrayq",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Hicham Boudaoui",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Odeh Fakhoury",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Ait Nouri",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Noor Al Rawabdeh",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Ramy Bensebaini",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ramiz Zerrouki",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Nabil Bentaleb",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Nizar Al-Rashdan",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Achref Abada",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Aissa Mandi",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Rafik Belghali",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Samir Chergui",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Zineddine Belaid",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Mohannad Abu Taha",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Saed Ahmad Al-Rosan",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Abdullah Nasib",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Anas Badawi",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Ihsan Haddad",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Mo Abualnadi",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Yazan Al Arab",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Saleem Obaid",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Abu Hasheesh",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Husam Abu Dahab",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Musa Al Tamari",
+              "price": 404
+            },
+            {
+              "name": "No",
+              "description": "Musa Al Tamari",
+              "price": -556
+            },
+            {
+              "name": "Yes",
+              "description": "Amine Gouiri",
+              "price": 188
+            },
+            {
+              "name": "No",
+              "description": "Amine Gouiri",
+              "price": -231
+            },
+            {
+              "name": "Yes",
+              "description": "Riyad Mahrez",
+              "price": 222
+            },
+            {
+              "name": "No",
+              "description": "Riyad Mahrez",
+              "price": -275
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Chaibi",
+              "price": 390
+            },
+            {
+              "name": "No",
+              "description": "Fares Chaibi",
+              "price": -535
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Olwan",
+              "price": 316
+            },
+            {
+              "name": "No",
+              "description": "Ali Olwan",
+              "price": -402
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T04:48:45Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Algeria",
+              "price": -141,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Algeria",
+              "price": 116,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan",
+              "price": -141,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Jordan",
+              "price": 116,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:45Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -119,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -101,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:03Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": -105,
+              "point": -1.0
+            },
+            {
+              "name": "Jordan",
+              "price": -111,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:22Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": 112
+            },
+            {
+              "name": "Jordan",
+              "price": 520
+            },
+            {
+              "name": "Draw",
+              "price": 135
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T04:48:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Algeria",
+              "price": -135,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Algeria",
+              "price": 115,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan",
+              "price": -135,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Jordan",
+              "price": 115,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -116,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -104,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:45:26Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": -105,
+              "point": -1.0
+            },
+            {
+              "name": "Jordan",
+              "price": -115,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:40Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -108
+            },
+            {
+              "name": "No",
+              "price": -122
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:40Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": -350
+            },
+            {
+              "name": "Jordan",
+              "price": 270
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:40Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Saed Ahmad Al-Rosan",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Hicham Boudaoui",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Achref Abada",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Saleem Obaid",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Ehsan Haddad",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Aissa Mandi",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Riyad Mahrez",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Ait Nouri",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Yassine Titraoui",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Mahmoud Al-Mardi",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Olwan",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Al-Dawoud",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Zineddine Belaid",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Abu Hasheesh",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Sadeh",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Amer Jamous",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Ghedjemis",
+              "price": 285
+            },
+            {
+              "name": "Yes",
+              "description": "Amine Gouiri",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Taha",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Adil Boulbina",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Samir Chergui",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Anis Hadj Moussa",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Odeh Al-Fakhouri",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed Amine Tougai",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Nizar Al-Rashdan",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Musa Al Tamari",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Mohannad Abu Taha",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Anas Badawi",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Ramy Bensebaini",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Rafik Belghali",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ramiz Zerrouki",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Houssem Aouar",
+              "price": 285
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed El Amine Amoura",
+              "price": 165
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Maza",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Rajaei Ayed",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Nadhir Benbouali",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Jaouen Hadjam",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Nabil Bentaleb",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Abdullah Nasib",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Noor Al Rawabdeh",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Chaibi",
+              "price": 340
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:40Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:08Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -105
+            },
+            {
+              "name": "No",
+              "price": -125
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:08Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": 110
+            },
+            {
+              "name": "Jordan",
+              "price": 500
+            },
+            {
+              "name": "Draw",
+              "price": 135
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:08Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Mohamed El Amine Amoura",
+              "price": 165
+            },
+            {
+              "name": "Yes",
+              "description": "Adil Boulbina",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Amine Gouiri",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Nadhir Benbouali",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Riyad Mahrez",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Ghedjemis",
+              "price": 285
+            },
+            {
+              "name": "Yes",
+              "description": "Houssem Aouar",
+              "price": 285
+            },
+            {
+              "name": "Yes",
+              "description": "Anis Hadj Moussa",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Maza",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Chaibi",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Olwan",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Musa Al Tamari",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Yassine Titraoui",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Nabil Bentaleb",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Odeh Fakhoury",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Hicham Boudaoui",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Jaouen Hadjam",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Mahmoud Al-Mardi",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ramy Bensebaini",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ramiz Zerrouki",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed Amine Tougai",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Al-Dawoud",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Rafik Belghali",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Amer Jamous",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Nizar Al-Rashdan",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Ait Nouri",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Aissa Mandi",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Mohannad Abu Taha",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Noor Al Rawabdeh",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Samir Chergui",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Zineddine Belaid",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Sadeh",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Taha",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Achref Abada",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Abdullah Nasib",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Ihsan Haddad",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Abu Hasheesh",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Rajaei Ayed",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Saed Ahmad Al-Rosan",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Saleem Obaid",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Anas Badawi",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Mo Abualnadi",
+              "price": 4000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -105
+            },
+            {
+              "name": "No",
+              "price": -133
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:47:54Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": 105
+            },
+            {
+              "name": "Jordan",
+              "price": 425
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -105
+            },
+            {
+              "name": "No",
+              "price": -133
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:47:52Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": 105
+            },
+            {
+              "name": "Jordan",
+              "price": 425
+            },
+            {
+              "name": "Draw",
+              "price": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:32Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -102
+            },
+            {
+              "name": "No",
+              "price": -125
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": 105
+            },
+            {
+              "name": "Jordan",
+              "price": 450
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ahmed Nadhir Benbouali",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Amine Gouiri",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed El Amine Amoura",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Adil Boulbina",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Riyad Mahrez",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Anis Hadj Moussa",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Ghedjemis",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Houssem Aouar",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Maza",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Olwan",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Chaibi",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Musa Al Tamari",
+              "price": 333
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Al-Azaizeh",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Yassine Titraoui",
+              "price": 425
+            },
+            {
+              "name": "Yes",
+              "description": "Odeh Fakhoury",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Nabil Bentaleb",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Mahmoud Al-Mardi",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Hicham Boudaoui",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Ramy Bensebaini",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Jaouen Hadjam",
+              "price": 625
+            },
+            {
+              "name": "Yes",
+              "description": "Rafik Belghali",
+              "price": 675
+            },
+            {
+              "name": "Yes",
+              "description": "Ramiz Zerrouki",
+              "price": 675
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Ait Nouri",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Al-Dawoud",
+              "price": 725
+            },
+            {
+              "name": "Yes",
+              "description": "Amer Jamous",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Nizar Al-Rashdan",
+              "price": 775
+            },
+            {
+              "name": "Yes",
+              "description": "Noor Al Rawabdeh",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Aissa Mandi",
+              "price": 825
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed Amine Tougai",
+              "price": 875
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Sadeh",
+              "price": 875
+            },
+            {
+              "name": "Yes",
+              "description": "Mohannad Abu Taha",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Achref Abada",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Zineddine Belaid",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Samir Chergui",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Taha",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Abu Hasheesh",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Yazan Al Arab",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Abdullah Nasib",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Rajaei Ayed",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Ihsan Haddad",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Saed Ahmad Al-Rosan",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Husam Abu Dahab",
+              "price": 1350
+            },
+            {
+              "name": "Yes",
+              "description": "Saleem Obaid",
+              "price": 1350
+            },
+            {
+              "name": "Yes",
+              "description": "Anas Badawi",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Mo Abualnadi",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Algeria",
+              "price": -145,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Algeria",
+              "price": 105,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan",
+              "price": -145,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Jordan",
+              "price": 110,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 190,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -250,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:16Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -105
+            },
+            {
+              "name": "No",
+              "price": -125
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:02Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Mohamed El Amine Amoura",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Nadhir Benbouali",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Adil Boulbina",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Riyad Mahrez",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Amine Gouiri",
+              "price": 145
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Ghedjemis",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Houssem Aouar",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Maza",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Anis Hadj Moussa",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Olwan",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Musa Al Tamari",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Yassine Titraoui",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Al-Azaizeh",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Hicham Boudaoui",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Jaouen Hadjam",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Odeh Fakhoury",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Fares Chaibi",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Nabil Bentaleb",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Mahmoud Al-Mardi",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Ramy Bensebaini",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Ramiz Zerrouki",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Al-Dawoud",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Rafik Belghali",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed Amine Tougai",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Ait Nouri",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Nizar Al-Rashdan",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Amer Jamous",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Zineddine Belaid",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Samir Chergui",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Mohannad Abu Taha",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Noor Al Rawabdeh",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Aissa Mandi",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Sadeh",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Taha",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammad Abu Hasheesh",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Achref Abada",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Ihsan Haddad",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Yazan Al Arab",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Abdullah Nasib",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Saed Ahmad Al-Rosan",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Rajaei Ayed",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Saleem Obaid",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Husam Abu Dahab",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Anas Badawi",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Mo Abualnadi",
+              "price": 1800
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T04:48:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ali Olwan",
+              "price": -182,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Olwan",
+              "price": 230,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ali Olwan",
+              "price": 650,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ali Olwan",
+              "price": 1600,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Musa Al Tamari",
+              "price": -138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Musa Al Tamari",
+              "price": 290,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Musa Al Tamari",
+              "price": 850,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Musa Al Tamari",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Ali Al-Azaizeh",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Al-Azaizeh",
+              "price": 450,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ali Al-Azaizeh",
+              "price": 1200,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ali Al-Azaizeh",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Odeh Fakhoury",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Odeh Fakhoury",
+              "price": 500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Odeh Fakhoury",
+              "price": 1400,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Odeh Fakhoury",
+              "price": 4000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Mahmoud Al-Mardi",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mahmoud Al-Mardi",
+              "price": 800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Mohammad Al-Dawoud",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohammad Al-Dawoud",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Nizar Al-Rashdan",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nizar Al-Rashdan",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Amer Jamous",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Amer Jamous",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Sadeh",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Sadeh",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Mohannad Abu Taha",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohannad Abu Taha",
+              "price": 1200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Noor Al Rawabdeh",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Noor Al Rawabdeh",
+              "price": 1200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Mohammad Taha",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohammad Taha",
+              "price": 1400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ihsan Haddad",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ihsan Haddad",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Mohammad Abu Hasheesh",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohammad Abu Hasheesh",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Saed Ahmad Al-Rosan",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Saed Ahmad Al-Rosan",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Yazan Al Arab",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Yazan Al Arab",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Rajaei Ayed",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rajaei Ayed",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Mo Abualnadi",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mo Abualnadi",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Saleem Obaid",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Saleem Obaid",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Husam Abu Dahab",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Husam Abu Dahab",
+              "price": 2800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Anas Badawi",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anas Badawi",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Abdullah Nasib",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdullah Nasib",
+              "price": 2800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Nadhir Benbouali",
+              "price": -500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Nadhir Benbouali",
+              "price": -105,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Nadhir Benbouali",
+              "price": 280,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Nadhir Benbouali",
+              "price": 650,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Adil Boulbina",
+              "price": -500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Adil Boulbina",
+              "price": -105,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Adil Boulbina",
+              "price": 280,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Adil Boulbina",
+              "price": 650,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": -333,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": 138,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": 380,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Amine Gouiri",
+              "price": 850,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed El Amine Amoura",
+              "price": -333,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed El Amine Amoura",
+              "price": 138,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed El Amine Amoura",
+              "price": 380,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed El Amine Amoura",
+              "price": 850,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": -286,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": 160,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": 400,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Riyad Mahrez",
+              "price": 1000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Anis Hadj Moussa",
+              "price": -225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anis Hadj Moussa",
+              "price": 190,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Anis Hadj Moussa",
+              "price": 550,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Anis Hadj Moussa",
+              "price": 1200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Fares Ghedjemis",
+              "price": -225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Fares Ghedjemis",
+              "price": 190,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Fares Ghedjemis",
+              "price": 550,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Fares Ghedjemis",
+              "price": 1200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Maza",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Maza",
+              "price": 260,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Maza",
+              "price": 750,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Maza",
+              "price": 1800,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Houssem Aouar",
+              "price": -138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Houssem Aouar",
+              "price": 290,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Houssem Aouar",
+              "price": 850,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Houssem Aouar",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Fares Chaibi",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Fares Chaibi",
+              "price": 333,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Fares Chaibi",
+              "price": 900,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Fares Chaibi",
+              "price": 2200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Yassine Titraoui",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Yassine Titraoui",
+              "price": 450,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Yassine Titraoui",
+              "price": 1200,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Yassine Titraoui",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Hicham Boudaoui",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hicham Boudaoui",
+              "price": 700,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ramiz Zerrouki",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ramiz Zerrouki",
+              "price": 800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Nabil Bentaleb",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nabil Bentaleb",
+              "price": 800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Ait Nouri",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Ait Nouri",
+              "price": 850,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ramy Bensebaini",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ramy Bensebaini",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Aissa Mandi",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aissa Mandi",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Rafik Belghali",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rafik Belghali",
+              "price": 1200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jaouen Hadjam",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jaouen Hadjam",
+              "price": 1200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Zineddine Belaid",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zineddine Belaid",
+              "price": 1400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Achref Abada",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Achref Abada",
+              "price": 1400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Samir Chergui",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Samir Chergui",
+              "price": 1400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed Amine Tougai",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed Amine Tougai",
+              "price": 1400,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:03Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": -109,
+              "point": -1.0
+            },
+            {
+              "name": "Jordan",
+              "price": -111,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:03Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": 112
+            },
+            {
+              "name": "Jordan",
+              "price": 520
+            },
+            {
+              "name": "Draw",
+              "price": 135
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:47:52Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": -105,
+              "point": -1.0
+            },
+            {
+              "name": "Jordan",
+              "price": -115,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:04Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": -105,
+              "point": -1.0
+            },
+            {
+              "name": "Jordan",
+              "price": -111,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:38Z",
+          "outcomes": [
+            {
+              "name": "Algeria",
+              "price": -101,
+              "point": -1.0
+            },
+            {
+              "name": "Jordan",
+              "price": -104,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:38Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 106
+            },
+            {
+              "name": "No",
+              "price": -112
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

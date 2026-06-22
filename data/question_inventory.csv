@@ -1,0 +1,23 @@
+include,match,question_type,target_team,target_player,line,sports_predict_question,source,notes
+0,Ecuador vs Curaçao,team_win,Ecuador,,,Will Ecuador win the match?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Ecuador vs Curaçao,team_win,Curaçao,,,Will Curaçao win the match?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+1,Tunisia vs Japan,team_win,Tunisia,,,Will Tunisia win the match?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Tunisia vs Japan,team_win,Japan,,,Will Japan win the match?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Spain vs Saudi Arabia,team_win,Spain,,,Will Spain win the match?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Spain vs Saudi Arabia,team_win,Saudi Arabia,,,Will Saudi Arabia win the match?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Belgium vs Iran,team_win,Belgium,,,Will Belgium win the match?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Belgium vs Iran,team_win,Iran,,,Will Iran win the match?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Tunisia vs Japan,both_teams_score,,,,Will both teams score?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Tunisia vs Japan,halftime_draw,,,,Will the match be tied at halftime?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Spain vs Saudi Arabia,both_teams_score,,,,Will both teams score?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Spain vs Saudi Arabia,halftime_draw,,,,Will the match be tied at halftime?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Belgium vs Iran,both_teams_score,,,,Will both teams score?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Belgium vs Iran,halftime_draw,,,,Will the match be tied at halftime?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Uruguay vs Cape Verde,team_win,Uruguay,,,Will Uruguay win the match?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Uruguay vs Cape Verde,team_win,Cape Verde,,,Will Cape Verde win the match?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Uruguay vs Cape Verde,both_teams_score,,,,Will both teams score?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Uruguay vs Cape Verde,halftime_draw,,,,Will the match be tied at halftime?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Tunisia vs Japan,match_total_over,,,2.5,Will the match have 3 or more total goals?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Spain vs Saudi Arabia,match_total_over,,,2.5,Will the match have 3 or more total goals?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Belgium vs Iran,match_total_over,,,2.5,Will the match have 3 or more total goals?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict
+0,Uruguay vs Cape Verde,match_total_over,,,2.5,Will the match have 3 or more total goals?,auto_stub,candidate; set include=1 if this exact question appears on SportsPredict

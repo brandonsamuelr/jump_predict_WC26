@@ -1,0 +1,4830 @@
+{
+  "id": "3f48473742ca0fd2a85930554720c75e",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-23T00:00:00Z",
+  "home_team": "Norway",
+  "away_team": "Senegal",
+  "bookmakers": [
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:47:51Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": -151,
+              "point": 0.0
+            },
+            {
+              "name": "Senegal",
+              "price": 130,
+              "point": 0.0
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:51Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -139
+            },
+            {
+              "name": "No",
+              "price": 103
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Erling Braut Haaland",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Sadio Mane",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Alexander Sorloth",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Nicolas Jackson",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Jorgen Strand Larsen",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Cherif Ndiaye",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Cheikh Ahmadou Bamba Mbacke Dieng",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Assane Diao",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Jens Petter Hauge",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Ismaila Sarr",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Mbaye",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Oscar Bobb",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Thelo Aasgaard",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Kristian Thorstvedt",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Habib Diarra",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Andreas Schjelderup",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Antonio Nusa",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Odegaard",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Bara Ndiaye",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Morten Thorsby",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Sarr",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Patrick Berg",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Alassane Gueye",
+              "price": 770
+            },
+            {
+              "name": "Yes",
+              "description": "El Hadji Diouf",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Lamine Camara",
+              "price": 810
+            },
+            {
+              "name": "Yes",
+              "description": "Pathe Ciss",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Aursnes",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Sander Berge",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Julian Ryerson",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Krepin Diatta",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Kalidou Koulibaly",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Henrik Falchener",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Mendy",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Abdoulaye Seck",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ismail Jacobs",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Mamodou Sarr",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Andre Bjorkan",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Idrissa Gana Gueye",
+              "price": 1250
+            },
+            {
+              "name": "Yes",
+              "description": "Kristoffer Ajer",
+              "price": 1350
+            },
+            {
+              "name": "Yes",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 1350
+            },
+            {
+              "name": "Yes",
+              "description": "David Moller Wolfe",
+              "price": 1350
+            },
+            {
+              "name": "Yes",
+              "description": "Sondre Klinge Langas",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Moussa Niakhate",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Leo Skiri Ostigard",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Pedersen",
+              "price": 1800
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T04:48:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Marcus Pedersen",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Pedersen",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Sadio Mane",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sadio Mane",
+              "price": 295,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Sadio Mane",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kalidou Koulibaly",
+              "price": 475,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kristoffer Ajer",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": -370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": 125,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": 600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": 1300,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Sander Berge",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sander Berge",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Sander Berge",
+              "price": 5900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Patrick Berg",
+              "price": 135,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Patrick Berg",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Patrick Berg",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Odegaard",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Odegaard",
+              "price": 550,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Odegaard",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Julian Ryerson",
+              "price": 195,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Julian Ryerson",
+              "price": 1300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Antoine Mendy",
+              "price": 425,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Fredrik Andre Bjorkan",
+              "price": 425,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jens Petter Hauge",
+              "price": -147,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jens Petter Hauge",
+              "price": 330,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jens Petter Hauge",
+              "price": 1300,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismaila Sarr",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismaila Sarr",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismaila Sarr",
+              "price": 1600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Pape Sarr",
+              "price": 105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pape Sarr",
+              "price": 550,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Pape Sarr",
+              "price": 2800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Morten Thorsby",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Morten Thorsby",
+              "price": 550,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Morten Thorsby",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Moussa Niakhate",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cherif Ndiaye",
+              "price": -192,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cherif Ndiaye",
+              "price": 245,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cherif Ndiaye",
+              "price": 950,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdoulaye Seck",
+              "price": 390,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Krepin Diatta",
+              "price": 285,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Krepin Diatta",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Leo Skiri Ostigard",
+              "price": 310,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Leo Skiri Ostigard",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismail Jacobs",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pape Alassane Gueye",
+              "price": 130,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pape Alassane Gueye",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Pape Alassane Gueye",
+              "price": 3000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 1800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 320,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 2800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kristian Thorstvedt",
+              "price": -120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kristian Thorstvedt",
+              "price": 425,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kristian Thorstvedt",
+              "price": 1900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Pathe Ciss",
+              "price": 165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pathe Ciss",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Henrik Falchener",
+              "price": 295,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Henrik Falchener",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nicolas Jackson",
+              "price": -200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nicolas Jackson",
+              "price": 235,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nicolas Jackson",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Andreas Schjelderup",
+              "price": -172,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Andreas Schjelderup",
+              "price": 285,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Andreas Schjelderup",
+              "price": 1100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Cheikh Ahmadou Bamba Mbacke Dieng",
+              "price": -227,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cheikh Ahmadou Bamba Mbacke Dieng",
+              "price": 205,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cheikh Ahmadou Bamba Mbacke Dieng",
+              "price": 750,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Cheikh Ahmadou Bamba Mbacke Dieng",
+              "price": 2500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": -500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": -111,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": 230,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": 850,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Fredrik Aursnes",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Fredrik Aursnes",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "David Moller Wolfe",
+              "price": 310,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "David Moller Wolfe",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Nusa",
+              "price": -161,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Nusa",
+              "price": 310,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Nusa",
+              "price": 1400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Habib Diarra",
+              "price": 205,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Habib Diarra",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Oscar Bobb",
+              "price": -120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Oscar Bobb",
+              "price": 425,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Oscar Bobb",
+              "price": 1900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Mamodou Sarr",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "El Hadji Diouf",
+              "price": 320,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "El Hadji Diouf",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Assane Diao",
+              "price": -116,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Assane Diao",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Assane Diao",
+              "price": 2000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Mbaye",
+              "price": -132,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Mbaye",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Mbaye",
+              "price": 1700,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jorgen Strand Larsen",
+              "price": -303,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jorgen Strand Larsen",
+              "price": 155,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jorgen Strand Larsen",
+              "price": 400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jorgen Strand Larsen",
+              "price": 1700,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Idrissa Gana Gueye",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Idrissa Gana Gueye",
+              "price": 1000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Thelo Aasgaard",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Thelo Aasgaard",
+              "price": 280,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Thelo Aasgaard",
+              "price": 1100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Sondre Klinge Langas",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sondre Klinge Langas",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bara Ndiaye",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bara Ndiaye",
+              "price": 1500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lamine Camara",
+              "price": 105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lamine Camara",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lamine Camara",
+              "price": 3000,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -164
+            },
+            {
+              "name": "No",
+              "price": 117
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:53Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -164
+            },
+            {
+              "name": "No",
+              "price": 117
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:20Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -165
+            },
+            {
+              "name": "No",
+              "price": 117
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:20Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 170
+            },
+            {
+              "name": "Senegal",
+              "price": 265
+            },
+            {
+              "name": "Draw",
+              "price": 128
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:20Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ismaila Sarr",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Krepin Diatta",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Pathe Ciss",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Habib Diarra",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Aursnes",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Moussa Niakhate",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Mbaye",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Lamine Camara",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "David Moller Wolfe",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Mendy",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "El Hadji Diouf",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Sarr",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Pedersen",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Kristoffer Ajer",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Oscar Bobb",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Erling Braut Haaland",
+              "price": -112
+            },
+            {
+              "name": "Yes",
+              "description": "Andreas Schjelderup",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Alexander Sorloth",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Leo Skiri Ostigard",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Antonio Nusa",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Andre Bjorkan",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Odegaard",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Mamodou Sarr",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Idrissa Gana Gueye",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Alassane Gueye",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Nicolas Jackson",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Sander Berge",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Ismail Jacobs",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Julian Ryerson",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Sadio Mane",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Kalidou Koulibaly",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 1050
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T04:48:20Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Oscar Bobb",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Leo Skiri Ostigard",
+              "price": 380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antoine Mendy",
+              "price": 525,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": -215,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sadio Mane",
+              "price": -152,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nicolas Jackson",
+              "price": 250,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": 410,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": -715,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pathe Ciss",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sander Berge",
+              "price": 340,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mamodou Sarr",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Fredrik Andre Bjorkan",
+              "price": 420,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Fredrik Aursnes",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nicolas Jackson",
+              "price": 800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Mbaye",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Pedersen",
+              "price": 420,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Andreas Schjelderup",
+              "price": 525,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Nusa",
+              "price": -132,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "El Hadji Diouf",
+              "price": 280,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Moussa Niakhate",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Oscar Bobb",
+              "price": 132,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismail Jacobs",
+              "price": 510,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sadio Mane",
+              "price": 270,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismaila Sarr",
+              "price": -109,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Krepin Diatta",
+              "price": 430,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kalidou Koulibaly",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Odegaard",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Odegaard",
+              "price": 550,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Julian Ryerson",
+              "price": 390,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pape Alassane Gueye",
+              "price": 138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pape Sarr",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": 200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": 600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Idrissa Gana Gueye",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Habib Diarra",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Andreas Schjelderup",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": 185,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": -152,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kristoffer Ajer",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lamine Camara",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nicolas Jackson",
+              "price": -175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 550,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Mbaye",
+              "price": 130,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "David Moller Wolfe",
+              "price": 420,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Nusa",
+              "price": 310,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Pape Alassane Gueye",
+              "price": 650,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 118,
+              "point": -0.5
+            },
+            {
+              "name": "Senegal",
+              "price": -145,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 193
+            },
+            {
+              "name": "Senegal",
+              "price": 265
+            },
+            {
+              "name": "Draw",
+              "price": 118
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 183,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -241,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:46:57Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 123,
+              "point": -0.5
+            },
+            {
+              "name": "Senegal",
+              "price": -151,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:04Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -137
+            },
+            {
+              "name": "No",
+              "price": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:31Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -144
+            },
+            {
+              "name": "No",
+              "price": 114
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:31Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 175
+            },
+            {
+              "name": "Senegal",
+              "price": 250
+            },
+            {
+              "name": "Draw",
+              "price": 115
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:31Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Erling Braut Haaland",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Jorgen Strand Larsen",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Alexander Sorloth",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Nicolas Jackson",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Sadio Mane",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Ismaila Sarr",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Antonio Nusa",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Habib Diarra",
+              "price": 410
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Odegaard",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Patrick Berg",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Alassane Gueye",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Krepin Diatta",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Lamine Camara",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "David Moller Wolfe",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Idrissa Gana Gueye",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Julian Ryerson",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Sander Berge",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Kalidou Koulibaly",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Kristoffer Ajer",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "El Hadji Diouf",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Moussa Niakhate",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 2500
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T04:48:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": -130,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jorgen Strand Larsen",
+              "price": 145,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": 200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Sadio Mane",
+              "price": 320,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nicolas Jackson",
+              "price": 330,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Nusa",
+              "price": 440,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismaila Sarr",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Odegaard",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Patrick Berg",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Pape Alassane Gueye",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Sander Berge",
+              "price": 1200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Idrissa Gana Gueye",
+              "price": 2700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lamine Camara",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": 750,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Jorgen Strand Larsen",
+              "price": 1700,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": 2700,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": -600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jorgen Strand Larsen",
+              "price": -320,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": -240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sadio Mane",
+              "price": -165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nicolas Jackson",
+              "price": -160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Nusa",
+              "price": -130,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismaila Sarr",
+              "price": -115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Odegaard",
+              "price": 105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Patrick Berg",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pape Alassane Gueye",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sander Berge",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Idrissa Gana Gueye",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lamine Camara",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "David Moller Wolfe",
+              "price": 390,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Julian Ryerson",
+              "price": 440,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "El Hadji Diouf",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kalidou Koulibaly",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kristoffer Ajer",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Moussa Niakhate",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": 250,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jorgen Strand Larsen",
+              "price": 500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": 750,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Nicolas Jackson",
+              "price": 1300,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Sadio Mane",
+              "price": 1300,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Nusa",
+              "price": 2000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismaila Sarr",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Odegaard",
+              "price": 3000,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:31Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 340,
+              "point": -1.5
+            },
+            {
+              "name": "Senegal",
+              "price": -500,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T04:48:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Norway",
+              "price": 114,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Norway",
+              "price": -146,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Senegal",
+              "price": 176,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Senegal",
+              "price": -230,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -300,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -230,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:14Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -149
+            },
+            {
+              "name": "No",
+              "price": 120
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:14Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "David Moller Wolfe",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Julian Ryerson",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Erling Braut Haaland",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Sander Berge",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Odegaard",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Alexander Sorloth",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Antonio Nusa",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Jorgen Strand Larsen",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Patrick Berg",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Kristoffer Ajer",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Sadio Mane",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "El Hadji Diouf",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Nicolas Jackson",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Moussa Niakhate",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Habib Diarra",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Kalidou Koulibaly",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Ismaila Sarr",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Lamine Camara",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Idrissa Gana Gueye",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Alassane Gueye",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Krepin Diatta",
+              "price": 750
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:46Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -154
+            },
+            {
+              "name": "No",
+              "price": 110
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:38Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -132
+            },
+            {
+              "name": "No",
+              "price": 126
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:38Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Erling Braut Haaland",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Alexander Sorloth",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Nicolas Jackson",
+              "price": 205
+            },
+            {
+              "name": "Yes",
+              "description": "Sadio Mane",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Ismaila Sarr",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Antonio Nusa",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Oscar Bobb",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Odegaard",
+              "price": 450
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:40Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": -102,
+              "point": -0.25
+            },
+            {
+              "name": "Senegal",
+              "price": -108,
+              "point": 0.25
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:22Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -143
+            },
+            {
+              "name": "No",
+              "price": 113
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:22Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 187
+            },
+            {
+              "name": "Senegal",
+              "price": 291
+            },
+            {
+              "name": "Draw",
+              "price": 127
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:22Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Erling Braut Haaland",
+              "price": -108
+            },
+            {
+              "name": "Yes",
+              "description": "Alexander Sorloth",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Nicolas Jackson",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Sadio Mane",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Antonio Nusa",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Mbaye",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Andreas Schjelderup",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Ismaila Sarr",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Alassane Gueye",
+              "price": 410
+            },
+            {
+              "name": "Yes",
+              "description": "Oscar Bobb",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Odegaard",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Habib Diarra",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Sarr",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Pathe Ciss",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Aursnes",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Lamine Camara",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Sander Berge",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Leo Skiri Ostigard",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Krepin Diatta",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Andre Bjorkan",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Julian Ryerson",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Kristoffer Ajer",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Pedersen",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "David Moller Wolfe",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Mamodou Sarr",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Kalidou Koulibaly",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Idrissa Gana Gueye",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Moussa Niakhate",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Mendy",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ismail Jacobs",
+              "price": 1300
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T04:48:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Norway",
+              "price": 119,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Norway",
+              "price": -145,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Senegal",
+              "price": 173,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Senegal",
+              "price": -214,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -118,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -102,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:03Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 120,
+              "point": -0.5
+            },
+            {
+              "name": "Senegal",
+              "price": -136,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:41Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 185
+            },
+            {
+              "name": "Senegal",
+              "price": 278
+            },
+            {
+              "name": "Draw",
+              "price": 125
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T04:48:41Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Norway",
+              "price": 118,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Norway",
+              "price": -138,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Senegal",
+              "price": 185,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Senegal",
+              "price": -215,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:41Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -106,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -114,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:45:26Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": -108,
+              "point": -0.25
+            },
+            {
+              "name": "Senegal",
+              "price": -112,
+              "point": 0.25
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:48Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -148
+            },
+            {
+              "name": "No",
+              "price": 113
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:47:48Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": -145
+            },
+            {
+              "name": "Senegal",
+              "price": 120
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:47:48Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Andreas Schjelderup",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Mbaye",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Patrick Berg",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Mendy",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Sarr",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Abdoulaye Seck",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Leo Skiri Ostigard",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Nicolas Jackson",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Pedersen",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Idrissa Gana Gueye",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Bara Ndiaye",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Moussa Niakhate",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Cherif Ndiaye",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Oscar Bobb",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Erling Braut Haaland",
+              "price": -106
+            },
+            {
+              "name": "Yes",
+              "description": "Ismaila Sarr",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "David Moller Wolfe",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "El Hadji Diouf",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Morten Thorsby",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Krepin Diatta",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Cheikh Ahmadou Bamba Mbacke Dieng",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Ismail Jacobs",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Jens Petter Hauge",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Assane Diao",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Thelo Aasgaard",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Habib Diarra",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Kalidou Koulibaly",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Pathe Ciss",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Odegaard",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Lamine Camara",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Sadio Mane",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Antonio Nusa",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Kristian Thorstvedt",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Henrik Falchener",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Sander Berge",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Andre Bjorkan",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Aursnes",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Mamodou Sarr",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Julian Ryerson",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Kristoffer Ajer",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Jorgen Strand Larsen",
+              "price": 265
+            },
+            {
+              "name": "Yes",
+              "description": "Alexander Sorloth",
+              "price": 265
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:47:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -118,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -102,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:20Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -150
+            },
+            {
+              "name": "No",
+              "price": 115
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:20Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 185
+            },
+            {
+              "name": "Senegal",
+              "price": 275
+            },
+            {
+              "name": "Draw",
+              "price": 120
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:20Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Erling Braut Haaland",
+              "price": -105
+            },
+            {
+              "name": "Yes",
+              "description": "Nicolas Jackson",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Jorgen Strand Larsen",
+              "price": 265
+            },
+            {
+              "name": "Yes",
+              "description": "Alexander Sorloth",
+              "price": 265
+            },
+            {
+              "name": "Yes",
+              "description": "Cherif Ndiaye",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Cheikh Ahmadou Bamba Mbacke Dieng",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Assane Diao",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Sadio Mane",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Ismaila Sarr",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Jens Petter Hauge",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Thelo Aasgaard",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Oscar Bobb",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Kristian Thorstvedt",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Habib Diarra",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Antonio Nusa",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Mbaye",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Andreas Schjelderup",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Odegaard",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Lamine Camara",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Alassane Gueye",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Morten Thorsby",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Bara Ndiaye",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Sarr",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Patrick Berg",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Aursnes",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Pathe Ciss",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "El Hadji Diouf",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Idrissa Gana Gueye",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Sander Berge",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Henrik Falchener",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Krepin Diatta",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Kalidou Koulibaly",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Andre Bjorkan",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Abdoulaye Seck",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Julian Ryerson",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Ismail Jacobs",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "David Moller Wolfe",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Sondre Klinge Langas",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Moussa Niakhate",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Mamodou Sarr",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Mendy",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Leo Skiri Ostigard",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Kristoffer Ajer",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Pedersen",
+              "price": 3000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -143
+            },
+            {
+              "name": "No",
+              "price": 105
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:47:54Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 170
+            },
+            {
+              "name": "Senegal",
+              "price": 250
+            },
+            {
+              "name": "Draw",
+              "price": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -143
+            },
+            {
+              "name": "No",
+              "price": 105
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:47:52Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 170
+            },
+            {
+              "name": "Senegal",
+              "price": 240
+            },
+            {
+              "name": "Draw",
+              "price": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:47:32Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -140
+            },
+            {
+              "name": "No",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:06Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 170
+            },
+            {
+              "name": "Senegal",
+              "price": 250
+            },
+            {
+              "name": "Draw",
+              "price": 120
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:48:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Erling Braut Haaland",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Jorgen Strand Larsen",
+              "price": 195
+            },
+            {
+              "name": "Yes",
+              "description": "Nicolas Jackson",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Alexander Sorloth",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Cheikh Ahmadou Bamba Mbacke Dieng",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Cherif Ndiaye",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Sadio Mane",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Assane Diao",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Ismaila Sarr",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Thelo Aasgaard",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Jens Petter Hauge",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Antonio Nusa",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Andreas Schjelderup",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Oscar Bobb",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Mbaye",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Kristian Thorstvedt",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Habib Diarra",
+              "price": 425
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Odegaard",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Alassane Gueye",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Morten Thorsby",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Lamine Camara",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Patrick Berg",
+              "price": 625
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Sarr",
+              "price": 675
+            },
+            {
+              "name": "Yes",
+              "description": "Bara Ndiaye",
+              "price": 675
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Aursnes",
+              "price": 675
+            },
+            {
+              "name": "Yes",
+              "description": "Pathe Ciss",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "El Hadji Diouf",
+              "price": 825
+            },
+            {
+              "name": "Yes",
+              "description": "Krepin Diatta",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Sander Berge",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Idrissa Gana Gueye",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Henrik Falchener",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "David Moller Wolfe",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Leo Skiri Ostigard",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Julian Ryerson",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Ismail Jacobs",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Kalidou Koulibaly",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Sondre Klinge Langas",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Andre Bjorkan",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Mamodou Sarr",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Abdoulaye Seck",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Mendy",
+              "price": 1250
+            },
+            {
+              "name": "Yes",
+              "description": "Kristoffer Ajer",
+              "price": 1250
+            },
+            {
+              "name": "Yes",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Pedersen",
+              "price": 1350
+            },
+            {
+              "name": "Yes",
+              "description": "Moussa Niakhate",
+              "price": 1400
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T04:48:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Norway",
+              "price": 110,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Norway",
+              "price": -145,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Senegal",
+              "price": 170,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Senegal",
+              "price": -235,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 188,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -250,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:16Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -150
+            },
+            {
+              "name": "No",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T04:46:32Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Erling Braut Haaland",
+              "price": -120
+            },
+            {
+              "name": "Yes",
+              "description": "Nicolas Jackson",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Assane Diao",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Jorgen Strand Larsen",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Cherif Ndiaye",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Cheikh Ahmadou Bamba Mbacke Dieng",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Alexander Sorloth",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Sadio Mane",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Ismaila Sarr",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Jens Petter Hauge",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Kristian Thorstvedt",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Oscar Bobb",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Thelo Aasgaard",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Habib Diarra",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Mbaye",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Andreas Schjelderup",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Antonio Nusa",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Lamine Camara",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Odegaard",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Morten Thorsby",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Bara Ndiaye",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Alassane Gueye",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Pape Sarr",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Aursnes",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Patrick Berg",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "El Hadji Diouf",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Idrissa Gana Gueye",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Pathe Ciss",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Sander Berge",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Henrik Falchener",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Krepin Diatta",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Kalidou Koulibaly",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Fredrik Andre Bjorkan",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Abdoulaye Seck",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "David Moller Wolfe",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Julian Ryerson",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ismail Jacobs",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Moussa Niakhate",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Leo Skiri Ostigard",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Sondre Klinge Langas",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Mendy",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Mamodou Sarr",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Kristoffer Ajer",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Pedersen",
+              "price": 1800
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T04:46:32Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": -175,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": 160,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": 375,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Erling Braut Haaland",
+              "price": 800,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "description": "Jorgen Strand Larsen",
+              "price": -275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jorgen Strand Larsen",
+              "price": 170,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jorgen Strand Larsen",
+              "price": 480,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Jorgen Strand Larsen",
+              "price": 1100,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": -350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": 125,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": 360,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Alexander Sorloth",
+              "price": 850,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Jens Petter Hauge",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jens Petter Hauge",
+              "price": 260,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jens Petter Hauge",
+              "price": 750,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Jens Petter Hauge",
+              "price": 1800,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Nusa",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Nusa",
+              "price": 280,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Nusa",
+              "price": 800,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Nusa",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Thelo Aasgaard",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Thelo Aasgaard",
+              "price": 260,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Thelo Aasgaard",
+              "price": 750,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Thelo Aasgaard",
+              "price": 1800,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Martin Odegaard",
+              "price": -118,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Odegaard",
+              "price": 375,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Martin Odegaard",
+              "price": 1000,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Martin Odegaard",
+              "price": 2500,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Kristian Thorstvedt",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kristian Thorstvedt",
+              "price": 450,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Kristian Thorstvedt",
+              "price": 1200,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Kristian Thorstvedt",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Oscar Bobb",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Oscar Bobb",
+              "price": 450,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Oscar Bobb",
+              "price": 1200,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Oscar Bobb",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Andreas Schjelderup",
+              "price": -138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Andreas Schjelderup",
+              "price": 290,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Andreas Schjelderup",
+              "price": 850,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Andreas Schjelderup",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Morten Thorsby",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Morten Thorsby",
+              "price": 550,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Fredrik Aursnes",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Fredrik Aursnes",
+              "price": 700,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Patrick Berg",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Patrick Berg",
+              "price": 800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Fredrik Andre Bjorkan",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Fredrik Andre Bjorkan",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Sondre Klinge Langas",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sondre Klinge Langas",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Henrik Falchener",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Henrik Falchener",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "David Moller Wolfe",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "David Moller Wolfe",
+              "price": 1200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Torbjorn Lysaker Heggem",
+              "price": 1200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Leo Skiri Ostigard",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Leo Skiri Ostigard",
+              "price": 1200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Julian Ryerson",
+              "price": 375,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Julian Ryerson",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Pedersen",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcus Pedersen",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Kristoffer Ajer",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kristoffer Ajer",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Sander Berge",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sander Berge",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Nicolas Jackson",
+              "price": -225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nicolas Jackson",
+              "price": 190,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Nicolas Jackson",
+              "price": 550,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Nicolas Jackson",
+              "price": 1200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Cheikh Ahmadou Bamba Mbacke Dieng",
+              "price": -200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cheikh Ahmadou Bamba Mbacke Dieng",
+              "price": 220,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Cheikh Ahmadou Bamba Mbacke Dieng",
+              "price": 600,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Cheikh Ahmadou Bamba Mbacke Dieng",
+              "price": 1400,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Sadio Mane",
+              "price": -225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sadio Mane",
+              "price": 190,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Sadio Mane",
+              "price": 550,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Sadio Mane",
+              "price": 1200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Cherif Ndiaye",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cherif Ndiaye",
+              "price": 260,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Cherif Ndiaye",
+              "price": 750,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Cherif Ndiaye",
+              "price": 1800,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Assane Diao",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Assane Diao",
+              "price": 280,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Assane Diao",
+              "price": 800,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Assane Diao",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Ismaila Sarr",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismaila Sarr",
+              "price": 280,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ismaila Sarr",
+              "price": 800,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ismaila Sarr",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": -138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 290,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 850,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Iliman-Cheikh Ndiaye",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Mbaye",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Mbaye",
+              "price": 333,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Mbaye",
+              "price": 900,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ibrahim Mbaye",
+              "price": 2200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Habib Diarra",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Habib Diarra",
+              "price": 500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Habib Diarra",
+              "price": 1400,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Habib Diarra",
+              "price": 4000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Pape Alassane Gueye",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pape Alassane Gueye",
+              "price": 500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Pape Alassane Gueye",
+              "price": 1400,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Pape Alassane Gueye",
+              "price": 4000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Pape Sarr",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pape Sarr",
+              "price": 700,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Lamine Camara",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lamine Camara",
+              "price": 500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Lamine Camara",
+              "price": 1400,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Lamine Camara",
+              "price": 4000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Pathe Ciss",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pathe Ciss",
+              "price": 850,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Bara Ndiaye",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bara Ndiaye",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Krepin Diatta",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Krepin Diatta",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Abdoulaye Seck",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdoulaye Seck",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "El Hadji Diouf",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "El Hadji Diouf",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Kalidou Koulibaly",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kalidou Koulibaly",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Idrissa Gana Gueye",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Idrissa Gana Gueye",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Antoine Mendy",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antoine Mendy",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Moussa Niakhate",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Moussa Niakhate",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ismail Jacobs",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismail Jacobs",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Mamodou Sarr",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mamodou Sarr",
+              "price": 2500,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:03Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 116,
+              "point": -0.5
+            },
+            {
+              "name": "Senegal",
+              "price": -136,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T04:48:03Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 185
+            },
+            {
+              "name": "Senegal",
+              "price": 278
+            },
+            {
+              "name": "Draw",
+              "price": 125
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T04:48:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -106,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -114,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:47:52Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": -145,
+              "point": 0.0
+            },
+            {
+              "name": "Senegal",
+              "price": 125,
+              "point": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:04Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": 120,
+              "point": -0.5
+            },
+            {
+              "name": "Senegal",
+              "price": -136,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T04:48:38Z",
+          "outcomes": [
+            {
+              "name": "Norway",
+              "price": -102,
+              "point": -0.25
+            },
+            {
+              "name": "Senegal",
+              "price": -102,
+              "point": 0.25
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T04:48:38Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -130
+            },
+            {
+              "name": "No",
+              "price": 126
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

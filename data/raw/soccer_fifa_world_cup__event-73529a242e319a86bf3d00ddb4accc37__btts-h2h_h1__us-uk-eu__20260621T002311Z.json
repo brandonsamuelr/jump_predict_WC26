@@ -1,0 +1,548 @@
+{
+  "id": "73529a242e319a86bf3d00ddb4accc37",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-21T16:00:00Z",
+  "home_team": "Spain",
+  "away_team": "Saudi Arabia",
+  "bookmakers": [
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 193
+            },
+            {
+              "name": "No",
+              "price": -277
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:42Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 188
+            },
+            {
+              "name": "No",
+              "price": -275
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:42Z",
+          "outcomes": [
+            {
+              "name": "Saudi Arabia",
+              "price": 1300
+            },
+            {
+              "name": "Spain",
+              "price": -245
+            },
+            {
+              "name": "Draw",
+              "price": 230
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:42Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 188
+            },
+            {
+              "name": "No",
+              "price": -270
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:29Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 188
+            },
+            {
+              "name": "No",
+              "price": -270
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:55Z",
+          "outcomes": [
+            {
+              "name": "Saudi Arabia",
+              "price": 1599
+            },
+            {
+              "name": "Spain",
+              "price": -239
+            },
+            {
+              "name": "Draw",
+              "price": 226
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 200
+            },
+            {
+              "name": "No",
+              "price": -275
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:15Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 180
+            },
+            {
+              "name": "No",
+              "price": -250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:21Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 192
+            },
+            {
+              "name": "No",
+              "price": -260
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:21Z",
+          "outcomes": [
+            {
+              "name": "Saudi Arabia",
+              "price": 1500
+            },
+            {
+              "name": "Spain",
+              "price": -250
+            },
+            {
+              "name": "Draw",
+              "price": 220
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 188
+            },
+            {
+              "name": "No",
+              "price": -275
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 210
+            },
+            {
+              "name": "No",
+              "price": -217
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Saudi Arabia",
+              "price": 1671
+            },
+            {
+              "name": "Spain",
+              "price": -270
+            },
+            {
+              "name": "Draw",
+              "price": 263
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:55Z",
+          "outcomes": [
+            {
+              "name": "Saudi Arabia",
+              "price": 1300
+            },
+            {
+              "name": "Spain",
+              "price": -244
+            },
+            {
+              "name": "Draw",
+              "price": 210
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:43Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 195
+            },
+            {
+              "name": "No",
+              "price": -250
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:43Z",
+          "outcomes": [
+            {
+              "name": "Saudi Arabia",
+              "price": 1900
+            },
+            {
+              "name": "Spain",
+              "price": -270
+            },
+            {
+              "name": "Draw",
+              "price": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 190
+            },
+            {
+              "name": "No",
+              "price": -278
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Saudi Arabia",
+              "price": 1000
+            },
+            {
+              "name": "Spain",
+              "price": -278
+            },
+            {
+              "name": "Draw",
+              "price": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 190
+            },
+            {
+              "name": "No",
+              "price": -278
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:54Z",
+          "outcomes": [
+            {
+              "name": "Saudi Arabia",
+              "price": 1000
+            },
+            {
+              "name": "Spain",
+              "price": -278
+            },
+            {
+              "name": "Draw",
+              "price": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 195
+            },
+            {
+              "name": "No",
+              "price": -275
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:23:10Z",
+          "outcomes": [
+            {
+              "name": "Saudi Arabia",
+              "price": 1050
+            },
+            {
+              "name": "Spain",
+              "price": -275
+            },
+            {
+              "name": "Draw",
+              "price": 260
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:43Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 170
+            },
+            {
+              "name": "No",
+              "price": -250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:22:21Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 171
+            },
+            {
+              "name": "No",
+              "price": -230
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:22:21Z",
+          "outcomes": [
+            {
+              "name": "Saudi Arabia",
+              "price": 1000
+            },
+            {
+              "name": "Spain",
+              "price": -2200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-21T00:23:07Z",
+          "outcomes": [
+            {
+              "name": "Saudi Arabia",
+              "price": 1700
+            },
+            {
+              "name": "Spain",
+              "price": -275
+            },
+            {
+              "name": "Draw",
+              "price": 260
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "btts",
+          "last_update": "2026-06-21T00:23:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 210
+            },
+            {
+              "name": "No",
+              "price": -217
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

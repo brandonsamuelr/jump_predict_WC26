@@ -1,0 +1,41 @@
+match,event_id,question_number,question,question_type,target_team,target_player,line,before_coverage
+Argentina vs Austria,be6c63f416c67bca1300a98f5b89c3af,Q1,Will Austria be caught offside 2 or more times?,team_offsides_over,Austria,,1.5,shadow
+Argentina vs Austria,be6c63f416c67bca1300a98f5b89c3af,Q2,Will Austria have more shots on target than Argentina in the second half?,team_more_sot_2h,Austria,,,engine
+Argentina vs Austria,be6c63f416c67bca1300a98f5b89c3af,Q3,Will the second half have more goals than the first half?,second_half_more_goals,,,,shadow
+Argentina vs Austria,be6c63f416c67bca1300a98f5b89c3af,Q4,Will Austria finish with more corner kicks than Argentina?,team_more_corners_full,Austria,,,engine
+Argentina vs Austria,be6c63f416c67bca1300a98f5b89c3af,Q5,Will Argentina win the match?,team_win,Argentina,,,market
+Argentina vs Austria,be6c63f416c67bca1300a98f5b89c3af,Q6,Will the match have 2 or fewer total goals?,match_total_under,,,2.5,market
+Argentina vs Austria,be6c63f416c67bca1300a98f5b89c3af,Q7,Will there be 4 or more total cards shown?,total_cards_over,,,3.5,shadow
+Argentina vs Austria,be6c63f416c67bca1300a98f5b89c3af,Q8,Will Argentina have 6 or more shots on target?,team_sot_over,Argentina,,5.5,engine
+Argentina vs Austria,be6c63f416c67bca1300a98f5b89c3af,Q9,Will Argentina score in the second half?,team_score_2h,Argentina,,,engine
+Argentina vs Austria,be6c63f416c67bca1300a98f5b89c3af,Q10,Will Marcel Sabitzer have at least 1 shot on target?,player_sot_over,Austria,Marcel Sabitzer,0.5,needs_model
+France vs Iraq,7ad7a0ce2ef2618bb59b066da5642f70,Q1,At halftime will Iraq have more corner kicks than France?,team_more_corners_h1,Iraq,,,engine
+France vs Iraq,7ad7a0ce2ef2618bb59b066da5642f70,Q2,Will France commit more fouls than Iraq?,team_more_fouls,France,,,shadow
+France vs Iraq,7ad7a0ce2ef2618bb59b066da5642f70,Q3,Will Iraq receive at least 1 card in the second half?,team_card_2h,Iraq,,,engine
+France vs Iraq,7ad7a0ce2ef2618bb59b066da5642f70,Q4,Will both teams score and the match have 3 or more total goals?,compound_btts_over_2_5,,,,needs_model
+France vs Iraq,7ad7a0ce2ef2618bb59b066da5642f70,Q5,Will Iraq have 2 or more shots on target in the second half?,team_sot_2h_over,Iraq,,1.5,engine
+France vs Iraq,7ad7a0ce2ef2618bb59b066da5642f70,Q6,Will France win the match?,team_win,France,,,market
+France vs Iraq,7ad7a0ce2ef2618bb59b066da5642f70,Q7,Will Iraq score in the second half?,team_score_2h,Iraq,,,engine
+France vs Iraq,7ad7a0ce2ef2618bb59b066da5642f70,Q8,Will Iraq have 4 or more shots on target?,team_sot_over,Iraq,,3.5,engine
+France vs Iraq,7ad7a0ce2ef2618bb59b066da5642f70,Q9,Will France score in the first half?,team_score_1h,France,,,engine
+France vs Iraq,7ad7a0ce2ef2618bb59b066da5642f70,Q10,Will Mohanad Ali have at least 1 shot on target?,player_sot_over,Iraq,Mohanad Ali,0.5,needs_model
+Norway vs Senegal,3f48473742ca0fd2a85930554720c75e,Q1,Will Senegal be caught offside 2 or more times?,team_offsides_over,Senegal,,1.5,shadow
+Norway vs Senegal,3f48473742ca0fd2a85930554720c75e,Q2,Will Norway score more goals than Senegal in the second half?,team_more_goals_2h,Norway,,,engine
+Norway vs Senegal,3f48473742ca0fd2a85930554720c75e,Q3,Will a penalty kick be awarded or a red card be shown in the match?,penalty_or_red_card,,,,shadow
+Norway vs Senegal,3f48473742ca0fd2a85930554720c75e,Q4,Will Senegal commit more fouls than Norway?,team_more_fouls,Senegal,,,shadow
+Norway vs Senegal,3f48473742ca0fd2a85930554720c75e,Q5,Will there be 4 or more total shots on target in the second half?,total_sot_2h_over,,,3.5,engine
+Norway vs Senegal,3f48473742ca0fd2a85930554720c75e,Q6,Will Norway win the match?,team_win,Norway,,,market
+Norway vs Senegal,3f48473742ca0fd2a85930554720c75e,Q7,At halftime will the match be tied?,halftime_draw,,,,market
+Norway vs Senegal,3f48473742ca0fd2a85930554720c75e,Q8,Will there be 9 or more total corner kicks?,total_corners_over,,,8.5,shadow
+Norway vs Senegal,3f48473742ca0fd2a85930554720c75e,Q9,Will Norway have 6 or more shots on target?,team_sot_over,Norway,,5.5,engine
+Norway vs Senegal,3f48473742ca0fd2a85930554720c75e,Q10,Will Sadio Mane score a goal excluding own goals?,player_goal,Senegal,Sadio Mane,,needs_model
+Jordan vs Algeria,fd8533b650e655030f6a7946f8795db2,Q1,Will Jordan commit more fouls than Algeria?,team_more_fouls,Jordan,,,shadow
+Jordan vs Algeria,fd8533b650e655030f6a7946f8795db2,Q2,Will there be 4 or more total shots on target in the second half?,total_sot_2h_over,,,3.5,engine
+Jordan vs Algeria,fd8533b650e655030f6a7946f8795db2,Q3,Will Jordan score the first goal of the game and Algeria score in the second half?,compound_first_goal_score_2h,,,,engine
+Jordan vs Algeria,fd8533b650e655030f6a7946f8795db2,Q4,Will Algeria be caught offside 2 or more times?,team_offsides_over,Algeria,,1.5,shadow
+Jordan vs Algeria,fd8533b650e655030f6a7946f8795db2,Q5,Will a penalty kick be awarded or a red card be shown?,penalty_or_red_card,,,,shadow
+Jordan vs Algeria,fd8533b650e655030f6a7946f8795db2,Q6,Will Riyad Mahrez have at least 1 shot on target in the second half?,player_sot_2h_over,Algeria,Riyad Mahrez,0.5,needs_model
+Jordan vs Algeria,fd8533b650e655030f6a7946f8795db2,Q7,Will Jordan score at least 1 goal?,team_score_any,Jordan,,0.5,engine
+Jordan vs Algeria,fd8533b650e655030f6a7946f8795db2,Q8,At halftime will the match be tied?,halftime_draw,,,,market
+Jordan vs Algeria,fd8533b650e655030f6a7946f8795db2,Q9,Will the match have 3 or more total goals?,match_total_over,,,2.5,market
+Jordan vs Algeria,fd8533b650e655030f6a7946f8795db2,Q10,Will Moussa Al Taamari have at least 1 shot on target?,player_sot_over,Jordan,Moussa Al Taamari,0.5,needs_model
