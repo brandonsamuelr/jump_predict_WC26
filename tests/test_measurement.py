@@ -68,7 +68,100 @@ def test_tier_report_aggregates():
     rep = tier_report(score_rows(df))
     assert "MARKET" in rep.index and "ALL" in rep.index
     assert rep.loc["MARKET", "n"] == 2
-    assert "pipeline_vs_llm" in rep.columns
+    assert "pipe_vs_manual" in rep.columns and "rbp_manual" in rep.columns
+
+
+def _temp_log():
+    import tempfile, os
+    # a path that does NOT yet exist, so log_slate writes the header
+    return os.path.join(tempfile.mkdtemp(), "log.csv")
+
+
+def test_override_records_and_keeps_pipeline_counterfactual():
+    from odds_lib.measurement import log_slate, apply_override
+    import pandas as pd
+    sheet = pd.DataFrame([{"match": "A vs B", "q": "Q8", "type": "team_sot_over",
+                           "tier": "RATE_SOT", "p_hat": 0.669, "shadow": 0.48, "SUBMIT": 0.669}])
+    path = _temp_log()
+    log_slate(sheet, run_id="r1", path=path)
+    n = apply_override("r1", "A vs B", "Q8", 0.60,
+                       "near threshold; slope likely overstates", path=path)
+    assert n == 1
+    row = pd.read_csv(path).iloc[0]
+    assert float(row["final_submitted"]) == 0.60   # what we'll score
+    assert float(row["pipeline_submit"]) == 0.669  # kept as counterfactual
+    assert row["source"] == "manual" and str(row["override_reason"]).strip()
+
+
+def test_override_requires_reason():
+    from odds_lib.measurement import log_slate, apply_override
+    import pandas as pd
+    sheet = pd.DataFrame([{"match": "A vs B", "q": "Q8", "type": "x", "tier": "RATE_SOT",
+                           "p_hat": 0.6, "shadow": 0.5, "SUBMIT": 0.6}])
+    path = _temp_log()
+    log_slate(sheet, run_id="r1", path=path)
+    try:
+        apply_override("r1", "A vs B", "Q8", 0.5, "  ", path=path)
+        assert False, "should have refused empty reason"
+    except ValueError:
+        pass
+
+
+def test_classify_override_buckets():
+    from odds_lib.measurement import classify_override
+    assert classify_override("") == "unlabeled"
+    assert classify_override("player not_starting; removed void") == "hard_qa"
+    assert classify_override("pipeline_default_rounded") == "rounding_or_default"
+    assert classify_override("felt high so manual cap toward shadow") == "soft"
+    assert classify_override("role_sensitive favorite should control territory") == "soft"
+    # SOFT wins over an incidental hard-QA token (the ACTION is a soft trim)
+    assert classify_override("modest human trim felt high but mahrez starting no_hard_fade") == "soft"
+    # a non-soft, non-hard rationale (e.g. the slope argument) is 'other', allowed
+    assert classify_override("near threshold; slope likely overstates") == "other"
+
+
+def test_soft_override_disabled_by_default():
+    from odds_lib.measurement import log_slate, apply_override
+    import pandas as pd
+    sheet = pd.DataFrame([{"match": "A vs B", "q": "Q8", "type": "x", "tier": "RATE_SOT",
+                           "p_hat": 0.7, "shadow": 0.5, "SUBMIT": 0.7}])
+    path = _temp_log()
+    log_slate(sheet, run_id="r1", path=path)
+    # SOFT reason refused by default ...
+    try:
+        apply_override("r1", "A vs B", "Q8", 0.55, "felt high, manual cap toward middle", path=path)
+        assert False, "soft override should be disabled by default"
+    except ValueError:
+        pass
+    # ... but allow_soft makes a deliberate, logged exception
+    n = apply_override("r1", "A vs B", "Q8", 0.55, "felt high, manual cap toward middle",
+                       allow_soft=True, path=path)
+    assert n == 1
+    # HARD_QA fix is always allowed
+    n2 = apply_override("r1", "A vs B", "Q8", 0.02, "player not_starting; void", path=path)
+    assert n2 == 1
+
+
+def test_manual_aggregated_only_where_exists_not_imputed_zero():
+    import math
+    from odds_lib.measurement import match_report
+    # group X: one row with manual, one without -> manual stats over 1 row only
+    dfx = pd.DataFrame([
+        _row(tier="X", final_submitted="0.7", pipeline_submit="0.7", manual_estimate="0.5",
+             actual_rbp="11", result="yes", shadow="0.6"),
+        _row(tier="X", final_submitted="0.3", pipeline_submit="0.3",  # no manual
+             actual_rbp="-5", result="yes", shadow="0.5"),
+    ])
+    rep = tier_report(score_rows(dfx))
+    assert rep.loc["X", "n_man"] == 1 and pd.notna(rep.loc["X", "rbp_manual"])
+    # group with zero manual rows -> NaN, never 0
+    dfy = pd.DataFrame([_row(tier="Y", final_submitted="0.7", pipeline_submit="0.7",
+                             actual_rbp="11", result="yes", shadow="0.6")])
+    rep2 = tier_report(score_rows(dfy))
+    assert rep2.loc["Y", "n_man"] == 0 and math.isnan(rep2.loc["Y", "rbp_manual"])
+    # match_report runs and totals rbp_final
+    mrep = match_report(score_rows(dfx))
+    assert "A vs B" in mrep.index and abs(mrep.loc["A vs B", "rbp_final"] - 6.0) < 1e-6
 
 
 if __name__ == "__main__":

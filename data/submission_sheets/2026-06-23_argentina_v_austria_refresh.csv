@@ -1,11 +1,11 @@
 question,old_submit,new_submit,delta,old_tier,new_tier,new_market_prob,reason,action
 Will Austria be caught offside 2 or more times?,0.485,0.485,0.0,PENDING,PENDING,,shadow (odds-independent),KEEP
-Will Austria have more shots on target than Arge,0.15,0.144,-0.006,RATE_SOT_CMP,RATE_SOT_CMP,,stable,KEEP
-Will the second half have more goals than the fi,0.433,0.434,0.001,ENGINE_GOALS,ENGINE_GOALS,,stable,KEEP
+Will Austria have more shots on target than Arge,0.15,0.138,-0.012,RATE_SOT_CMP,RATE_SOT_CMP,,stable,KEEP
+Will the second half have more goals than the fi,0.433,0.432,-0.001,ENGINE_GOALS,ENGINE_GOALS,,stable,KEEP
 Will Austria finish with more corner kicks than ,0.398,0.398,0.0,PENDING,PENDING,,shadow (odds-independent),KEEP
-Will Argentina win the match?,0.641,0.65,0.009,MARKET,MARKET,0.65,stable,KEEP
-Will the match have 2 or fewer total goals?,0.501,0.497,-0.004,MARKET,MARKET,0.497,stable,KEEP
+Will Argentina win the match?,0.641,0.657,0.016,MARKET,MARKET,0.657,stable,KEEP
+Will the match have 2 or fewer total goals?,0.501,0.502,0.001,MARKET,MARKET,0.502,stable,KEEP
 Will there be 4 or more total cards shown?,0.504,0.504,0.0,PENDING,PENDING,,shadow (odds-independent),KEEP
-Will Argentina have 6 or more shots on target?,0.669,0.68,0.011,RATE_SOT,RATE_SOT,,stable,KEEP
-Will Argentina score in the second half?,0.649,0.654,0.005,ENGINE_GOALS,ENGINE_GOALS,,stable,KEEP
-Will Marcel Sabitzer have at least 1 shot on tar,0.465,0.45,-0.015,PROP_thin,PROP_thin,0.476,stable,KEEP
+Will Argentina have 6 or more shots on target?,0.669,0.681,0.012,RATE_SOT,RATE_SOT,,stable,KEEP
+Will Argentina score in the second half?,0.649,0.655,0.006,ENGINE_GOALS,ENGINE_GOALS,,stable,KEEP
+Will Marcel Sabitzer have at least 1 shot on tar,0.465,0.472,0.007,PROP_thin,PROP_thin,0.501,stable,KEEP

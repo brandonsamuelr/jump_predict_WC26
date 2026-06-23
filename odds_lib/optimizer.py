@@ -1,66 +1,52 @@
-"""Breadth-first submission optimizer.
+"""Breadth-first submission optimizer — Deliverable 3, the edge-weighted rule.
 
-Turns a per-question (truth estimate p_hat, confidence tier, shadow anchor)
-into a final submission, on EVERY question — because the leaders' ~3 RBP/
-question is mostly the convexity harvest Var(q_i), which you only collect by
-answering. Skipping forfeits it.
+Turns a per-question (model probability p_hat, confidence tier, field proxy
+c_hat) into a final submission, on EVERY question. One rule, no exceptions:
 
-One formula
------------
-    edge rows (we have a trusted p_hat):
-        q = 0.5 + (w + tilt) * (p_hat - 0.5)
-        - w in [0,1] shrinks an uncertain p_hat toward 0.5 (model-risk hedge);
-          w = 1 submits p_hat exactly.
-        - tilt >= 0 deliberately overshoots p_hat to BUY VARIANCE when far
-          behind in the tournament. tilt is EV-negative beyond p_hat, so it
-          defaults to 0 (pure EV). Dial up only as a behind-in-tournament bet.
+    p_submit = c_hat + k * (p_model - c_hat)      [clipped to [0.02, 0.98]]
 
-    shadow rows (no trusted p_hat):
-        q = field shadow anchor (q-bar estimate) -> harvest Var(q_i), no view.
+    - c_hat  = the PRE-LOCK field proxy for the row (the shadow / qt-mean /
+               type base rate). NEVER the realized post-lock crowd.
+    - p_model= our independent model probability (None on no-model rows).
+    - k      = the per-(class, subtype) edge multiplier (edge.deployed_k):
+               the fitted-and-frozen edge table value when the class has
+               resolved rows, else the structural prior. At the current sample
+               every class is frozen on its prior, by design.
 
-Why shrink toward 0.5 and not toward the qt-mean: the qt-mean is role-blind
-(e.g. team_win pools 0.18..0.92), so it is a safe *shadow anchor* only on
-no-market types, never a shrink target for a real p_hat.
+Why this replaced trust-or-shadow + variance_tilt
+-------------------------------------------------
+The old optimizer submitted p_hat EXACTLY on trusted tiers (an implicit k=1)
+and offered a blanket variance_tilt that overshot p_hat to "buy variance" —
+EV-negative variance for its own sake. The strategy now is: express genuine
+edge fully through k (MARKET/ENGINE priors are HIGH on purpose), and add
+variance only where it comes from independently justified edge. So:
+  * trusted class (high k)  -> lands NEAR the raw model when it disagrees
+                               with the field (the edge is expressed).
+  * no-edge / SHADOW (k=0)  -> lands ON c_hat (we don't manufacture deviation).
+There is no silent shrinkage path: every departure from the model, and every
+departure from the field, is the single k.
 """
 
 from __future__ import annotations
 
 from dataclasses import dataclass
 
-# A tier is either trusted (submit our estimate as-is) or not (shadow the
-# field). No fractional shrink toward 0.5 — that was an arbitrary hard-coded
-# fudge. The only principled shrink is one DERIVED from measured calibration
-# error, which we don't have yet; until then, trust-or-shadow is honest.
-#
-# Trusted = market-grounded or market-calibrated.
-#  - RATE_SOT_CMP: a SOT *comparison* (team A vs team B). The conversion
-#    constant largely divides out, so the result is directionally robust and
-#    depends on the market lambda gap (comparison stays 0.12-0.27 across wild
-#    a/b while the count swings 0.35-0.72).
-#  - RATE_SOT (count/threshold): now uses POOLED-CALIBRATED constants (OLS on
-#    20 completed WC team-matches, R^2=0.37). Medium confidence — beats the
-#    role-blind shadow on net (esp. extreme teams + totals) but single-game
-#    SoT is noisy, so it is NOT market-grade. Trusted, but flagged.
-TRUSTED_TIERS = frozenset(
-    {"MARKET", "ENGINE_GOALS", "PROP_ok", "PROP_thin", "RATE_SOT_CMP", "RATE_SOT"}
-)
+import pandas as pd
 
-CLIP_LO, CLIP_HI = 0.03, 0.97
+from .edge import classify, deployed_k, edge_submit
 
 
 @dataclass
 class Submission:
     q: float
-    mode: str          # "lean" | "shadow"
+    mode: str               # "edge" (k>0, has model) | "shadow" (k=0 or no model)
     tier: str
-    p_hat: float | None
-    shadow: float | None
-    weight: float
+    source_class: str
+    source_subtype: str
+    p_hat: float | None     # the raw model probability (p_model)
+    shadow: float | None    # the pre-lock field proxy (c_hat)
+    k: float                # the deployed edge multiplier
     note: str
-
-
-def _clip(x: float) -> float:
-    return max(CLIP_LO, min(CLIP_HI, x))
 
 
 def optimize(
@@ -68,29 +54,29 @@ def optimize(
     tier: str,
     p_hat: float | None,
     shadow: float | None,
-    variance_tilt: float = 0.0,
+    question_type: str = "",
+    table: pd.DataFrame | None = None,
+    k: float | None = None,
 ) -> Submission:
-    """Compute the submission for one question.
+    """Compute the submission for one question via the edge-weighted rule.
 
-    ``tier`` is the confidence label (keys of :data:`TRUST`, or anything else
-    -> treated as no-edge shadow). ``shadow`` is the field-mean anchor
-    (required for shadow rows; used as a last-resort fallback otherwise).
+    ``tier`` + ``question_type`` are mapped to a (class, subtype) and the
+    deployed k looked up (from the fitted ``table`` if given, else the
+    structural prior). Pass an explicit ``k`` to override (tests/diagnostics).
+    ``shadow`` (c_hat) is required — it is where a no-edge row lands.
     """
-    if tier in TRUSTED_TIERS and p_hat is not None:
-        # submit our estimate as-is. tilt is an OPT-IN extremize of p_hat away
-        # from 50% to buy variance when behind (EV-negative, default 0).
-        q = p_hat if not variance_tilt else p_hat + variance_tilt * (p_hat - 0.5)
-        return Submission(q=_clip(q), mode="lean", tier=tier, p_hat=p_hat,
-                          shadow=shadow, weight=1.0,
-                          note="submit p_hat" + (f"+tilt{variance_tilt}" if variance_tilt else ""))
-    # not trusted: stick close to the field — submit the field-mean shadow
-    # anchor to harvest convexity. NOT 0.5; the anchor is the qt-mean (or the
-    # global field mean for thin types). The 0.5 below is an unreachable guard
-    # (a real FieldMeanEstimator always returns at least the global mean).
-    if shadow is None:
-        raise ValueError("shadow row needs a field-mean anchor; none supplied")
-    return Submission(q=_clip(shadow), mode="shadow", tier=tier, p_hat=p_hat,
-                      shadow=shadow, weight=0.0, note="shadow field mean")
+    cls, sub = classify(tier, question_type)
+    kk = deployed_k(cls, sub, table) if k is None else float(k)
+    q = edge_submit(p_hat, shadow, kk)
+    if p_hat is None or kk == 0.0:
+        mode = "shadow"
+        note = "submit c_hat (no edge)"
+    else:
+        mode = "edge"
+        note = f"c_hat + {kk:.2f}*(p_model - c_hat)"
+    return Submission(q=q, mode=mode, tier=tier, source_class=cls,
+                      source_subtype=sub, p_hat=p_hat, shadow=shadow, k=kk,
+                      note=note)
 
 
-__all__ = ["TRUSTED_TIERS", "Submission", "optimize"]
+__all__ = ["Submission", "optimize"]

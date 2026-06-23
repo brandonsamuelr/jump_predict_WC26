@@ -1,0 +1,11 @@
+question,old_submit,new_submit,delta,old_tier,new_tier,new_market_prob,reason,action
+Will Senegal be caught offside 2 or more times?,0.485,0.485,0.0,PENDING,PENDING,,shadow (odds-independent),KEEP
+Will Norway score more goals than Senegal in the,0.356,0.335,-0.021,ENGINE_GOALS,ENGINE_GOALS,,moved -2.1%,REVIEW
+Will a penalty kick be awarded or a red card be ,0.389,0.389,0.0,PENDING,PENDING,,shadow (odds-independent),KEEP
+Will Senegal commit more fouls than Norway?,0.535,0.535,0.0,PENDING,PENDING,,shadow (odds-independent),KEEP
+Will there be 4 or more total shots on target in,0.814,0.814,0.0,RATE_SOT,RATE_SOT,,stable,KEEP
+Will Norway win the match?,0.429,0.395,-0.034,MARKET,MARKET,0.395,moved -3.4%,REVIEW
+At halftime will the match be tied?,0.416,0.419,0.003,MARKET,MARKET,0.419,stable,KEEP
+Will there be 9 or more total corner kicks?,0.493,0.493,0.0,PENDING,PENDING,,shadow (odds-independent),KEEP
+Will Norway have 6 or more shots on target?,0.472,0.434,-0.038,RATE_SOT,RATE_SOT,,moved -3.8%,REVIEW
+Will Sadio Mane score a goal excluding own goals,0.267,0.233,-0.034,PROP_ok,PROP_ok,0.261,moved -3.4%,REVIEW

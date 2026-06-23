@@ -17,7 +17,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import pandas as pd
-from odds_lib.measurement import LOG_PATH, score_rows, tier_report
+from odds_lib.measurement import LOG_PATH, score_rows, tier_report, match_report
 
 
 def main():
@@ -31,13 +31,22 @@ def main():
         print(f"{total} rows logged, 0 resolved. Fill `result` + `actual_rbp` "
               f"in {LOG_PATH} after games resolve, then rerun.")
         return
-    print(f"{len(scored)} of {total} logged rows resolved.\n")
-    pd.set_option("display.width", 220)
+    n_matches = scored["match"].nunique()
+    print(f"{len(scored)} of {total} logged rows resolved, across {n_matches} match(es).\n")
+    pd.set_option("display.width", 240)
+
+    print("=== MATCH scorecard — totals (the honest unit of evidence) ===")
+    print(match_report(scored).to_string())
+    print("\n=== TIER scorecard — per-question means (detailed diagnostics) ===")
     print(tier_report(scored).to_string())
-    print("\nrbp_final = what you actually submitted; rbp_pipeline = trust-the-optimizer;")
-    print("rbp_shadow = always-shadow; rbp_llm = your hand estimates.")
-    print("pipeline_vs_shadow>0 => leaning beat shadowing.  pipeline_vs_llm>0 => model beat your LLM.")
-    print("(compare rbp_final vs rbp_pipeline to see if your manual overrides helped.)")
+
+    print("\nrbp_final=what you submitted; rbp_pipeline=trust-the-optimizer; rbp_shadow=always-shadow;")
+    print("rbp_manual/rbp_llm aggregated ONLY over rows where that estimate exists (n_man/n_llm); never imputed as 0.")
+    print("pipe_vs_*>0 => the pipeline beat that strategy (paired on the rows where it exists).")
+    print(f"\nCLUSTERING CAVEAT: questions within a match share one game script, so they are correlated."
+          f"\n  Effective evidence ~ match-count ({n_matches}), NOT row-count ({len(scored)}). Read the MATCH"
+          f"\n  scorecard as the unit; at low match-count its per-match rows double as a leave-one-match-out check."
+          f"\n  A conclusion only counts if it holds across matches, not just on average.")
 
 
 if __name__ == "__main__":

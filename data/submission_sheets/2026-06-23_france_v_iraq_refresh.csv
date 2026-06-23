@@ -1,0 +1,11 @@
+question,old_submit,new_submit,delta,old_tier,new_tier,new_market_prob,reason,action
+At halftime will Iraq have more corner kicks tha,0.405,0.405,0.0,PENDING,PENDING,,shadow (odds-independent),KEEP
+Will France commit more fouls than Iraq?,0.535,0.535,0.0,PENDING,PENDING,,shadow (odds-independent),KEEP
+Will Iraq receive at least 1 card in the second ,0.493,0.493,0.0,PENDING,PENDING,,shadow (odds-independent),KEEP
+Will both teams score and the match have 3 or mo,0.307,0.327,0.02,ENGINE_GOALS,ENGINE_GOALS,,moved +2.0%,REVIEW
+Will Iraq have 2 or more shots on target in the ,0.375,0.394,0.019,RATE_SOT,RATE_SOT,,stable,KEEP
+Will France win the match?,0.892,0.889,-0.003,MARKET,MARKET,0.889,stable,KEEP
+Will Iraq score in the second half?,0.218,0.231,0.013,ENGINE_GOALS,ENGINE_GOALS,,stable,KEEP
+Will Iraq have 4 or more shots on target?,0.215,0.236,0.021,RATE_SOT,RATE_SOT,,moved +2.1%,REVIEW
+Will France score in the first half?,0.762,0.765,0.003,ENGINE_GOALS,ENGINE_GOALS,,stable,KEEP
+Will Mohanad Ali have at least 1 shot on target?,0.351,0.471,0.12,PROP_thin,PENDING,,"coverage lost (was PROP_thin, now PENDING)",MANUAL_QA

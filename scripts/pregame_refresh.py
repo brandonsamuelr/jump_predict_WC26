@@ -31,6 +31,8 @@ from odds_lib.odds_api import fetch_event_odds
 from odds_lib import slate
 from odds_lib.field_model import FieldMeanEstimator
 from odds_lib.optimizer import optimize
+from odds_lib.edge import compute_edge_table
+from odds_lib.measurement import LOG_PATH, build_edge_frame
 
 SPORT = "soccer_fifa_world_cup"
 REFRESH_MARKETS = ("h2h,totals,btts,h2h_h1,spreads,totals_h1,team_totals,"
@@ -67,7 +69,6 @@ def main():
     ap.add_argument("--questions", default="data/submission_sheets/2026-06-23_questions.csv")
     ap.add_argument("--baseline", default="data/submission_sheets/2026-06-23_optimized_submit_sheet.csv")
     ap.add_argument("--regions", default="us,uk,eu")
-    ap.add_argument("--tilt", type=float, default=0.0)
     ap.add_argument("--no-fetch", action="store_true", help="use cached odds (no credits)")
     args = ap.parse_args()
 
@@ -98,6 +99,8 @@ def main():
     c = slate.build_consensus([game], market_keys=("h2h", "totals", "btts", "h2h_h1"))
     model = slate.build_model(c, home, away)
     field = FieldMeanEstimator()
+    edge_table = (compute_edge_table(build_edge_frame(pd.read_csv(LOG_PATH, dtype=str)))
+                  if LOG_PATH.exists() else pd.DataFrame())
 
     base = pd.read_csv(args.baseline)
     base_by_q = {r["q"]: r for _, r in base[base["match"] == match].iterrows()}
@@ -106,7 +109,8 @@ def main():
     for _, r in rows.iterrows():
         tier, p_hat, mkt = slate.resolve_row(r.to_dict(), c, game, model)
         fe = field.estimate(r["question_type"])
-        new_q = round(optimize(tier=tier, p_hat=p_hat, shadow=fe.q_hat, variance_tilt=args.tilt).q, 3)
+        new_q = round(optimize(tier=tier, question_type=r["question_type"],
+                               p_hat=p_hat, shadow=fe.q_hat, table=edge_table).q, 3)
         b = base_by_q.get(r["question_number"])
         old_q = round(float(b["SUBMIT"]), 3) if b is not None else float("nan")
         old_tier = b["tier"] if b is not None else ""

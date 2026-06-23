@@ -104,16 +104,43 @@ def price_team_more_sot_2h(lam_team: float, lam_other: float, h1_share: float) -
                       f"mu_team_2h={mu_t:.2f} vs mu_other_2h={mu_o:.2f}")
 
 
+# Total-row-specific level correction (2026-06-23). The total_sot_2h_over row
+# was the one SOT bucket the calibration check showed systematically high vs
+# the field (NOR +0.17, JOR +0.20 above crowd; the model's ~0.80 sits ~1 SOT
+# above where the field prices it). We subtract a level offset from the total
+# 2H mu so the row recenters from ~0.80 to ~the field level (~0.62-0.65),
+# WHILE PRESERVING the per-match tilt (mu still varies with lambda) — i.e. not
+# a flat constant, a recentered one. This deliberately does NOT touch the
+# shared SOT_INTERCEPT/SLOPE, so single-team / comparison SOT rows (which the
+# check showed track the field) are untouched.
+#
+# SOFT and total-specific: there are ZERO realized rows at the model's raw
+# 0.80 (NOR Q5 was overridden to 0.57, JOR Q2 pending), so this is a
+# structurally-motivated recenter toward the field, not an outcome-confirmed
+# one. Tuned so the two observed cases land ~at the crowd (not below it — this
+# is a YES-leaning row). To be hardened by the contest's accumulating hit rate.
+#
+# SCOPE: this offset corrects the LEVEL of mu (the mean) only. The D5 audit
+# (scripts/audit_total_sot_2h_slope.py) confirmed the mean slope is data-backed
+# but the single-mu Poisson TAIL is overdispersed (var/mean~2.6) hence too steep
+# at the tempo extremes. That tail discount is NOT applied here — it lives in the
+# edge layer as k<1 (edge.K_PRIOR RATE_SOT/total_2h), so mu keeps its full tilt.
+TOTAL_SOT_2H_LEVEL_OFFSET = 1.2
+TOTAL_SOT_CONFIDENCE_TAG = "model_sot_2h_total_level_recentered_lowconf"
+
+
 def price_total_sot_2h_over(lam_home: float, lam_away: float, line: float,
                             h1_share: float) -> RateResult:
-    mu = team_sot_mu(lam_home, share=1 - h1_share) + team_sot_mu(lam_away, share=1 - h1_share)
+    mu_raw = team_sot_mu(lam_home, share=1 - h1_share) + team_sot_mu(lam_away, share=1 - h1_share)
+    mu_adj = max(mu_raw - TOTAL_SOT_2H_LEVEL_OFFSET, 0.1)  # recenter level, keep per-match tilt
     thr = _line_to_ge(line)
-    return RateResult("total_sot_2h_over", _p_ge(mu, thr), CONFIDENCE_TAG,
-                      f"mu_total_2h={mu:.2f} P(>= {thr})")
+    return RateResult("total_sot_2h_over", _p_ge(mu_adj, thr), TOTAL_SOT_CONFIDENCE_TAG,
+                      f"mu_raw={mu_raw:.2f} mu_adj={mu_adj:.2f} P(>= {thr})")
 
 
 __all__ = [
     "SOT_INTERCEPT", "SOT_SLOPE", "CONFIDENCE_TAG", "RateResult",
+    "TOTAL_SOT_2H_LEVEL_OFFSET", "TOTAL_SOT_CONFIDENCE_TAG",
     "team_sot_mu", "price_team_sot_over", "price_team_sot_2h_over",
     "price_team_more_sot_2h", "price_total_sot_2h_over",
 ]

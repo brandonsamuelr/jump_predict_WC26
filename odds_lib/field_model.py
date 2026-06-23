@@ -17,7 +17,21 @@ from pathlib import Path
 import pandas as pd
 
 DEFAULT_HISTORY = "data/historical/sportspredict_collected_data.csv"
-MIN_COUNT = 4  # below this, fall back to the global mean (too few to trust)
+MIN_COUNT = 4  # below this, fall back (type base rate if known, else global mean)
+
+# Computed contest-resolved base rates for question types whose qt-mean has too
+# few historical rows to clear MIN_COUNT — so they'd otherwise hit the global
+# ~0.49 fallback, which is a BAD anchor for them. A bad c_hat can't be fixed by
+# any submission multiplier (the rule is c_hat + k*(p_model-c_hat)), so we fix
+# the baseline directly.
+TYPE_BASE_RATE = {
+    # n=3 field-resolved instances (0.63/0.64/0.60), tight. The full-match x0.55
+    # ESPN diagnostic says ~0.84 — the gap is the SOT definition mismatch (ESPN
+    # counts more than the contest resolves), so the contest-resolved ~0.62 is
+    # the correct anchor and confirms the ESPN-calibrated model ran high. SOFT
+    # (n=3); hardens as resolved outcomes on this row accumulate.
+    "total_sot_2h_over": 0.623,
+}
 
 
 @dataclass
@@ -46,6 +60,9 @@ class FieldMeanEstimator:
         rec = self._by_type.get(qt)
         if rec is not None and rec[2] >= MIN_COUNT:
             return FieldEstimate(q_hat=rec[0], source="qt_mean", n=rec[2], std=rec[1])
+        if qt in TYPE_BASE_RATE:  # better-sourced fallback than the global ~0.49 mean
+            return FieldEstimate(q_hat=TYPE_BASE_RATE[qt], source="type_base_rate",
+                                 n=(rec[2] if rec else 0), std=None)
         return FieldEstimate(q_hat=self.global_mean, source="global_mean",
                              n=(rec[2] if rec else 0), std=None)
 

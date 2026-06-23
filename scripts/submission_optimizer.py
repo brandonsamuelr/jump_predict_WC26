@@ -1,11 +1,16 @@
-"""Produce the final submission for ALL questions (breadth-first).
+"""Produce the final submission for ALL questions (breadth-first) — Deliverable 3.
 
 Resolves each row to (tier, p_hat) via the shared resolver in odds_lib.slate
-(market / engine-goals / SOT rate / prop), attaches the field-mean shadow
-anchor, and runs the optimizer. Emits a submission for every question — lean
-toward p where we have edge, shadow the field mean where we don't.
+(market / engine-goals / SOT rate / prop), attaches the field-mean proxy c_hat,
+looks up the per-class edge multiplier k (fitted-and-frozen edge table, else
+structural prior), and submits the edge-weighted
 
-    python scripts/submission_optimizer.py [--tilt 0.0]
+    p_submit = c_hat + k * (p_model - c_hat)
+
+on every question. Full per-row diagnostics (p_model, c_hat, k, deviation,
+p_submit) are emitted so each submission is auditable.
+
+    python scripts/submission_optimizer.py
 """
 
 from __future__ import annotations
@@ -23,6 +28,8 @@ import pandas as pd
 from odds_lib import slate
 from odds_lib.field_model import FieldMeanEstimator
 from odds_lib.optimizer import optimize
+from odds_lib.edge import compute_edge_table
+from odds_lib.measurement import LOG_PATH, build_edge_frame
 
 
 def ev_cache(eid):
@@ -30,11 +37,19 @@ def ev_cache(eid):
     return fs[-1] if fs else None
 
 
+def load_edge_table():
+    """Fit the deployed-k table from resolved rows (k auto-sharpens as data
+    accumulates; currently every class is frozen on its prior)."""
+    if not LOG_PATH.exists():
+        return pd.DataFrame()
+    log = pd.read_csv(LOG_PATH, dtype=str)
+    edf = build_edge_frame(log)
+    return compute_edge_table(edf) if not edf.empty else pd.DataFrame()
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--questions", default="data/submission_sheets/2026-06-23_questions.csv")
-    ap.add_argument("--tilt", type=float, default=0.0,
-                    help="variance tilt (>0 overshoots p_hat to buy variance; EV-negative)")
     ap.add_argument("--out", default="data/submission_sheets/2026-06-23_optimized_submit_sheet.csv")
     args = ap.parse_args()
 
@@ -42,6 +57,7 @@ def main():
     bulk = sorted(glob.glob("data/raw/soccer_fifa_world_cup__h2h-totals__*.json"))[-1]
     bulk_by_id = {g["id"]: g for g in json.loads(Path(bulk).read_text())}
     field = FieldMeanEstimator()
+    table = load_edge_table()
 
     cons, models, games = {}, {}, {}
     for eid in q["event_id"].unique():
@@ -56,19 +72,32 @@ def main():
     out = []
     for _, r in q.iterrows():
         eid = r["event_id"]
+        qt = r["question_type"]
         tier, p_hat, _ = slate.resolve_row(r.to_dict(), cons[eid], games[eid], models[eid])
-        fe = field.estimate(r["question_type"])
-        sub = optimize(tier=tier, p_hat=p_hat, shadow=fe.q_hat, variance_tilt=args.tilt)
-        out.append({"match": r["match"], "q": r["question_number"], "type": r["question_type"],
-                    "tier": tier, "p_hat": round(p_hat, 3) if p_hat is not None else "",
-                    "shadow": round(fe.q_hat, 3), "mode": sub.mode, "SUBMIT": round(sub.q, 3)})
+        fe = field.estimate(qt)
+        sub = optimize(tier=tier, question_type=qt, p_hat=p_hat, shadow=fe.q_hat, table=table)
+        dev = (p_hat - fe.q_hat) if p_hat is not None else float("nan")
+        out.append({
+            "match": r["match"], "q": r["question_number"], "type": qt,
+            "tier": tier, "class": sub.source_class, "sub": sub.source_subtype,
+            "p_hat": round(p_hat, 3) if p_hat is not None else "",
+            "c_hat": round(fe.q_hat, 3), "shadow": round(fe.q_hat, 3),
+            "dev": round(dev, 3) if dev == dev else "",
+            "k": round(sub.k, 2), "mode": sub.mode, "SUBMIT": round(sub.q, 3),
+        })
 
     res = pd.DataFrame(out)
-    pd.set_option("display.width", 200, "display.max_rows", 60)
+    pd.set_option("display.width", 220, "display.max_rows", 80)
     print(res.to_string(index=False))
     res.to_csv(args.out, index=False)
-    n_lean = (res["mode"] == "lean").sum()
-    print(f"\nALL {len(res)} questions answered  |  lean(edge)={n_lean}  shadow(harvest)={len(res)-n_lean}")
+    n_edge = (res["mode"] == "edge").sum()
+    print(f"\nALL {len(res)} questions answered  |  edge(model expressed)={n_edge}  "
+          f"shadow(c_hat, no edge)={len(res)-n_edge}")
+    if not table.empty:
+        print(f"edge table fitted on resolved rows (deployed k auto-sharpens); "
+              f"frozen classes sit on their structural prior.")
+    else:
+        print("no resolved rows yet -> deployed k = structural prior for every class.")
     print(f"wrote {args.out}")
 
 

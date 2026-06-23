@@ -1,0 +1,4787 @@
+{
+  "id": "7ad7a0ce2ef2618bb59b066da5642f70",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-22T21:00:00Z",
+  "home_team": "France",
+  "away_team": "Iraq",
+  "bookmakers": [
+    {
+      "key": "unibet_uk",
+      "title": "Unibet (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:15Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1250
+            },
+            {
+              "name": "Iraq",
+              "price": 3300
+            },
+            {
+              "name": "Draw",
+              "price": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmu_fr",
+      "title": "PMU (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1250
+            },
+            {
+              "name": "Iraq",
+              "price": 3000
+            },
+            {
+              "name": "Draw",
+              "price": 1300
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -143,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 102,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_nl",
+      "title": "Unibet (NL)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:03Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1250
+            },
+            {
+              "name": "Iraq",
+              "price": 4000
+            },
+            {
+              "name": "Draw",
+              "price": 1300
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -136,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 104,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_fr",
+      "title": "Unibet (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:34:52Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1429
+            },
+            {
+              "name": "Iraq",
+              "price": 3300
+            },
+            {
+              "name": "Draw",
+              "price": 1400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:34:50Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1667
+            },
+            {
+              "name": "Iraq",
+              "price": 2900
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:34:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 165
+            },
+            {
+              "name": "No",
+              "price": -238
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas",
+      "title": "LeoVegas",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:02Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1430
+            },
+            {
+              "name": "Iraq",
+              "price": 3300
+            },
+            {
+              "name": "Draw",
+              "price": 1150
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -136,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 104,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_se",
+      "title": "Unibet (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:04Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1250
+            },
+            {
+              "name": "Iraq",
+              "price": 4000
+            },
+            {
+              "name": "Draw",
+              "price": 1300
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:04Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -130,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 108,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -2000
+            },
+            {
+              "name": "Iraq",
+              "price": 3000
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 165
+            },
+            {
+              "name": "No",
+              "price": -238
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:03Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1430
+            },
+            {
+              "name": "Iraq",
+              "price": 3300
+            },
+            {
+              "name": "Draw",
+              "price": 1150
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -136,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 104,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:34:37Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 165
+            },
+            {
+              "name": "No",
+              "price": -240
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T20:34:37Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -375
+            },
+            {
+              "name": "Iraq",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T20:34:37Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": -112
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 145
+            },
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -225
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 1600
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T20:34:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibraheem Bayesh",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": -225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 480,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Ismail",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Amir Al Ammari",
+              "price": 525,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 245,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 112,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -1250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -250,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": -240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 170,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 190,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 550,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 525,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Zidane Iqbal",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -104,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Tahseen",
+              "price": 950,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Qasem",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 650,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 260,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 600,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas_se",
+      "title": "LeoVegas (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:34:53Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1430
+            },
+            {
+              "name": "Iraq",
+              "price": 3300
+            },
+            {
+              "name": "Draw",
+              "price": 1150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1429
+            },
+            {
+              "name": "Iraq",
+              "price": 2100
+            },
+            {
+              "name": "Draw",
+              "price": 1250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:15Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1548
+            },
+            {
+              "name": "Iraq",
+              "price": 2790
+            },
+            {
+              "name": "Draw",
+              "price": 1016
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T20:35:15Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -138,
+              "point": -2.5
+            },
+            {
+              "name": "Iraq",
+              "price": 116,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -130,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 106,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T20:35:15Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -259
+            },
+            {
+              "name": "Iraq",
+              "price": 1707
+            },
+            {
+              "name": "Draw",
+              "price": 276
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T20:35:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -127,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grosvenor",
+      "title": "Grosvenor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:27Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1430
+            },
+            {
+              "name": "Iraq",
+              "price": 3000
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:27Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -137,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 106,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:34:37Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -813
+            },
+            {
+              "name": "Iraq",
+              "price": 3100
+            },
+            {
+              "name": "Draw",
+              "price": 960
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T20:34:37Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -151,
+              "point": -2.5
+            },
+            {
+              "name": "Iraq",
+              "price": 130,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:34:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -133,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:34:37Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 172
+            },
+            {
+              "name": "No",
+              "price": -242
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T20:34:48Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -312
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -119
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Thuram",
+              "price": -118
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Philippe Mateta",
+              "price": -111
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": -102
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 116
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Cherki",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Maghnes Akliouche",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Manu Kone",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Theo Hernandez",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Warren Zaire-Emery",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "N'Golo Kante",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Aurelien Tchouameni",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 570
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Yousif Hashim",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Maxence Lacroix",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Al-Hamadi",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 740
+            },
+            {
+              "name": "Yes",
+              "description": "Youssef Amyn",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Malo Gusto",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Hernandez",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Konate",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Marko Farji",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Kevin Yakob",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Aimar Sher",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Jasim Elaibi Al Tameemi",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Mustafa Saadoon Abbood Al-Korji",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Frans Dhia Putros",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Manaf Younis",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 3100
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 3100
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 3100
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T20:34:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": -105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 1200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": -400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 140,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 333,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 1100,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 205,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -2000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -345,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -111,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 220,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Hussein Ali",
+              "price": 1100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 5400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -455,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -118,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 260,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 1000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": -500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 110,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 350,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 850,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Amir Al Ammari",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Qasem",
+              "price": 265,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Qasem",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Zidane Iqbal",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Al-Hamadi",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Desire Doue",
+              "price": 120,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Merchas Doski",
+              "price": 1200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibraheem Bayesh",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibraheem Bayesh",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Tahseen",
+              "price": 1100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Akam Hashim",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Ismail",
+              "price": 550,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "casumo",
+      "title": "Casumo",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:27Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1430
+            },
+            {
+              "name": "Iraq",
+              "price": 3300
+            },
+            {
+              "name": "Draw",
+              "price": 1200
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:27Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -137,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 106,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1493
+            },
+            {
+              "name": "Iraq",
+              "price": 2900
+            },
+            {
+              "name": "Draw",
+              "price": 1025
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": 102,
+              "point": -3.0
+            },
+            {
+              "name": "Iraq",
+              "price": -125,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 112,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": -137,
+              "point": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coolbet",
+      "title": "Coolbet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:17Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1111
+            },
+            {
+              "name": "Iraq",
+              "price": 3400
+            },
+            {
+              "name": "Draw",
+              "price": 1250
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -124,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 108,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:28Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1100
+            },
+            {
+              "name": "Iraq",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:35:28Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 162
+            },
+            {
+              "name": "No",
+              "price": -225
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "smarkets",
+      "title": "Smarkets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:30Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1111
+            },
+            {
+              "name": "Iraq",
+              "price": 4508
+            },
+            {
+              "name": "Draw",
+              "price": 1399
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-22T20:35:30Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1000
+            },
+            {
+              "name": "Iraq",
+              "price": 3900
+            },
+            {
+              "name": "Draw",
+              "price": 1500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1150
+            },
+            {
+              "name": "Iraq",
+              "price": 3500
+            },
+            {
+              "name": "Draw",
+              "price": 1250
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": 110,
+              "point": -3.0
+            },
+            {
+              "name": "Iraq",
+              "price": -120,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -102,
+              "point": 3.75
+            },
+            {
+              "name": "Under",
+              "price": -108,
+              "point": 3.75
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:35:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 166
+            },
+            {
+              "name": "No",
+              "price": -205
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T20:35:25Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -315
+            },
+            {
+              "name": "Iraq",
+              "price": 1626
+            },
+            {
+              "name": "Draw",
+              "price": 349
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T20:35:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -251
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": -101
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Cherki",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Malo Gusto",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Theo Hernandez",
+              "price": 567
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Aurelien Tchouameni",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ibrahim Konate",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Maxence Lacroix",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Al-Hamadi",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Marko Farji",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Youssef Amyn",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Jasim Elaibi Al Tameemi",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Kevin Yakob",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Aimar Sher",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Frans Dhia Putros",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Rebin Sulaka",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Manaf Younis",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "description": "Ousmane Dembele",
+              "price": -145
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "description": "Michael Olise",
+              "price": -133
+            },
+            {
+              "name": "Yes",
+              "description": "Desire Doue",
+              "price": 155
+            },
+            {
+              "name": "No",
+              "description": "Desire Doue",
+              "price": -188
+            },
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -230
+            },
+            {
+              "name": "No",
+              "description": "Kylian Mbappe",
+              "price": 187
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 163
+            },
+            {
+              "name": "No",
+              "description": "Bradley Barcola",
+              "price": -199
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T20:35:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "France",
+              "price": 120,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "France",
+              "price": -146,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Iraq",
+              "price": 162,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Iraq",
+              "price": -200,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T20:35:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 107,
+              "point": 1.75
+            },
+            {
+              "name": "Under",
+              "price": -125,
+              "point": 1.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:05Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1220
+            },
+            {
+              "name": "Iraq",
+              "price": 3000
+            },
+            {
+              "name": "Draw",
+              "price": 1250
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T20:35:05Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -150,
+              "point": -2.5
+            },
+            {
+              "name": "Iraq",
+              "price": 132,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 109,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T20:35:06Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -320
+            },
+            {
+              "name": "Iraq",
+              "price": 1500
+            },
+            {
+              "name": "Draw",
+              "price": 345
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T20:35:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "France",
+              "price": 115,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "France",
+              "price": -135,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Iraq",
+              "price": 165,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Iraq",
+              "price": -190,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T20:35:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -132,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 112,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:34:08Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1100
+            },
+            {
+              "name": "Iraq",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 1000
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T20:34:08Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -115,
+              "point": -2.75
+            },
+            {
+              "name": "Iraq",
+              "price": -105,
+              "point": 2.75
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:34:08Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 3.75
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 3.75
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:35:24Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 165
+            },
+            {
+              "name": "No",
+              "price": -220
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T20:35:24Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -325
+            },
+            {
+              "name": "Iraq",
+              "price": 1300
+            },
+            {
+              "name": "Draw",
+              "price": 335
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T20:35:24Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Manu Kone",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -235
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 1900
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T20:35:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 105,
+              "point": 1.75
+            },
+            {
+              "name": "Under",
+              "price": -125,
+              "point": 1.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "everygame",
+      "title": "Everygame",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:27Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1250
+            },
+            {
+              "name": "Iraq",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:34:27Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1200
+            },
+            {
+              "name": "Iraq",
+              "price": 2800
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:35:18Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 170
+            },
+            {
+              "name": "No",
+              "price": -215
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T20:35:18Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -340
+            },
+            {
+              "name": "Iraq",
+              "price": 1700
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T20:35:18Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -230
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 4500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:15Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1250
+            },
+            {
+              "name": "Iraq",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:35:15Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 162
+            },
+            {
+              "name": "No",
+              "price": -250
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T20:35:15Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -357
+            },
+            {
+              "name": "Iraq",
+              "price": 1100
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:14Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1250
+            },
+            {
+              "name": "Iraq",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 1200
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:35:14Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 170
+            },
+            {
+              "name": "No",
+              "price": -227
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T20:35:14Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -357
+            },
+            {
+              "name": "Iraq",
+              "price": 1100
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:30Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1200
+            },
+            {
+              "name": "Iraq",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 1150
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:30Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -130,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:35:30Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 170
+            },
+            {
+              "name": "No",
+              "price": -225
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T20:35:35Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -350
+            },
+            {
+              "name": "Iraq",
+              "price": 1200
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T20:35:35Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -250
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -105
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 333
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 425
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 675
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 675
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 1650
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 1650
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 1750
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 1800
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-22T20:35:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "France",
+              "price": 110,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "France",
+              "price": -145,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Iraq",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Iraq",
+              "price": -220,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T20:35:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1500
+            },
+            {
+              "name": "Iraq",
+              "price": 3000
+            },
+            {
+              "name": "Draw",
+              "price": 1200
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:34:43Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 160
+            },
+            {
+              "name": "No",
+              "price": -210
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T20:34:43Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -350
+            },
+            {
+              "name": "Iraq",
+              "price": 1700
+            },
+            {
+              "name": "Draw",
+              "price": 290
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T20:34:43Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -240
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -115
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Manu Kone",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 5000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T20:34:43Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 185,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 950,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 1100,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 1300,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -140,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 310,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 360,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 1400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -2500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": -425,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": -400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": -160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Qasem",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 320,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibraheem Bayesh",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zidane Iqbal",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Ismail",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Amir Al Ammari",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Tahseen",
+              "price": 1200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Akam Hashim",
+              "price": 1300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Merchas Doski",
+              "price": 1400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hussein Ali",
+              "price": 1400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -425,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -110,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 105,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 115,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 340,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 1300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Qasem",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibraheem Bayesh",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 3000,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:34:43Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -138,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 112,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T20:34:43Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -144,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 112,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:30Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -2000
+            },
+            {
+              "name": "Iraq",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 1300
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:34:39Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 150
+            },
+            {
+              "name": "No",
+              "price": -200
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T20:34:39Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Manu Kone",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -250
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 4000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1600
+            },
+            {
+              "name": "Iraq",
+              "price": 2800
+            },
+            {
+              "name": "Draw",
+              "price": 1200
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:35:08Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 140
+            },
+            {
+              "name": "No",
+              "price": -200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_eu",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:28Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1111
+            },
+            {
+              "name": "Iraq",
+              "price": 4500
+            },
+            {
+              "name": "Draw",
+              "price": 1400
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-22T20:35:28Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1000
+            },
+            {
+              "name": "Iraq",
+              "price": 4700
+            },
+            {
+              "name": "Draw",
+              "price": 1450
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:28Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1111
+            },
+            {
+              "name": "Iraq",
+              "price": 4500
+            },
+            {
+              "name": "Draw",
+              "price": 1400
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-22T20:35:28Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1000
+            },
+            {
+              "name": "Iraq",
+              "price": 4700
+            },
+            {
+              "name": "Draw",
+              "price": 1450
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:35:34Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 190
+            },
+            {
+              "name": "No",
+              "price": -196
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T20:35:34Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -222
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 132
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 188
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 580
+            },
+            {
+              "name": "Yes",
+              "description": "Manu Kone",
+              "price": 820
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 840
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 1350
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 1350
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 1550
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 2300
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 6900
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 5900
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 4100
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 4100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boylesports",
+      "title": "BoyleSports",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:02Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1600
+            },
+            {
+              "name": "Iraq",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sport888",
+      "title": "888sport",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:27Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1205
+            },
+            {
+              "name": "Iraq",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:14Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1200
+            },
+            {
+              "name": "Iraq",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 1000
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -333,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 230,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:35:14Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 150
+            },
+            {
+              "name": "No",
+              "price": -225
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-22T20:35:32Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kylian Mbappe",
+              "price": -275
+            },
+            {
+              "name": "Yes",
+              "description": "Ousmane Dembele",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Bradley Barcola",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Olise",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Adrien Rabiot",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Manu Kone",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Aymen Hussein",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Dayot Upamecano",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ibraheem Bayesh",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Jules Kounde",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Digne",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Qasem",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "William Saliba",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Ismail",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Zidane Iqbal",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Al Ammari",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Akam Hashim",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Merchas Doski",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Hussein Ali",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Zaid Tahseen",
+              "price": 2500
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-22T20:35:32Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -286,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": -105,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 225,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Kylian Mbappe",
+              "price": 450,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": -118,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 250,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Michael Olise",
+              "price": 550,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": -500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": -105,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 280,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Bradley Barcola",
+              "price": 650,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": -450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 110,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 300,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ousmane Dembele",
+              "price": 750,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 333,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 900,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Manu Kone",
+              "price": 2200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 1400,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Adrien Rabiot",
+              "price": 4000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "William Saliba",
+              "price": 850,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Dayot Upamecano",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Digne",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jules Kounde",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aymen Hussein",
+              "price": 550,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Qasem",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Qasem",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Zidane Iqbal",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zidane Iqbal",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ibraheem Bayesh",
+              "price": 380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ibraheem Bayesh",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Ismail",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Ismail",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Hussein Ali",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hussein Ali",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Merchas Doski",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Merchas Doski",
+              "price": 2800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Amir Al Ammari",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Amir Al Ammari",
+              "price": 2800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Akam Hashim",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Akam Hashim",
+              "price": 2800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Tahseen",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zaid Tahseen",
+              "price": 3300,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betclic_fr",
+      "title": "Betclic (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:33:42Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1429
+            },
+            {
+              "name": "Iraq",
+              "price": 3200
+            },
+            {
+              "name": "Draw",
+              "price": 1250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_de",
+      "title": "Winamax (DE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1429
+            },
+            {
+              "name": "Iraq",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 1300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tipico_de",
+      "title": "Tipico",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:34:50Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1667
+            },
+            {
+              "name": "Iraq",
+              "price": 2400
+            },
+            {
+              "name": "Draw",
+              "price": 1300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "codere_it",
+      "title": "Codere (IT)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:03Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1250
+            },
+            {
+              "name": "Iraq",
+              "price": 2700
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -143,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:04Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1265
+            },
+            {
+              "name": "Iraq",
+              "price": 3300
+            },
+            {
+              "name": "Draw",
+              "price": 1250
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T20:35:04Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": 105,
+              "point": -3.0
+            },
+            {
+              "name": "Iraq",
+              "price": -125,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:04Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 115,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": -145,
+              "point": 4.0
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-22T20:35:04Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -330
+            },
+            {
+              "name": "Iraq",
+              "price": 1400
+            },
+            {
+              "name": "Draw",
+              "price": 335
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-22T20:35:04Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:34:50Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1500
+            },
+            {
+              "name": "Iraq",
+              "price": 3500
+            },
+            {
+              "name": "Draw",
+              "price": 1250
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T20:34:50Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": 100,
+              "point": -3.0
+            },
+            {
+              "name": "Iraq",
+              "price": -120,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:34:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -130,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1220
+            },
+            {
+              "name": "Iraq",
+              "price": 3000
+            },
+            {
+              "name": "Draw",
+              "price": 1250
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -150,
+              "point": -2.5
+            },
+            {
+              "name": "Iraq",
+              "price": 132,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:29Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 109,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betway",
+      "title": "Betway",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:34:39Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1205
+            },
+            {
+              "name": "Iraq",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:27Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1111
+            },
+            {
+              "name": "Iraq",
+              "price": 4500
+            },
+            {
+              "name": "Draw",
+              "price": 1400
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-22T20:35:27Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1000
+            },
+            {
+              "name": "Iraq",
+              "price": 4700
+            },
+            {
+              "name": "Draw",
+              "price": 1450
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-22T20:35:27Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -112,
+              "point": -2.75
+            },
+            {
+              "name": "Iraq",
+              "price": 108,
+              "point": 2.75
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:27Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -119,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 116,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-22T20:35:27Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 190
+            },
+            {
+              "name": "No",
+              "price": -196
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:14Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1400
+            },
+            {
+              "name": "Iraq",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:32:32Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1450
+            },
+            {
+              "name": "Iraq",
+              "price": 2400
+            },
+            {
+              "name": "Draw",
+              "price": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betsson",
+      "title": "Betsson",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:34:50Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -909
+            },
+            {
+              "name": "Iraq",
+              "price": 3100
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:34:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -286,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 225,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nordicbet",
+      "title": "Nordic Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:17Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1111
+            },
+            {
+              "name": "Iraq",
+              "price": 3000
+            },
+            {
+              "name": "Draw",
+              "price": 1000
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-22T20:35:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -312,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 245,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betvictor",
+      "title": "Bet Victor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:21Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1786
+            },
+            {
+              "name": "Iraq",
+              "price": 2800
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_sb_uk",
+      "title": "Betfair Sportsbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-22T20:35:15Z",
+          "outcomes": [
+            {
+              "name": "France",
+              "price": -1667
+            },
+            {
+              "name": "Iraq",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

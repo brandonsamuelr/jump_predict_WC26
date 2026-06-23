@@ -16,8 +16,23 @@ from .player_prop_pricing import (
     match_player,
 )
 from .field_model import FieldMeanEstimator, FieldEstimate
-from .optimizer import optimize, Submission, TRUSTED_TIERS
-from .measurement import log_slate, score_rows, tier_report
+from .optimizer import optimize, Submission
+from .edge import (
+    classify,
+    compute_edge_table,
+    edge_submit,
+    deployed_k,
+    K_PRIOR,
+)
+from .measurement import (
+    log_slate,
+    apply_override,
+    classify_override,
+    score_rows,
+    build_edge_frame,
+    tier_report,
+    match_report,
+)
 from .decision_engine import (
     Recommendation,
     PriorRow,
@@ -62,10 +77,18 @@ __all__ = [
     "FieldEstimate",
     "optimize",
     "Submission",
-    "TRUSTED_TIERS",
+    "classify",
+    "compute_edge_table",
+    "edge_submit",
+    "deployed_k",
+    "K_PRIOR",
     "log_slate",
+    "apply_override",
+    "classify_override",
     "score_rows",
+    "build_edge_frame",
     "tier_report",
+    "match_report",
     "Recommendation",
     "PriorRow",
     "MatchContext",
