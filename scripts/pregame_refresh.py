@@ -33,12 +33,12 @@ from odds_lib.field_model import FieldMeanEstimator
 from odds_lib.optimizer import optimize
 from odds_lib.edge import compute_edge_table
 from odds_lib.lineups import load_lineup
-from odds_lib.player_prop_pricing import is_lower_bound_prop
 from odds_lib.measurement import LOG_PATH, build_edge_frame
 
 SPORT = "soccer_fifa_world_cup"
 REFRESH_MARKETS = ("h2h,totals,btts,h2h_h1,spreads,totals_h1,team_totals,"
-                   "player_goal_scorer_anytime,player_shots_on_target")
+                   "player_goal_scorer_anytime,player_shots_on_target,"
+                   "player_to_score_or_assist")
 REVIEW_THR, UPDATE_THR = 0.02, 0.05
 
 
@@ -118,7 +118,7 @@ def main():
         fe = field.estimate(r["question_type"])
         sub = optimize(tier=tier, question_type=r["question_type"],
                        p_hat=p_hat, shadow=fe.q_hat, table=edge_table,
-                       lower_bound=is_lower_bound_prop(r["question_type"]))
+                       lower_bound=(tier == "PROP_proxy_floor"))
         new_q = round(sub.q, 3)
         b = base_by_q.get(r["question_number"])
         old_q = round(float(b["SUBMIT"]), 3) if b is not None else float("nan")

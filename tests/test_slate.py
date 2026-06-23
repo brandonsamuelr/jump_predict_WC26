@@ -99,6 +99,59 @@ def test_total_goals_2h_over_routes_to_engine():
     assert abs(p - E.p_total_goals_2h_over(sim, 2)) < 1e-3   # resolve_row rounds to 4dp
 
 
+# --- goal-or-assist direct-market routing -----------------------------------
+
+def _ga_game(direct_books=(), anytime_books=(), player="Harry Kane",
+             direct_price=-105, anytime_price=120):
+    bms = []
+    for b in direct_books:
+        bms.append({"title": b, "markets": [{"key": "player_to_score_or_assist",
+                    "outcomes": [{"name": "Yes", "description": player, "price": direct_price}]}]})
+    for b in anytime_books:
+        bms.append({"title": b, "markets": [{"key": "player_goal_scorer_anytime",
+                    "outcomes": [{"name": "Yes", "description": player, "price": anytime_price}]}]})
+    return {"bookmakers": bms}
+
+
+def _ga_row():
+    return {"question_type": "player_goal_or_assist", "target_team": "England",
+            "target_player": "Harry Kane", "line": "", "match": "England vs Ghana"}
+
+
+def test_goa_direct_thin_is_not_prop_ok():
+    # 2-book (no sharp) direct market -> exact but thin -> PROP_direct_thin, NOT PROP_ok
+    g = _ga_game(direct_books=["DraftKings", "FanDuel"], anytime_books=["Pinnacle"])
+    tier, p, _ = slate.resolve_row(_ga_row(), None, g, None, lineup=_lineup("starter", "Harry Kane"))
+    assert tier == "PROP_direct_thin"
+
+
+def test_goa_direct_liquid_is_prop_ok():
+    g = _ga_game(direct_books=["Pinnacle", "DraftKings", "FanDuel"], anytime_books=["Bovada"])
+    tier, p, _ = slate.resolve_row(_ga_row(), None, g, None, lineup=_lineup("starter", "Harry Kane"))
+    assert tier == "PROP_ok"
+
+
+def test_goa_proxy_floor_tier_and_clamp_integration():
+    # no direct market -> proxy floor; the caller derives the clamp from the tier.
+    g = _ga_game(anytime_books=["Pinnacle", "Bovada", "DraftKings"])
+    tier, p, _ = slate.resolve_row(_ga_row(), None, g, None, lineup=_lineup("starter", "Harry Kane"))
+    assert tier == "PROP_proxy_floor"
+    from odds_lib.optimizer import optimize
+    s = optimize(tier=tier, question_type="player_goal_or_assist", p_hat=p, shadow=0.30, k=0.40,
+                 lower_bound=(tier == "PROP_proxy_floor"))
+    assert s.lower_bound_clamped and abs(s.q - p) < 1e-9   # blend pulled below floor -> clamped to p_hat
+
+
+def test_resolve_distinguishes_direct_vs_floor():
+    starter = _lineup("starter", "Harry Kane")
+    t_direct, _, _ = slate.resolve_row(_ga_row(), None,
+        _ga_game(direct_books=["DraftKings", "FanDuel"], anytime_books=["Pinnacle"]), None, lineup=starter)
+    t_floor, _, _ = slate.resolve_row(_ga_row(), None,
+        _ga_game(anytime_books=["Pinnacle", "Bovada", "DraftKings"]), None, lineup=starter)
+    assert t_direct in ("PROP_ok", "PROP_direct_thin") and t_floor == "PROP_proxy_floor"
+    assert t_direct != t_floor
+
+
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for fn in fns:

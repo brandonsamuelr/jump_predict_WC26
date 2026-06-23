@@ -56,6 +56,10 @@ from .odds import odds_to_prob, DEFAULT_SHARP_BOOKS
 # flagged accordingly. Override per call if you have a better estimate.
 ANYTIME_SCORER_OVERROUND = 1.12  # scorer markets carry heavy per-selection vig
 SOT_OVERROUND = 1.06             # binary over/under 0.5 SOT, tighter book margin
+# Direct "to score or assist" market. One-sided ~50% event; UNCALIBRATED
+# estimate (we only see the Yes side) — refine when two-sided data exists. Less
+# proportional juice than anytime-scorer because it is a more balanced market.
+SCORE_OR_ASSIST_OVERROUND = 1.10
 
 SOURCE_TAG = "one_sided_prop_market_adjusted"
 
@@ -137,6 +141,8 @@ class PropPricing:
     liquidity_flag: str  # ok | thin | low | n/a
     note: str = ""
     lower_bound: bool = False  # market_prob is a definitional lower bound on the question
+    source: str = ""           # "" | "direct" | "proxy_floor" (goal_or_assist routing)
+    floor_prob: float | None = None  # anytime-goal lower-bound value (for audit)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -267,6 +273,25 @@ def _liquidity_flag(book_count: int, sharp_count: int) -> str:
     return "low"
 
 
+def _price_market_quotes(game, api_market, overround, target_player, point, sharp_books):
+    """Mean vig-adjusted prob for one player in one market, or None if unquoted.
+    Returns a small dict of pricing stats (raw, adj, book_count, sharp, books,
+    liquidity). Shared by the single-market path and the goal-or-assist
+    two-market routing."""
+    quotes, candidates = _extract_quotes(game, api_market, target_player, point, sharp_books)
+    if not candidates or not quotes:
+        return None
+    sharp_quotes = [q for q in quotes if q.is_sharp]
+    chosen = sharp_quotes if sharp_quotes else quotes
+    raw = sum(q.implied_raw for q in chosen) / len(chosen)
+    return {
+        "raw": raw, "adj": raw / overround,
+        "book_count": len(quotes), "sharp": len(sharp_quotes),
+        "books": ", ".join(sorted(q.book for q in quotes)),
+        "liquidity": _liquidity_flag(len(quotes), len(sharp_quotes)),
+    }
+
+
 def price_player_prop(
     question_type: str,
     target_player: str | None,
@@ -303,6 +328,46 @@ def price_player_prop(
         )
     if not target_player:
         return _unsupported("unsupported_no_player", "no target_player given")
+
+    # goal-or-assist: prefer the DIRECT score-or-assist market when present, with
+    # the anytime-goal value as a definitional lower-bound guard; fall back to the
+    # anytime-goal LOWER BOUND proxy (+ submission clamp) when no direct market.
+    if qt == "player_goal_or_assist":
+        direct = _price_market_quotes(game, "player_to_score_or_assist",
+                                      SCORE_OR_ASSIST_OVERROUND, target_player, None, sharp_books)
+        floor = _price_market_quotes(game, "player_goal_scorer_anytime",
+                                     ANYTIME_SCORER_OVERROUND, target_player, None, sharp_books)
+        if direct is None and floor is None:
+            return _unsupported("unsupported_market_absent",
+                                "no score_or_assist and no anytime-goal market for this player/game")
+        if direct is not None:
+            floor_adj = floor["adj"] if floor else None
+            p = max(direct["adj"], floor_adj) if floor_adj is not None else direct["adj"]
+            floor_active = floor_adj is not None and floor_adj >= direct["adj"]
+            return PropPricing(
+                question_type=qt, target_player=target_player, line=line,
+                mapped=True, status="goal_or_assist_direct", confidence="direct",
+                api_market="player_to_score_or_assist", source_tag=SOURCE_TAG,
+                market_prob_raw=round(direct["raw"], 4), market_prob_vig_adjusted=round(p, 4),
+                overround_used=SCORE_OR_ASSIST_OVERROUND,
+                book_count=direct["book_count"], sharp_book_count=direct["sharp"],
+                books_used=direct["books"], liquidity_flag=direct["liquidity"],
+                note=(f"DIRECT score_or_assist; anytime_floor="
+                      f"{None if floor_adj is None else round(floor_adj, 4)}; floor_active={floor_active}"),
+                lower_bound=False, source="direct",
+                floor_prob=(None if floor_adj is None else round(floor_adj, 4)),
+            )
+        return PropPricing(   # floor-only fallback: anytime-goal LOWER BOUND proxy
+            question_type=qt, target_player=target_player, line=line,
+            mapped=True, status="goal_or_assist_proxy_floor", confidence="partial",
+            api_market="player_goal_scorer_anytime", source_tag=SOURCE_TAG,
+            market_prob_raw=round(floor["raw"], 4), market_prob_vig_adjusted=round(floor["adj"], 4),
+            overround_used=ANYTIME_SCORER_OVERROUND,
+            book_count=floor["book_count"], sharp_book_count=floor["sharp"],
+            books_used=floor["books"], liquidity_flag=floor["liquidity"],
+            note="no direct score_or_assist market; anytime-goal LOWER BOUND proxy (+ clamp)",
+            lower_bound=True, source="proxy_floor", floor_prob=round(floor["adj"], 4),
+        )
 
     quotes, candidates = _extract_quotes(
         game, spec.api_market, target_player, spec.point, sharp_books

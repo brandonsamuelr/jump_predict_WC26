@@ -82,6 +82,43 @@ def test_match_is_deterministic():
     assert results == {None}
 
 
+def _ga_game(direct_books=(), anytime_books=(), player="Harry Kane",
+             direct_price=-105, anytime_price=120):
+    bms = []
+    for b in direct_books:
+        bms.append({"title": b, "markets": [{"key": "player_to_score_or_assist",
+                    "outcomes": [{"name": "Yes", "description": player, "price": direct_price}]}]})
+    for b in anytime_books:
+        bms.append({"title": b, "markets": [{"key": "player_goal_scorer_anytime",
+                    "outcomes": [{"name": "Yes", "description": player, "price": anytime_price}]}]})
+    return {"bookmakers": bms}
+
+
+def test_goal_or_assist_uses_direct_market_when_present():
+    pr = price_player_prop("player_goal_or_assist", "Harry Kane", None,
+                           _ga_game(direct_books=["DraftKings", "FanDuel"], anytime_books=["Pinnacle"]))
+    assert pr.mapped and pr.api_market == "player_to_score_or_assist"
+    assert pr.source == "direct" and pr.lower_bound is False
+
+
+def test_goal_or_assist_falls_back_to_anytime_proxy():
+    pr = price_player_prop("player_goal_or_assist", "Harry Kane", None,
+                           _ga_game(anytime_books=["Pinnacle", "Bovada", "DraftKings"]))  # no direct
+    assert pr.mapped and pr.api_market == "player_goal_scorer_anytime"
+    assert pr.source == "proxy_floor" and pr.lower_bound is True
+
+
+def test_goal_or_assist_floored_at_anytime_when_direct_lower():
+    # direct priced LOW (+200 -> ~0.30 adj), anytime HIGH (-200 -> ~0.60 adj):
+    # the goal-or-assist estimate must be floored at the anytime lower bound.
+    pr = price_player_prop("player_goal_or_assist", "Harry Kane", None,
+                           _ga_game(direct_books=["DraftKings"], anytime_books=["Pinnacle"],
+                                    direct_price=200, anytime_price=-200))
+    assert pr.source == "direct"
+    assert abs(pr.market_prob_vig_adjusted - pr.floor_prob) < 1e-9   # floored at anytime
+    assert pr.market_prob_vig_adjusted > 0.5                          # the floor, not the low direct
+
+
 def test_vig_adjustment_lowers_prob():
     r = price_player_prop("player_goal", "Riyad Mahrez", None,
                           _game_both_markets())

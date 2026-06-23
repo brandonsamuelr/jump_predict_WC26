@@ -53,6 +53,19 @@ def build_model(c: pd.DataFrame, home: str, away: str, n: int = 120_000):
     return (m, E.simulate(m, n=n), home, away)
 
 
+def _prop_tier(pr) -> str:
+    """Map a PropPricing to a tier. goal-or-assist distinguishes the EXACT direct
+    market (PROP_ok if liquid, else PROP_direct_thin) from the anytime-goal
+    LOWER-BOUND fallback (PROP_proxy_floor). PROP_ok is reserved for broad/liquid
+    support — a 1-2 book direct market is exact-but-thin, NOT PROP_ok. Other
+    props keep the existing PROP_ok/PROP_thin liquidity split."""
+    if pr.source == "proxy_floor":
+        return "PROP_proxy_floor"
+    if pr.source == "direct":
+        return "PROP_ok" if pr.liquidity_flag == "ok" else "PROP_direct_thin"
+    return "PROP_ok" if pr.liquidity_flag == "ok" else "PROP_thin"
+
+
 def resolve_row(row: dict, c: pd.DataFrame, game_json: dict, model_tuple, lineup=None):
     """Return (tier, p_hat, market_prob). market_prob is the underlying
     de-vigged market price where one exists (for the diff), else None.
@@ -73,8 +86,7 @@ def resolve_row(row: dict, c: pd.DataFrame, game_json: dict, model_tuple, lineup
             return "PENDING", None, None
         status = lineup.player(row.get("target_player")).status if lineup is not None else "unknown"
         if status in STARTER_STATUSES:
-            tier = "PROP_ok" if pr.liquidity_flag == "ok" else "PROP_thin"
-            return tier, pr.market_prob_vig_adjusted, pr.market_prob_raw
+            return _prop_tier(pr), pr.market_prob_vig_adjusted, pr.market_prob_raw
         return "PENDING", None, None   # unconfirmed / bench / out -> shadow (k=0)
 
     if qt in MARKET_DIRECT:

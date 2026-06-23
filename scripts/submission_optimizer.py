@@ -30,7 +30,6 @@ from odds_lib.field_model import FieldMeanEstimator
 from odds_lib.optimizer import optimize
 from odds_lib.edge import compute_edge_table
 from odds_lib.lineups import load_lineup
-from odds_lib.player_prop_pricing import is_lower_bound_prop
 from odds_lib.measurement import LOG_PATH, build_edge_frame
 
 
@@ -83,7 +82,7 @@ def main():
                                            models[eid], lineup=lineups[mt])
         fe = field.estimate(qt)
         sub = optimize(tier=tier, question_type=qt, p_hat=p_hat, shadow=fe.q_hat,
-                       table=table, lower_bound=is_lower_bound_prop(qt))
+                       table=table, lower_bound=(tier == "PROP_proxy_floor"))
         dev = (p_hat - fe.q_hat) if p_hat is not None else float("nan")
         out.append({
             "match": r["match"], "q": r["question_number"], "type": qt,

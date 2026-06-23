@@ -28,6 +28,11 @@ K_PRIOR = {
     ("ENGINE", "engine"): 0.90,
     ("PROP", "confirmed"): 0.75,
     ("PROP", "thin"): 0.40,
+    # goal-or-assist routing: a DIRECT but thin (1-2 book) score-or-assist market
+    # is exact-but-noisy -> between confirmed and thin. The anytime-goal fallback
+    # is a LOWER-BOUND proxy (+ submission clamp) -> conservative like thin.
+    ("PROP", "direct_thin"): 0.50,
+    ("PROP", "proxy_floor"): 0.40,
     ("RATE_SOT", "comparison"): 0.60,   # directionally robust (constant ~cancels)
     ("RATE_SOT", "single"): 0.50,
     ("RATE_SOT", "single_2h"): 0.50,
@@ -107,6 +112,10 @@ def classify(tier: str, question_type: str) -> tuple[str, str]:
         return ("PROP", "confirmed")
     if t == "PROP_thin":
         return ("PROP", "thin")
+    if t == "PROP_direct_thin":
+        return ("PROP", "direct_thin")
+    if t == "PROP_proxy_floor":
+        return ("PROP", "proxy_floor")
     if t == "RATE_SOT_CMP":
         return ("RATE_SOT", "comparison")
     if t == "RATE_SOT":
