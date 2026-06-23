@@ -1,0 +1,4767 @@
+{
+  "id": "8ba93d190f1f934e33862a97a6353a6e",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-23T17:00:00Z",
+  "home_team": "Portugal",
+  "away_team": "Uzbekistan",
+  "bookmakers": [
+    {
+      "key": "winamax_de",
+      "title": "Winamax (DE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:50Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -769
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 850
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:38Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -714
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1830
+            },
+            {
+              "name": "Draw",
+              "price": 871
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T16:58:38Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": 119,
+              "point": -2.5
+            },
+            {
+              "name": "Uzbekistan",
+              "price": -138,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 106,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -123,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:58:38Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "price": -149
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Cristiano Ronaldo",
+              "price": -250
+            },
+            {
+              "name": "Yes",
+              "description": "Goncalo Matias Ramos",
+              "price": 100
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Felix Sequeira",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Fernandes",
+              "price": 138
+            },
+            {
+              "name": "Yes",
+              "description": "Rafael Leao",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Neto",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Francisco Trincao",
+              "price": 190
+            },
+            {
+              "name": "Yes",
+              "description": "Francisco Conceicao",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Bernardo Silva",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Vitor Ferreira",
+              "price": 333
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Cancelo",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Eldor Shomurodov",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Igor Sergeev",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Nuno Mendes",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Renato Veiga",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Neves",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Azizbek Amonov",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Dias",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Oston Urunov",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Dostonbek Hamdamov",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Diogo Dalot",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Abbosbek Fayzullaev",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Azizjon Ganiev",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Tomas Araujo",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Nelson Semedo",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Akmal Mozgovoy",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Farrukh Sayfiev",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Jakhongir Urozov",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Otabek Shukurov",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Bekhruz Karimov",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Odiljon Xamrobekov",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Khojiakbar Alijonov",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Sherzod Nasrullayev",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Rustamjon Ashurmatov",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Abdukodir Khusanov",
+              "price": 3300
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": -1000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": -187,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": 162,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": 450,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": -187,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": 250,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": 2000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Cancelo",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Cancelo",
+              "price": 1200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Cancelo",
+              "price": 3500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Eldor Shomurodov",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Eldor Shomurodov",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Eldor Shomurodov",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Otabek Shukurov",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Otabek Shukurov",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Dias",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Dias",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Neto",
+              "price": -110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Neto",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Neto",
+              "price": 2000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Neto",
+              "price": 2500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Azizjon Ganiev",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rustamjon Ashurmatov",
+              "price": 900,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": -455,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": 100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": 333,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": 1000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Nuno Mendes",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nuno Mendes",
+              "price": 1200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Vitor Ferreira",
+              "price": 138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Vitor Ferreira",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Vitor Ferreira",
+              "price": 2000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 900,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Renato Veiga",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Renato Veiga",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Sherzod Nasrullayev",
+              "price": 900,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abbosbek Fayzullaev",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abbosbek Fayzullaev",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdukodir Khusanov",
+              "price": 1000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bekhruz Karimov",
+              "price": 400,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmu_fr",
+      "title": "PMU (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:49Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -835
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 108,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -155,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_nl",
+      "title": "Unibet (NL)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:24Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -715
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 112,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -148,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tipico_de",
+      "title": "Tipico",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:49Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -833
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2100
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -833
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 138
+            },
+            {
+              "name": "No",
+              "price": -192
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_se",
+      "title": "Unibet (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:37Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -715
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 116,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -141,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas",
+      "title": "LeoVegas",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:01Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -770
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:59:01Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 112,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -148,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:25Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -833
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:58:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 138
+            },
+            {
+              "name": "No",
+              "price": -192
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:37Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -770
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 112,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -148,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:58:35Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 138
+            },
+            {
+              "name": "No",
+              "price": -195
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T16:58:35Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -235
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1100
+            },
+            {
+              "name": "Draw",
+              "price": 230
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T16:58:35Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Abdukodir Khusanov",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Nuno Mendes",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Neto",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Rustamjon Ashurmatov",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Otabek Shukurov",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Cancelo",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Felix Sequeira",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Azizjon Ganiev",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Vitor Ferreira",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Sherzod Nasrullayev",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Dias",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Fernandes",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Renato Veiga",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Cristiano Ronaldo",
+              "price": -190
+            },
+            {
+              "name": "Yes",
+              "description": "Bekhruz Karimov",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Odiljon Khamrobekov",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Abbosbek Fayzullaev",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Eldor Shomurodov",
+              "price": 600
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-23T16:58:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Abbosbek Fayzullaev",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": -175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": 245,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": -910,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": 850,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": 360,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Nuno Mendes",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdukodir Khusanov",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Azizjon Ganiev",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Vitor Ferreira",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Dias",
+              "price": 280,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Neto",
+              "price": -130,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Eldor Shomurodov",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Neto",
+              "price": 330,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Vitor Ferreira",
+              "price": 575,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": 575,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": 195,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": 160,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Cancelo",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": -175,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Odiljon Khamrobekov",
+              "price": 420,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sherzod Nasrullayev",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Renato Veiga",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Otabek Shukurov",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rustamjon Ashurmatov",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": -220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bekhruz Karimov",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Eldor Shomurodov",
+              "price": 138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": 850,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "casumo",
+      "title": "Casumo",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:02Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -770
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:59:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 112,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -148,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas_se",
+      "title": "LeoVegas (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:36Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -770
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:40Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -769
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1500
+            },
+            {
+              "name": "Draw",
+              "price": 800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:52Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -529
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1715
+            },
+            {
+              "name": "Draw",
+              "price": 729
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T16:58:52Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": 112,
+              "point": -2.5
+            },
+            {
+              "name": "Uzbekistan",
+              "price": -135,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 111,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -136,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T16:58:52Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -209
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1254
+            },
+            {
+              "name": "Draw",
+              "price": 229
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T16:58:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_uk",
+      "title": "Unibet (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:26Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -714
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_fr",
+      "title": "Unibet (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:52Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -833
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2300
+            },
+            {
+              "name": "Draw",
+              "price": 850
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grosvenor",
+      "title": "Grosvenor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:40Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -770
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1800
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:40Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 112,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -148,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:51Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -725
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1750
+            },
+            {
+              "name": "Draw",
+              "price": 680
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T16:58:51Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": 113,
+              "point": -2.5
+            },
+            {
+              "name": "Uzbekistan",
+              "price": -139,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -135,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:57:48Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -600
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:57:48Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 138
+            },
+            {
+              "name": "No",
+              "price": -188
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coolbet",
+      "title": "Coolbet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:50Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -588
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1800
+            },
+            {
+              "name": "Draw",
+              "price": 770
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 116,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -133,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:25Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -800
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:59:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 126
+            },
+            {
+              "name": "No",
+              "price": -160
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T16:59:03Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -230
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1200
+            },
+            {
+              "name": "Draw",
+              "price": 220
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T16:59:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Cristiano Ronaldo",
+              "price": -195
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Felix Sequeira",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Fernandes",
+              "price": 135
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Neto",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Vitor Ferreira",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Eldor Shomurodov",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Cancelo",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Nuno Mendes",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Renato Veiga",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Abbosbek Fayzullaev",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Azizjon Ganiev",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Dias",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Otabek Shukurov",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Odiljon Khamrobekov",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Sherzod Nasrullayev",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Bekhruz Karimov",
+              "price": 2700
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Abdukodir Khusanov",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Rustamjon Ashurmatov",
+              "price": 4500
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-23T16:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": -220,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": 115,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": 140,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Neto",
+              "price": 260,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Vitor Ferreira",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Eldor Shomurodov",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Cancelo",
+              "price": 850,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nuno Mendes",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Abbosbek Fayzullaev",
+              "price": 1900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Renato Veiga",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Dias",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": -1100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": -400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": -340,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Neto",
+              "price": -195,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Vitor Ferreira",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Eldor Shomurodov",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Cancelo",
+              "price": 130,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nuno Mendes",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Renato Veiga",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abbosbek Fayzullaev",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Dias",
+              "price": 280,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Otabek Shukurov",
+              "price": 380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Azizjon Ganiev",
+              "price": 380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bekhruz Karimov",
+              "price": 380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Odiljon Khamrobekov",
+              "price": 460,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sherzod Nasrullayev",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rustamjon Ashurmatov",
+              "price": 950,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 1000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdukodir Khusanov",
+              "price": 1200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": 390,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": 1300,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": 1700,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": 140,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": 410,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": 500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Neto",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Vitor Ferreira",
+              "price": 3000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 3000,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T16:59:03Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": 122,
+              "point": -2.5
+            },
+            {
+              "name": "Uzbekistan",
+              "price": -156,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-23T16:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Portugal",
+              "price": -142,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Portugal",
+              "price": 112,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Uzbekistan",
+              "price": 118,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Uzbekistan",
+              "price": -150,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -850,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 7.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T16:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 102,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -130,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:40Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -909
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 800
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:58:20Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "price": -161
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T16:58:20Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Pedro Neto",
+              "price": 163
+            },
+            {
+              "name": "Yes",
+              "description": "Vitor Ferreira",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Felix Sequeira",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Renato Veiga",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Dias",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Cancelo",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Cristiano Ronaldo",
+              "price": -200
+            },
+            {
+              "name": "Yes",
+              "description": "Nuno Mendes",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Fernandes",
+              "price": 138
+            },
+            {
+              "name": "Yes",
+              "description": "Rustamjon Ashurmatov",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Abbosbek Fayzullaev",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Azizjon Ganiev",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Eldor Shomurodov",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Sherzod Nasrullayev",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Odiljon Khamrobekov",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Otabek Shukurov",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Bekhruz Karimov",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Abdukodir Khusanov",
+              "price": 3300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:24Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -900
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:58:01Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_eu",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:04Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -625
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 820
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-23T16:59:04Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -588
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2600
+            },
+            {
+              "name": "Draw",
+              "price": 840
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:01Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -625
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 820
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-23T16:59:01Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -588
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2600
+            },
+            {
+              "name": "Draw",
+              "price": 840
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:58:44Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 156
+            },
+            {
+              "name": "No",
+              "price": -159
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T16:58:44Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Cristiano Ronaldo",
+              "price": -149
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Felix Sequeira",
+              "price": 192
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Fernandes",
+              "price": 186
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Neto",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Vitor Ferreira",
+              "price": 720
+            },
+            {
+              "name": "Yes",
+              "description": "Eldor Shomurodov",
+              "price": 620
+            },
+            {
+              "name": "Yes",
+              "description": "Nuno Mendes",
+              "price": 880
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Cancelo",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Renato Veiga",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Abbosbek Fayzullaev",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Azizjon Ganiev",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Dias",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Otabek Shukurov",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Odiljon Khamrobekov",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Sherzod Nasrullayev",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 4900
+            },
+            {
+              "name": "Yes",
+              "description": "Abdukodir Khusanov",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Bekhruz Karimov",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Rustamjon Ashurmatov",
+              "price": 4900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "smarkets",
+      "title": "Smarkets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:02Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -625
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2497
+            },
+            {
+              "name": "Draw",
+              "price": 840
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-23T16:59:02Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -588
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2603
+            },
+            {
+              "name": "Draw",
+              "price": 860
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:04Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -605
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2075
+            },
+            {
+              "name": "Draw",
+              "price": 775
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T16:59:04Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -110,
+              "point": -2.25
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 102,
+              "point": 2.25
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:59:04Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -106,
+              "point": 3.25
+            },
+            {
+              "name": "Under",
+              "price": -104,
+              "point": 3.25
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:58:59Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 141
+            },
+            {
+              "name": "No",
+              "price": -173
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T16:58:59Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -235
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1434
+            },
+            {
+              "name": "Draw",
+              "price": 258
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T16:58:59Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Cristiano Ronaldo",
+              "price": -174
+            },
+            {
+              "name": "Yes",
+              "description": "Goncalo Matias Ramos",
+              "price": 113
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Fernandes",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Rafael Leao",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Bernardo Silva",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Neto",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Francisco Conceicao",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Eldor Shomurodov",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Vitor Ferreira",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Cancelo",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Renato Veiga",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Dostonbek Hamdamov",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Abbosbek Fayzullaev",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Dias",
+              "price": 748
+            },
+            {
+              "name": "Yes",
+              "description": "Diogo Dalot",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Nuno Mendes",
+              "price": 744
+            },
+            {
+              "name": "Yes",
+              "description": "Goncalo Inacio",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Tomas Araujo",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Nelson Semedo",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Otabek Shukurov",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Ruslanbek Jiyanov",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Abdukodir Khusanov",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Akmal Mozgovoy",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Khojiakbar Alijonov",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Farrukh Sayfiev",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Umar Eshmurodov",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Rustamjon Ashurmatov",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Jakhongir Urozov",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Bekhruz Karimov",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Cristiano Ronaldo",
+              "price": -160
+            },
+            {
+              "name": "No",
+              "description": "Cristiano Ronaldo",
+              "price": 132
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Fernandes",
+              "price": 166
+            },
+            {
+              "name": "No",
+              "description": "Bruno Fernandes",
+              "price": -203
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Neto",
+              "price": 261
+            },
+            {
+              "name": "No",
+              "description": "Pedro Neto",
+              "price": -327
+            },
+            {
+              "name": "Yes",
+              "description": "Eldor Shomurodov",
+              "price": 489
+            },
+            {
+              "name": "No",
+              "description": "Eldor Shomurodov",
+              "price": -693
+            },
+            {
+              "name": "Yes",
+              "description": "Francisco Conceicao",
+              "price": 236
+            },
+            {
+              "name": "No",
+              "description": "Francisco Conceicao",
+              "price": -293
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-23T16:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Portugal",
+              "price": -135,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Portugal",
+              "price": 111,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Uzbekistan",
+              "price": 131,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Uzbekistan",
+              "price": -160,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T16:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 101,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:48Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -700
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2150
+            },
+            {
+              "name": "Draw",
+              "price": 800
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T16:58:48Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -155,
+              "point": -2.0
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 136,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -142,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T16:58:23Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -248
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1550
+            },
+            {
+              "name": "Draw",
+              "price": 262
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-23T16:58:23Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Portugal",
+              "price": -150,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Portugal",
+              "price": 130,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Uzbekistan",
+              "price": 135,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Uzbekistan",
+              "price": -155,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T16:58:23Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:03Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -650
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T16:59:03Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -112,
+              "point": -2.25
+            },
+            {
+              "name": "Uzbekistan",
+              "price": -108,
+              "point": 2.25
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 3.25
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 3.25
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:59:05Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 132
+            },
+            {
+              "name": "No",
+              "price": -175
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T16:59:05Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -1600
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 800
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T16:59:05Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Sherzod Nasrullayev",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Vitor Ferreira",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Cristiano Ronaldo",
+              "price": -197
+            },
+            {
+              "name": "Yes",
+              "description": "Otabek Shukurov",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Abdukodir Khusanov",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Bekhruz Karimov",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Azizjon Ganiev",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Renato Veiga",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Fernandes",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Cancelo",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Felix Sequeira",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Neto",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Dias",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Nuno Mendes",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Abbosbek Fayzullaev",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Eldor Shomurodov",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Rustamjon Ashurmatov",
+              "price": 3500
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T16:59:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 102,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "everygame",
+      "title": "Everygame",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:38Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -667
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1800
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:49Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -700
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1800
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:58:41Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 140
+            },
+            {
+              "name": "No",
+              "price": -175
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T16:58:41Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -240
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 950
+            },
+            {
+              "name": "Draw",
+              "price": 270
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T16:58:41Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Cristiano Ronaldo",
+              "price": -200
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Felix Sequeira",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Fernandes",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Neto",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Eldor Shomurodov",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Vitor Ferreira",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Cancelo",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Abbosbek Fayzullaev",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Azizjon Ganiev",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Nuno Mendes",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Dias",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Renato Veiga",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Otabek Shukurov",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Sherzod Nasrullayev",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Bekhruz Karimov",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Abdukodir Khusanov",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Rustamjon Ashurmatov",
+              "price": 3500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:01Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -714
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:59:01Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 145
+            },
+            {
+              "name": "No",
+              "price": -208
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T16:59:01Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -278
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:25Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -769
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 800
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:58:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 150
+            },
+            {
+              "name": "No",
+              "price": -208
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T16:58:25Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -250
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:01Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -700
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 775
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:59:01Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -140,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:59:01Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 155
+            },
+            {
+              "name": "No",
+              "price": -200
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T16:58:31Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -275
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 950
+            },
+            {
+              "name": "Draw",
+              "price": 260
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T16:58:31Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Cristiano Ronaldo",
+              "price": -210
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Felix Sequeira",
+              "price": -105
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Fernandes",
+              "price": 155
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Neto",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Vitor Ferreira",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Eldor Shomurodov",
+              "price": 425
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Cancelo",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Nuno Mendes",
+              "price": 625
+            },
+            {
+              "name": "Yes",
+              "description": "Azizjon Ganiev",
+              "price": 625
+            },
+            {
+              "name": "Yes",
+              "description": "Renato Veiga",
+              "price": 625
+            },
+            {
+              "name": "Yes",
+              "description": "Abbosbek Fayzullaev",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Dias",
+              "price": 775
+            },
+            {
+              "name": "Yes",
+              "description": "Odiljon Khamrobekov",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Sherzod Nasrullayev",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Otabek Shukurov",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 1250
+            },
+            {
+              "name": "Yes",
+              "description": "Bekhruz Karimov",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Rustamjon Ashurmatov",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Abdukodir Khusanov",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-23T16:58:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Portugal",
+              "price": -145,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Portugal",
+              "price": 110,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Uzbekistan",
+              "price": 135,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Uzbekistan",
+              "price": -185,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T16:58:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -120,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boylesports",
+      "title": "BoyleSports",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -700
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1800
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sport888",
+      "title": "888sport",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:24Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -800
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -700
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -250,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 170,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -175
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T16:58:08Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Cristiano Ronaldo",
+              "price": -182
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Felix Sequeira",
+              "price": -118
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Fernandes",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Neto",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Vitor Ferreira",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Eldor Shomurodov",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Joao Cancelo",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Abbosbek Fayzullaev",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Azizjon Ganiev",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Dias",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Renato Veiga",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Nuno Mendes",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Otabek Shukurov",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Odiljon Khamrobekov",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Sherzod Nasrullayev",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Bekhruz Karimov",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Rustamjon Ashurmatov",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Abdukodir Khusanov",
+              "price": 4000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-23T16:58:08Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": -200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": 138,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": 320,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Cristiano Ronaldo",
+              "price": 650,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": -500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": -105,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": 280,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Joao Felix Sequeira",
+              "price": 650,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": -350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": 120,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": 340,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Fernandes",
+              "price": 800,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Neto",
+              "price": -275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Neto",
+              "price": 170,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Neto",
+              "price": 480,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Neto",
+              "price": 1100,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Vitor Ferreira",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Vitor Ferreira",
+              "price": 450,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Vitor Ferreira",
+              "price": 1200,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Vitor Ferreira",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Pedro Goncalves Neves",
+              "price": 550,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Joao Cancelo",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joao Cancelo",
+              "price": 750,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Nuno Mendes",
+              "price": 188,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nuno Mendes",
+              "price": 850,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Renato Veiga",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Renato Veiga",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Dias",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Dias",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Eldor Shomurodov",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Eldor Shomurodov",
+              "price": 550,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Abbosbek Fayzullaev",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abbosbek Fayzullaev",
+              "price": 850,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Azizjon Ganiev",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Azizjon Ganiev",
+              "price": 1400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Otabek Shukurov",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Otabek Shukurov",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Bekhruz Karimov",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bekhruz Karimov",
+              "price": 2800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdulla Kahramonjon ogly Abdullaev",
+              "price": 3300,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Odiljon Khamrobekov",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Odiljon Khamrobekov",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Abdukodir Khusanov",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdukodir Khusanov",
+              "price": 5500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Sherzod Nasrullayev",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sherzod Nasrullayev",
+              "price": 3300,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Rustamjon Ashurmatov",
+              "price": 900,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rustamjon Ashurmatov",
+              "price": 6600,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betclic_fr",
+      "title": "Betclic (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:52Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -769
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 825
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "codere_it",
+      "title": "Codere (IT)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:49Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -714
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 740
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 116,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -169,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:25Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -650
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2075
+            },
+            {
+              "name": "Draw",
+              "price": 775
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T16:58:25Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -170,
+              "point": -2.0
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 145,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -235,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 185,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T16:58:25Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -240
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1300
+            },
+            {
+              "name": "Draw",
+              "price": 250
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T16:58:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 102,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:37Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -680
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1800
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T16:58:37Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -155,
+              "point": -2.0
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 135,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -140,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 120,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:01Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -700
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2150
+            },
+            {
+              "name": "Draw",
+              "price": 800
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T16:59:01Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -155,
+              "point": -2.0
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 136,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:59:01Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -142,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betway",
+      "title": "Betway",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:37Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -699
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -625
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 800
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -588
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2700
+            },
+            {
+              "name": "Draw",
+              "price": 840
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -103,
+              "point": -2.25
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 102,
+              "point": 2.25
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -123,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 154
+            },
+            {
+              "name": "No",
+              "price": -156
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:00Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -720
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 730
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:20Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -800
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nordicbet",
+      "title": "Nordic Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:39Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -625
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1650
+            },
+            {
+              "name": "Draw",
+              "price": 730
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:58:39Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -233,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 188,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betsson",
+      "title": "Betsson",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:59:02Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -625
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1650
+            },
+            {
+              "name": "Draw",
+              "price": 730
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T16:59:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -233,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 188,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betvictor",
+      "title": "Bet Victor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:28Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -1000
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 2100
+            },
+            {
+              "name": "Draw",
+              "price": 800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_sb_uk",
+      "title": "Betfair Sportsbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T16:58:51Z",
+          "outcomes": [
+            {
+              "name": "Portugal",
+              "price": -909
+            },
+            {
+              "name": "Uzbekistan",
+              "price": 1400
+            },
+            {
+              "name": "Draw",
+              "price": 550
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -39,3 +39,23 @@ run_id,match,question_number,question_type,tier,weak_row_class,source,p_hat,shad
 2026-06-23,Jordan vs Algeria,Q8,halftime_draw,MARKET,market,pipeline,0.399,0.427,,0.43,0.399,0.4,pipeline_default_rounded,1,No,3.37,42,-1,3,4
 2026-06-23,Jordan vs Algeria,Q9,match_total_over,MARKET,market,pipeline,0.498,0.497,,0.46,0.492,0.49,pipeline_default_rounded,1,Yes,2.41,49,2,1,4
 2026-06-23,Jordan vs Algeria,Q10,player_sot_over,PENDING,shadow_player_prop_no_market,pipeline,,0.471,,0.35,0.471,0.47,pipeline_default_al_taamari_starting_no_cut,1,Yes,2.66,47,3,2,5
+2026-06-24,Portugal vs Uzbekistan,Q1,team_offsides_over,PENDING,shadow_generic,pipeline,,0.485,,0.31,0.485,0.485,,1,Yes,10.61,41,11,-3,14
+2026-06-24,Portugal vs Uzbekistan,Q2,team_more_sot_2h,RATE_SOT_CMP,sot_comparison,pipeline,0.904,0.542,,0.74,0.759,0.759,,1,Yes,3.23,74,3,-1,4
+2026-06-24,Portugal vs Uzbekistan,Q3,team_offsides_over,PENDING,shadow_generic,pipeline,,0.485,,0.34,0.485,0.485,,1,Yes,-5.41,56,-5,12,17
+2026-06-24,Portugal vs Uzbekistan,Q4,penalty_or_red_card,PENDING,shadow_generic_high_variance_event,pipeline,,0.389,,0.34,0.389,0.389,,1,No,2.11,39,3,2,5
+2026-06-24,Portugal vs Uzbekistan,Q5,player_sot_2h_over,PENDING,shadow_prop_FLAG_stale_chat_submitted0.478_vs_crowd0.35_+13pt_stake27_harden_chat,pipeline,,0.478,,0.17,0.478,0.478,,1,No,-8.01,35,19,-8,27
+2026-06-24,Portugal vs Uzbekistan,Q6,compound_btts_over_2_5,ENGINE_GOALS,engine_goals,pipeline,0.36,0.392,,0.31,0.363,0.363,,1,No,1.76,35,4,2,6
+2026-06-24,Portugal vs Uzbekistan,Q7,team_win,MARKET,market,pipeline,0.838,0.621,,0.76,0.817,0.817,,1,Yes,2.5,81,2,0,3
+2026-06-24,Portugal vs Uzbekistan,Q8,total_goals_2h_over,ENGINE_GOALS,engine_goals_FLAG_sot_highbias_0.553_vs_llm0.43_crowd0.52,pipeline,0.56,0.493,,0.43,0.553,0.553,,1,Yes,5.01,52,5,-1,6
+2026-06-24,Portugal vs Uzbekistan,Q9,team_sot_over,RATE_SOT,sot_threshold_FLAG_sot_highbias_0.389_vs_llm0.19_crowd0.30,pipeline,0.298,0.481,,0.19,0.389,0.389,,1,No,-3.16,30,15,-3,18
+2026-06-24,Portugal vs Uzbekistan,Q10,player_goal,PENDING,prop_confirmed_bench_manual_override,manual,,0.36,0.19,0.09,0.36,0.19,confirmed_bench_but_proven_supersub_scorer_~25min_vs_tiring_weak_defense_offset_by_2026_intl_drought_crowd_underpriced_bench_at_0.29,1,No,8.4,29,-12,8,20
+2026-06-24,England vs Ghana,Q1,both_teams_sot_1h,PENDING,shadow_sot_family_unwired,pipeline,,0.493,,,0.493,0.493,,1,,,,,,
+2026-06-24,England vs Ghana,Q2,team_more_fouls,PENDING,shadow_no_fouls_model,pipeline,,0.535,,,0.535,0.535,,1,,,,,,
+2026-06-24,England vs Ghana,Q3,both_teams_sot_2h_1plus,PENDING,shadow_sot_family_unwired_high_base_rate,pipeline,,0.696,,,0.696,0.696,,1,,,,,,
+2026-06-24,England vs Ghana,Q4,compound_btts_over_2_5,ENGINE_GOALS,engine_compound,pipeline,0.335,0.392,,,0.335,0.335,,1,,,,,,
+2026-06-24,England vs Ghana,Q5,penalty_or_red_card,PENDING,shadow_reliable_chat,pipeline,,0.389,,,0.389,0.389,,1,,,,,,
+2026-06-24,England vs Ghana,Q6,team_more_sot_2h,RATE_SOT_CMP,sot_comparison_anchor_pull_left_at_blend,pipeline,0.052,0.542,,,0.248,0.248,,1,,,,,,
+2026-06-24,England vs Ghana,Q7,team_win,MARKET,market,pipeline,0.813,0.621,,,0.794,0.794,,1,,,,,,
+2026-06-24,England vs Ghana,Q8,player_goal_or_assist,PROP_ok,prop_goal_or_assist_lower_bound_floor_raise,manual,0.57,0.325,0.57,,0.509,0.57,goal_or_assist priced off anytime_goal lower_bound proxy; k_blend pulled to 0.509 below the 0.57 floor; raised to market floor; measurement-invariant predates_clamp,1,,,,,,
+2026-06-24,England vs Ghana,Q9,player_sot_over,PROP_thin,prop_confirmed_starter_thin_market,pipeline,0.43,0.471,,,0.455,0.455,,1,,,,,,
+2026-06-24,England vs Ghana,Q10,team_corners_over,PENDING,shadow_no_corners_model,pipeline,,0.392,,,0.392,0.392,,1,,,,,,

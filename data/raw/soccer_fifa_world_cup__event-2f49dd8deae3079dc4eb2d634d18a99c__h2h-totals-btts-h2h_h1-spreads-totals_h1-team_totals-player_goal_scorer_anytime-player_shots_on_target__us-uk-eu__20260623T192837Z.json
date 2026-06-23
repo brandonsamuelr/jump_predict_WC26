@@ -1,0 +1,4822 @@
+{
+  "id": "2f49dd8deae3079dc4eb2d634d18a99c",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-23T20:00:00Z",
+  "home_team": "England",
+  "away_team": "Ghana",
+  "bookmakers": [
+    {
+      "key": "winamax_de",
+      "title": "Winamax (DE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:01Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -556
+            },
+            {
+              "name": "Ghana",
+              "price": 1350
+            },
+            {
+              "name": "Draw",
+              "price": 675
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmu_fr",
+      "title": "PMU (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:00Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -715
+            },
+            {
+              "name": "Ghana",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:00Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -177,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_nl",
+      "title": "Unibet (NL)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:23Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -590
+            },
+            {
+              "name": "Ghana",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:23Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -165,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tipico_de",
+      "title": "Tipico",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:00Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -667
+            },
+            {
+              "name": "Ghana",
+              "price": 1500
+            },
+            {
+              "name": "Draw",
+              "price": 720
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas",
+      "title": "LeoVegas",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:35Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -625
+            },
+            {
+              "name": "Ghana",
+              "price": 1700
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -165,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:23Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -714
+            },
+            {
+              "name": "Ghana",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:28:23Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 132
+            },
+            {
+              "name": "No",
+              "price": -185
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "casumo",
+      "title": "Casumo",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:23Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -625
+            },
+            {
+              "name": "Ghana",
+              "price": 1700
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:23Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -165,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_se",
+      "title": "Unibet (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -590
+            },
+            {
+              "name": "Ghana",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 130,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -159,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_fr",
+      "title": "Unibet (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -625
+            },
+            {
+              "name": "Ghana",
+              "price": 1700
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -714
+            },
+            {
+              "name": "Ghana",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 132
+            },
+            {
+              "name": "No",
+              "price": -185
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -625
+            },
+            {
+              "name": "Ghana",
+              "price": 1700
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -165,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:27:33Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 132
+            },
+            {
+              "name": "No",
+              "price": -186
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T19:27:33Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -205
+            },
+            {
+              "name": "Ghana",
+              "price": 1000
+            },
+            {
+              "name": "Draw",
+              "price": 210
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T19:27:33Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Jerome Opoku",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Semenyo",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Jude Bellingham",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Kane",
+              "price": -210
+            },
+            {
+              "name": "Yes",
+              "description": "Thomas Partey",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Kwasi Sibo",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Marc Guehi",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Anthony Gordon",
+              "price": 185
+            },
+            {
+              "name": "Yes",
+              "description": "Declan Rice",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Gideon Mensah",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Noni Madueke",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Inaki Williams",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Ayew",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Reece James",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Caleb Yirenkyi",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Jonas Adjetey",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Elliot Anderson",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Marvin Senaya",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Ezri Konsa",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Djed Spence",
+              "price": 600
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-23T19:27:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Reece James",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": 180,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Marc Guehi",
+              "price": 280,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan Ayew",
+              "price": 148,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": 115,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Inaki Williams",
+              "price": 950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": -205,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": -162,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": -1250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": 900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Declan Rice",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Elliot Anderson",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": 200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ezri Konsa",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": 260,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": 600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kwasi Sibo",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Djed Spence",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Declan Rice",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Gideon Mensah",
+              "price": 950,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Inaki Williams",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antoine Semenyo",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": -245,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antoine Semenyo",
+              "price": 550,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan Ayew",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": -245,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": 250,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Caleb Yirenkyi",
+              "price": 460,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Thomas Partey",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jerome Opoku",
+              "price": 850,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marvin Senaya",
+              "price": 850,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": 550,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": 500,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grosvenor",
+      "title": "Grosvenor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -590
+            },
+            {
+              "name": "Ghana",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 600
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -165,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:37Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -588
+            },
+            {
+              "name": "Ghana",
+              "price": 1300
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas_se",
+      "title": "LeoVegas (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:35Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -625
+            },
+            {
+              "name": "Ghana",
+              "price": 1700
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -523
+            },
+            {
+              "name": "Ghana",
+              "price": 1518
+            },
+            {
+              "name": "Draw",
+              "price": 592
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -176,
+              "point": -1.5
+            },
+            {
+              "name": "Ghana",
+              "price": 142,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 133,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -173,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -168
+            },
+            {
+              "name": "Ghana",
+              "price": 1021
+            },
+            {
+              "name": "Draw",
+              "price": 187
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 121,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -165,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_uk",
+      "title": "Unibet (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:25Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -500
+            },
+            {
+              "name": "Ghana",
+              "price": 1500
+            },
+            {
+              "name": "Draw",
+              "price": 600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:27:59Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -485
+            },
+            {
+              "name": "Ghana",
+              "price": 1550
+            },
+            {
+              "name": "Draw",
+              "price": 685
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T19:27:59Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -167,
+              "point": -1.5
+            },
+            {
+              "name": "Ghana",
+              "price": 143,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:27:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 134,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -156,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:27:59Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 134
+            },
+            {
+              "name": "No",
+              "price": -184
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T19:28:22Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Harry Kane",
+              "price": -189
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Toney",
+              "price": -118
+            },
+            {
+              "name": "Yes",
+              "description": "Ollie Watkins",
+              "price": -111
+            },
+            {
+              "name": "Yes",
+              "description": "Anthony Gordon",
+              "price": 165
+            },
+            {
+              "name": "Yes",
+              "description": "Jude Bellingham",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Rashford",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Noni Madueke",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Eberechi Eze",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Bukayo Saka",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Morgan Rogers",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Declan Rice",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Elliot Anderson",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Semenyo",
+              "price": 530
+            },
+            {
+              "name": "Yes",
+              "description": "Inaki Williams",
+              "price": 560
+            },
+            {
+              "name": "Yes",
+              "description": "Marc Guehi",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Reece James",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Nico O'Reilly",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Ayew",
+              "price": 610
+            },
+            {
+              "name": "Yes",
+              "description": "Augustine Boakye",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Brandon Thomas-Asante",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Ezri Konsa",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Prince Kwabena Adu",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Djed Spence",
+              "price": 860
+            },
+            {
+              "name": "Yes",
+              "description": "Abdul Fatawu Issahaku",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Christopher Bonsu Baah",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Kamal-Deen Sulemana",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Ernest Nuamah",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "John Stones",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Thomas Partey",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Caleb Yirenkyi",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Abdul Rahman Baba",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Elisha Owusu",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Kwasi Sibo",
+              "price": 2100
+            },
+            {
+              "name": "Yes",
+              "description": "Marvin Senaya",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Jerome Opoku",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Gideon Mensah",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Jonas Adjetey",
+              "price": 3000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-23T19:28:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Jordan Ayew",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan Ayew",
+              "price": 850,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan Ayew",
+              "price": 4000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Reece James",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Reece James",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ezri Konsa",
+              "price": 295,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ezri Konsa",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Inaki Williams",
+              "price": -118,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Inaki Williams",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Inaki Williams",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Declan Rice",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Declan Rice",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Declan Rice",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Gideon Mensah",
+              "price": 1100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": -263,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": 160,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": 650,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": 1800,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": -667,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": -200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": 180,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": 550,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Thomas Partey",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Thomas Partey",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kwasi Sibo",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Djed Spence",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Djed Spence",
+              "price": 1300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": -244,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": 180,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": 400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": 2200,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Jerome Opoku",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": -227,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": 170,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": 600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": 2000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Marvin Senaya",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Elliot Anderson",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Elliot Anderson",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Elliot Anderson",
+              "price": 4500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Antoine Semenyo",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antoine Semenyo",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Antoine Semenyo",
+              "price": 3500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Marc Guehi",
+              "price": 195,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marc Guehi",
+              "price": 1300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ernest Nuamah",
+              "price": 280,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Caleb Yirenkyi",
+              "price": 475,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonas Adjetey",
+              "price": 1100,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:27:00Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -575
+            },
+            {
+              "name": "Ghana",
+              "price": 1500
+            },
+            {
+              "name": "Draw",
+              "price": 590
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T19:27:00Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -118,
+              "point": -2.0
+            },
+            {
+              "name": "Ghana",
+              "price": -104,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:27:00Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -129,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 106,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coolbet",
+      "title": "Coolbet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:37Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -500
+            },
+            {
+              "name": "Ghana",
+              "price": 1625
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -118,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 103,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:00Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -500
+            },
+            {
+              "name": "Ghana",
+              "price": 1400
+            },
+            {
+              "name": "Draw",
+              "price": 550
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:28:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 138
+            },
+            {
+              "name": "No",
+              "price": -188
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:23Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -600
+            },
+            {
+              "name": "Ghana",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 600
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:27:32Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 136
+            },
+            {
+              "name": "No",
+              "price": -174
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T19:27:32Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -200
+            },
+            {
+              "name": "Ghana",
+              "price": 1000
+            },
+            {
+              "name": "Draw",
+              "price": 195
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T19:27:32Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Harry Kane",
+              "price": -190
+            },
+            {
+              "name": "Yes",
+              "description": "Jude Bellingham",
+              "price": 165
+            },
+            {
+              "name": "Yes",
+              "description": "Noni Madueke",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Anthony Gordon",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Declan Rice",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Elliot Anderson",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Semenyo",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Ayew",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Inaki Williams",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Reece James",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Marc Guehi",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Djed Spence",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Ezri Konsa",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Caleb Yirenkyi",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Thomas Partey",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Kwasi Sibo",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Jerome Opoku",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Jonas Adjetey",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Marvin Senaya",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Gideon Mensah",
+              "price": 5000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-23T19:27:32Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": 200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": 550,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": 800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": 850,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Declan Rice",
+              "price": 3000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": 550,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": 1800,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": 3000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": 3000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": -750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": -300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": -230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": -230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Declan Rice",
+              "price": 105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Inaki Williams",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antoine Semenyo",
+              "price": 130,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Elliot Anderson",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan Ayew",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marc Guehi",
+              "price": 195,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Reece James",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ezri Konsa",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Djed Spence",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kwasi Sibo",
+              "price": 420,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Thomas Partey",
+              "price": 440,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Caleb Yirenkyi",
+              "price": 470,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marvin Senaya",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jerome Opoku",
+              "price": 900,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonas Adjetey",
+              "price": 900,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gideon Mensah",
+              "price": 1200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": -160,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": 155,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": 210,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": 220,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Declan Rice",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Inaki Williams",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Antoine Semenyo",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan Ayew",
+              "price": 1000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Elliot Anderson",
+              "price": 1000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Marc Guehi",
+              "price": 1500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Reece James",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ezri Konsa",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Djed Spence",
+              "price": 2200,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T19:27:32Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": 144,
+              "point": -2.5
+            },
+            {
+              "name": "Ghana",
+              "price": -186,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-23T19:27:32Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "England",
+              "price": -113,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "England",
+              "price": -113,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ghana",
+              "price": 124,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Ghana",
+              "price": -158,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:27:32Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -6000,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -168,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T19:27:32Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -152,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:25Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -714
+            },
+            {
+              "name": "Ghana",
+              "price": 1500
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 130
+            },
+            {
+              "name": "No",
+              "price": -175
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Noni Madueke",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Reece James",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Kane",
+              "price": -200
+            },
+            {
+              "name": "Yes",
+              "description": "Elliot Anderson",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Anthony Gordon",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Marc Guehi",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ezri Konsa",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Declan Rice",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Djed Spence",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Jude Bellingham",
+              "price": 163
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Semenyo",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Thomas Partey",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Jonas Adjetey",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Inaki Williams",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Kwasi Sibo",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Marvin Senaya",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Ayew",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Caleb Yirenkyi",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Gideon Mensah",
+              "price": 6600
+            },
+            {
+              "name": "Yes",
+              "description": "Jerome Opoku",
+              "price": 2800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "smarkets",
+      "title": "Smarkets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:13Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -500
+            },
+            {
+              "name": "Ghana",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 720
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-23T19:28:13Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -476
+            },
+            {
+              "name": "Ghana",
+              "price": 2098
+            },
+            {
+              "name": "Draw",
+              "price": 720
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:23Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -700
+            },
+            {
+              "name": "Ghana",
+              "price": 1500
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:27:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:24Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -500
+            },
+            {
+              "name": "Ghana",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 720
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-23T19:28:24Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -476
+            },
+            {
+              "name": "Ghana",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 740
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:28:33Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 148
+            },
+            {
+              "name": "No",
+              "price": -152
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T19:28:33Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Harry Kane",
+              "price": -169
+            },
+            {
+              "name": "Yes",
+              "description": "Anthony Gordon",
+              "price": 285
+            },
+            {
+              "name": "Yes",
+              "description": "Noni Madueke",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Jude Bellingham",
+              "price": 235
+            },
+            {
+              "name": "Yes",
+              "description": "Declan Rice",
+              "price": 560
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Semenyo",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Elliot Anderson",
+              "price": 840
+            },
+            {
+              "name": "Yes",
+              "description": "Inaki Williams",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Reece James",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Ayew",
+              "price": 780
+            },
+            {
+              "name": "Yes",
+              "description": "Djed Spence",
+              "price": 1750
+            },
+            {
+              "name": "Yes",
+              "description": "Marc Guehi",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ezri Konsa",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Caleb Yirenkyi",
+              "price": 1650
+            },
+            {
+              "name": "Yes",
+              "description": "Kwasi Sibo",
+              "price": 4100
+            },
+            {
+              "name": "Yes",
+              "description": "Thomas Partey",
+              "price": 2100
+            },
+            {
+              "name": "Yes",
+              "description": "Jerome Opoku",
+              "price": 4700
+            },
+            {
+              "name": "Yes",
+              "description": "Jonas Adjetey",
+              "price": 4700
+            },
+            {
+              "name": "Yes",
+              "description": "Marvin Senaya",
+              "price": 4300
+            },
+            {
+              "name": "Yes",
+              "description": "Gideon Mensah",
+              "price": 5900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_eu",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:24Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -500
+            },
+            {
+              "name": "Ghana",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 720
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-23T19:28:24Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -476
+            },
+            {
+              "name": "Ghana",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 740
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:37Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -550
+            },
+            {
+              "name": "Ghana",
+              "price": 1700
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T19:28:37Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -104,
+              "point": -2.0
+            },
+            {
+              "name": "Ghana",
+              "price": -104,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 104,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:28:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 138
+            },
+            {
+              "name": "No",
+              "price": -168
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T19:28:25Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -194
+            },
+            {
+              "name": "Ghana",
+              "price": 1212
+            },
+            {
+              "name": "Draw",
+              "price": 218
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T19:28:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Harry Kane",
+              "price": -185
+            },
+            {
+              "name": "Yes",
+              "description": "Anthony Gordon",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Bukayo Saka",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Rashford",
+              "price": 169
+            },
+            {
+              "name": "Yes",
+              "description": "Jude Bellingham",
+              "price": 203
+            },
+            {
+              "name": "Yes",
+              "description": "Noni Madueke",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Eberechi Eze",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Semenyo",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Elliot Anderson",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Ayew",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Nico O'Reilly",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Declan Rice",
+              "price": 472
+            },
+            {
+              "name": "Yes",
+              "description": "Inaki Williams",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Ernest Nuamah",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Brandon Thomas-Asante",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Reece James",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "John Stones",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Thomas Partey",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Marc Guehi",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Ezri Konsa",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Kamal-Deen Sulemana",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Abdul Fatawu Issahaku",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Caleb Yirenkyi",
+              "price": 1388
+            },
+            {
+              "name": "Yes",
+              "description": "Kwasi Sibo",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Jerome Opoku",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Marvin Senaya",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Gideon Mensah",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Derrick Luckassen",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Jonas Adjetey",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Elisha Owusu",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Abdul Mumin",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Alidu Seidu",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Abdul Rahman Baba",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Noni Madueke",
+              "price": 261
+            },
+            {
+              "name": "No",
+              "description": "Noni Madueke",
+              "price": -327
+            },
+            {
+              "name": "Yes",
+              "description": "Anthony Gordon",
+              "price": 237
+            },
+            {
+              "name": "No",
+              "description": "Anthony Gordon",
+              "price": -295
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Semenyo",
+              "price": 551
+            },
+            {
+              "name": "No",
+              "description": "Antoine Semenyo",
+              "price": -796
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Kane",
+              "price": -180
+            },
+            {
+              "name": "No",
+              "description": "Harry Kane",
+              "price": 148
+            },
+            {
+              "name": "Yes",
+              "description": "Marcus Rashford",
+              "price": 199
+            },
+            {
+              "name": "No",
+              "description": "Marcus Rashford",
+              "price": -245
+            },
+            {
+              "name": "Yes",
+              "description": "Jude Bellingham",
+              "price": 192
+            },
+            {
+              "name": "No",
+              "description": "Jude Bellingham",
+              "price": -236
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-23T19:28:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "England",
+              "price": -110,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "England",
+              "price": -110,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ghana",
+              "price": 119,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Ghana",
+              "price": -145,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T19:28:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -106,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:00Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -545
+            },
+            {
+              "name": "Ghana",
+              "price": 1800
+            },
+            {
+              "name": "Draw",
+              "price": 655
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T19:28:00Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -185,
+              "point": -1.5
+            },
+            {
+              "name": "Ghana",
+              "price": 162,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:00Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 104,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T19:28:15Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -200
+            },
+            {
+              "name": "Ghana",
+              "price": 1300
+            },
+            {
+              "name": "Draw",
+              "price": 218
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-23T19:28:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "England",
+              "price": -120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "England",
+              "price": 100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ghana",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Ghana",
+              "price": -140,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T19:28:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -114,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -106,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:26:51Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -575
+            },
+            {
+              "name": "Ghana",
+              "price": 1400
+            },
+            {
+              "name": "Draw",
+              "price": 600
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T19:26:51Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -112,
+              "point": -2.0
+            },
+            {
+              "name": "Ghana",
+              "price": -108,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:26:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:27:44Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 138
+            },
+            {
+              "name": "No",
+              "price": -183
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T19:27:44Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -1300
+            },
+            {
+              "name": "Ghana",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T19:27:44Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ezri Konsa",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Reece James",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Djed Spence",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Kane",
+              "price": -197
+            },
+            {
+              "name": "Yes",
+              "description": "Elliot Anderson",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Semenyo",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Marc Guehi",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Gideon Mensah",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Kwasi Sibo",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Noni Madueke",
+              "price": 205
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Ayew",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Thomas Partey",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Anthony Gordon",
+              "price": 190
+            },
+            {
+              "name": "Yes",
+              "description": "Marvin Senaya",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Jude Bellingham",
+              "price": 205
+            },
+            {
+              "name": "Yes",
+              "description": "Declan Rice",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Jonas Adjetey",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Inaki Williams",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Caleb Yirenkyi",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Jerome Opoku",
+              "price": 3500
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T19:27:44Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "everygame",
+      "title": "Everygame",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:27:57Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -625
+            },
+            {
+              "name": "Ghana",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 625
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:23Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -550
+            },
+            {
+              "name": "Ghana",
+              "price": 1500
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:27:37Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 130
+            },
+            {
+              "name": "No",
+              "price": -165
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T19:27:37Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -200
+            },
+            {
+              "name": "Ghana",
+              "price": 1400
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T19:27:37Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Harry Kane",
+              "price": -195
+            },
+            {
+              "name": "Yes",
+              "description": "Anthony Gordon",
+              "price": 195
+            },
+            {
+              "name": "Yes",
+              "description": "Jude Bellingham",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Noni Madueke",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Declan Rice",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Semenyo",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Elliot Anderson",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Ayew",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Reece James",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Inaki Williams",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Djed Spence",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Marc Guehi",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Ezri Konsa",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Thomas Partey",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Caleb Yirenkyi",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Kwasi Sibo",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Jerome Opoku",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Jonas Adjetey",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Marvin Senaya",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Gideon Mensah",
+              "price": 4500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -556
+            },
+            {
+              "name": "Ghana",
+              "price": 1200
+            },
+            {
+              "name": "Draw",
+              "price": 600
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 137
+            },
+            {
+              "name": "No",
+              "price": -200
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -200
+            },
+            {
+              "name": "Ghana",
+              "price": 750
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:24Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -556
+            },
+            {
+              "name": "Ghana",
+              "price": 1200
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:28:24Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 140
+            },
+            {
+              "name": "No",
+              "price": -189
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T19:28:24Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -200
+            },
+            {
+              "name": "Ghana",
+              "price": 800
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -525
+            },
+            {
+              "name": "Ghana",
+              "price": 1300
+            },
+            {
+              "name": "Draw",
+              "price": 625
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 135,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -175,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 145
+            },
+            {
+              "name": "No",
+              "price": -190
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T19:26:45Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -200
+            },
+            {
+              "name": "Ghana",
+              "price": 825
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T19:26:45Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Harry Kane",
+              "price": -275
+            },
+            {
+              "name": "Yes",
+              "description": "Anthony Gordon",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Jude Bellingham",
+              "price": 185
+            },
+            {
+              "name": "Yes",
+              "description": "Noni Madueke",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Declan Rice",
+              "price": 425
+            },
+            {
+              "name": "Yes",
+              "description": "Elliot Anderson",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Ayew",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Inaki Williams",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Semenyo",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Reece James",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Marc Guehi",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Ezri Konsa",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Djed Spence",
+              "price": 675
+            },
+            {
+              "name": "Yes",
+              "description": "Caleb Yirenkyi",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Thomas Partey",
+              "price": 875
+            },
+            {
+              "name": "Yes",
+              "description": "Kwasi Sibo",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Jonas Adjetey",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Jerome Opoku",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Marvin Senaya",
+              "price": 1650
+            },
+            {
+              "name": "Yes",
+              "description": "Gideon Mensah",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-23T19:26:45Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "England",
+              "price": -115,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "England",
+              "price": -118,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ghana",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Ghana",
+              "price": -165,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T19:26:45Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -155,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boylesports",
+      "title": "BoyleSports",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:27:37Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -550
+            },
+            {
+              "name": "Ghana",
+              "price": 1400
+            },
+            {
+              "name": "Draw",
+              "price": 550
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sport888",
+      "title": "888sport",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:23Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -599
+            },
+            {
+              "name": "Ghana",
+              "price": 1200
+            },
+            {
+              "name": "Draw",
+              "price": 550
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -550
+            },
+            {
+              "name": "Ghana",
+              "price": 1400
+            },
+            {
+              "name": "Draw",
+              "price": 600
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -200,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 150,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 115
+            },
+            {
+              "name": "No",
+              "price": -162
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T19:27:57Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Harry Kane",
+              "price": -225
+            },
+            {
+              "name": "Yes",
+              "description": "Anthony Gordon",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Jude Bellingham",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Noni Madueke",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Declan Rice",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Antoine Semenyo",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Ayew",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Inaki Williams",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Elliot Anderson",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Reece James",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Thomas Partey",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Caleb Yirenkyi",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Marc Guehi",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Ezri Konsa",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Djed Spence",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Jerome Opoku",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Marvin Senaya",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Jonas Adjetey",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Kwasi Sibo",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Gideon Mensah",
+              "price": 3300
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-23T19:27:57Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": -250,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": 115,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": 225,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Harry Kane",
+              "price": 550,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": -250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": 188,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": 500,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Jude Bellingham",
+              "price": 1100,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": -250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": 188,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": 500,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Anthony Gordon",
+              "price": 1100,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": -200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": 220,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": 600,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Noni Madueke",
+              "price": 1400,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Declan Rice",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Declan Rice",
+              "price": 450,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Declan Rice",
+              "price": 1200,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Declan Rice",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Elliot Anderson",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Elliot Anderson",
+              "price": 700,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Reece James",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Reece James",
+              "price": 800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Djed Spence",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Djed Spence",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Marc Guehi",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marc Guehi",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ezri Konsa",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ezri Konsa",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Antoine Semenyo",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antoine Semenyo",
+              "price": 550,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Inaki Williams",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Inaki Williams",
+              "price": 700,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jordan Ayew",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan Ayew",
+              "price": 700,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Thomas Partey",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Thomas Partey",
+              "price": 1200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Caleb Yirenkyi",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Caleb Yirenkyi",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Kwasi Sibo",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kwasi Sibo",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Marvin Senaya",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marvin Senaya",
+              "price": 2800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jonas Adjetey",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonas Adjetey",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jerome Opoku",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jerome Opoku",
+              "price": 2800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Gideon Mensah",
+              "price": 900,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gideon Mensah",
+              "price": 6600,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betclic_fr",
+      "title": "Betclic (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:26:13Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -588
+            },
+            {
+              "name": "Ghana",
+              "price": 1650
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "codere_it",
+      "title": "Codere (IT)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:00Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -556
+            },
+            {
+              "name": "Ghana",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 620
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:00Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -179,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 123,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:02Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -515
+            },
+            {
+              "name": "Ghana",
+              "price": 1700
+            },
+            {
+              "name": "Draw",
+              "price": 675
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T19:28:02Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -110,
+              "point": -2.0
+            },
+            {
+              "name": "Ghana",
+              "price": -110,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 130,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -160,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T19:28:02Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -199
+            },
+            {
+              "name": "Ghana",
+              "price": 1200
+            },
+            {
+              "name": "Draw",
+              "price": 212
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T19:28:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -108,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -550
+            },
+            {
+              "name": "Ghana",
+              "price": 1400
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -110,
+              "point": -2.0
+            },
+            {
+              "name": "Ghana",
+              "price": -110,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:14Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -545
+            },
+            {
+              "name": "Ghana",
+              "price": 1800
+            },
+            {
+              "name": "Draw",
+              "price": 655
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T19:28:14Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -185,
+              "point": -1.5
+            },
+            {
+              "name": "Ghana",
+              "price": 162,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 104,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betway",
+      "title": "Betway",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:12Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -599
+            },
+            {
+              "name": "Ghana",
+              "price": 1400
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:24Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -500
+            },
+            {
+              "name": "Ghana",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-23T19:28:24Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -476
+            },
+            {
+              "name": "Ghana",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 720
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T19:28:24Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": 100,
+              "point": -2.0
+            },
+            {
+              "name": "Ghana",
+              "price": -102,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T19:28:24Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 148
+            },
+            {
+              "name": "No",
+              "price": -152
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:11Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -630
+            },
+            {
+              "name": "Ghana",
+              "price": 1500
+            },
+            {
+              "name": "Draw",
+              "price": 600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:27:47Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -560
+            },
+            {
+              "name": "Ghana",
+              "price": 1300
+            },
+            {
+              "name": "Draw",
+              "price": 575
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nordicbet",
+      "title": "Nordic Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -500
+            },
+            {
+              "name": "Ghana",
+              "price": 1500
+            },
+            {
+              "name": "Draw",
+              "price": 600
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -182,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 145,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betsson",
+      "title": "Betsson",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:14Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -500
+            },
+            {
+              "name": "Ghana",
+              "price": 1500
+            },
+            {
+              "name": "Draw",
+              "price": 600
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T19:28:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -192,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 155,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betvictor",
+      "title": "Bet Victor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:30Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -649
+            },
+            {
+              "name": "Ghana",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_sb_uk",
+      "title": "Betfair Sportsbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T19:28:00Z",
+          "outcomes": [
+            {
+              "name": "England",
+              "price": -714
+            },
+            {
+              "name": "Ghana",
+              "price": 1300
+            },
+            {
+              "name": "Draw",
+              "price": 500
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

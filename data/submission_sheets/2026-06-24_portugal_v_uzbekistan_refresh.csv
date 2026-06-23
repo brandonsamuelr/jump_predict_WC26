@@ -1,0 +1,11 @@
+match,q,type,tier,class,k,c_hat,p_hat,mode,SUBMIT,d_base,action
+Portugal vs Uzbekistan,Q1,team_offsides_over,PENDING,SHADOW,0.0,0.485,,shadow,0.485,0.0,KEEP
+Portugal vs Uzbekistan,Q2,team_more_sot_2h,RATE_SOT_CMP,RATE_SOT,0.6,0.542,0.904,edge,0.759,0.0,KEEP
+Portugal vs Uzbekistan,Q3,team_offsides_over,PENDING,SHADOW,0.0,0.485,,shadow,0.485,0.0,KEEP
+Portugal vs Uzbekistan,Q4,penalty_or_red_card,PENDING,SHADOW,0.0,0.389,,shadow,0.389,0.0,KEEP
+Portugal vs Uzbekistan,Q5,player_sot_2h_over,PENDING,SHADOW,0.0,0.478,,shadow,0.478,0.0,KEEP
+Portugal vs Uzbekistan,Q6,compound_btts_over_2_5,ENGINE_GOALS,ENGINE,0.9,0.392,0.36,edge,0.363,0.0,KEEP
+Portugal vs Uzbekistan,Q7,team_win,MARKET,MARKET,0.9,0.621,0.838,edge,0.817,0.0,KEEP
+Portugal vs Uzbekistan,Q8,total_goals_2h_over,ENGINE_GOALS,ENGINE,0.9,0.493,0.56,edge,0.553,0.0,KEEP
+Portugal vs Uzbekistan,Q9,team_sot_over,RATE_SOT,RATE_SOT,0.5,0.481,0.298,edge,0.389,0.0,KEEP
+Portugal vs Uzbekistan,Q10,player_goal,PENDING,SHADOW,0.0,0.36,,shadow,0.36,0.0,KEEP

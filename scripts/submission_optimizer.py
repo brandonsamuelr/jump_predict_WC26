@@ -30,6 +30,7 @@ from odds_lib.field_model import FieldMeanEstimator
 from odds_lib.optimizer import optimize
 from odds_lib.edge import compute_edge_table
 from odds_lib.lineups import load_lineup
+from odds_lib.player_prop_pricing import is_lower_bound_prop
 from odds_lib.measurement import LOG_PATH, build_edge_frame
 
 
@@ -50,8 +51,8 @@ def load_edge_table():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--questions", default="data/submission_sheets/2026-06-23_questions.csv")
-    ap.add_argument("--out", default="data/submission_sheets/2026-06-23_optimized_submit_sheet.csv")
+    ap.add_argument("--questions", default="data/submission_sheets/2026-06-24_questions.csv")
+    ap.add_argument("--out", default="data/submission_sheets/2026-06-24_optimized_submit_sheet.csv")
     args = ap.parse_args()
 
     q = pd.read_csv(args.questions, dtype=str).fillna("")
@@ -81,7 +82,8 @@ def main():
         tier, p_hat, _ = slate.resolve_row(r.to_dict(), cons[eid], games[eid],
                                            models[eid], lineup=lineups[mt])
         fe = field.estimate(qt)
-        sub = optimize(tier=tier, question_type=qt, p_hat=p_hat, shadow=fe.q_hat, table=table)
+        sub = optimize(tier=tier, question_type=qt, p_hat=p_hat, shadow=fe.q_hat,
+                       table=table, lower_bound=is_lower_bound_prop(qt))
         dev = (p_hat - fe.q_hat) if p_hat is not None else float("nan")
         out.append({
             "match": r["match"], "q": r["question_number"], "type": qt,
@@ -89,7 +91,9 @@ def main():
             "p_hat": round(p_hat, 3) if p_hat is not None else "",
             "c_hat": round(fe.q_hat, 3), "shadow": round(fe.q_hat, 3),
             "dev": round(dev, 3) if dev == dev else "",
-            "k": round(sub.k, 2), "mode": sub.mode, "SUBMIT": round(sub.q, 3),
+            "k": round(sub.k, 2),
+            "mode": sub.mode + ("+clamp" if sub.lower_bound_clamped else ""),
+            "SUBMIT": round(sub.q, 3),
         })
 
     res = pd.DataFrame(out)

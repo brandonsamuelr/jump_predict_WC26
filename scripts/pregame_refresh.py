@@ -33,6 +33,7 @@ from odds_lib.field_model import FieldMeanEstimator
 from odds_lib.optimizer import optimize
 from odds_lib.edge import compute_edge_table
 from odds_lib.lineups import load_lineup
+from odds_lib.player_prop_pricing import is_lower_bound_prop
 from odds_lib.measurement import LOG_PATH, build_edge_frame
 
 SPORT = "soccer_fifa_world_cup"
@@ -67,8 +68,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--match")
     ap.add_argument("--event-id")
-    ap.add_argument("--questions", default="data/submission_sheets/2026-06-23_questions.csv")
-    ap.add_argument("--baseline", default="data/submission_sheets/2026-06-23_optimized_submit_sheet.csv")
+    ap.add_argument("--questions", default="data/submission_sheets/2026-06-24_questions.csv")
+    ap.add_argument("--baseline", default="data/submission_sheets/2026-06-24_optimized_submit_sheet.csv")
     ap.add_argument("--regions", default="us,uk,eu")
     ap.add_argument("--no-fetch", action="store_true", help="use cached odds (no credits)")
     args = ap.parse_args()
@@ -104,15 +105,20 @@ def main():
     edge_table = (compute_edge_table(build_edge_frame(pd.read_csv(LOG_PATH, dtype=str)))
                   if LOG_PATH.exists() else pd.DataFrame())
 
-    base = pd.read_csv(args.baseline)
-    base_by_q = {r["q"]: r for _, r in base[base["match"] == match].iterrows()}
+    if Path(args.baseline).exists():
+        base = pd.read_csv(args.baseline)
+        base_by_q = {r["q"]: r for _, r in base[base["match"] == match].iterrows()}
+    else:
+        print(f"[no baseline yet at {args.baseline}; first run of this slate -> d_base blank]")
+        base_by_q = {}
 
     out = []
     for _, r in rows.iterrows():
         tier, p_hat, mkt = slate.resolve_row(r.to_dict(), c, game, model, lineup=lineup)
         fe = field.estimate(r["question_type"])
         sub = optimize(tier=tier, question_type=r["question_type"],
-                       p_hat=p_hat, shadow=fe.q_hat, table=edge_table)
+                       p_hat=p_hat, shadow=fe.q_hat, table=edge_table,
+                       lower_bound=is_lower_bound_prop(r["question_type"]))
         new_q = round(sub.q, 3)
         b = base_by_q.get(r["question_number"])
         old_q = round(float(b["SUBMIT"]), 3) if b is not None else float("nan")
@@ -124,7 +130,8 @@ def main():
             "tier": tier, "class": sub.source_class, "k": round(sub.k, 2),
             "c_hat": round(fe.q_hat, 3),
             "p_hat": round(p_hat, 3) if p_hat is not None else "",
-            "mode": sub.mode, "SUBMIT": new_q, "d_base": round(delta, 3),
+            "mode": sub.mode + ("+clamp" if sub.lower_bound_clamped else ""),
+            "SUBMIT": new_q, "d_base": round(delta, 3),
             "action": action,
         })
 

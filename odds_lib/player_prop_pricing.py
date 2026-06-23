@@ -68,6 +68,12 @@ class PropSpec:
     overround: float
     confidence: str  # "direct" | "partial"
     note: str = ""
+    # True ONLY for mappings VERIFIED to be a directional lower bound whose
+    # market definition/timeframe matches the contest question (so the bound
+    # P(question) >= P(market) holds by event structure). Set per-mapping after
+    # verification — never inferred from confidence alone. Enables the
+    # definitional lower-bound clamp in optimizer.optimize().
+    lower_bound: bool = False
 
 
 # The ONLY allowed contest-question -> API-market equivalences. A value of
@@ -95,6 +101,13 @@ PROP_EQUIVALENCE: dict[str, PropSpec | None] = {
         overround=ANYTIME_SCORER_OVERROUND,
         confidence="partial",
         note="anytime-scorer is a LOWER BOUND on goal-or-assist; partial only",
+        # VERIFIED lower bound: scoring-or-assisting is a SUPERSET of scoring,
+        # and both the contest question and the anytime-goal market are
+        # full-match, excluding own goals -> same timeframe/definition. So
+        # P(goal or assist) >= P(anytime goal) by event structure, at any
+        # sample size. (Would NOT hold if the question were half-specific vs a
+        # full-match market — do not set lower_bound for such a mapping.)
+        lower_bound=True,
     ),
     # Full-match SOT is NOT 2H SOT; anytime-scorer is NOT SOT. No equivalent
     # market in the soccer feed -> never priced here.
@@ -123,9 +136,18 @@ class PropPricing:
     books_used: str
     liquidity_flag: str  # ok | thin | low | n/a
     note: str = ""
+    lower_bound: bool = False  # market_prob is a definitional lower bound on the question
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
+
+
+def is_lower_bound_prop(question_type: str) -> bool:
+    """True iff the question_type maps to a market that is a VERIFIED
+    definitional lower bound (e.g. goal-or-assist priced off anytime-goal).
+    Used by the submission path to enforce SUBMIT >= p_hat for these rows."""
+    spec = PROP_EQUIVALENCE.get((question_type or "").strip().lower())
+    return bool(spec is not None and spec.lower_bound)
 
 
 # --- name matching ---------------------------------------------------------
@@ -315,6 +337,7 @@ def price_player_prop(
         books_used=", ".join(sorted(q.book for q in quotes)),
         liquidity_flag=_liquidity_flag(len(quotes), len(sharp_quotes)),
         note=spec.note,
+        lower_bound=spec.lower_bound,
     )
 
 
@@ -327,4 +350,5 @@ __all__ = [
     "SOURCE_TAG",
     "match_player",
     "price_player_prop",
+    "is_lower_bound_prop",
 ]

@@ -52,7 +52,12 @@ M_PRIOR = 8.0            # pseudo-matches of prior conviction (prior dominates a
 D_BAR_SQ_FALLBACK = 0.04  # a typical squared deviation (0.20^2) when none observed
 ACTIVE_D = 0.05          # |d| above which the model "took a position"
 ACTIVE_FREEZE_N = 4      # below this many active rows, deployed k = k_prior (no drift)
-MIN_CLUSTERS = 5         # below this many MATCH clusters, also freeze (correlated rows)
+# below this many MATCH clusters, also freeze (correlated rows). Raised 5 -> 10
+# after ENGINE auto-unfroze to a fitted k=1.0 off just 5 correlated clusters:
+# at this sample k is a MONITORING signal, not a deployed parameter. 10 clusters
+# is a meaningful "enough independent matches" bar; fitted k_hat keeps printing
+# as a diagnostic, but deployed k stays on the structural prior until then.
+MIN_CLUSTERS = 10
 
 
 EDGE_CLIP_LO, EDGE_CLIP_HI = 0.02, 0.98  # final p_submit bounds
@@ -168,7 +173,7 @@ def compute_edge_table(df: pd.DataFrame) -> pd.DataFrame:
         # condition is EXACTLY the freeze condition, so frozen <=> prior-dominated.
         if s["clusters"] < MIN_CLUSTERS or s["n_active"] < ACTIVE_FREEZE_N:
             s["confidence"] = "LOW(prior-dominated)"
-        elif s["clusters"] < 10:
+        elif s["clusters"] < 2 * MIN_CLUSTERS:
             s["confidence"] = "MED"
         else:
             s["confidence"] = "OK"

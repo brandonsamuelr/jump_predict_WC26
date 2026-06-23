@@ -48,6 +48,21 @@ def list_sports(only_active: bool = True) -> list[dict]:
     return resp.json()
 
 
+def list_events(sport: str) -> list[dict]:
+    """Free /events endpoint: upcoming events (id, commence_time, home/away).
+
+    Does NOT count against the odds quota — use it to discover event_ids
+    without spending credits (e.g. the new-day questions-file setup).
+    """
+    resp = requests.get(
+        f"{API_BASE}/sports/{sport}/events",
+        params={"apiKey": _api_key(), "dateFormat": "iso"},
+        timeout=30,
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+
 def fetch_odds(
     sport: str,
     markets: str = "h2h",

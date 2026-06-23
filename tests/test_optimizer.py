@@ -126,6 +126,32 @@ def test_total_2h_cagey_extreme_shrinks_toward_base_rate():
     assert 0.26 < s.q < c_hat  # pulled up from the over-steep tail, not all the way
 
 
+def test_lower_bound_clamp_raises_below_floor():
+    # goal-or-assist: blend (0.325+0.75*(0.57-0.325)=0.509) lands below the
+    # anytime-goal lower bound 0.57 -> clamp up to the floor.
+    s = optimize(tier="PROP_ok", question_type="player_goal_or_assist",
+                 p_hat=0.57, shadow=0.325, k=0.75, lower_bound=True)
+    assert s.lower_bound_clamped and _approx(s.q, 0.57)
+
+
+def test_lower_bound_no_clamp_when_above_floor():
+    s = optimize(tier="PROP_ok", question_type="player_goal_or_assist",
+                 p_hat=0.40, shadow=0.60, k=0.75, lower_bound=True)
+    assert not s.lower_bound_clamped and _approx(s.q, 0.45)   # 0.60+0.75*(0.40-0.60)
+
+
+def test_lower_bound_never_clamps_shadow_row():
+    s = optimize(tier="PENDING", question_type="player_goal_or_assist",
+                 p_hat=None, shadow=0.325, lower_bound=True)
+    assert not s.lower_bound_clamped and _approx(s.q, 0.325)
+
+
+def test_lower_bound_off_by_default_does_not_clamp():
+    # direct market (not a lower bound) below p_hat is NOT clamped — stays blended.
+    s = optimize(tier="PROP_ok", question_type="player_goal", p_hat=0.57, shadow=0.325, k=0.75)
+    assert not s.lower_bound_clamped and _approx(s.q, 0.325 + 0.75 * (0.57 - 0.325))
+
+
 def test_table_overrides_prior_in_optimize():
     table = pd.DataFrame(
         {"k_deployed": [0.10]},

@@ -84,6 +84,11 @@ HARD_QA_PATTERNS = (
     "not_starting", "not starting", "void", "removed", "coverage_lost",
     "wrong_player", "wrong player", "wrong_threshold", "wrong threshold",
     "wrong_line", "stale", "mapping", "no_cut", "no_hard_fade",
+    # definitional / measurement invariants (e.g. the lower-bound clamp) — these
+    # are arithmetic facts, NOT soft distrust, so they must categorize hard_qa
+    # and never count as soft-override leakage.
+    "lower_bound", "lower bound", "clamp", "measurement_invariant",
+    "measurement-invariant", "measurement_bias", "measurement-bias",
 )
 SOFT_PATTERNS = (
     "felt", "feels", "intuition", "overtrust", "split_difference",

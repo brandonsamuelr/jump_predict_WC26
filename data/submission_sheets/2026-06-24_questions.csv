@@ -1,41 +1,41 @@
 match,event_id,question_number,question,question_type,target_team,target_player,line,before_coverage
-Portugal vs Uzbekistan,,Q1,Will Uzbekistan be caught offside 2 or more times?,team_offsides_over,Uzbekistan,,1.5,shadow
-Portugal vs Uzbekistan,,Q2,"In the second half, will Portugal have more shots on target than Uzbekistan?",team_more_sot_2h,Portugal,,,engine
-Portugal vs Uzbekistan,,Q3,Will Portugal be caught offside 2 or more times?,team_offsides_over,Portugal,,1.5,shadow
-Portugal vs Uzbekistan,,Q4,Will a penalty kick be awarded or a red card be shown?,penalty_or_red_card,,,,shadow
-Portugal vs Uzbekistan,,Q5,Will Eldor Shomurodov have at least 1 shot on target in the second half?,player_sot_2h_over,Uzbekistan,Eldor Shomurodov,0.5,needs_model
-Portugal vs Uzbekistan,,Q6,Will both teams score and the match have 3 or more total goals?,compound_btts_over_2_5,,,,engine
-Portugal vs Uzbekistan,,Q7,Will Portugal win the match?,team_win,Portugal,,,market
-Portugal vs Uzbekistan,,Q8,Will the second half have 2 or more total goals?,total_goals_2h_over,,,1.5,engine
-Portugal vs Uzbekistan,,Q9,Will Uzbekistan have 4 or more shots on target?,team_sot_over,Uzbekistan,,3.5,engine
-Portugal vs Uzbekistan,,Q10,"Will Gonçalo Ramos score a goal, excluding own goals?",player_goal,Portugal,Gonçalo Ramos,0.5,needs_model
-England vs Ghana,,Q1,"At halftime, will both teams have at least 1 shot on target?",both_teams_sot_1h,,,,shadow_today_unwired
-England vs Ghana,,Q2,Will Ghana commit more fouls than England?,team_more_fouls,Ghana,,,shadow
-England vs Ghana,,Q3,Will both teams have at least 1 shot on target in the second half?,both_teams_sot_2h_1plus,,,,shadow_today_unwired
-England vs Ghana,,Q4,Will both teams score and the match have 3 or more total goals?,compound_btts_over_2_5,,,,engine
-England vs Ghana,,Q5,Will a penalty kick be awarded or a red card be shown?,penalty_or_red_card,,,,shadow
-England vs Ghana,,Q6,Will Ghana have more shots on target than England in the second half?,team_more_sot_2h,Ghana,,,engine
-England vs Ghana,,Q7,Will England win the match?,team_win,England,,,market
-England vs Ghana,,Q8,"Will Harry Kane score or assist a goal, excluding own goals?",player_goal_or_assist,England,Harry Kane,0.5,needs_model
-England vs Ghana,,Q9,Will Antoine Semenyo have at least 1 shot on target?,player_sot_over,Ghana,Antoine Semenyo,0.5,needs_model
-England vs Ghana,,Q10,Will Ghana have 5 or more corner kicks?,team_corners_over,Ghana,,4.5,shadow
-Panama vs Croatia,,Q1,Will Panama be caught offside 2 or more times?,team_offsides_over,Panama,,1.5,shadow
-Panama vs Croatia,,Q2,Will Panama have more shots on target than Croatia in the second half?,team_more_sot_2h,Panama,,,engine
-Panama vs Croatia,,Q3,Will Croatia score the first goal of the second half?,team_first_goal_2h,Croatia,,,shadow_today_unwired
-Panama vs Croatia,,Q4,Will Panama commit more fouls than Croatia?,team_more_fouls,Panama,,,shadow
-Panama vs Croatia,,Q5,Will Croatia receive more cards than Panama?,team_more_cards,Croatia,,,shadow
-Panama vs Croatia,,Q6,Will Panama score at least 1 goal?,team_score_any,Panama,,0.5,engine
-Panama vs Croatia,,Q7,Will there be 9 or more total corner kicks?,total_corners_over,,,8.5,shadow
-Panama vs Croatia,,Q8,Will Panama have 3 or more shots on target?,team_sot_over,Panama,,2.5,engine
-Panama vs Croatia,,Q9,Will José Fajardo have at least 1 shot on target?,player_sot_over,Panama,José Fajardo,0.5,needs_model
-Panama vs Croatia,,Q10,Will Luka Sučić have at least 1 shot on target?,player_sot_over,Croatia,Luka Sučić,0.5,needs_model
-Colombia vs DR Congo,,Q1,Will Colombia commit more fouls than DR Congo?,team_more_fouls,Colombia,,,shadow
-Colombia vs DR Congo,,Q2,Will Colombia have more shots on target than DR Congo in the second half?,team_more_sot_2h,Colombia,,,engine
-Colombia vs DR Congo,,Q3,Will Colombia score more goals than DR Congo in the second half?,team_more_goals_2h,Colombia,,,engine
-Colombia vs DR Congo,,Q4,Will a penalty kick be awarded or a red card be shown in the match?,penalty_or_red_card,,,,shadow
-Colombia vs DR Congo,,Q5,Will Colombia win the match?,team_win,Colombia,,,market
-Colombia vs DR Congo,,Q6,"At halftime, will Colombia be winning?",halftime_team_win,Colombia,,,market
-Colombia vs DR Congo,,Q7,Will the match have 2 or fewer total goals?,match_total_under,,,2.5,market
-Colombia vs DR Congo,,Q8,Will Colombia have 5 or more corner kicks?,team_corners_over,Colombia,,4.5,shadow
-Colombia vs DR Congo,,Q9,"Will Luis Díaz score or assist a goal, excluding own goals?",player_goal_or_assist,Colombia,Luis Díaz,0.5,needs_model
-Colombia vs DR Congo,,Q10,Will Cédric Bakambu have at least 1 shot on target?,player_sot_over,DR Congo,Cédric Bakambu,0.5,needs_model
+Portugal vs Uzbekistan,8ba93d190f1f934e33862a97a6353a6e,Q1,Will Uzbekistan be caught offside 2 or more times?,team_offsides_over,Uzbekistan,,1.5,shadow
+Portugal vs Uzbekistan,8ba93d190f1f934e33862a97a6353a6e,Q2,"In the second half, will Portugal have more shots on target than Uzbekistan?",team_more_sot_2h,Portugal,,,engine
+Portugal vs Uzbekistan,8ba93d190f1f934e33862a97a6353a6e,Q3,Will Portugal be caught offside 2 or more times?,team_offsides_over,Portugal,,1.5,shadow
+Portugal vs Uzbekistan,8ba93d190f1f934e33862a97a6353a6e,Q4,Will a penalty kick be awarded or a red card be shown?,penalty_or_red_card,,,,shadow
+Portugal vs Uzbekistan,8ba93d190f1f934e33862a97a6353a6e,Q5,Will Eldor Shomurodov have at least 1 shot on target in the second half?,player_sot_2h_over,Uzbekistan,Eldor Shomurodov,0.5,needs_model
+Portugal vs Uzbekistan,8ba93d190f1f934e33862a97a6353a6e,Q6,Will both teams score and the match have 3 or more total goals?,compound_btts_over_2_5,,,,engine
+Portugal vs Uzbekistan,8ba93d190f1f934e33862a97a6353a6e,Q7,Will Portugal win the match?,team_win,Portugal,,,market
+Portugal vs Uzbekistan,8ba93d190f1f934e33862a97a6353a6e,Q8,Will the second half have 2 or more total goals?,total_goals_2h_over,,,1.5,engine
+Portugal vs Uzbekistan,8ba93d190f1f934e33862a97a6353a6e,Q9,Will Uzbekistan have 4 or more shots on target?,team_sot_over,Uzbekistan,,3.5,engine
+Portugal vs Uzbekistan,8ba93d190f1f934e33862a97a6353a6e,Q10,"Will Gonçalo Ramos score a goal, excluding own goals?",player_goal,Portugal,Gonçalo Ramos,0.5,needs_model
+England vs Ghana,2f49dd8deae3079dc4eb2d634d18a99c,Q1,"At halftime, will both teams have at least 1 shot on target?",both_teams_sot_1h,,,,shadow_today_unwired
+England vs Ghana,2f49dd8deae3079dc4eb2d634d18a99c,Q2,Will Ghana commit more fouls than England?,team_more_fouls,Ghana,,,shadow
+England vs Ghana,2f49dd8deae3079dc4eb2d634d18a99c,Q3,Will both teams have at least 1 shot on target in the second half?,both_teams_sot_2h_1plus,,,,shadow_today_unwired
+England vs Ghana,2f49dd8deae3079dc4eb2d634d18a99c,Q4,Will both teams score and the match have 3 or more total goals?,compound_btts_over_2_5,,,,engine
+England vs Ghana,2f49dd8deae3079dc4eb2d634d18a99c,Q5,Will a penalty kick be awarded or a red card be shown?,penalty_or_red_card,,,,shadow
+England vs Ghana,2f49dd8deae3079dc4eb2d634d18a99c,Q6,Will Ghana have more shots on target than England in the second half?,team_more_sot_2h,Ghana,,,engine
+England vs Ghana,2f49dd8deae3079dc4eb2d634d18a99c,Q7,Will England win the match?,team_win,England,,,market
+England vs Ghana,2f49dd8deae3079dc4eb2d634d18a99c,Q8,"Will Harry Kane score or assist a goal, excluding own goals?",player_goal_or_assist,England,Harry Kane,0.5,needs_model
+England vs Ghana,2f49dd8deae3079dc4eb2d634d18a99c,Q9,Will Antoine Semenyo have at least 1 shot on target?,player_sot_over,Ghana,Antoine Semenyo,0.5,needs_model
+England vs Ghana,2f49dd8deae3079dc4eb2d634d18a99c,Q10,Will Ghana have 5 or more corner kicks?,team_corners_over,Ghana,,4.5,shadow
+Panama vs Croatia,c1bc8c26480cd42b89a0de5329581314,Q1,Will Panama be caught offside 2 or more times?,team_offsides_over,Panama,,1.5,shadow
+Panama vs Croatia,c1bc8c26480cd42b89a0de5329581314,Q2,Will Panama have more shots on target than Croatia in the second half?,team_more_sot_2h,Panama,,,engine
+Panama vs Croatia,c1bc8c26480cd42b89a0de5329581314,Q3,Will Croatia score the first goal of the second half?,team_first_goal_2h,Croatia,,,shadow_today_unwired
+Panama vs Croatia,c1bc8c26480cd42b89a0de5329581314,Q4,Will Panama commit more fouls than Croatia?,team_more_fouls,Panama,,,shadow
+Panama vs Croatia,c1bc8c26480cd42b89a0de5329581314,Q5,Will Croatia receive more cards than Panama?,team_more_cards,Croatia,,,shadow
+Panama vs Croatia,c1bc8c26480cd42b89a0de5329581314,Q6,Will Panama score at least 1 goal?,team_score_any,Panama,,0.5,engine
+Panama vs Croatia,c1bc8c26480cd42b89a0de5329581314,Q7,Will there be 9 or more total corner kicks?,total_corners_over,,,8.5,shadow
+Panama vs Croatia,c1bc8c26480cd42b89a0de5329581314,Q8,Will Panama have 3 or more shots on target?,team_sot_over,Panama,,2.5,engine
+Panama vs Croatia,c1bc8c26480cd42b89a0de5329581314,Q9,Will José Fajardo have at least 1 shot on target?,player_sot_over,Panama,José Fajardo,0.5,needs_model
+Panama vs Croatia,c1bc8c26480cd42b89a0de5329581314,Q10,Will Luka Sučić have at least 1 shot on target?,player_sot_over,Croatia,Luka Sučić,0.5,needs_model
+Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q1,Will Colombia commit more fouls than DR Congo?,team_more_fouls,Colombia,,,shadow
+Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q2,Will Colombia have more shots on target than DR Congo in the second half?,team_more_sot_2h,Colombia,,,engine
+Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q3,Will Colombia score more goals than DR Congo in the second half?,team_more_goals_2h,Colombia,,,engine
+Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q4,Will a penalty kick be awarded or a red card be shown in the match?,penalty_or_red_card,,,,shadow
+Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q5,Will Colombia win the match?,team_win,Colombia,,,market
+Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q6,"At halftime, will Colombia be winning?",halftime_team_win,Colombia,,,market
+Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q7,Will the match have 2 or fewer total goals?,match_total_under,,,2.5,market
+Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q8,Will Colombia have 5 or more corner kicks?,team_corners_over,Colombia,,4.5,shadow
+Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q9,"Will Luis Díaz score or assist a goal, excluding own goals?",player_goal_or_assist,Colombia,Luis Díaz,0.5,needs_model
+Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q10,Will Cédric Bakambu have at least 1 shot on target?,player_sot_over,DR Congo,Cédric Bakambu,0.5,needs_model

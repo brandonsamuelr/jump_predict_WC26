@@ -1,0 +1,10 @@
+{
+  "match": "England vs Ghana",
+  "kickoff_utc": "2026-06-23T20:00:00Z",
+  "source": "manual_confirmed_starting_xi",
+  "notes": "Kane and Semenyo confirmed starters (user-confirmed at lock).",
+  "players": {
+    "Harry Kane": {"status": "starter", "role": "central_attacker"},
+    "Antoine Semenyo": {"status": "starter", "role": "wide_attacker"}
+  }
+}

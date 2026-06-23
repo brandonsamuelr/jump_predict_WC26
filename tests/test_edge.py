@@ -82,6 +82,17 @@ def test_cluster_gate_freezes_even_with_many_active_rows():
     assert abs(row["k_deployed"] - K_PRIOR[("ENGINE", "engine")]) < 1e-9
 
 
+def test_engine_refreezes_at_five_clusters():
+    # 5 match clusters, all active -> STILL frozen on the 0.90 prior (MIN_CLUSTERS=10).
+    # Guards the re-freeze after ENGINE wrongly unfroze to a fitted k=1.0 at 5 clusters.
+    rows = ([("ENGINE", "engine", f"m{i}", 0.9, 0.4, 1) for i in range(5)]
+            + [("ENGINE", "engine", f"m{i}", 0.92, 0.45, 1) for i in range(5)])
+    row = compute_edge_table(_df(rows)).loc[("ENGINE", "engine")]
+    assert row["clusters"] == 5 and row["n_active"] >= 4
+    assert bool(row["frozen"]) is True
+    assert abs(row["k_deployed"] - K_PRIOR[("ENGINE", "engine")]) < 1e-9
+
+
 def test_deployed_in_unit_interval():
     df = _df([("ENGINE", "engine", "m1", 0.95, 0.4, 1),
               ("ENGINE", "engine", "m2", 0.9, 0.45, 1)])

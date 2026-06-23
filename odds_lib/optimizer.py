@@ -33,7 +33,7 @@ from dataclasses import dataclass
 
 import pandas as pd
 
-from .edge import classify, deployed_k, edge_submit
+from .edge import classify, deployed_k, edge_submit, EDGE_CLIP_LO, EDGE_CLIP_HI
 
 
 @dataclass
@@ -47,6 +47,7 @@ class Submission:
     shadow: float | None    # the pre-lock field proxy (c_hat)
     k: float                # the deployed edge multiplier
     note: str
+    lower_bound_clamped: bool = False   # SUBMIT was raised to a definitional p_hat floor
 
 
 def optimize(
@@ -57,6 +58,7 @@ def optimize(
     question_type: str = "",
     table: pd.DataFrame | None = None,
     k: float | None = None,
+    lower_bound: bool = False,
 ) -> Submission:
     """Compute the submission for one question via the edge-weighted rule.
 
@@ -64,6 +66,14 @@ def optimize(
     deployed k looked up (from the fitted ``table`` if given, else the
     structural prior). Pass an explicit ``k`` to override (tests/diagnostics).
     ``shadow`` (c_hat) is required — it is where a no-edge row lands.
+
+    ``lower_bound``: when True AND p_hat is present, the row's p_hat is a
+    DEFINITIONAL lower bound on the answer (e.g. goal-or-assist priced off
+    anytime-goal — scoring-or-assisting is a superset of scoring). The blend
+    must never land below it, so we clamp SUBMIT = max(SUBMIT, p_hat). This is
+    arithmetic (like the [0.02,0.98] clip), not an empirical correction; it is
+    NEVER applied to a shadow row (no p_hat) and only to mappings flagged as
+    verified lower bounds upstream (player_prop_pricing.is_lower_bound_prop).
     """
     cls, sub = classify(tier, question_type)
     kk = deployed_k(cls, sub, table) if k is None else float(k)
@@ -74,9 +84,14 @@ def optimize(
     else:
         mode = "edge"
         note = f"c_hat + {kk:.2f}*(p_model - c_hat)"
+    clamped = False
+    if lower_bound and p_hat is not None and q < float(p_hat):
+        q = min(max(float(p_hat), EDGE_CLIP_LO), EDGE_CLIP_HI)
+        clamped = True
+        note += " | LOWER_BOUND_CLAMP -> p_hat"
     return Submission(q=q, mode=mode, tier=tier, source_class=cls,
                       source_subtype=sub, p_hat=p_hat, shadow=shadow, k=kk,
-                      note=note)
+                      note=note, lower_bound_clamped=clamped)
 
 
 __all__ = ["Submission", "optimize"]
