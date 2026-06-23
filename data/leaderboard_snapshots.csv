@@ -1,2 +1,2 @@
 date,slate_label,field_size,our_rank,our_rbp,rbp_rank100,rbp_rank1,our_weighted_q_cum,notes
-2026-06-23,seed_handoff,3239,684,148,1005,1498,26,seed from handoff: gap_to_100=857 -> rbp_100=1005; gap_to_1=1350 -> rbp_1=1498; weighted_q_cum approx (26 submitted scoring rows to date)
+2026-06-23,seed_live,3307,684,148.15,1005.6,1497.85,26,live board (same period as seed; nothing resolved since Jordan); weighted_q_cum approx and inferred from the resolved log on next --add

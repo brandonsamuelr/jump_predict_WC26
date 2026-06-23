@@ -55,8 +55,23 @@ def test_probabilities_in_unit_interval():
     for p in [E.p_second_half_more_goals(sim),
               E.p_team_more_goals_2h(sim, "H"),
               E.p_compound_btts_over_2_5(sim),
+              E.p_total_goals_2h_over(sim, 2),
               E.p_compound_first_goal_score_2h(sim, "H", "A")]:
         assert 0.0 <= p <= 1.0
+
+
+def test_total_goals_2h_over_monotone_and_consistent():
+    m = E.calibrate("H", "A", p_home=0.83, p_over=0.57)
+    sim = E.simulate(m, n=160_000, seed=5)
+    p1 = E.p_total_goals_2h_over(sim, 1)   # >=1 2H goal
+    p2 = E.p_total_goals_2h_over(sim, 2)   # >=2 2H goals
+    p3 = E.p_total_goals_2h_over(sim, 3)
+    assert p1 > p2 > p3                      # tail is monotone decreasing
+    # 2H 2+ goals must be LESS likely than full-match 3+ goals (2H ⊂ full match)
+    assert p2 < E.p_over_2_5(sim)
+    # 2H total goals = full total - 1H total; mean check vs analytic 2H lambda
+    lam2h = (m.lam_home + m.lam_away) * (1 - m.h1_share)
+    assert abs((sim.n2h + sim.n2a).mean() - lam2h) < 0.03
 
 
 if __name__ == "__main__":

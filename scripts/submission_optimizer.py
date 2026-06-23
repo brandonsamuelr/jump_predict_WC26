@@ -29,6 +29,7 @@ from odds_lib import slate
 from odds_lib.field_model import FieldMeanEstimator
 from odds_lib.optimizer import optimize
 from odds_lib.edge import compute_edge_table
+from odds_lib.lineups import load_lineup
 from odds_lib.measurement import LOG_PATH, build_edge_frame
 
 
@@ -69,11 +70,16 @@ def main():
         cons[eid] = c
         models[eid] = slate.build_model(c, home, away)
 
+    lineups: dict[str, object] = {}
     out = []
     for _, r in q.iterrows():
         eid = r["event_id"]
         qt = r["question_type"]
-        tier, p_hat, _ = slate.resolve_row(r.to_dict(), cons[eid], games[eid], models[eid])
+        mt = r["match"]
+        if mt not in lineups:
+            lineups[mt] = load_lineup(mt)   # None until lineups post -> props shadow
+        tier, p_hat, _ = slate.resolve_row(r.to_dict(), cons[eid], games[eid],
+                                           models[eid], lineup=lineups[mt])
         fe = field.estimate(qt)
         sub = optimize(tier=tier, question_type=qt, p_hat=p_hat, shadow=fe.q_hat, table=table)
         dev = (p_hat - fe.q_hat) if p_hat is not None else float("nan")

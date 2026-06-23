@@ -206,6 +206,11 @@ def p_compound_btts_over_2_5(sim: Sim) -> float:
     return float(((sim.nh >= 1) & (sim.na >= 1) & (sim.nh + sim.na >= 3)).mean())
 
 
+def p_total_goals_2h_over(sim: Sim, threshold: int) -> float:
+    """P(total 2H goals, both teams, >= ``threshold``). "2 or more" -> thr=2."""
+    return float((sim.n2h + sim.n2a >= threshold).mean())
+
+
 # cross-checks against the market (calibration validation)
 def p_home_win(sim: Sim) -> float:
     return float((sim.nh > sim.na).mean())
@@ -228,5 +233,6 @@ __all__ = [
     "p_team_score_any", "p_team_score_1h", "p_team_score_2h",
     "p_second_half_more_goals", "p_team_more_goals_2h",
     "p_compound_first_goal_score_2h", "p_compound_btts_over_2_5",
+    "p_total_goals_2h_over",
     "p_home_win", "p_over_2_5", "p_btts", "p_halftime_draw",
 ]

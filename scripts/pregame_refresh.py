@@ -32,6 +32,7 @@ from odds_lib import slate
 from odds_lib.field_model import FieldMeanEstimator
 from odds_lib.optimizer import optimize
 from odds_lib.edge import compute_edge_table
+from odds_lib.lineups import load_lineup
 from odds_lib.measurement import LOG_PATH, build_edge_frame
 
 SPORT = "soccer_fifa_world_cup"
@@ -99,6 +100,7 @@ def main():
     c = slate.build_consensus([game], market_keys=("h2h", "totals", "btts", "h2h_h1"))
     model = slate.build_model(c, home, away)
     field = FieldMeanEstimator()
+    lineup = load_lineup(match)   # None until lineups post -> props shadow (k=0)
     edge_table = (compute_edge_table(build_edge_frame(pd.read_csv(LOG_PATH, dtype=str)))
                   if LOG_PATH.exists() else pd.DataFrame())
 
@@ -107,26 +109,30 @@ def main():
 
     out = []
     for _, r in rows.iterrows():
-        tier, p_hat, mkt = slate.resolve_row(r.to_dict(), c, game, model)
+        tier, p_hat, mkt = slate.resolve_row(r.to_dict(), c, game, model, lineup=lineup)
         fe = field.estimate(r["question_type"])
-        new_q = round(optimize(tier=tier, question_type=r["question_type"],
-                               p_hat=p_hat, shadow=fe.q_hat, table=edge_table).q, 3)
+        sub = optimize(tier=tier, question_type=r["question_type"],
+                       p_hat=p_hat, shadow=fe.q_hat, table=edge_table)
+        new_q = round(sub.q, 3)
         b = base_by_q.get(r["question_number"])
         old_q = round(float(b["SUBMIT"]), 3) if b is not None else float("nan")
         old_tier = b["tier"] if b is not None else ""
         delta = (new_q - old_q) if old_q == old_q else 0.0
-        action, reason = decide(old_tier, tier, delta, p_hat)
+        action, _ = decide(old_tier, tier, delta, p_hat)
         out.append({
-            "question": r["question"][:48], "old_submit": old_q, "new_submit": new_q,
-            "delta": round(delta, 3), "old_tier": old_tier, "new_tier": tier,
-            "new_market_prob": round(mkt, 3) if mkt is not None else "",
-            "reason": reason, "action": action,
+            "match": match, "q": r["question_number"], "type": r["question_type"],
+            "tier": tier, "class": sub.source_class, "k": round(sub.k, 2),
+            "c_hat": round(fe.q_hat, 3),
+            "p_hat": round(p_hat, 3) if p_hat is not None else "",
+            "mode": sub.mode, "SUBMIT": new_q, "d_base": round(delta, 3),
+            "action": action,
         })
 
     res = pd.DataFrame(out)
-    pd.set_option("display.width", 220, "display.max_colwidth", 50)
-    print(f"\n=== PREGAME REFRESH: {match} ===")
-    print(res.to_string(index=False))
+    pd.set_option("display.width", 220, "display.max_colwidth", 36)
+    print(f"\n=== PREGAME REFRESH (edge-weighted): {match} ===")
+    print(res.drop(columns=["match"]).to_string(index=False))
+    print("SUBMIT = c_hat + k*(p_hat - c_hat); d_base = SUBMIT - overnight baseline.")
     slug = match.lower().replace(" ", "_").replace("vs", "v")
     outpath = Path(args.baseline).parent / f"{Path(args.baseline).stem.split('_')[0]}_{slug}_refresh.csv"
     res.to_csv(outpath, index=False)
