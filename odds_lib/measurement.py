@@ -84,12 +84,20 @@ HARD_QA_PATTERNS = (
     "not_starting", "not starting", "void", "removed", "coverage_lost",
     "wrong_player", "wrong player", "wrong_threshold", "wrong threshold",
     "wrong_line", "stale", "mapping", "no_cut", "no_hard_fade",
+    # confirmed bench is a lineup FACT (same class as not_starting): a benched
+    # player's prop is a wrong input, not soft distrust.
+    "bench", "confirmed_bench",
     # definitional / measurement invariants (e.g. the lower-bound clamp) — these
     # are arithmetic facts, NOT soft distrust, so they must categorize hard_qa
     # and never count as soft-override leakage.
     "lower_bound", "lower bound", "clamp", "measurement_invariant",
     "measurement-invariant", "measurement_bias", "measurement-bias",
 )
+# Recording errors (NOT decisions) — must be excluded from strategy analysis.
+ENTRY_SHIFT_PATTERNS = ("entry_shift", "entry_error")
+# Empirical (measured-bias) trims, e.g. SOT high-bias. Distinct from soft distrust
+# AND from hard_qa: an empirical bet to be MEASURED separately (may pay or not).
+EMPIRICAL_TRIM_PATTERNS = ("empirical_sot_trim", "sot_trim", "empirical_trim")
 SOFT_PATTERNS = (
     "felt", "feels", "intuition", "overtrust", "split_difference",
     "split the difference", "manual_cap", "_cap", " cap", "trim", "toward_manual",
@@ -100,14 +108,24 @@ SOFT_PATTERNS = (
 
 
 def classify_override(reason: str) -> str:
-    """Bucket an override reason: 'soft' (net-negative, disabled by default),
-    'hard_qa' (factual correction, kept), 'rounding_or_default' (negligible),
-    'unlabeled' (no reason), or 'other'. SOFT is checked before HARD_QA so a
-    'modest trim ... felt high ... no hard fade' counts by its ACTION (a soft
-    trim), not by an incidental hard-QA token."""
+    """Bucket an override reason into one of: 'entry_shift' (a RECORDING error,
+    not a decision — excluded from strategy analysis), 'empirical_trim' (a
+    measured-bias trim, tracked separately to see if it pays), 'soft'
+    (net-negative distrust, disabled by default), 'hard_qa' (factual/definitional
+    correction, kept), 'rounding_or_default', 'unlabeled', or 'other'.
+
+    Order matters: entry_shift and empirical_trim are checked BEFORE soft because
+    an empirical SOT trim literally contains 'trim' (a soft token) but is a
+    distinct, tracked category; and a recording error is not a decision at all.
+    SOFT is checked before HARD_QA so a 'modest trim ... felt high' soft override
+    isn't rescued by an incidental hard-QA token."""
     r = (reason or "").strip().lower()
     if not r:
         return "unlabeled"
+    if any(p in r for p in ENTRY_SHIFT_PATTERNS):
+        return "entry_shift"
+    if any(p in r for p in EMPIRICAL_TRIM_PATTERNS):
+        return "empirical_trim"
     if any(p in r for p in SOFT_PATTERNS):
         return "soft"
     if any(p in r for p in HARD_QA_PATTERNS):

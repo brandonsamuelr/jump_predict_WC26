@@ -120,6 +120,18 @@ def test_lower_bound_clamp_reason_is_hard_qa_not_soft():
     assert classify_override("goal_or_assist lower_bound floor raise; measurement-bias") == "hard_qa"
 
 
+def test_distinct_override_categories():
+    from odds_lib.measurement import classify_override
+    # recording error: NOT a decision, excluded from strategy analysis
+    assert classify_override("entry_shift_intended_0.288_scored_0.49") == "entry_shift"
+    # empirical SOT trim: contains 'trim' but is its OWN tracked category, not soft
+    assert classify_override("empirical_sot_trim model_high corroborated_llm") == "empirical_trim"
+    # confirmed bench is a lineup FACT -> hard_qa, not soft/other
+    assert classify_override("hard_qa confirmed_bench luka sucic benched") == "hard_qa"
+    # a genuine soft 'trim' (no 'empirical') still classifies soft
+    assert classify_override("modest human trim felt high") == "soft"
+
+
 # --- Task 3: soft overrides remain disabled ------------------------------
 
 def test_soft_overrides_disabled_by_default():
