@@ -45,19 +45,33 @@ def main():
     r["exposed"] = same_lean & crowd_more                        # structurally dominated set-up
     r["dominated"] = r["exposed"] & we_lost                      # ... and it materialized
 
+    # v2 split: STRUCTURAL (direction-blind constants/floors -> fixable bug) vs VARIANCE
+    # (founded true-P rows where we were merely less extreme than a sometimes-sharper crowd
+    # -> expected ~50/50, NOT a bug). Only the structural set is actionable.
+    STRUCTURAL = {"CORNER_HALF_STOPGAP", "OFFSIDES_FLOOR", "PENALTY_BASE",
+                  "CARDS_2H_FLOOR", "CORNERS_BASE"}
+    r["kind"] = r.tier.where(r.tier.isin(STRUCTURAL)).notna().map({True: "STRUCTURAL", False: "variance"})
+
     n, ne, nd = len(r), int(r.exposed.sum()), int(r.dominated.sum())
     print(f"resolved rows: {n}")
     print(f"  EXPOSED (same lean, crowd more confident): {ne} ({100*ne/n:.0f}%)")
-    print(f"  DOMINATED (exposed AND we scored worse):   {nd} ({100*nd/n:.0f}%)")
-    rbp = pd.to_numeric(r.loc[r.dominated, "actual_rbp"], errors="coerce").sum()
-    print(f"  RBP on dominated rows: {rbp:+.2f}\n")
+    print(f"  DOMINATED (exposed AND we scored worse):   {nd} ({100*nd/n:.0f}%)\n")
 
-    if nd:
-        print("DOMINATED rows (where being direction-blind cost us vs the crowd):")
+    dom = r[r.dominated].copy()
+    for kind in ("STRUCTURAL", "variance"):
+        sub = dom[dom.kind == kind]
+        rbp = pd.to_numeric(sub["actual_rbp"], errors="coerce").sum()
+        label = ("STRUCTURAL (direction-blind constants -> FIXABLE)" if kind == "STRUCTURAL"
+                 else "variance (founded rows, less extreme than a sharp crowd -> expected)")
+        print(f"  {label}: {len(sub)} rows, {rbp:+.2f} RBP")
+        if len(sub):
+            print(sub.tier.value_counts().to_string().replace("\n", "  |  "))
+        print()
+
+    if len(dom[dom.kind == "STRUCTURAL"]):
+        print("ACTIONABLE structural-domination rows:")
         cols = ["match", "question_number", "tier", "you", "crowd", "result", "actual_rbp"]
-        print(r.loc[r.dominated, cols].to_string(index=False))
-        print("\nby tier (dominated count) -- these are the rows to make direction-aware:")
-        print(r[r.dominated].tier.value_counts().to_string())
+        print(dom.loc[dom.kind == "STRUCTURAL", cols].to_string(index=False))
 
 
 if __name__ == "__main__":
