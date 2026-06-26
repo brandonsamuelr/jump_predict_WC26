@@ -73,6 +73,9 @@ K_PRIOR = {
     # ENGINE de-hedged to k=1 (2026-06-26): the goals engine is MARKET-CALIBRATED (lambda from
     # de-vigged 1X2+totals) and beats base OOS (edge table fitted k_hat 2.08 -> deployed 1.0). The
     # 0.92 "small model hedge" was a residual shrink toward the stale c_hat -> removed. Ship raw.
+    # EXPLICIT OOS GATE (population re-level review, 2026-06-26): on n=25 RESOLVED WC engine rows
+    # (team_score_any/BTTS/2H-goals/etc) Brier model k=1 = 0.1717 vs base(c_hat) 0.2319 vs old
+    # k=0.92 0.1752 -> beats base AND beats the 0.92 shrink. k=1 CONFIRMED on outcomes, not asserted.
     ("ENGINE", "engine"): 1.00,
     # ALL confirmed-starter player-prop reads are REAL de-vigged MARKET reads -> ship RAW (k=1).
     # Thin = VARIANCE, not bias; shrinking a prop de-vig toward c_hat is the base-rate-over-specific-
@@ -116,8 +119,10 @@ K_PRIOR = {
     ("FIRST_GOAL_2H", "base"): 1.00,
     # Measured anchors (offsides corpus rate; sourced external pen/red): the measured
     # rate IS the estimate -> submit undistorted (k=1), never pulled toward the crowd mean.
-    # offsides: NO per-match signal OOS -> honest no-edge floor (pooled measured rate),
-    # submit undistorted (k=1, it IS the floor estimate). Documented as no-edge, not founded.
+    # offsides TEAM: FOUNDED per-team empirical-Bayes measured rate (beat the pooled floor
+    # OOS on StatsBomb intl, +0.003 Brier) -> ship the measured rate RAW (k=1). offsides
+    # FLOOR: uncovered team -> honest no-edge pooled measured rate, also k=1 (it IS the floor).
+    ("OFFSIDES", "team"): 1.00,
     ("OFFSIDES", "floor"): 1.00,
     # 2H cards: market-derived (full-card lambda x 2H share) -> per-match, correctly populated,
     # submit undistorted (k=1). Club-only corpus floor is the last-resort fallback (mis-populated).
@@ -236,6 +241,7 @@ TRUST_PRICE_K = frozenset({
     ("H1GOALS", "ok"), ("H1GOALS", "thin"),
     ("CORNER_HALF", "pinnacle"),
     ("CARDS_2H", "market"),                 # cards-market lambda x 2H share (market-derived)
+    ("OFFSIDES", "team"),                    # founded per-team EB offside rate (OOS-gated) -> k=1
     # All confirmed-starter player-prop reads (real de-vigged markets) -> k=1, ship raw.
     ("PROP", "confirmed"), ("PROP", "thin"), ("PROP", "direct_thin"), ("PROP", "proxy_floor"),
     # Every member of TRUST_PRICE_K MUST have prior == 1.0 (enforced by
@@ -304,7 +310,8 @@ def classify(tier: str, question_type: str) -> tuple[str, str]:
     if t == "BOTH_SOT_2H_BASE":   return ("BOTH_SOT_2H", "base")    # degenerate no-engine fallback
     if t == "FIRST_GOAL_2H":      return ("FIRST_GOAL_2H", "model") # closed-form race of 2H Poissons
     if t == "FIRST_GOAL_2H_BASE": return ("FIRST_GOAL_2H", "base")  # measured home/away anchor
-    if t == "OFFSIDES_FLOOR":     return ("OFFSIDES", "floor")      # no-edge floor (no per-match signal OOS)
+    if t == "OFFSIDES_TEAM":      return ("OFFSIDES", "team")       # founded per-team EB rate (OOS-gated)
+    if t == "OFFSIDES_FLOOR":     return ("OFFSIDES", "floor")      # no-edge floor (uncovered team -> pooled rate)
     if t == "CARDS_2H_MKT":       return ("CARDS_2H", "market")     # full-card market lambda x 2H share (per-match)
     if t == "CARDS_2H_FLOOR":     return ("CARDS_2H", "floor")      # CLUB-only corpus floor (last resort, mis-populated)
     if t == "PENALTY_BASE":       return ("PENALTY", "base")        # sourced external pen/red rate

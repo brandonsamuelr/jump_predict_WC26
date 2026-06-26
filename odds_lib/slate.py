@@ -200,12 +200,17 @@ def resolve_row(row: dict, c: pd.DataFrame, game_json: dict, model_tuple, lineup
             return "PROP_SUB", round(sub, 4), pr.market_prob_raw
         return "PENDING", None, None   # out_of_squad / unknown / no-lineup -> shadow (k=0)
 
-    if qt in OFFSIDES:   # NO-EDGE LAST-RESORT FLOOR (honest). The per-match driver search
-        # (favorite_gap / home-away / volume / attacking intensity) found NOTHING beating the
-        # pooled base OOS -> offsides has no per-match signal. Ship the POOLED measured rate
-        # (the home/away split is in-sample noise, does NOT survive OOS). NOT a founded model,
-        # NOT 0.50 -- an honest floor; we have no edge here.
+    if qt in OFFSIDES:
         line = float(row["line"]) if str(row.get("line", "")).strip() else 1.5
+        # FOUNDED per-team measured rate FIRST (empirical-Bayes, OOS-gated, k=1): teams with
+        # >= min_games of measured intl history get a real per-team P(offsides>=k). This beat
+        # the pooled floor OOS (StatsBomb intl); shipped raw.
+        tp = SR.offside_team_rate(t, line)
+        if tp is not None:
+            return "OFFSIDES_TEAM", tp, None
+        # UNCOVERED team -> the honest POOLED FLOOR (NOT a guess). The per-match driver search
+        # (favorite_gap / home-away / volume) found NO market/structural signal beating the
+        # pooled base OOS, so where we lack measured team history we ship the measured pooled rate.
         p = SR.offsides_rate(line)
         return ("OFFSIDES_FLOOR", round(p, 4), None) if p is not None else ("PENDING", None, None)
 

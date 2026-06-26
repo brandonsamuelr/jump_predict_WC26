@@ -1,0 +1,287 @@
+{
+ "_meta": {
+  "fit_utc": "2026-06-26T16:23:05Z",
+  "source": "data/historical/statsbomb_probe/offsides_intl.csv",
+  "n_matches": 262,
+  "n_team_rows": 524,
+  "min_games": 5,
+  "note": "FOUNDED per-team offside rate (empirical-Bayes Gamma-Poisson). MEASURED not typed; uncovered teams ABSENT -> live route uses pooled FLOOR; REFRESH by re-running on an updated extract (append 2026 games via FBref). Ships only because it beats the floor OOS."
+ },
+ "pooled_rate": 1.4542,
+ "eb_alpha": 20.1975,
+ "eb_beta_shrinkage_K": 13.8891,
+ "oos_gate": {
+  "n_test": 259,
+  "brier_floor": 0.25395,
+  "brier_team": 0.25082,
+  "oos_delta_vs_floor": 0.00313,
+  "beats_floor": true
+ },
+ "n_covered_teams": 42,
+ "teams": {
+  "argentina": {
+   "display": "Argentina",
+   "n": 17,
+   "total_offsides": 39,
+   "lambda_hat": 1.9165
+  },
+  "australia": {
+   "display": "Australia",
+   "n": 7,
+   "total_offsides": 4,
+   "lambda_hat": 1.1584
+  },
+  "austria": {
+   "display": "Austria",
+   "n": 8,
+   "total_offsides": 10,
+   "lambda_hat": 1.3796
+  },
+  "belgium": {
+   "display": "Belgium",
+   "n": 19,
+   "total_offsides": 22,
+   "lambda_hat": 1.283
+  },
+  "brazil": {
+   "display": "Brazil",
+   "n": 14,
+   "total_offsides": 12,
+   "lambda_hat": 1.1545
+  },
+  "canada": {
+   "display": "Canada",
+   "n": 9,
+   "total_offsides": 12,
+   "lambda_hat": 1.4067
+  },
+  "colombia": {
+   "display": "Colombia",
+   "n": 10,
+   "total_offsides": 13,
+   "lambda_hat": 1.3897
+  },
+  "costarica": {
+   "display": "Costa Rica",
+   "n": 9,
+   "total_offsides": 19,
+   "lambda_hat": 1.7125
+  },
+  "croatia": {
+   "display": "Croatia",
+   "n": 21,
+   "total_offsides": 30,
+   "lambda_hat": 1.4388
+  },
+  "czechia": {
+   "display": "Czech Republic",
+   "n": 8,
+   "total_offsides": 11,
+   "lambda_hat": 1.4253
+  },
+  "czechrepublic": {
+   "display": "Czech Republic",
+   "n": 8,
+   "total_offsides": 11,
+   "lambda_hat": 1.4253
+  },
+  "denmark": {
+   "display": "Denmark",
+   "n": 17,
+   "total_offsides": 19,
+   "lambda_hat": 1.269
+  },
+  "ecuador": {
+   "display": "Ecuador",
+   "n": 7,
+   "total_offsides": 10,
+   "lambda_hat": 1.4456
+  },
+  "england": {
+   "display": "England",
+   "n": 26,
+   "total_offsides": 41,
+   "lambda_hat": 1.5342
+  },
+  "france": {
+   "display": "France",
+   "n": 24,
+   "total_offsides": 28,
+   "lambda_hat": 1.2721
+  },
+  "germany": {
+   "display": "Germany",
+   "n": 15,
+   "total_offsides": 33,
+   "lambda_hat": 1.8414
+  },
+  "hungary": {
+   "display": "Hungary",
+   "n": 6,
+   "total_offsides": 10,
+   "lambda_hat": 1.5183
+  },
+  "iran": {
+   "display": "Iran",
+   "n": 6,
+   "total_offsides": 9,
+   "lambda_hat": 1.468
+  },
+  "italy": {
+   "display": "Italy",
+   "n": 11,
+   "total_offsides": 32,
+   "lambda_hat": 2.0972
+  },
+  "japan": {
+   "display": "Japan",
+   "n": 8,
+   "total_offsides": 14,
+   "lambda_hat": 1.5623
+  },
+  "mexico": {
+   "display": "Mexico",
+   "n": 10,
+   "total_offsides": 19,
+   "lambda_hat": 1.6408
+  },
+  "morocco": {
+   "display": "Morocco",
+   "n": 10,
+   "total_offsides": 19,
+   "lambda_hat": 1.6408
+  },
+  "netherlands": {
+   "display": "Netherlands",
+   "n": 15,
+   "total_offsides": 24,
+   "lambda_hat": 1.5299
+  },
+  "panama": {
+   "display": "Panama",
+   "n": 7,
+   "total_offsides": 7,
+   "lambda_hat": 1.302
+  },
+  "peru": {
+   "display": "Peru",
+   "n": 6,
+   "total_offsides": 11,
+   "lambda_hat": 1.5686
+  },
+  "poland": {
+   "display": "Poland",
+   "n": 13,
+   "total_offsides": 8,
+   "lambda_hat": 1.0487
+  },
+  "portugal": {
+   "display": "Portugal",
+   "n": 18,
+   "total_offsides": 36,
+   "lambda_hat": 1.7623
+  },
+  "russia": {
+   "display": "Russia",
+   "n": 8,
+   "total_offsides": 15,
+   "lambda_hat": 1.608
+  },
+  "saudiarabia": {
+   "display": "Saudi Arabia",
+   "n": 6,
+   "total_offsides": 8,
+   "lambda_hat": 1.4177
+  },
+  "scotland": {
+   "display": "Scotland",
+   "n": 6,
+   "total_offsides": 5,
+   "lambda_hat": 1.2669
+  },
+  "senegal": {
+   "display": "Senegal",
+   "n": 7,
+   "total_offsides": 13,
+   "lambda_hat": 1.5892
+  },
+  "serbia": {
+   "display": "Serbia",
+   "n": 9,
+   "total_offsides": 10,
+   "lambda_hat": 1.3193
+  },
+  "slovakia": {
+   "display": "Slovakia",
+   "n": 7,
+   "total_offsides": 13,
+   "lambda_hat": 1.5892
+  },
+  "southkorea": {
+   "display": "South Korea",
+   "n": 7,
+   "total_offsides": 6,
+   "lambda_hat": 1.2541
+  },
+  "spain": {
+   "display": "Spain",
+   "n": 21,
+   "total_offsides": 32,
+   "lambda_hat": 1.4961
+  },
+  "sweden": {
+   "display": "Sweden",
+   "n": 9,
+   "total_offsides": 11,
+   "lambda_hat": 1.363
+  },
+  "switzerland": {
+   "display": "Switzerland",
+   "n": 18,
+   "total_offsides": 30,
+   "lambda_hat": 1.5741
+  },
+  "tunisia": {
+   "display": "Tunisia",
+   "n": 6,
+   "total_offsides": 11,
+   "lambda_hat": 1.5686
+  },
+  "turkey": {
+   "display": "Turkey",
+   "n": 8,
+   "total_offsides": 8,
+   "lambda_hat": 1.2882
+  },
+  "ukraine": {
+   "display": "Ukraine",
+   "n": 8,
+   "total_offsides": 15,
+   "lambda_hat": 1.608
+  },
+  "usa": {
+   "display": "United States",
+   "n": 7,
+   "total_offsides": 8,
+   "lambda_hat": 1.3499
+  },
+  "unitedstates": {
+   "display": "United States",
+   "n": 7,
+   "total_offsides": 8,
+   "lambda_hat": 1.3499
+  },
+  "uruguay": {
+   "display": "Uruguay",
+   "n": 14,
+   "total_offsides": 16,
+   "lambda_hat": 1.2979
+  },
+  "wales": {
+   "display": "Wales",
+   "n": 7,
+   "total_offsides": 5,
+   "lambda_hat": 1.2063
+  }
+ }
+}

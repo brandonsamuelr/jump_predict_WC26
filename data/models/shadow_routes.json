@@ -1,228 +1,354 @@
 {
-  "_meta": {
-    "fit_utc": "2026-06-26T04:01:48Z",
-    "corpus": "data/historical/sgo_settlement_corpus.csv",
-    "note": "MEASURED base-rate anchors + OOS gate for shadow-family routes"
+ "_meta": {
+  "fit_utc": "2026-06-26T04:01:48Z",
+  "corpus": "data/historical/sgo_settlement_corpus.csv",
+  "note": "MEASURED base-rate anchors + OOS gate for shadow-family routes"
+ },
+ "both_teams_sot_1h": {
+  "verdict": "validated",
+  "n": 407,
+  "n_test": 82,
+  "lam_total_proxy": 2.9572,
+  "brier_model": 0.19303,
+  "brier_base": 0.19641,
+  "oos_delta": 0.00337,
+  "base_rate": 0.7396,
+  "indep_check": {
+   "P_home_ge1": 0.8968,
+   "P_away_ge1": 0.8231,
+   "product": 0.7382,
+   "empirical_both": 0.7396,
+   "phi_corr": 0.0121
   },
-  "both_teams_sot_1h": {
-    "verdict": "validated",
-    "n": 407,
-    "n_test": 82,
-    "lam_total_proxy": 2.9572,
-    "brier_model": 0.19303,
-    "brier_base": 0.19641,
-    "oos_delta": 0.00337,
-    "base_rate": 0.7396,
-    "indep_check": {
-      "P_home_ge1": 0.8968,
-      "P_away_ge1": 0.8231,
-      "product": 0.7382,
-      "empirical_both": 0.7396,
-      "phi_corr": 0.0121
-    },
-    "sot_per_goal": 3.0209
+  "sot_per_goal": 3.0209
+ },
+ "both_teams_sot_2h_1plus": {
+  "verdict_fixed": "validated",
+  "verdict_volume": "failed",
+  "n": 406,
+  "n_test": 82,
+  "brier_fixed": 0.15907,
+  "brier_volume": 0.18736,
+  "brier_base": 0.16497,
+  "oos_delta_fixed": 0.00591,
+  "oos_delta_volume": -0.02239,
+  "volume_monotonicity_P_both_by_goals_tertile": {
+   "low": 0.6971,
+   "mid": 0.8792,
+   "high": 0.939
   },
-  "both_teams_sot_2h_1plus": {
-    "verdict_fixed": "validated",
-    "verdict_volume": "failed",
-    "n": 406,
-    "n_test": 82,
-    "brier_fixed": 0.15907,
-    "brier_volume": 0.18736,
-    "brier_base": 0.16497,
-    "oos_delta_fixed": 0.00591,
-    "oos_delta_volume": -0.02239,
-    "volume_monotonicity_P_both_by_goals_tertile": {
-      "low": 0.6971,
-      "mid": 0.8792,
-      "high": 0.939
-    },
-    "base_rate": 0.8128,
-    "indep_check": {
-      "P_home_ge1": 0.931,
-      "P_away_ge1": 0.8645,
-      "product": 0.8049,
-      "empirical_both": 0.8128,
-      "phi_corr": 0.0911
-    }
-  },
-  "first_goal_2h": {
-    "derivation": "closed_form_engine_lambda_half_split",
-    "home": 0.4701,
-    "away": 0.331,
-    "p_any_2h_goal": 0.8011,
-    "n": 528
-  },
-  "team_offsides_over_ge2": {
-    "p_ge2_pooled": 0.4782,
-    "team_ge_club_reference": {
-      "1": 0.8013,
-      "2": 0.4782,
-      "3": 0.2436,
-      "4": 0.1205,
-      "5": 0.0462
-    },
-    "team_ge": {
-      "1": 0.7824,
-      "2": 0.4505,
-      "3": 0.1975,
-      "4": 0.0688,
-      "5": 0.0198
-    },
-    "wc_match_mean_offsides": 3.05,
-    "wc_team_mean": 1.525,
-    "wc_source": "WC2026 3.05 offsides/match (Squawka/PerformanceOdds); /2 per team; Poisson per-threshold",
-    "mean_offsides_club": 1.729,
-    "n_club": 780,
-    "is_floor_no_edge": true,
-    "per_match_search": {
-      "baseline": "pooled_base_rate_vs_ACTUAL_OUTCOMES_brier_not_chat",
-      "drivers": {
-        "fg_team": {
-          "oos_delta_vs_base": -0.00019,
-          "beats_base": false
-        },
-        "is_home": {
-          "oos_delta_vs_base": -0.00175,
-          "beats_base": false
-        },
-        "tot_goals": {
-          "oos_delta_vs_base": -0.00024,
-          "beats_base": false
-        },
-        "tot_shots": {
-          "oos_delta_vs_base": -0.00238,
-          "beats_base": false
-        }
-      },
-      "verdict": "NO_per_match_signal_oos__measured_rate_is_last_resort_floor__no_edge"
-    }
-  },
-  "cards_2h": {
-    "team_ge": {
-      "1": 0.7766,
-      "2": 0.4264,
-      "3": 0.1929,
-      "4": 0.0533
-    },
-    "total_ge": {
-      "1": 0.9365,
-      "2": 0.7665,
-      "3": 0.5381,
-      "4": 0.3401,
-      "5": 0.1904,
-      "6": 0.1041,
-      "7": 0.0279
-    },
-    "team_mean": 1.466,
-    "total_mean": 2.931,
-    "n_team": 788,
-    "is_floor_no_clean_signal": true,
-    "gate": {
-      "team": {
-        "feature": "fg_team",
-        "results": [
-          {
-            "k": 1,
-            "coef": 0.041,
-            "delta_vs_base": -5e-05
-          },
-          {
-            "k": 2,
-            "coef": 0.152,
-            "delta_vs_base": 0.00043
-          }
-        ],
-        "verdict": "no_clean_signal_floor"
-      },
-      "total": {
-        "signed_fg": [
-          {
-            "k": 2,
-            "coef": -0.395,
-            "delta_vs_base": 0.00105
-          },
-          {
-            "k": 3,
-            "coef": -0.219,
-            "delta_vs_base": 0.00286
-          },
-          {
-            "k": 4,
-            "coef": -0.227,
-            "delta_vs_base": 0.00076
-          }
-        ],
-        "abs_fg_clean_mechanism": [
-          {
-            "k": 2,
-            "coef": -1.157,
-            "delta_vs_base": -0.00043
-          },
-          {
-            "k": 3,
-            "coef": -1.065,
-            "delta_vs_base": -0.00262
-          },
-          {
-            "k": 4,
-            "coef": -0.731,
-            "delta_vs_base": -0.00206
-          }
-        ],
-        "verdict": "weak_signed_signal_beats_base_but_clean_|fg|_fails__floored_pending_clean_driver"
-      }
-    }
-  },
-  "penalties": {
-    "penalty_awarded": 0.2442,
-    "penalty_or_red_card": 0.3161,
-    "_source": {
-      "pen_per_game": 0.28,
-      "red_per_game": 0.1,
-      "p_pen": 0.2442,
-      "p_red": 0.0952,
-      "note": "pen 0.28/g (5-WC 2006-2022, 88 pens); red 0.10/g (modern VAR-era WC); P(>=1)=1-e^-rate (Poisson); union=indep approx"
-    }
-  },
-  "corners": {
-    "team_ge": {
-      "1": 0.9829,
-      "2": 0.9059,
-      "3": 0.7958,
-      "4": 0.6516,
-      "5": 0.4976,
-      "6": 0.3802,
-      "7": 0.2604,
-      "8": 0.1711,
-      "9": 0.1064,
-      "10": 0.0648,
-      "11": 0.044,
-      "12": 0.0257
-    },
-    "total_ge": {
-      "3": 0.9927,
-      "4": 0.9756,
-      "5": 0.9535,
-      "6": 0.9022,
-      "7": 0.8289,
-      "8": 0.7139,
-      "9": 0.6259,
-      "10": 0.5306,
-      "11": 0.3936,
-      "12": 0.3081,
-      "13": 0.2372,
-      "14": 0.1638,
-      "15": 0.1076,
-      "16": 0.0489,
-      "17": 0.0293,
-      "18": 0.0196,
-      "19": 0.0098,
-      "20": 0.0024,
-      "21": 0.0024
-    },
-    "team_mean": 4.932,
-    "total_mean": 9.863,
-    "n_team": 818
+  "base_rate": 0.8128,
+  "indep_check": {
+   "P_home_ge1": 0.931,
+   "P_away_ge1": 0.8645,
+   "product": 0.8049,
+   "empirical_both": 0.8128,
+   "phi_corr": 0.0911
   }
+ },
+ "first_goal_2h": {
+  "derivation": "closed_form_engine_lambda_half_split",
+  "home": 0.4701,
+  "away": 0.331,
+  "p_any_2h_goal": 0.8011,
+  "n": 528
+ },
+ "team_offsides_over_ge2": {
+  "p_ge2_pooled": 0.4782,
+  "team_ge_club_reference": {
+   "1": 0.8013,
+   "2": 0.4782,
+   "3": 0.2436,
+   "4": 0.1205,
+   "5": 0.0462
+  },
+  "team_ge": {
+   "1": 0.7824,
+   "2": 0.4505,
+   "3": 0.1975,
+   "4": 0.0688,
+   "5": 0.0198
+  },
+  "wc_match_mean_offsides": 3.05,
+  "wc_team_mean": 1.525,
+  "wc_source": "WC2026 3.05 offsides/match (Squawka/PerformanceOdds); /2 per team; Poisson per-threshold",
+  "mean_offsides_club": 1.729,
+  "n_club": 780,
+  "is_floor_no_edge": true,
+  "per_match_search": {
+   "baseline": "pooled_base_rate_vs_ACTUAL_OUTCOMES_brier_not_chat",
+   "drivers": {
+    "fg_team": {
+     "oos_delta_vs_base": -0.00019,
+     "beats_base": false
+    },
+    "is_home": {
+     "oos_delta_vs_base": -0.00175,
+     "beats_base": false
+    },
+    "tot_goals": {
+     "oos_delta_vs_base": -0.00024,
+     "beats_base": false
+    },
+    "tot_shots": {
+     "oos_delta_vs_base": -0.00238,
+     "beats_base": false
+    }
+   },
+   "verdict": "NO_per_match_signal_oos__measured_rate_is_last_resort_floor__no_edge"
+  }
+ },
+ "cards_2h": {
+  "team_ge": {
+   "1": 0.7766,
+   "2": 0.4264,
+   "3": 0.1929,
+   "4": 0.0533
+  },
+  "total_ge": {
+   "1": 0.9365,
+   "2": 0.7665,
+   "3": 0.5381,
+   "4": 0.3401,
+   "5": 0.1904,
+   "6": 0.1041,
+   "7": 0.0279
+  },
+  "team_mean": 1.466,
+  "total_mean": 2.931,
+  "n_team": 788,
+  "is_floor_no_clean_signal": true,
+  "gate": {
+   "team": {
+    "feature": "fg_team",
+    "results": [
+     {
+      "k": 1,
+      "coef": 0.041,
+      "delta_vs_base": -5e-05
+     },
+     {
+      "k": 2,
+      "coef": 0.152,
+      "delta_vs_base": 0.00043
+     }
+    ],
+    "verdict": "no_clean_signal_floor"
+   },
+   "total": {
+    "signed_fg": [
+     {
+      "k": 2,
+      "coef": -0.395,
+      "delta_vs_base": 0.00105
+     },
+     {
+      "k": 3,
+      "coef": -0.219,
+      "delta_vs_base": 0.00286
+     },
+     {
+      "k": 4,
+      "coef": -0.227,
+      "delta_vs_base": 0.00076
+     }
+    ],
+    "abs_fg_clean_mechanism": [
+     {
+      "k": 2,
+      "coef": -1.157,
+      "delta_vs_base": -0.00043
+     },
+     {
+      "k": 3,
+      "coef": -1.065,
+      "delta_vs_base": -0.00262
+     },
+     {
+      "k": 4,
+      "coef": -0.731,
+      "delta_vs_base": -0.00206
+     }
+    ],
+    "verdict": "weak_signed_signal_beats_base_but_clean_|fg|_fails__floored_pending_clean_driver"
+   }
+  }
+ },
+ "penalties": {
+  "penalty_awarded": 0.2442,
+  "penalty_or_red_card": 0.3161,
+  "_source": {
+   "pen_per_game": 0.28,
+   "red_per_game": 0.1,
+   "p_pen": 0.2442,
+   "p_red": 0.0952,
+   "note": "pen 0.28/g (5-WC 2006-2022, 88 pens); red 0.10/g (modern VAR-era WC); P(>=1)=1-e^-rate (Poisson); union=indep approx"
+  }
+ },
+ "corners": {
+  "team_ge": {
+   "1": 0.9829,
+   "2": 0.9059,
+   "3": 0.7958,
+   "4": 0.6516,
+   "5": 0.4976,
+   "6": 0.3802,
+   "7": 0.2604,
+   "8": 0.1711,
+   "9": 0.1064,
+   "10": 0.0648,
+   "11": 0.044,
+   "12": 0.0257
+  },
+  "total_ge": {
+   "3": 0.9927,
+   "4": 0.9756,
+   "5": 0.9535,
+   "6": 0.9022,
+   "7": 0.8289,
+   "8": 0.7139,
+   "9": 0.6259,
+   "10": 0.5306,
+   "11": 0.3936,
+   "12": 0.3081,
+   "13": 0.2372,
+   "14": 0.1638,
+   "15": 0.1076,
+   "16": 0.0489,
+   "17": 0.0293,
+   "18": 0.0196,
+   "19": 0.0098,
+   "20": 0.0024,
+   "21": 0.0024
+  },
+  "team_mean": 4.932,
+  "total_mean": 9.863,
+  "n_team": 818
+ },
+ "_population_audit": {
+  "audit_utc": "2026-06-26",
+  "purpose": "re-level corpus-derived numbers on INTERNATIONAL data; gated on data availability",
+  "step0_intl_coverage": {
+   "floor_n": 80,
+   "intl_nonnull": {
+    "offsides": 0,
+    "sot_1h": 0,
+    "sot_2h": 0,
+    "corners_1h": 0,
+    "corners_2h": 0,
+    "cards_1h": 0,
+    "cards_2h": 0,
+    "fouls": 0,
+    "goals_1h": 127,
+    "goals_2h": 121
+   },
+   "club_nonnull": {
+    "offsides": 390,
+    "sot_1h": 408,
+    "sot_2h": 407,
+    "corners_1h": 408,
+    "corners_2h": 407,
+    "cards_1h": 394,
+    "cards_2h": 394,
+    "fouls": 409,
+    "goals_1h": 409,
+    "goals_2h": 407
+   },
+   "eligible": [
+    "goals"
+   ],
+   "ineligible_zero_intl": [
+    "offsides",
+    "sot",
+    "corners",
+    "cards",
+    "fouls"
+   ],
+   "stat_lines_csv": "100% club leagues (zero international)",
+   "intl_date_range": "2026-05-16..2026-06-09 (pre-WC friendlies/quals, NOT tournament)"
+  },
+  "verdicts": {
+   "goal_1h_share": {
+    "club": 0.44,
+    "intl": 0.419,
+    "n_intl": 121,
+    "se": 0.029,
+    "decision": "KEEP club 0.440 (intl within 1 SE -> RATIO transfers, confirmed not assumed)"
+   },
+   "first_goal_2h_anchor": {
+    "provenance": "engine-lambda closed form = market-anchored, NOT club level",
+    "decision": "KEEP (already market-anchored; intl empirical 0.524/0.286 is a different estimand on thin friendly data)"
+   },
+   "offsides_base": {
+    "provenance": "ALREADY re-leveled to WC external (3.05/match -> 0.45 at >=2); club_reference 0.478 retained",
+    "decision": "KEEP (WC-external level; NOTE external not corpus; corpus intl=0)"
+   },
+   "sot_shape": {
+    "provenance": "concave a=13.016 b=0.297 CLUB-fit; per-match LEVEL is market-anchored (lambda from odds), only SHAPE/2H-share are club ratios",
+    "decision": "KEEP club SHAPE; cannot intl-refit (0 intl SOT). FLAG club-shaped. STEP2b: calibrated across lambda (max gap 0.031)."
+   },
+   "cards": {
+    "provenance": "CARDS_2H_MKT market-derived = population-correct; CARDS_2H_SHARE 0.71 is a club RATIO; club fallback floor cannot be intl-re-leveled (0 intl cards)",
+    "decision": "KEEP; FLAG 0.71 share + fallback floor as club-ratio"
+   },
+   "corners_half": {
+    "provenance": "CORNER_HALF_PINNACLE market-anchored where offered; stopgap base rate club-measured",
+    "decision": "KEEP; FLAG stopgap club-leveled"
+   },
+   "fouls": {
+    "provenance": "FOUL_CMP comparison/sign model (favorite_gap), club-fit; ratio/sign transfers better than absolute level",
+    "decision": "KEEP; FLAG club-fit comparison"
+   }
+  },
+  "step2a_engine_k1_gate": {
+   "n_resolved": 25,
+   "brier_model_k1": 0.1717,
+   "brier_base": 0.2319,
+   "brier_k092": 0.1752,
+   "verdict": "k=1 CONFIRMED (beats base AND beats 0.92 shrink on resolved WC outcomes)"
+  },
+  "step2b_concave_low_lambda": {
+   "metric": "P(team SOT>=4) concave vs empirical (club)",
+   "bins": {
+    "0.3-0.8": {
+     "n": 335,
+     "concave": 0.231,
+     "emp": 0.263,
+     "gap": -0.031
+    },
+    "0.8-1.2": {
+     "n": 2165,
+     "concave": 0.447,
+     "emp": 0.437,
+     "gap": 0.01
+    },
+    "1.2-1.6": {
+     "n": 2189,
+     "concave": 0.632,
+     "emp": 0.607,
+     "gap": 0.025
+    },
+    "1.6-2.0": {
+     "n": 869,
+     "concave": 0.774,
+     "emp": 0.745,
+     "gap": 0.029
+    },
+    "2.0-2.6": {
+     "n": 339,
+     "concave": 0.872,
+     "emp": 0.864,
+     "gap": 0.008
+    },
+    "2.6-3.2": {
+     "n": 96,
+     "concave": 0.935,
+     "emp": 0.938,
+     "gap": -0.003
+    }
+   },
+   "verdict": "calibrated; mild -0.031 under-shoot only at lowest bin; an intercept would WORSEN the over-predicting mid bins -> NO fix ships. TUN 0.099 is a legitimate low-lambda read, not an artifact."
+  },
+  "population_caveat": "INTERNATIONAL corpus = pre-WC friendlies/quals, NOT tournament. WC knockout/must-win shifts cards/fouls/offsides/SOT vs friendlies. Better data, not perfect. The disease-surface fix means per-match LEVELS are market-anchored (lambda from odds); only RATIOS (2H-shares, concave shape, comparison signs) remain club-measured, and those transfer far better than absolute levels."
+ }
 }

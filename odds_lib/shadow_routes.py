@@ -10,10 +10,13 @@ from __future__ import annotations
 
 import json
 import math
+import re
+import unicodedata
 from functools import lru_cache
 from pathlib import Path
 
 MODEL_PATH = Path("data/models/shadow_routes.json")
+OFFSIDE_TABLE_PATH = Path("data/models/offside_team_rates.json")
 
 
 @lru_cache(maxsize=1)
@@ -22,6 +25,42 @@ def _load(path_str: str = str(MODEL_PATH)) -> dict:
         return json.loads(Path(path_str).read_text())
     except Exception:
         return {}
+
+
+@lru_cache(maxsize=1)
+def _load_offside_table(path_str: str = str(OFFSIDE_TABLE_PATH)) -> dict:
+    try:
+        return json.loads(Path(path_str).read_text())
+    except Exception:
+        return {}
+
+
+def _norm_team(s: str) -> str:
+    s = unicodedata.normalize("NFKD", str(s or ""))
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9]+", "", s.lower())
+
+
+def _poisson_sf_ge(k: int, lam: float) -> float:
+    """P(X >= k) for X~Poisson(lam), computed exactly (small k only)."""
+    cdf = sum(math.exp(-lam) * lam ** i / math.factorial(i) for i in range(int(k)))
+    return max(0.0, min(1.0, 1.0 - cdf))
+
+
+def offside_team_rate(team: str, line: float) -> float | None:
+    """FOUNDED per-team offside rate: P(team offsides >= ceil(line)) from the empirical-Bayes
+    MEASURED per-team lambda (offside_team_rates.json, OOS-gated, k=1 ship-raw). COVERED teams
+    (>= min_games of measured history) only; an UNCOVERED team returns None so the caller falls
+    to the pooled FLOOR (never a guessed default). Refreshes with the table (re-run the fit)."""
+    tbl = _load_offside_table()
+    # LIVE gate invariant: deploy per-team rates ONLY if the table beat the floor OOS on its
+    # last fit. A refresh that fails the gate self-disables -> every team falls to the floor.
+    if not (tbl.get("oos_gate") or {}).get("beats_floor"):
+        return None
+    rec = (tbl.get("teams") or {}).get(_norm_team(team))
+    if not rec or "lambda_hat" not in rec:
+        return None
+    return round(_poisson_sf_ge(_line_to_ge(float(line)), float(rec["lambda_hat"])), 4)
 
 
 def both_sot_1h_validated() -> bool:
@@ -112,5 +151,6 @@ def corner_base_rate(kind: str, line: float) -> float | None:
 
 
 __all__ = ["both_sot_1h_validated", "both_sot_1h_base_rate", "both_sot_2h_base_rate",
-           "offsides_rate", "offsides_is_floor_no_edge", "cards_2h_rate", "cards_2h_is_floor",
-           "penalty_anchor", "first_goal_2h_anchor", "corner_base_rate", "MODEL_PATH"]
+           "offsides_rate", "offside_team_rate", "offsides_is_floor_no_edge", "cards_2h_rate",
+           "cards_2h_is_floor", "penalty_anchor", "first_goal_2h_anchor", "corner_base_rate",
+           "MODEL_PATH", "OFFSIDE_TABLE_PATH"]

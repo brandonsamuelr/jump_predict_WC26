@@ -1,0 +1,525 @@
+match_id,date,team,offsides_for,opponent
+3939991,2024-07-03,Brazil,1,Colombia
+3939991,2024-07-03,Colombia,2,Brazil
+3939987,2024-07-01,Jamaica,0,Venezuela
+3939987,2024-07-01,Venezuela,1,Jamaica
+3939982,2024-06-28,Uruguay,2,Bolivia
+3939982,2024-06-28,Bolivia,0,Uruguay
+3939970,2024-06-22,Peru,2,Chile
+3939970,2024-06-22,Chile,2,Peru
+3939980,2024-06-26,Ecuador,1,Jamaica
+3939980,2024-06-26,Jamaica,0,Ecuador
+3939977,2024-06-26,Chile,1,Argentina
+3939977,2024-06-26,Argentina,1,Chile
+3939975,2024-06-24,Colombia,1,Paraguay
+3939975,2024-06-24,Paraguay,1,Colombia
+3939974,2024-06-23,United States,1,Bolivia
+3939974,2024-06-23,Bolivia,1,United States
+3939986,2024-06-30,Argentina,3,Peru
+3939986,2024-06-30,Peru,1,Argentina
+3939971,2024-06-23,Mexico,0,Jamaica
+3939971,2024-06-23,Jamaica,3,Mexico
+3939979,2024-06-27,Venezuela,3,Mexico
+3939979,2024-06-27,Mexico,2,Venezuela
+3939988,2024-07-01,Mexico,2,Ecuador
+3939988,2024-07-01,Ecuador,2,Mexico
+3939990,2024-07-02,United States,1,Uruguay
+3939990,2024-07-02,Uruguay,0,United States
+3939983,2024-06-29,Paraguay,1,Brazil
+3939983,2024-06-29,Brazil,0,Paraguay
+3939972,2024-06-22,Ecuador,1,Venezuela
+3939972,2024-06-22,Venezuela,3,Ecuador
+3939978,2024-06-25,Peru,3,Canada
+3939978,2024-06-25,Canada,1,Peru
+3939976,2024-06-25,Brazil,1,Costa Rica
+3939976,2024-06-25,Costa Rica,0,Brazil
+3939992,2024-07-03,Costa Rica,5,Paraguay
+3939992,2024-07-03,Paraguay,0,Costa Rica
+3942416,2024-07-06,Colombia,2,Panama
+3942416,2024-07-06,Panama,0,Colombia
+3943077,2024-07-15,Argentina,2,Colombia
+3943077,2024-07-15,Colombia,0,Argentina
+3943076,2024-07-14,Canada,1,Uruguay
+3943076,2024-07-14,Uruguay,1,Canada
+3942852,2024-07-11,Uruguay,4,Colombia
+3942852,2024-07-11,Colombia,2,Uruguay
+3942785,2024-07-10,Argentina,2,Canada
+3942785,2024-07-10,Canada,0,Argentina
+3942415,2024-07-07,Uruguay,2,Brazil
+3942415,2024-07-07,Brazil,0,Uruguay
+3939973,2024-06-24,Uruguay,3,Panama
+3939973,2024-06-24,Panama,1,Uruguay
+3942229,2024-07-06,Venezuela,3,Canada
+3942229,2024-07-06,Canada,0,Venezuela
+3942228,2024-07-05,Argentina,2,Ecuador
+3942228,2024-07-05,Ecuador,1,Argentina
+3939985,2024-06-30,Canada,2,Chile
+3939985,2024-06-30,Chile,0,Canada
+3939984,2024-06-28,Colombia,0,Costa Rica
+3939984,2024-06-28,Costa Rica,1,Colombia
+3939981,2024-06-27,Panama,2,United States
+3939981,2024-06-27,United States,2,Panama
+3939989,2024-07-02,Bolivia,4,Panama
+3939989,2024-07-02,Panama,0,Bolivia
+3939969,2024-06-21,Argentina,1,Canada
+3939969,2024-06-21,Canada,1,Argentina
+3857276,2022-12-01,Canada,4,Morocco
+3857276,2022-12-01,Morocco,3,Canada
+3857271,2022-11-21,England,2,Iran
+3857271,2022-11-21,Iran,2,England
+3857296,2022-12-01,Croatia,4,Belgium
+3857296,2022-12-01,Belgium,0,Croatia
+3857274,2022-11-25,Netherlands,1,Ecuador
+3857274,2022-11-25,Ecuador,2,Netherlands
+3857255,2022-12-01,Japan,2,Spain
+3857255,2022-12-01,Spain,2,Japan
+3857272,2022-11-25,England,1,United States
+3857272,2022-11-25,United States,0,England
+3857278,2022-11-29,Iran,2,United States
+3857278,2022-11-29,United States,1,Iran
+3857277,2022-11-23,Morocco,0,Croatia
+3857277,2022-11-23,Croatia,1,Morocco
+3857273,2022-11-25,Wales,2,Iran
+3857273,2022-11-25,Iran,2,Wales
+3857275,2022-11-30,Tunisia,3,France
+3857275,2022-11-30,France,1,Tunisia
+3857261,2022-11-29,Wales,1,England
+3857261,2022-11-29,England,1,Wales
+3857290,2022-11-24,Switzerland,2,Cameroon
+3857290,2022-11-24,Cameroon,2,Switzerland
+3857298,2022-11-24,Portugal,1,Ghana
+3857298,2022-11-24,Ghana,1,Portugal
+3857285,2022-11-21,Senegal,1,Netherlands
+3857285,2022-11-21,Netherlands,0,Senegal
+3857282,2022-11-21,United States,1,Wales
+3857282,2022-11-21,Wales,1,United States
+3857297,2022-11-26,Poland,0,Saudi Arabia
+3857297,2022-11-26,Saudi Arabia,0,Poland
+3857294,2022-11-29,Netherlands,4,Qatar
+3857294,2022-11-29,Qatar,0,Netherlands
+3857266,2022-11-26,France,1,Denmark
+3857266,2022-11-26,Denmark,1,France
+3857284,2022-11-23,Germany,2,Japan
+3857284,2022-11-23,Japan,4,Germany
+3857254,2022-11-22,Denmark,1,Tunisia
+3857254,2022-11-22,Tunisia,1,Denmark
+3857265,2022-11-22,Mexico,2,Poland
+3857265,2022-11-22,Poland,0,Mexico
+3857301,2022-11-25,Qatar,3,Senegal
+3857301,2022-11-25,Senegal,2,Qatar
+3857268,2022-11-23,Belgium,0,Canada
+3857268,2022-11-23,Canada,0,Belgium
+3857269,2022-11-28,Brazil,2,Switzerland
+3857269,2022-11-28,Switzerland,1,Brazil
+3869321,2022-12-09,Netherlands,1,Argentina
+3869321,2022-12-09,Argentina,2,Netherlands
+3857292,2022-12-01,Costa Rica,4,Germany
+3857292,2022-12-01,Germany,2,Costa Rica
+3857295,2022-11-27,Japan,0,Costa Rica
+3857295,2022-11-27,Costa Rica,2,Japan
+3869685,2022-12-18,Argentina,3,France
+3869685,2022-12-18,France,4,Argentina
+3869684,2022-12-17,Croatia,2,Morocco
+3869684,2022-12-17,Morocco,2,Croatia
+3857256,2022-12-02,Serbia,0,Switzerland
+3857256,2022-12-02,Switzerland,0,Serbia
+3869151,2022-12-03,Argentina,4,Australia
+3869151,2022-12-03,Australia,0,Argentina
+3857257,2022-11-30,Australia,1,Denmark
+3857257,2022-11-30,Denmark,3,Australia
+3857258,2022-11-24,Brazil,1,Serbia
+3857258,2022-11-24,Serbia,0,Brazil
+3857288,2022-11-26,Tunisia,3,Australia
+3857288,2022-11-26,Australia,0,Tunisia
+3857267,2022-11-29,Ecuador,0,Senegal
+3857267,2022-11-29,Senegal,2,Ecuador
+3857287,2022-11-24,Uruguay,1,South Korea
+3857287,2022-11-24,South Korea,0,Uruguay
+3869486,2022-12-10,Morocco,2,Portugal
+3869486,2022-12-10,Portugal,2,Morocco
+3857260,2022-11-30,Saudi Arabia,2,Mexico
+3857260,2022-11-30,Mexico,6,Saudi Arabia
+3857264,2022-11-30,Poland,0,Argentina
+3857264,2022-11-30,Argentina,0,Poland
+3857289,2022-11-26,Argentina,2,Mexico
+3857289,2022-11-26,Mexico,4,Argentina
+3869254,2022-12-06,Portugal,3,Switzerland
+3869254,2022-12-06,Switzerland,3,Portugal
+3869118,2022-12-04,England,0,Senegal
+3869118,2022-12-04,Senegal,0,England
+3869519,2022-12-13,Argentina,1,Croatia
+3869519,2022-12-13,Croatia,0,Argentina
+3869354,2022-12-10,England,1,France
+3869354,2022-12-10,France,2,England
+3869552,2022-12-14,France,3,Morocco
+3869552,2022-12-14,Morocco,3,France
+3869420,2022-12-09,Croatia,2,Brazil
+3869420,2022-12-09,Brazil,3,Croatia
+3869220,2022-12-06,Morocco,5,Spain
+3869220,2022-12-06,Spain,4,Morocco
+3869219,2022-12-05,Japan,3,Croatia
+3869219,2022-12-05,Croatia,0,Japan
+3869253,2022-12-05,Brazil,0,South Korea
+3869253,2022-12-05,South Korea,4,Brazil
+3869152,2022-12-04,France,2,Poland
+3869152,2022-12-04,Poland,0,France
+3869117,2022-12-03,Netherlands,0,United States
+3869117,2022-12-03,United States,2,Netherlands
+3857270,2022-11-28,Portugal,3,Uruguay
+3857270,2022-11-28,Uruguay,0,Portugal
+3857263,2022-11-27,Spain,2,Germany
+3857263,2022-11-27,Germany,5,Spain
+3857259,2022-11-28,Cameroon,0,Serbia
+3857259,2022-11-28,Serbia,3,Cameroon
+3857283,2022-11-27,Belgium,2,Morocco
+3857283,2022-11-27,Morocco,2,Belgium
+3857286,2022-11-20,Qatar,3,Ecuador
+3857286,2022-11-20,Ecuador,3,Qatar
+3857300,2022-11-22,Argentina,10,Saudi Arabia
+3857300,2022-11-22,Saudi Arabia,1,Argentina
+3857299,2022-11-28,South Korea,1,Ghana
+3857299,2022-11-28,Ghana,1,South Korea
+3857293,2022-12-02,Ghana,1,Uruguay
+3857293,2022-12-02,Uruguay,2,Ghana
+3857291,2022-11-23,Spain,3,Costa Rica
+3857291,2022-11-23,Costa Rica,6,Spain
+3857281,2022-11-27,Croatia,1,Canada
+3857281,2022-11-27,Canada,3,Croatia
+3857280,2022-12-02,Cameroon,0,Brazil
+3857280,2022-12-02,Brazil,1,Cameroon
+3857279,2022-11-22,France,0,Australia
+3857279,2022-11-22,Australia,0,France
+3857262,2022-12-02,South Korea,0,Portugal
+3857262,2022-12-02,Portugal,5,South Korea
+8650,2018-07-06,Brazil,1,Belgium
+8650,2018-07-06,Belgium,0,Brazil
+7584,2018-07-02,Belgium,1,Japan
+7584,2018-07-02,Japan,1,Belgium
+7554,2018-06-24,England,3,Panama
+7554,2018-06-24,Panama,0,England
+7539,2018-06-19,Poland,3,Senegal
+7539,2018-06-19,Senegal,2,Poland
+7550,2018-06-22,Serbia,0,Switzerland
+7550,2018-06-22,Switzerland,3,Serbia
+7538,2018-06-18,Sweden,2,South Korea
+7538,2018-06-18,South Korea,1,Sweden
+7534,2018-06-17,Germany,1,Mexico
+7534,2018-06-17,Mexico,2,Germany
+7543,2018-06-20,Iran,2,Spain
+7543,2018-06-20,Spain,1,Iran
+7544,2018-06-20,Uruguay,0,Saudi Arabia
+7544,2018-06-20,Saudi Arabia,2,Uruguay
+7546,2018-06-21,France,0,Peru
+7546,2018-06-21,Peru,1,France
+7545,2018-06-21,Argentina,3,Croatia
+7545,2018-06-21,Croatia,3,Argentina
+7585,2018-07-03,Colombia,1,England
+7585,2018-07-03,England,2,Colombia
+7569,2018-06-28,Panama,3,Tunisia
+7569,2018-06-28,Tunisia,0,Panama
+7572,2018-06-28,Japan,1,Poland
+7572,2018-06-28,Poland,0,Japan
+7561,2018-06-26,Iceland,0,Croatia
+7561,2018-06-26,Croatia,0,Iceland
+7540,2018-06-19,Russia,0,Egypt
+7540,2018-06-19,Egypt,0,Russia
+7531,2018-06-16,Argentina,0,Iceland
+7531,2018-06-16,Iceland,0,Argentina
+7570,2018-06-28,England,3,Belgium
+7570,2018-06-28,Belgium,1,England
+7586,2018-07-03,Sweden,1,Switzerland
+7586,2018-07-03,Switzerland,0,Sweden
+7557,2018-06-25,Iran,1,Portugal
+7557,2018-06-25,Portugal,1,Iran
+7542,2018-06-20,Portugal,1,Morocco
+7542,2018-06-20,Morocco,1,Portugal
+8656,2018-07-11,Croatia,1,England
+8656,2018-07-11,England,3,Croatia
+7548,2018-06-22,Brazil,1,Costa Rica
+7548,2018-06-22,Costa Rica,1,Brazil
+7578,2018-06-15,Egypt,1,Uruguay
+7578,2018-06-15,Uruguay,1,Egypt
+7553,2018-06-23,South Korea,0,Mexico
+7553,2018-06-23,Mexico,0,South Korea
+7536,2018-06-18,Belgium,1,Panama
+7536,2018-06-18,Panama,1,Belgium
+7555,2018-06-24,Poland,0,Colombia
+7555,2018-06-24,Colombia,1,Poland
+7576,2018-06-15,Portugal,1,Spain
+7576,2018-06-15,Spain,2,Portugal
+7565,2018-06-27,Serbia,1,Brazil
+7565,2018-06-27,Brazil,1,Serbia
+7551,2018-06-23,Germany,3,Sweden
+7551,2018-06-23,Sweden,2,Germany
+7537,2018-06-18,Tunisia,2,England
+7537,2018-06-18,England,1,Tunisia
+7580,2018-06-30,France,0,Argentina
+7580,2018-06-30,Argentina,1,France
+7581,2018-07-01,Croatia,1,Denmark
+7581,2018-07-01,Denmark,0,Croatia
+7549,2018-06-22,Nigeria,1,Iceland
+7549,2018-06-22,Iceland,0,Nigeria
+7529,2018-06-16,Croatia,2,Nigeria
+7529,2018-06-16,Nigeria,1,Croatia
+7562,2018-06-26,Australia,3,Peru
+7562,2018-06-26,Peru,1,Australia
+7571,2018-06-28,Senegal,2,Colombia
+7571,2018-06-28,Colombia,3,Senegal
+7568,2018-06-27,Switzerland,1,Costa Rica
+7568,2018-06-27,Costa Rica,0,Switzerland
+7530,2018-06-16,France,0,Australia
+7530,2018-06-16,Australia,0,France
+7558,2018-06-25,Uruguay,0,Russia
+7558,2018-06-25,Russia,2,Uruguay
+7583,2018-07-02,Brazil,0,Mexico
+7583,2018-07-02,Mexico,0,Brazil
+7547,2018-06-21,Denmark,1,Australia
+7547,2018-06-21,Australia,0,Denmark
+7535,2018-06-17,Costa Rica,0,Serbia
+7535,2018-06-17,Serbia,3,Costa Rica
+8649,2018-07-06,Uruguay,0,France
+8649,2018-07-06,France,0,Uruguay
+8658,2018-07-15,France,1,Croatia
+8658,2018-07-15,Croatia,0,France
+7582,2018-07-01,Spain,1,Russia
+7582,2018-07-01,Russia,1,Spain
+7552,2018-06-23,Belgium,3,Tunisia
+7552,2018-06-23,Tunisia,2,Belgium
+7532,2018-06-16,Peru,3,Denmark
+7532,2018-06-16,Denmark,3,Peru
+7560,2018-06-25,Spain,1,Morocco
+7560,2018-06-25,Morocco,1,Spain
+7533,2018-06-17,Brazil,0,Switzerland
+7533,2018-06-17,Switzerland,0,Brazil
+7564,2018-06-26,Nigeria,0,Argentina
+7564,2018-06-26,Argentina,2,Nigeria
+7579,2018-06-30,Uruguay,0,Portugal
+7579,2018-06-30,Portugal,1,Uruguay
+7577,2018-06-15,Morocco,0,Iran
+7577,2018-06-15,Iran,0,Morocco
+7525,2018-06-14,Russia,3,Saudi Arabia
+7525,2018-06-14,Saudi Arabia,1,Russia
+7566,2018-06-27,Mexico,1,Sweden
+7566,2018-06-27,Sweden,0,Mexico
+8651,2018-07-07,Sweden,2,England
+8651,2018-07-07,England,1,Sweden
+7567,2018-06-27,South Korea,0,Germany
+7567,2018-06-27,Germany,1,South Korea
+7541,2018-06-19,Colombia,1,Japan
+7541,2018-06-19,Japan,1,Colombia
+8655,2018-07-10,France,1,Belgium
+8655,2018-07-10,Belgium,1,France
+8657,2018-07-14,Belgium,1,England
+8657,2018-07-14,England,0,Belgium
+8652,2018-07-07,Russia,1,Croatia
+8652,2018-07-07,Croatia,0,Russia
+7563,2018-06-26,Denmark,0,France
+7563,2018-06-26,France,1,Denmark
+7556,2018-06-24,Japan,2,Senegal
+7556,2018-06-24,Senegal,4,Japan
+7559,2018-06-25,Saudi Arabia,2,Egypt
+7559,2018-06-25,Egypt,3,Saudi Arabia
+3930166,2024-06-18,Portugal,3,Czech Republic
+3930166,2024-06-18,Czech Republic,1,Portugal
+3930159,2024-06-15,Hungary,3,Switzerland
+3930159,2024-06-15,Switzerland,2,Hungary
+3930163,2024-06-16,Serbia,0,England
+3930163,2024-06-16,England,1,Serbia
+3930181,2024-06-25,England,2,Slovenia
+3930181,2024-06-25,Slovenia,0,England
+3930178,2024-06-24,Croatia,0,Italy
+3930178,2024-06-24,Italy,2,Croatia
+3930160,2024-06-15,Spain,2,Croatia
+3930160,2024-06-15,Croatia,0,Spain
+3930170,2024-06-20,Slovenia,0,Serbia
+3930170,2024-06-20,Serbia,0,Slovenia
+3938643,2024-06-25,France,1,Poland
+3938643,2024-06-25,Poland,0,France
+3938641,2024-06-21,Poland,0,Austria
+3938641,2024-06-21,Austria,2,Poland
+3938642,2024-06-22,Georgia,0,Czech Republic
+3938642,2024-06-22,Czech Republic,1,Georgia
+3938639,2024-06-18,Turkey,1,Georgia
+3938639,2024-06-18,Georgia,1,Turkey
+3938638,2024-06-17,Romania,1,Ukraine
+3938638,2024-06-17,Ukraine,1,Romania
+3938640,2024-06-21,Slovakia,2,Ukraine
+3938640,2024-06-21,Ukraine,4,Slovakia
+3938637,2024-06-16,Poland,2,Netherlands
+3938637,2024-06-16,Netherlands,0,Poland
+3938644,2024-06-26,Georgia,0,Portugal
+3938644,2024-06-26,Portugal,1,Georgia
+3941019,2024-07-01,France,1,Belgium
+3941019,2024-07-01,Belgium,0,France
+3942227,2024-07-06,England,3,Switzerland
+3942227,2024-07-06,Switzerland,0,England
+3930174,2024-06-22,Turkey,0,Portugal
+3930174,2024-06-22,Portugal,4,Turkey
+3930162,2024-06-16,Slovenia,3,Denmark
+3930162,2024-06-16,Denmark,1,Slovenia
+3930176,2024-06-23,Switzerland,2,Germany
+3930176,2024-06-23,Germany,2,Switzerland
+3930169,2024-06-19,Scotland,0,Switzerland
+3930169,2024-06-19,Switzerland,5,Scotland
+3942819,2024-07-10,Netherlands,1,England
+3942819,2024-07-10,England,4,Netherlands
+3943043,2024-07-14,Spain,1,England
+3943043,2024-07-14,England,0,Spain
+3942752,2024-07-09,Spain,0,France
+3942752,2024-07-09,France,0,Spain
+3942382,2024-07-06,Netherlands,4,Turkey
+3942382,2024-07-06,Turkey,2,Netherlands
+3942349,2024-07-05,Portugal,0,France
+3942349,2024-07-05,France,2,Portugal
+3930180,2024-06-25,Netherlands,1,Austria
+3930180,2024-06-25,Austria,1,Netherlands
+3930171,2024-06-20,Denmark,3,England
+3930171,2024-06-20,England,0,Denmark
+3942226,2024-07-05,Spain,3,Germany
+3942226,2024-07-05,Germany,2,Spain
+3938645,2024-06-26,Ukraine,2,Belgium
+3938645,2024-06-26,Belgium,0,Ukraine
+3930184,2024-06-26,Czech Republic,0,Turkey
+3930184,2024-06-26,Turkey,1,Czech Republic
+3941022,2024-07-02,Austria,2,Turkey
+3941022,2024-07-02,Turkey,1,Austria
+3941021,2024-07-02,Romania,0,Netherlands
+3941021,2024-07-02,Netherlands,3,Romania
+3941020,2024-07-01,Portugal,4,Slovenia
+3941020,2024-07-01,Slovenia,6,Portugal
+3941018,2024-06-30,Spain,2,Georgia
+3941018,2024-06-30,Georgia,0,Spain
+3941017,2024-06-30,England,1,Slovakia
+3941017,2024-06-30,Slovakia,2,England
+3930182,2024-06-25,Denmark,0,Serbia
+3930182,2024-06-25,Serbia,3,Denmark
+3930179,2024-06-24,Albania,1,Spain
+3930179,2024-06-24,Spain,1,Albania
+3940983,2024-06-29,Germany,4,Denmark
+3940983,2024-06-29,Denmark,2,Germany
+3940878,2024-06-29,Switzerland,0,Italy
+3940878,2024-06-29,Italy,1,Switzerland
+3930177,2024-06-23,Scotland,3,Hungary
+3930177,2024-06-23,Hungary,5,Scotland
+3930173,2024-06-21,Netherlands,2,France
+3930173,2024-06-21,France,0,Netherlands
+3930172,2024-06-20,Spain,0,Italy
+3930172,2024-06-20,Italy,0,Spain
+3930167,2024-06-19,Croatia,0,Albania
+3930167,2024-06-19,Albania,3,Croatia
+3930168,2024-06-19,Germany,0,Hungary
+3930168,2024-06-19,Hungary,1,Germany
+3930165,2024-06-17,Austria,0,France
+3930165,2024-06-17,France,1,Austria
+3930164,2024-06-17,Belgium,2,Slovakia
+3930164,2024-06-17,Slovakia,1,Belgium
+3930161,2024-06-15,Italy,2,Albania
+3930161,2024-06-15,Albania,0,Italy
+3930183,2024-06-26,Slovakia,3,Romania
+3930183,2024-06-26,Romania,1,Slovakia
+3930175,2024-06-22,Belgium,4,Romania
+3930175,2024-06-22,Romania,1,Belgium
+3930158,2024-06-14,Germany,4,Scotland
+3930158,2024-06-14,Scotland,0,Germany
+3788758,2021-06-17,Ukraine,3,North Macedonia
+3788758,2021-06-17,North Macedonia,1,Ukraine
+3788773,2021-06-23,Portugal,0,France
+3788773,2021-06-23,France,1,Portugal
+3788765,2021-06-20,Switzerland,0,Turkey
+3788765,2021-06-20,Turkey,1,Switzerland
+3788761,2021-06-18,Sweden,1,Slovakia
+3788761,2021-06-18,Slovakia,3,Sweden
+3788760,2021-06-18,Croatia,1,Czech Republic
+3788760,2021-06-18,Czech Republic,2,Croatia
+3795108,2021-07-02,Switzerland,3,Spain
+3795108,2021-07-02,Spain,1,Switzerland
+3794687,2021-06-27,Belgium,1,Portugal
+3794687,2021-06-27,Portugal,3,Belgium
+3794690,2021-06-27,Netherlands,2,Czech Republic
+3794690,2021-06-27,Czech Republic,1,Netherlands
+3794685,2021-06-26,Italy,4,Austria
+3794685,2021-06-26,Austria,2,Italy
+3794692,2021-06-29,Sweden,2,Ukraine
+3794692,2021-06-29,Ukraine,3,Sweden
+3794689,2021-06-26,Wales,0,Denmark
+3794689,2021-06-26,Denmark,1,Wales
+3795107,2021-07-02,Belgium,1,Italy
+3795107,2021-07-02,Italy,1,Belgium
+3795187,2021-07-03,Ukraine,0,England
+3795187,2021-07-03,England,2,Ukraine
+3795220,2021-07-06,Italy,8,Spain
+3795220,2021-07-06,Spain,1,Italy
+3794686,2021-06-28,Croatia,6,Spain
+3794686,2021-06-28,Spain,2,Croatia
+3788763,2021-06-19,Hungary,0,France
+3788763,2021-06-19,France,0,Hungary
+3795506,2021-07-11,Italy,5,England
+3795506,2021-07-11,England,1,Italy
+3788769,2021-06-21,Russia,3,Denmark
+3788769,2021-06-21,Denmark,0,Russia
+3788766,2021-06-20,Italy,3,Wales
+3788766,2021-06-20,Wales,0,Italy
+3788764,2021-06-19,Portugal,2,Germany
+3788764,2021-06-19,Germany,1,Portugal
+3788755,2021-06-16,Turkey,0,Wales
+3788755,2021-06-16,Wales,1,Turkey
+3788754,2021-06-16,Italy,3,Switzerland
+3788754,2021-06-16,Switzerland,4,Italy
+3788762,2021-06-19,Spain,1,Poland
+3788762,2021-06-19,Poland,2,Spain
+3788747,2021-06-13,Austria,1,North Macedonia
+3788747,2021-06-13,North Macedonia,0,Austria
+3788741,2021-06-11,Turkey,2,Italy
+3788741,2021-06-11,Italy,3,Turkey
+3795109,2021-07-03,Czech Republic,3,Denmark
+3795109,2021-07-03,Denmark,0,Czech Republic
+3788770,2021-06-21,North Macedonia,3,Netherlands
+3788770,2021-06-21,Netherlands,2,North Macedonia
+3794688,2021-06-29,England,2,Germany
+3794688,2021-06-29,Germany,2,England
+3788774,2021-06-23,Germany,2,Hungary
+3788774,2021-06-23,Hungary,0,Germany
+3788771,2021-06-22,Croatia,4,Scotland
+3788771,2021-06-22,Scotland,1,Croatia
+3788772,2021-06-22,Czech Republic,1,England
+3788772,2021-06-22,England,3,Czech Republic
+3788768,2021-06-21,Finland,0,Belgium
+3788768,2021-06-21,Belgium,2,Finland
+3788767,2021-06-21,Ukraine,1,Austria
+3788767,2021-06-21,Austria,2,Ukraine
+3788753,2021-06-16,Finland,2,Russia
+3788753,2021-06-16,Russia,2,Finland
+3788759,2021-06-18,England,2,Scotland
+3788759,2021-06-18,Scotland,0,England
+3788757,2021-06-17,Denmark,2,Belgium
+3788757,2021-06-17,Belgium,2,Denmark
+3788745,2021-06-13,England,2,Croatia
+3788745,2021-06-13,Croatia,2,England
+3795221,2021-07-07,England,0,Denmark
+3795221,2021-07-07,Denmark,1,England
+3788746,2021-06-13,Netherlands,2,Ukraine
+3788746,2021-06-13,Ukraine,1,Netherlands
+3794691,2021-06-28,France,1,Switzerland
+3794691,2021-06-28,Switzerland,0,France
+3788756,2021-06-17,Netherlands,1,Austria
+3788756,2021-06-17,Austria,0,Netherlands
+3788749,2021-06-14,Poland,0,Slovakia
+3788749,2021-06-14,Slovakia,1,Poland
+3788750,2021-06-14,Spain,2,Sweden
+3788750,2021-06-14,Sweden,1,Spain
+3788748,2021-06-14,Scotland,1,Czech Republic
+3788748,2021-06-14,Czech Republic,2,Scotland
+3788751,2021-06-15,France,5,Germany
+3788751,2021-06-15,Germany,2,France
+3788752,2021-06-15,Hungary,1,Portugal
+3788752,2021-06-15,Portugal,1,Hungary
+3788742,2021-06-12,Denmark,0,Finland
+3788742,2021-06-12,Finland,1,Denmark
+3788775,2021-06-23,Slovakia,1,Spain
+3788775,2021-06-23,Spain,0,Slovakia
+3788776,2021-06-23,Sweden,0,Poland
+3788776,2021-06-23,Poland,1,Sweden
+3788743,2021-06-12,Belgium,0,Russia
+3788743,2021-06-12,Russia,3,Belgium
+3788744,2021-06-12,Wales,0,Switzerland
+3788744,2021-06-12,Switzerland,4,Wales
