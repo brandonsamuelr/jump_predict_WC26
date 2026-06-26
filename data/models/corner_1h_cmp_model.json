@@ -1,0 +1,32 @@
+{
+ "intercept": -0.27591,
+ "coefs": {
+  "favorite_gap": 0.92686
+ },
+ "n": 814,
+ "fit_utc": "2026-06-26T20:25:35Z",
+ "oos_gate": {
+  "predictor": "favorite_gap (2-way de-vig, ML; NO corner overlap)",
+  "all_test": {
+   "n": 163,
+   "brier_const": 0.2644,
+   "brier_model": 0.2494,
+   "d": 0.015
+  },
+  "lopsided_fg_gt_0.2": {
+   "n": 134,
+   "brier_const": 0.2706,
+   "brier_model": 0.2502,
+   "d": 0.0204
+  },
+  "lopsided_fg_gt_0.3": {
+   "n": 114,
+   "d": 0.0192
+  },
+  "lopsided_fg_gt_0.4": {
+   "n": 94,
+   "d": 0.0153
+  }
+ },
+ "note": "P(target team MORE 1H corners) from favorite_gap ONLY (structural, transfers club->intl). 1H ONLY -- 2H is game-state-reversed (favorite_gap wrong-signed) and stays on the stopgap. coef POSITIVE = favorite controls early territory -> more 1H corners. Ties->NO."
+}

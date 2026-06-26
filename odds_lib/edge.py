@@ -145,6 +145,9 @@ K_PRIOR = {
     # UNDISTORTED (k=1, it IS the base-rate estimate). STOPGAP_NOT_TRUE_P — ignores
     # favorite_gap (data wall blocks a conditioned half model). HIGH-PRIORITY UNSOLVED.
     ("CORNER_HALF", "stopgap"): 1.00,
+    # 1H-corner favorite_gap model (gate-validated, +0.015 Brier vs the blind constant): the
+    # founded directional read for 1H when no Pinnacle line -> ship raw (k=1). 1H only.
+    ("CORNER_HALF", "model_1h"): 1.00,
     # OddsPapi-Pinnacle sharp half-corner read (0.0 handicap de-vig); single_book sharp,
     # use-if-plausible (LAW) -> submit UNDISTORTED (k=1); plausibility band is the guard.
     ("CORNER_HALF", "pinnacle"): 1.00,
@@ -240,6 +243,7 @@ TRUST_PRICE_K = frozenset({
     ("H2GOALS", "ok"), ("H2GOALS", "thin"),
     ("H1GOALS", "ok"), ("H1GOALS", "thin"),
     ("CORNER_HALF", "pinnacle"),
+    ("CORNER_HALF", "model_1h"),            # gate-validated 1H favorite_gap corner model -> k=1
     ("CARDS_2H", "market"),                 # cards-market lambda x 2H share (market-derived)
     ("OFFSIDES", "team"),                    # founded per-team EB offside rate (OOS-gated) -> k=1
     # All confirmed-starter player-prop reads (real de-vigged markets) -> k=1, ship raw.
@@ -327,6 +331,7 @@ def classify(tier: str, question_type: str) -> tuple[str, str]:
     if t == "CORNERS_CMP_1H":    return ("CORNERS_CMP", "provisional_1h")  # DEPRECATED old shrink path
     if t == "CORNER_HALF_STOPGAP": return ("CORNER_HALF", "stopgap")    # 1H/2H base-rate floor (STOPGAP, not true P)
     if t == "CORNER_HALF_PINNACLE": return ("CORNER_HALF", "pinnacle")  # sharp Pinnacle half-corner read
+    if t == "CORNER_HALF_1H_FG":   return ("CORNER_HALF", "model_1h")   # gate-validated 1H favorite_gap model
     if t == "H2GOALS_OK":   return ("H2GOALS", "ok")
     if t == "H2GOALS_THIN": return ("H2GOALS", "thin")
     if t == "MORE_CARDS":   return ("MORE_CARDS", "model")   # Track 2 gate-validated

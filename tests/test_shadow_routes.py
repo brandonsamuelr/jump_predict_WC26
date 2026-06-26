@@ -126,7 +126,9 @@ def test_offsides_route_is_pooled_floor_no_edge():
     th, ph, _ = slate.resolve_row({"question_type": "team_offsides_over", "target_team": "A", "line": "1.5"}, None, g, None)
     ta, pa, _ = slate.resolve_row({"question_type": "team_offsides_over", "target_team": "B", "line": "1.5"}, None, g, None)
     assert th == "OFFSIDES_FLOOR" and ta == "OFFSIDES_FLOOR"
-    assert ph == pa == round(SR.offsides_rate(1.5), 4) and ph != 0.50   # pooled, no home/away split
+    # uncovered (A/B) -> the EB POOLED PRIOR (n=0 limit of the per-team model); pooled (home==away), not 0.50.
+    assert ph == pa and ph != 0.50
+    assert abs(ph - SR.offside_pooled_prior(1.5)) < 1e-9
     assert SR.offsides_is_floor_no_edge()                                # honestly flagged no-edge
     assert classify("OFFSIDES_FLOOR", "x") == ("OFFSIDES", "floor") and K_PRIOR[("OFFSIDES", "floor")] == 1.0
 

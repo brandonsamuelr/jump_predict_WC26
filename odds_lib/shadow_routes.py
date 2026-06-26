@@ -63,6 +63,18 @@ def offside_team_rate(team: str, line: float) -> float | None:
     return round(_poisson_sf_ge(_line_to_ge(float(line)), float(rec["lambda_hat"])), 4)
 
 
+def offside_pooled_prior(line: float) -> float | None:
+    """The EB POOLED PRIOR P(team offsides >= ceil(line)) -- i.e. the n=0 limit of the per-team
+    offside model (offside_team_rates.json pooled_rate). An UNCOVERED team is just a team with
+    no measured history -> the prior IS its honest estimate. This UNIFIES the offside route into
+    one EB model (covered = shrunk per-team; uncovered = pooled prior), retiring the separate
+    hand-set 0.45 floor and self-refreshing as the table updates. None if the table is absent."""
+    lam = (_load_offside_table() or {}).get("pooled_rate")
+    if lam is None:
+        return None
+    return round(_poisson_sf_ge(_line_to_ge(float(line)), float(lam)), 4)
+
+
 def both_sot_1h_validated() -> bool:
     """True iff the volume model beat the base rate OOS (else caller uses base rate)."""
     return _load().get("both_teams_sot_1h", {}).get("verdict") == "validated"
@@ -151,6 +163,6 @@ def corner_base_rate(kind: str, line: float) -> float | None:
 
 
 __all__ = ["both_sot_1h_validated", "both_sot_1h_base_rate", "both_sot_2h_base_rate",
-           "offsides_rate", "offside_team_rate", "offsides_is_floor_no_edge", "cards_2h_rate",
+           "offsides_rate", "offside_team_rate", "offside_pooled_prior", "offsides_is_floor_no_edge", "cards_2h_rate",
            "cards_2h_is_floor", "penalty_anchor", "first_goal_2h_anchor", "corner_base_rate",
            "MODEL_PATH", "OFFSIDE_TABLE_PATH"]

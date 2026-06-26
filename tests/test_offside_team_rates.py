@@ -87,6 +87,20 @@ def test_uncovered_team_falls_to_founded_floor_not_a_guess():
         SR._load_offside_table = orig
 
 
+def test_offside_threshold_2_and_1p5_agree_as_p_ge_2():
+    # contest "2 or more times" == P(X>=2); line='2' and line='1.5' must NOT diverge (threshold
+    # footgun: both representations of "2+" appear across the codebase).
+    SR._load_offside_table.cache_clear()
+    g = {"home_team": "France", "away_team": "Curacao", "bookmakers": []}
+    for tgt in ("France", "Curacao"):          # covered (per-team) + uncovered (EB prior)
+        ps = []
+        for ln in ("2", "1.5"):
+            _, p, _ = slate.resolve_row({"question_type": "team_offsides_over",
+                                         "target_team": tgt, "line": ln}, None, g, None)
+            ps.append(p)
+        assert ps[0] is not None and abs(ps[0] - ps[1]) < 1e-9, f"{tgt}: line2={ps[0]} line1.5={ps[1]}"
+
+
 def test_team_tier_ships_raw_k1_and_trusted():
     assert classify("OFFSIDES_TEAM", "x") == ("OFFSIDES", "team")
     assert K_PRIOR[("OFFSIDES", "team")] == 1.0
@@ -101,7 +115,8 @@ def test_real_table_covers_majors_and_floors_minnows():
     tier_major, _, _ = slate.resolve_row(_row("Argentina"), None, GAME, None)
     tier_minnow, p_minnow, _ = slate.resolve_row(_row("Curacao"), None, GAME, None)
     assert tier_major == "OFFSIDES_TEAM"
-    assert tier_minnow == "OFFSIDES_FLOOR" and p_minnow == round(SR.offsides_rate(2), 4)
+    # uncovered minnow -> EB pooled prior (n=0 limit of the same model), not the legacy 0.45 floor
+    assert tier_minnow == "OFFSIDES_FLOOR" and abs(p_minnow - SR.offside_pooled_prior(2)) < 1e-4
 
 
 if __name__ == "__main__":

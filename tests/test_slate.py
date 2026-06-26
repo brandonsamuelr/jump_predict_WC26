@@ -18,7 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import pandas as pd
 
-from odds_lib import slate, match_engine as E
+from odds_lib import slate, match_engine as E, shadow_routes as SR
 from odds_lib.edge import classify
 from odds_lib.lineups import MatchLineup, PlayerContext
 
@@ -78,6 +78,67 @@ def test_prop_unmapped_market_is_shadow_even_for_starter():
     tier, p, _ = slate.resolve_row(_prop_row(), None, empty_game, None,
                                    lineup=_lineup("starter"))
     assert tier == "PENDING" and p is None
+
+
+def _c_h2h(fav="Senegal", dog="Iraq", pf=0.78, pd_=0.10):
+    return pd.DataFrame([{"market_key": "h2h", "line": float("nan"), "outcome": fav, "market_prob": pf},
+                         {"market_key": "h2h", "line": float("nan"), "outcome": dog, "market_prob": pd_}])
+
+
+def test_1h_corner_underdog_uses_directional_model_not_flat_constant():
+    # lopsided: underdog 1H-corners must be pushed BELOW the flat 0.389 by the favorite_gap model.
+    g = {"home_team": "Senegal", "away_team": "Iraq", "bookmakers": []}
+    tier, p, _ = slate.resolve_row({"question_type": "team_more_corners_h1", "target_team": "Iraq", "line": ""},
+                                   _c_h2h(), g, None)
+    assert tier == "CORNER_HALF_1H_FG" and p < 0.389          # direction-aware, below the blind constant
+    assert classify("CORNER_HALF_1H_FG", "x") == ("CORNER_HALF", "model_1h")
+    # favorite side must be the mirror (> 0.5-ish, and above the underdog)
+    _, pf, _ = slate.resolve_row({"question_type": "team_more_corners_h1", "target_team": "Senegal", "line": ""},
+                                 _c_h2h(), g, None)
+    assert pf > p
+
+
+def test_2h_corner_still_stopgap_not_favorite_tilted():
+    # 2H is game-state-reversed -> must NOT use the favorite model; stays on the stopgap.
+    g = {"home_team": "Senegal", "away_team": "Iraq", "bookmakers": []}
+    tier, p, _ = slate.resolve_row({"question_type": "team_more_corners_2h", "target_team": "Iraq", "line": ""},
+                                   _c_h2h(), g, None)
+    assert tier == "CORNER_HALF_STOPGAP"
+
+
+def test_offside_uncovered_uses_eb_pooled_prior_not_old_constant():
+    # uncovered team -> EB pooled prior (~0.41), the n=0 limit of the per-team model, not 0.45.
+    SR._load_offside_table.cache_clear()
+    g = {"home_team": "Senegal", "away_team": "Iraq", "bookmakers": []}
+    tier, p, _ = slate.resolve_row({"question_type": "team_offsides_over", "target_team": "Iraq", "line": "2"},
+                                   None, g, None)
+    assert tier == "OFFSIDES_FLOOR"
+    if SR.offside_pooled_prior(2) is not None:           # table present in this env
+        assert abs(p - SR.offside_pooled_prior(2)) < 1e-4 and p < 0.44
+
+
+def _game_team_total(team="Norway", over=-175, under=130):
+    # a two-sided team-total Over/Under 0.5 market across two books (maps in price_team_goals_over)
+    mk = lambda bk: {"title": bk, "markets": [{"key": "team_totals", "outcomes": [
+        {"name": "Over", "description": team, "point": 0.5, "price": over},
+        {"name": "Under", "description": team, "point": 0.5, "price": under}]}]}
+    return {"home_team": team, "away_team": "Z", "bookmakers": [mk("Pinnacle"), mk("Bet365")]}
+
+
+def test_team_score_any_prefers_direct_team_total_market():
+    # strict-equivalence: team_score_any == team-total Over 0.5 -> the DIRECT market wins over engine.
+    tier, p, _ = slate.resolve_row(
+        {"question_type": "team_score_any", "target_team": "Norway", "line": ""},
+        None, _game_team_total("Norway"), None)
+    assert tier in ("TEAMGOALS_OK", "TEAMGOALS_THIN") and 0.5 < p < 0.7   # de-vig of -175/+130
+
+
+def test_team_score_any_falls_back_to_engine_without_team_total_market():
+    # no team-total market -> must NOT be TEAMGOALS; with no engine model -> PENDING (engine path).
+    tier, p, _ = slate.resolve_row(
+        {"question_type": "team_score_any", "target_team": "Norway", "line": ""},
+        None, {"home_team": "Norway", "away_team": "Z", "bookmakers": []}, None)
+    assert tier not in ("TEAMGOALS_OK", "TEAMGOALS_THIN")
 
 
 # --- the two newly wired routes --------------------------------------------

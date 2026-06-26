@@ -24,6 +24,7 @@ from . import market_rows as MR
 from . import market_quality as MQ
 from . import corpus_models as CM
 from . import corners_cmp_model as CC
+from . import corner_1h_cmp_model as C1
 from . import foul_cmp_model as FC
 from . import oddspapi_pinnacle as OP
 from . import shadow_routes as SR
@@ -208,9 +209,12 @@ def resolve_row(row: dict, c: pd.DataFrame, game_json: dict, model_tuple, lineup
         tp = SR.offside_team_rate(t, line)
         if tp is not None:
             return "OFFSIDES_TEAM", tp, None
-        # UNCOVERED team -> the honest POOLED FLOOR (NOT a guess). The per-match driver search
-        # (favorite_gap / home-away / volume) found NO market/structural signal beating the
-        # pooled base OOS, so where we lack measured team history we ship the measured pooled rate.
+        # UNCOVERED team -> the EB POOLED PRIOR (the n=0 limit of the SAME per-team model), so
+        # floor and model are ONE coherent EB route, not a model + a separate hand-set constant.
+        # Self-refreshes with the table. Legacy measured floor only if the EB table is absent.
+        pp = SR.offside_pooled_prior(line)
+        if pp is not None:
+            return "OFFSIDES_FLOOR", pp, None
         p = SR.offsides_rate(line)
         return ("OFFSIDES_FLOOR", round(p, 4), None) if p is not None else ("PENDING", None, None)
 
@@ -304,6 +308,14 @@ def resolve_row(row: dict, c: pd.DataFrame, game_json: dict, model_tuple, lineup
             return "PENDING", None, None
         return ("TEAMGOALS_OK" if r.liquidity_flag == "ok" else "TEAMGOALS_THIN"), r.p_over, r.p_over
 
+    if qt == "team_score_any":   # == "team total Over 0.5": prefer the DIRECT strict-equivalent
+        # market (sharp consensus on the identical event) over the derived-engine lambda -- the
+        # engine over-allocates lambda to heavy favorites. Engine is the fallback (it stays in the
+        # GOALS branch below) when the team-total market is absent/thin. market-of-identical-event > model.
+        r = MR.price_team_goals_over(game_json, t, 0.5)
+        if r is not None and r.mapped and r.liquidity_flag != "low":
+            return ("TEAMGOALS_OK" if r.liquidity_flag == "ok" else "TEAMGOALS_THIN"), round(r.p_over, 4), r.p_over
+
     if qt in CORNERS_CMP:  # team_more_corners_full: market -> model fallback -> shadow
         r = MR.price_more_corners(game_json, t)            # 1) corners_1x2 market WINS
         if r.mapped and r.liquidity_flag != "low":
@@ -323,8 +335,21 @@ def resolve_row(row: dict, c: pd.DataFrame, game_json: dict, model_tuple, lineup
             pin = OP.more_corners(home_t, away_t, t, qt)
             if pin is not None:
                 return "CORNER_HALF_PINNACLE", pin, None
-        # STOPGAP: measured per-half base rate (1H 0.389 / 2H 0.410); NOT true P (no
-        # favorite_gap) -- the honest floor where no Pinnacle read exists.
+        # 1H ONLY: gate-validated favorite_gap directional model (favorite controls early
+        # territory -> more 1H corners; +0.015 Brier overall / +0.020 lopsided vs the flat
+        # constant). The flat 0.389 was direction-BLIND -> structurally dominated by the crowd
+        # on lopsided games. 2H is game-state-reversed (favorite_gap wrong-signed) -> NOT
+        # modelled, stays on the stopgap below.
+        ql = qt.lower()
+        if (("1h" in ql) or ("h1" in ql)) and c is not None and home_t and away_t and t and C1.is_available():
+            other = away_t if t.strip().lower() == str(home_t).strip().lower() else home_t
+            pt, po = market_p(c, "h2h", t), market_p(c, "h2h", other)
+            if pt is not None and po is not None and (pt + po) > 0:
+                p1 = C1.predict_more_corners_1h((pt - po) / (pt + po))   # 2-way de-vig favorite_gap (matches the fit)
+                if p1 is not None:
+                    return "CORNER_HALF_1H_FG", round(p1, 4), None
+        # STOPGAP: measured per-half base rate (1H 0.389 / 2H 0.410). 2H always; 1H only when
+        # neither Pinnacle nor the h2h (favorite_gap) is available. NOT true P.
         return "CORNER_HALF_STOPGAP", round(CC.half_stopgap_p(qt), 4), None
 
     if qt in TWO_H_GOALS:  # 2H total goals (total_goals_2h_over / second_half_goals_over)

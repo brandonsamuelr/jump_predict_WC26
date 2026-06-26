@@ -72,15 +72,23 @@ def test_full_shadow_when_no_market_no_features():
 # per-half base rate (1H 0.389 / 2H 0.410), tagged CORNER_HALF_STOPGAP. It IGNORES
 # favorite_gap (data wall) -> the SAME floor for any matchup, flagged STOPGAP/unsolved.
 
-def test_1h_returns_base_rate_floor_stopgap():
+def test_1h_uses_favorite_gap_model_when_h2h_present():
+    # 1H now uses the gate-validated favorite_gap model (+0.015 Brier vs the blind constant):
+    # a heavy underdog (Haiti) is pushed BELOW the old flat 0.389, direction-aware, shipped k=1.
     g = dict(_GAME); g["bookmakers"] = []
     row = {"question_type": "team_more_corners_1h", "target_team": "Haiti", "line": ""}
-    tier, p1h, _ = slate.resolve_row(row, _c(), g, None)
-    assert tier == "CORNER_HALF_STOPGAP" and classify(tier, "x") == ("CORNER_HALF", "stopgap")
-    assert p1h == round(CC.CORNER_HALF_BASE_RATE["1h"], 4) == 0.389   # measured 1H base rate
-    # submitted UNDISTORTED (k=1): the base-rate floor IS the estimate
+    tier, p1h, _ = slate.resolve_row(row, _c(), g, None)            # _c() = Haiti heavy underdog
+    assert tier == "CORNER_HALF_1H_FG" and classify(tier, "x") == ("CORNER_HALF", "model_1h")
+    assert p1h < 0.389                                              # underdog below the blind constant
     s = optimize(tier=tier, question_type="team_more_corners_1h", p_hat=p1h, shadow=0.49)
-    assert abs(s.q - p1h) < 1e-9 and K_PRIOR[("CORNER_HALF", "stopgap")] == 1.0
+    assert abs(s.q - p1h) < 1e-9 and K_PRIOR[("CORNER_HALF", "model_1h")] == 1.0
+
+def test_1h_falls_to_stopgap_without_h2h():
+    # no consensus -> no favorite_gap -> the honest 1H stopgap (unchanged fallback).
+    g = dict(_GAME); g["bookmakers"] = []
+    row = {"question_type": "team_more_corners_1h", "target_team": "Haiti", "line": ""}
+    tier, p1h, _ = slate.resolve_row(row, None, g, None)
+    assert tier == "CORNER_HALF_STOPGAP" and p1h == round(CC.CORNER_HALF_BASE_RATE["1h"], 4) == 0.389
 
 def test_2h_returns_base_rate_floor():
     g = dict(_GAME); g["bookmakers"] = []
@@ -88,15 +96,19 @@ def test_2h_returns_base_rate_floor():
     tier, p, _ = slate.resolve_row(row, _c(), g, None)
     assert tier == "CORNER_HALF_STOPGAP" and p == round(CC.CORNER_HALF_BASE_RATE["2h"], 4) == 0.410
 
-def test_half_stopgap_ignores_favorite_gap():
-    # STOPGAP is a flat base rate -> a heavy FAVORITE gets the SAME floor as a heavy
-    # underdog (it ignores favorite_gap; that's exactly why it's flagged unsolved).
+def test_1h_model_responds_to_favorite_gap():
+    # THE FIX: 1H corners now REACT to favorite_gap -- the favorite gets a HIGHER P(more 1H
+    # corners) than the underdog, no longer the same blind 0.389 constant (which was the bug
+    # that got us structurally dominated by the crowd on lopsided games). 2H stays blind by design.
     g = dict(_GAME); g["bookmakers"] = []
     fav = {"question_type": "team_more_corners_1h", "target_team": "Morocco", "line": ""}
     udog = {"question_type": "team_more_corners_1h", "target_team": "Haiti", "line": ""}
     _, p_fav, _ = slate.resolve_row(fav, _c(), g, None)
     _, p_udog, _ = slate.resolve_row(udog, _c(), g, None)
-    assert p_fav == p_udog == 0.389
+    assert p_fav > 0.389 > p_udog            # favorite up, underdog down -- direction-aware
+    # 2H remains the flat stopgap (favorite_gap is wrong-signed there)
+    _, p2, _ = slate.resolve_row({"question_type": "team_more_corners_2h", "target_team": "Haiti", "line": ""}, _c(), g, None)
+    assert p2 == 0.410
 
 
 # --- transfer: odds-only features (no identities) ---------------------------
