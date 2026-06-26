@@ -1,0 +1,124 @@
+{
+  "match": "Scotland vs Brazil",
+  "kickoff_utc": "2026-06-24T22:00:00Z",
+  "captured_at": "2026-06-24T21:26:47Z",
+  "source": "official_team_sheets_user_confirmed",
+  "notes": "Scotland deep+counter (needs a point). Brazil favorite; Raphinha OUT injured; Neymar maybe bench. McTominay STARTS -> Q9 promotes.",
+  "players": {
+    "Gunn": {
+      "team": "Scotland",
+      "status": "starter",
+      "role": "goalkeeper"
+    },
+    "Patterson": {
+      "team": "Scotland",
+      "status": "starter",
+      "role": "defender"
+    },
+    "McKenna": {
+      "team": "Scotland",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Hendry": {
+      "team": "Scotland",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Robertson": {
+      "team": "Scotland",
+      "status": "starter",
+      "role": "defender"
+    },
+    "McGinn": {
+      "team": "Scotland",
+      "status": "starter",
+      "role": "central_midfielder"
+    },
+    "Christie": {
+      "team": "Scotland",
+      "status": "starter",
+      "role": "central_midfielder"
+    },
+    "Ferguson": {
+      "team": "Scotland",
+      "status": "starter",
+      "role": "central_midfielder"
+    },
+    "Gannon-Doak": {
+      "team": "Scotland",
+      "status": "starter",
+      "role": "wide_attacker"
+    },
+    "Scott McTominay": {
+      "team": "Scotland",
+      "status": "starter",
+      "role": "central_midfielder"
+    },
+    "Adams": {
+      "team": "Scotland",
+      "status": "starter",
+      "role": "central_attacker"
+    },
+    "Alisson": {
+      "team": "Brazil",
+      "status": "starter",
+      "role": "goalkeeper"
+    },
+    "Danilo": {
+      "team": "Brazil",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Marquinhos": {
+      "team": "Brazil",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Gabriel": {
+      "team": "Brazil",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Douglas Santos": {
+      "team": "Brazil",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Casemiro": {
+      "team": "Brazil",
+      "status": "starter",
+      "role": "central_midfielder"
+    },
+    "Bruno Guimar\u00e3es": {
+      "team": "Brazil",
+      "status": "starter",
+      "role": "central_midfielder"
+    },
+    "Paquet\u00e1": {
+      "team": "Brazil",
+      "status": "starter",
+      "role": "attacking_midfielder"
+    },
+    "Rayan": {
+      "team": "Brazil",
+      "status": "starter",
+      "role": "wide_attacker"
+    },
+    "Cunha": {
+      "team": "Brazil",
+      "status": "starter",
+      "role": "central_attacker"
+    },
+    "Vin\u00edcius Jr": {
+      "team": "Brazil",
+      "status": "starter",
+      "role": "wide_attacker"
+    },
+    "Raphinha": {
+      "team": "Brazil",
+      "status": "out_of_squad",
+      "role": "wide_attacker"
+    }
+  }
+}

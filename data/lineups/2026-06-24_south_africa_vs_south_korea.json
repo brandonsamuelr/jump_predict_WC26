@@ -1,0 +1,11 @@
+{
+  "match": "South Africa vs South Korea",
+  "kickoff_utc": "2026-06-25T01:00:00Z",
+  "captured_at": "2026-06-25T00:36:00Z",
+  "source": "manual",
+  "notes": "team-sheet intel: Appollis starts, Son benched",
+  "players": {
+    "Oswin Appollis": {"team": "South Africa", "status": "starter", "role": "wide_attacker"},
+    "Son Heung-min": {"team": "South Korea", "status": "bench_unknown", "role": "wide_attacker"}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "match": "Panama vs Croatia",
+  "kickoff_utc": "2026-06-23T23:00:00Z",
+  "source": "official_team_sheets_via_oddschecker_user_confirmed",
+  "notes": "Confirmed XIs ~44 min pre-kick. Prop-relevant: Fajardo STARTS (Panama Q9); Luka Sucic on Croatia BENCH (Q10) -> shadow. (Petar Sucic, different player, also benched.)",
+  "players": {
+    "José Fajardo": {"status": "starter", "role": "central_attacker"},
+    "Luka Sučić": {"status": "bench_unknown", "role": "central_midfielder"}
+  }
+}

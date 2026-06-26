@@ -1,14 +1,14 @@
 run_id,match,question_number,question_type,tier,weak_row_class,source,p_hat,shadow,manual_estimate,llm_estimate,pipeline_submit,final_submitted,override_reason,multiplier,result,actual_rbp,crowd_prob,if_yes_rbp,if_no_rbp,at_stake
-2026-06-23,Argentina vs Austria,Q1,team_offsides_over,PENDING,,pipeline,,0.485,,,0.485,0.48,,1,No,2.86,48,,,
-2026-06-23,Argentina vs Austria,Q2,team_more_sot_2h,RATE_SOT_CMP,,pipeline,0.15,0.542,,,0.15,0.14,,1,No,7.7,27,,,
-2026-06-23,Argentina vs Austria,Q3,second_half_more_goals,ENGINE_GOALS,,pipeline,0.433,0.514,,,0.433,0.43,,1,No,9.16,51,,,
-2026-06-23,Argentina vs Austria,Q4,team_more_corners_full,PENDING,,pipeline,,0.398,,,0.398,0.4,,1,Yes,14.65,30,,,
-2026-06-23,Argentina vs Austria,Q5,team_win,MARKET,,pipeline,0.641,0.621,,,0.641,0.66,,1,Yes,-0.44,70,,,
-2026-06-23,Argentina vs Austria,Q6,match_total_under,MARKET,,pipeline,0.501,0.474,,,0.501,0.5,,1,Yes,8.5,44,,,
-2026-06-23,Argentina vs Austria,Q7,total_cards_over,PENDING,,pipeline,,0.504,,,0.504,0.5,,1,Yes,7.67,45,,,
-2026-06-23,Argentina vs Austria,Q8,team_sot_over,RATE_SOT,,pipeline,0.669,0.481,,,0.669,0.68,,1,No,-13.89,54,,,
-2026-06-23,Argentina vs Austria,Q9,team_score_2h,ENGINE_GOALS,,pipeline,0.649,0.529,,,0.649,0.65,,1,Yes,-0.27,68,,,
-2026-06-23,Argentina vs Austria,Q10,player_sot_over,PROP_thin,,pipeline,0.465,0.471,,,0.465,0.47,,1,Yes,7.29,43,,,
+2026-06-23,Argentina vs Austria,Q1,team_offsides_over,PENDING,,pipeline,,0.485,,,0.485,0.48,,1,No,2.86,48,2.43,2.86,0
+2026-06-23,Argentina vs Austria,Q2,team_more_sot_2h,RATE_SOT_CMP,,pipeline,0.15,0.542,,,0.15,0.14,,1,No,7.7,27,-19.10,7.70,27
+2026-06-23,Argentina vs Austria,Q3,second_half_more_goals,ENGINE_GOALS,,pipeline,0.433,0.514,,,0.433,0.43,,1,No,9.16,51,-5.98,9.16,15
+2026-06-23,Argentina vs Austria,Q4,team_more_corners_full,PENDING,,pipeline,,0.398,,,0.398,0.4,,1,Yes,14.65,30,14.65,-4.41,19
+2026-06-23,Argentina vs Austria,Q5,team_win,MARKET,,pipeline,0.641,0.621,,,0.641,0.66,,1,Yes,-0.44,70,-0.44,7.56,8
+2026-06-23,Argentina vs Austria,Q6,match_total_under,MARKET,,pipeline,0.501,0.474,,,0.501,0.5,,1,Yes,8.5,44,8.50,-2.99,11
+2026-06-23,Argentina vs Austria,Q7,total_cards_over,PENDING,,pipeline,,0.504,,,0.504,0.5,,1,Yes,7.67,45,7.67,-2.24,10
+2026-06-23,Argentina vs Austria,Q8,team_sot_over,RATE_SOT,,pipeline,0.669,0.481,,,0.669,0.68,,1,No,-13.89,54,15.02,-13.89,29
+2026-06-23,Argentina vs Austria,Q9,team_score_2h,ENGINE_GOALS,,pipeline,0.649,0.529,,,0.649,0.65,,1,Yes,-0.27,68,-0.27,4.81,5
+2026-06-23,Argentina vs Austria,Q10,player_sot_over,PROP_thin,,pipeline,0.465,0.471,,,0.465,0.47,,1,Yes,7.29,43,7.29,-0.73,8
 2026-06-23,France vs Iraq,Q1,team_more_corners_h1,PENDING,shadow_role_sensitive,manual,,0.405,0.34,,0.405,0.35,role_sensitive_shadow_favorite_should_control_territory,1,No,-5.49,21,23,-5,29
 2026-06-23,France vs Iraq,Q2,team_more_fouls,PENDING,shadow_role_sensitive,manual,,0.535,0.45,,0.535,0.45,role_sensitive_shadow_favorite_possession_foul_risk,1,Yes,14.7,34,15,-6,21
 2026-06-23,France vs Iraq,Q3,team_card_2h,PENDING,shadow_generic_or_role_sensitive,manual,,0.493,0.57,,0.493,0.57,underdog_defending_or_chasing_second_half_card_risk,1,No,8.37,62,-2,8,11
@@ -18,7 +18,7 @@ run_id,match,question_number,question_type,tier,weak_row_class,source,p_hat,shad
 2026-06-23,France vs Iraq,Q7,team_score_2h,ENGINE_GOALS,,pipeline,0.218,0.529,0.23,,0.231,0.23,none_or_rounding,1,No,3.4,27,-4,4,7
 2026-06-23,France vs Iraq,Q8,team_sot_over,RATE_SOT,sot_count_threshold,pipeline,0.215,0.481,0.24,,0.236,0.24,none_or_rounding,1,No,3.29,25,2,3,5
 2026-06-23,France vs Iraq,Q9,team_score_1h,ENGINE_GOALS,,pipeline,0.762,0.493,0.77,,0.765,0.77,none_or_rounding,1,Yes,4.23,72,4,-5,9
-2026-06-23,France vs Iraq,Q10,player_sot_over,PENDING,removed,removed,0.351,0.471,0.20,,0.351,,coverage_lost_and_player_not_starting_minutes_fade__removed_void,1,,,,,,
+2026-06-23,France vs Iraq,Q10,player_sot_over,PENDING,removed,void,0.351,0.471,0.20,,0.351,,platform_removed_pre_lock_player_not_on_roster,1,void,,,,,
 2026-06-23,Norway vs Senegal,Q1,team_offsides_over,PENDING,shadow_generic,pipeline,,0.485,0.43,0.43,0.485,0.47,moderate_shadow_toward_manual_but_keep_close,1,Yes,-1.18,50,-1,6,7
 2026-06-23,Norway vs Senegal,Q2,team_more_goals_2h,ENGINE_GOALS,engine_goals,pipeline,0.356,0.53,0.43,0.43,0.335,0.34,trust_engine_more_than_manual_equal_2h_goals_kills_yes,1,No,11.32,45,-11,11,22
 2026-06-23,Norway vs Senegal,Q3,penalty_or_red_card,PENDING,shadow_generic_high_variance_event,manual,,0.389,0.28,0.28,0.389,0.35,split_difference_physical_match_but_shadow_likely_high,1,No,5.1,39,-2,5,7
@@ -49,13 +49,169 @@ run_id,match,question_number,question_type,tier,weak_row_class,source,p_hat,shad
 2026-06-24,Portugal vs Uzbekistan,Q8,total_goals_2h_over,ENGINE_GOALS,engine_goals_FLAG_sot_highbias_0.553_vs_llm0.43_crowd0.52,pipeline,0.56,0.493,,0.43,0.553,0.553,,1,Yes,5.01,52,5,-1,6
 2026-06-24,Portugal vs Uzbekistan,Q9,team_sot_over,RATE_SOT,sot_threshold_FLAG_sot_highbias_0.389_vs_llm0.19_crowd0.30,pipeline,0.298,0.481,,0.19,0.389,0.389,,1,No,-3.16,30,15,-3,18
 2026-06-24,Portugal vs Uzbekistan,Q10,player_goal,PENDING,prop_confirmed_bench_manual_override,manual,,0.36,0.19,0.09,0.36,0.19,confirmed_bench_but_proven_supersub_scorer_~25min_vs_tiring_weak_defense_offset_by_2026_intl_drought_crowd_underpriced_bench_at_0.29,1,No,8.4,29,-12,8,20
-2026-06-24,England vs Ghana,Q1,both_teams_sot_1h,PENDING,shadow_sot_family_unwired,pipeline,,0.493,,,0.493,0.493,,1,,,,,,
-2026-06-24,England vs Ghana,Q2,team_more_fouls,PENDING,shadow_no_fouls_model,pipeline,,0.535,,,0.535,0.535,,1,,,,,,
-2026-06-24,England vs Ghana,Q3,both_teams_sot_2h_1plus,PENDING,shadow_sot_family_unwired_high_base_rate,pipeline,,0.696,,,0.696,0.696,,1,,,,,,
-2026-06-24,England vs Ghana,Q4,compound_btts_over_2_5,ENGINE_GOALS,engine_compound,pipeline,0.335,0.392,,,0.335,0.335,,1,,,,,,
-2026-06-24,England vs Ghana,Q5,penalty_or_red_card,PENDING,shadow_reliable_chat,pipeline,,0.389,,,0.389,0.389,,1,,,,,,
-2026-06-24,England vs Ghana,Q6,team_more_sot_2h,RATE_SOT_CMP,sot_comparison_anchor_pull_left_at_blend,pipeline,0.052,0.542,,,0.248,0.248,,1,,,,,,
-2026-06-24,England vs Ghana,Q7,team_win,MARKET,market,pipeline,0.813,0.621,,,0.794,0.794,,1,,,,,,
-2026-06-24,England vs Ghana,Q8,player_goal_or_assist,PROP_ok,prop_goal_or_assist_lower_bound_floor_raise,manual,0.57,0.325,0.57,,0.509,0.57,goal_or_assist priced off anytime_goal lower_bound proxy; k_blend pulled to 0.509 below the 0.57 floor; raised to market floor; measurement-invariant predates_clamp,1,,,,,,
-2026-06-24,England vs Ghana,Q9,player_sot_over,PROP_thin,prop_confirmed_starter_thin_market,pipeline,0.43,0.471,,,0.455,0.455,,1,,,,,,
-2026-06-24,England vs Ghana,Q10,team_corners_over,PENDING,shadow_no_corners_model,pipeline,,0.392,,,0.392,0.392,,1,,,,,,
+2026-06-24,England vs Ghana,Q1,both_teams_sot_1h,PENDING,shadow_sot_family_unwired|FLAG_stale_global_fallback_chat_-12pt_vs_crowd61_stake24_biggest_unintended_pos,pipeline,,0.493,,0.42,0.493,0.493,,1,No,16.78,61,-7,17,24
+2026-06-24,England vs Ghana,Q2,team_more_fouls,PENDING,shadow_no_fouls_model,pipeline,,0.535,,0.56,0.535,0.535,,1,Yes,-3.43,61,-3,10,13
+2026-06-24,England vs Ghana,Q3,both_teams_sot_2h_1plus,PENDING,shadow_sot_family_unwired_high_base_rate,pipeline,,0.696,,0.56,0.696,0.696,,1,Yes,4.76,66,5,-2,7
+2026-06-24,England vs Ghana,Q4,compound_btts_over_2_5,ENGINE_GOALS,engine_compound,pipeline,0.335,0.392,,0.3,0.335,0.335,,1,No,4.95,37,0,5,5
+2026-06-24,England vs Ghana,Q5,penalty_or_red_card,PENDING,shadow_reliable_chat,pipeline,,0.389,,0.34,0.389,0.389,,1,No,0.95,37,4,1,5
+2026-06-24,England vs Ghana,Q6,team_more_sot_2h,RATE_SOT_CMP,sot_comparison_anchor_pull_left_at_blend|FLAG_sot_trap_cautious_0.248_sound_no_blowup,pipeline,0.052,0.542,,0.27,0.248,0.248,,1,No,0.59,22,7,1,8
+2026-06-24,England vs Ghana,Q7,team_win,MARKET,market,pipeline,0.813,0.621,,0.8,0.794,0.794,,1,No,3.99,80,1,4,5
+2026-06-24,England vs Ghana,Q8,player_goal_or_assist,PROP_ok,prop_goal_or_assist_lower_bound_floor_raise|FLAG_still_-8pt_below_crowd65_after_floor_raise_goalorassist_exceeds_floor,manual,0.57,0.325,0.57,0.62,0.509,0.57,goal_or_assist priced off anytime_goal lower_bound proxy; k_blend pulled to 0.509 below the 0.57 floor; raised to market floor; measurement-invariant predates_clamp,1,No,13.04,65,-4,13,17
+2026-06-24,England vs Ghana,Q9,player_sot_over,PROP_thin,prop_confirmed_starter_thin_market,pipeline,0.43,0.471,,0.42,0.455,0.455,,1,No,2.73,45,2,3,5
+2026-06-24,England vs Ghana,Q10,team_corners_over,PENDING,shadow_no_corners_model|FLAG_stale_anchor_high_+11pt_vs_crowd28_stake23,pipeline,,0.392,,0.28,0.392,0.392,,1,No,-4.77,28,18,-5,23
+2026-06-24,Panama vs Croatia,Q1,team_offsides_over,PENDING,shadow_offsides|entry_shift_intended_0.485,entry_error,,0.485,,0.36,0.485,0.29,entry_shift_intended_0.485_scored_0.29_one_row_upward_shift_recording_handoff_not_a_decision,1,No,13.39,44,-17,14,30
+2026-06-24,Panama vs Croatia,Q2,team_more_sot_2h,RATE_SOT_CMP,sot_comparison|entry_shift_intended_0.288_biggest_cost,entry_error,0.118,0.542,,0.26,0.288,0.49,entry_shift_intended_0.288_scored_0.49_recording_handoff_not_a_decision,1,No,-14.64,27,29,-15,44
+2026-06-24,Panama vs Croatia,Q3,team_first_goal_2h,PENDING,shadow_unwired|entry_shift_intended_0.493,entry_error,,0.493,,0.385,0.493,0.54,entry_shift_intended_0.493_scored_0.54_recording_handoff_not_a_decision,1,Yes,2.7,54,3,2,5
+2026-06-24,Panama vs Croatia,Q4,team_more_fouls,PENDING,shadow_fouls|entry_shift_intended_0.535,entry_error,,0.535,,0.61,0.535,0.49,entry_shift_intended_0.535_scored_0.49_recording_handoff_not_a_decision,1,Yes,-5.68,57,-6,11,16
+2026-06-24,Panama vs Croatia,Q5,team_more_cards,PENDING,shadow_cards,pipeline,,0.499,,0.3,0.5,0.5,,1,No,-10.72,36,18,-11,29
+2026-06-24,Panama vs Croatia,Q6,team_score_any,ENGINE_GOALS,engine_goals,pipeline,0.546,0.427,,0.36,0.534,0.53,,1,No,-1.04,50,6,-1,7
+2026-06-24,Panama vs Croatia,Q7,total_corners_over,PENDING,shadow_corners,pipeline,,0.493,,0.485,0.493,0.49,,1,Yes,1.22,51,1,4,6
+2026-06-24,Panama vs Croatia,Q8,team_sot_over,RATE_SOT,sot_threshold_empirical_trim,manual,0.657,0.481,0.4,0.35,0.569,0.4,empirical_sot_trim_model_0.657_high_bias_corroborated_both_llm_below_crowd,1,No,11.08,49,-7,11,18
+2026-06-24,Panama vs Croatia,Q9,player_sot_over,PROP_thin,prop_fajardo_starter_thin,pipeline,0.522,0.471,,0.37,0.491,0.49,,1,No,-5.56,40,13,-6,18
+2026-06-24,Panama vs Croatia,Q10,player_sot_over,PENDING,prop_sucic_confirmed_bench,manual,,0.471,0.13,0.14,0.471,0.13,hard_qa_confirmed_bench_luka_sucic_pipeline_shadow_0.471_~35pts_high_on_benched_player,1,No,16.71,37,-31,17,48
+2026-06-24,Colombia vs DR Congo,Q1,team_more_fouls,SHADOW,,manual,,0.535,,0.32,0.535,0.45,soft game_script: favorite_dominance possession -> fouls_less; no fouls market exists,1,No,-1.41,41,6.23,-1.28,8
+2026-06-24,Colombia vs DR Congo,Q2,team_more_sot_2h,RATE_SOT_CMP,,pipeline,0.702,0.542,,0.66,0.638,0.64,,1,Yes,0.92,66,0.94,4.14,3
+2026-06-24,Colombia vs DR Congo,Q3,team_more_goals_2h,ENGINE_GOALS,,pipeline,0.487,0.53,,0.52,0.492,0.49,,1,Yes,-3.45,55,-3.41,8.21,12
+2026-06-24,Colombia vs DR Congo,Q4,penalty_or_red_card,SHADOW,,pipeline,,0.389,,0.37,0.389,0.39,,1,No,0.17,36,5.37,0.15,5
+2026-06-24,Colombia vs DR Congo,Q5,team_win,MARKET,,pipeline,0.621,0.621,,0.66,0.621,0.62,,1,Yes,-1.34,66,-1.21,7.41,9
+2026-06-24,Colombia vs DR Congo,Q6,halftime_team_win,MARKET,,pipeline,0.445,0.493,,0.42,0.449,0.45,,1,No,5.63,48,-1.31,5.59,7
+2026-06-24,Colombia vs DR Congo,Q7,match_total_under,MARKET,,pipeline,0.562,0.474,,0.5,0.553,0.55,,1,Yes,5.41,51,5.41,-1.70,7
+2026-06-24,Colombia vs DR Congo,Q8,team_corners_over,SHADOW,,manual,,0.392,,0.55,0.392,0.48,market_priced_manual: corners_direct_thin alternate_team_totals_corners devig 0.569 blended k=0.5 -> 0.48,1,Yes,-7.40,59,-7.44,13.60,21
+2026-06-24,Colombia vs DR Congo,Q9,player_goal_or_assist,PROP_direct_thin,,pipeline,0.449,0.325,,0.48,0.387,0.39,,1,No,12.97,50,-9.85,12.92,23
+2026-06-24,Colombia vs DR Congo,Q10,player_sot_over,PROP_thin,,pipeline,0.5,0.471,,0.4,0.483,0.48,,1,No,-2.33,43,7.74,-2.28,10
+2026-06-24,Switzerland vs Canada,Q1,team_more_fouls,SHADOW,,missed_lock,,0.5,,0.51,0.5,0.51,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,No,4.09,53,0,4,4
+2026-06-24,Switzerland vs Canada,Q2,team_offsides_over,SHADOW,,missed_lock,,0.485,,0.51,0.485,0.51,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,No,1.51,50,3,2,2
+2026-06-24,Switzerland vs Canada,Q3,total_cards_2h_over,SHADOW,,missed_lock,,0.493,,0.46,0.493,0.5,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,No,7.29,54,-1,7,9
+2026-06-24,Switzerland vs Canada,Q4,compound_btts_over_2_5,ENGINE_GOALS,,missed_lock,0.363,0.392,,0.44,0.365,0.5,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,Yes,12.26,41,12,-5,17
+2026-06-24,Switzerland vs Canada,Q5,penalty_awarded,SHADOW,,missed_lock,,0.312,,0.22,0.312,0.5,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual || penalty_coinflip_bleed_crowd_was_low_and_right,1,No,-14.72,29,28,-15,42
+2026-06-24,Switzerland vs Canada,Q6,team_more_sot_2h,RATE_SOT_CMP,,missed_lock,0.43,0.542,,0.5,0.475,0.49,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,No,4.30,51,0,4,4
+2026-06-24,Switzerland vs Canada,Q7,team_win,MARKET,,missed_lock,0.379,0.621,,0.36,0.391,0.5,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,Yes,7.52,45,8,-2,10
+2026-06-24,Switzerland vs Canada,Q8,second_half_goals_over,H2GOALS_OK,,missed_lock,0.419,0.45,,0.42,0.419,0.5,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,Yes,9.72,43,10,-4,14
+2026-06-24,Switzerland vs Canada,Q9,player_sot_over,PROP_thin,,missed_lock,0.392,0.471,,0.55,0.44,0.51,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,No,-6.36,40,15,-6,21
+2026-06-24,Switzerland vs Canada,Q10,player_sot_over,PROP_thin,,missed_lock,0.63,0.471,,0.62,0.535,0.5,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,No,12.66,59,-5,13,18
+2026-06-24,Bosnia & Herzegovina vs Qatar,Q1,team_more_corners_2h,SHADOW,,missed_lock,,0.58,,0.52,0.58,0.49,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,No,15.26,61,-8,15,24
+2026-06-24,Bosnia & Herzegovina vs Qatar,Q2,team_more_goals_2h,ENGINE_GOALS,,missed_lock,0.551,0.53,,0.5,0.55,0.5,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,Yes,-1.46,54,-1,6,8
+2026-06-24,Bosnia & Herzegovina vs Qatar,Q3,team_more_sot_2h,RATE_SOT_CMP,,missed_lock,0.13,0.542,,0.42,0.295,0.5,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,No,-13.64,29,28,-14,41
+2026-06-24,Bosnia & Herzegovina vs Qatar,Q4,penalty_or_red_card,SHADOW,,missed_lock,,0.389,,0.55,0.389,0.51,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual || penalty_coinflip_bleed_crowd_was_low_and_right,1,No,-9.71,38,17,-10,27
+2026-06-24,Bosnia & Herzegovina vs Qatar,Q5,team_more_fouls,SHADOW,,missed_lock,,0.5,,0.52,0.5,0.49,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,Yes,1.85,50,2,4,2
+2026-06-24,Bosnia & Herzegovina vs Qatar,Q6,team_more_cards,MORE_CARDS,,missed_lock,0.241,0.499,,0.44,0.241,0.49,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,No,-5.57,40,12,-6,17
+2026-06-24,Bosnia & Herzegovina vs Qatar,Q7,team_offsides_over,SHADOW,,missed_lock,,0.485,,0.5,0.485,0.5,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,Yes,10.47,43,10,-4,15
+2026-06-24,Bosnia & Herzegovina vs Qatar,Q8,team_win,MARKET,,missed_lock,0.678,0.621,,0.55,0.675,0.51,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,Yes,-8.62,64,-9,18,26
+2026-06-24,Bosnia & Herzegovina vs Qatar,Q9,match_total_under,MARKET,,missed_lock,0.41,0.474,,0.5,0.414,0.51,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,No,-2.52,46,7,-3,10
+2026-06-24,Bosnia & Herzegovina vs Qatar,Q10,player_sot_over,PROP_thin,,missed_lock,0.761,0.471,,0.55,0.587,0.49,default_coinflip_refresh_missed_lock || coinflip_submitted_pipeline_logged_for_counterfactual,1,No,14.43,59,-6,14,21
+2026-06-24,Morocco vs Haiti,Q1,team_more_fouls,SHADOW,founded_delivered_on_time,pipeline,,0.5,,0.6,0.5,0.5,,1,Yes,-7.27,61,-7,14,21
+2026-06-24,Morocco vs Haiti,Q2,team_more_corners_1h,SHADOW,founded_delivered_on_time,flag,,0.493,,0.3,0.493,0.493,shadow_largest_position_corner_comparison_model_candidate || RESOLVED:NO corner_model_would_have_saved (flat shadow 0.493 vs wired-model 1H ~0.27),1,No,-15.37,25,32,-15,48
+2026-06-24,Morocco vs Haiti,Q3,team_more_cards,MORE_CARDS,founded_delivered_on_time,pipeline,0.573,0.499,,0.58,0.573,0.573,,1,Yes,3.28,55,3,0,4
+2026-06-24,Morocco vs Haiti,Q4,team_more_sot_2h,RATE_SOT_CMP,founded_delivered_on_time,manual,0.85,0.542,,0.66,0.727,0.65,"empirical_sot_trim: sot_family_high_bias_underdog_trim_accumulated_evidence || RESOLVED:YES empirical_sot_trim_hurt (outcome YES, trim lowered toward NO)",1,Yes,-2.21,72,-2,11,14
+2026-06-24,Morocco vs Haiti,Q5,total_sot_2h_over,RATE_SOT,founded_delivered_on_time,manual,0.74,0.623,,0.55,0.681,0.62,"empirical_sot_trim: sot_family_high_bias_trim_accumulated_evidence || RESOLVED:YES empirical_sot_trim_hurt (outcome YES, trim lowered toward NO)",1,Yes,2.30,62,2,3,5
+2026-06-24,Morocco vs Haiti,Q6,penalty_or_red_card,SHADOW,founded_delivered_on_time,pipeline,,0.389,,0.42,0.389,0.389,,1,No,-0.90,35,6,-1,7
+2026-06-24,Morocco vs Haiti,Q7,team_win,MARKET,founded_delivered_on_time,pipeline,0.771,0.621,,0.82,0.764,0.764,,1,Yes,-1.10,80,-1,10,11
+2026-06-24,Morocco vs Haiti,Q8,team_score_1h,ENGINE_GOALS,founded_delivered_on_time,pipeline,0.654,0.493,,0.62,0.641,0.641,,1,Yes,0.26,66,0,4,5
+2026-06-24,Morocco vs Haiti,Q9,player_sot_over,SHADOW,founded_delivered_on_time,manual,,0.471,,0.15,0.471,0.15,confirmed_not_in_starting_XI_benched_crowd_likely_unpriced_ramos_pattern || RESOLVED:YES bench_override_too_low_super_sub_lesson | super_sub_band_validated_nazon_counterexample,1,Yes,-17.20,28,-17,9,26
+2026-06-24,Morocco vs Haiti,Q10,team_score_2h,ENGINE_GOALS,founded_delivered_on_time,pipeline,0.29,0.529,,0.4,0.31,0.31,,1,No,-0.10,28,6,0,6
+2026-06-24,Scotland vs Brazil,Q1,team_more_sot_2h,RATE_SOT_CMP,founded_delivered_on_time,pipeline,0.81,0.542,,0.7,0.703,0.703,,1,No,3.89,71,2,4,5
+2026-06-24,Scotland vs Brazil,Q2,team_offsides_over,SHADOW,founded_delivered_on_time,pipeline,,0.485,,0.4,0.485,0.485,,1,No,-4.12,42,10,-4,15
+2026-06-24,Scotland vs Brazil,Q3,compound_first_goal_score_2h,ENGINE_GOALS,founded_delivered_on_time,pipeline,0.14,0.304,,0.1,0.153,0.153,,1,No,3.93,20,-6,4,10
+2026-06-24,Scotland vs Brazil,Q4,team_more_corners_full,CORNERS_CMP_THIN,founded_delivered_on_time,pipeline,0.699,0.398,,0.72,0.699,0.699,,1,No,3.96,72,1,4,5
+2026-06-24,Scotland vs Brazil,Q5,team_score_any,ENGINE_GOALS,founded_delivered_on_time,pipeline,0.473,0.427,,0.38,0.469,0.469,,1,No,0.02,44,5,0,5
+2026-06-24,Scotland vs Brazil,Q6,match_total_over,MARKET,founded_delivered_on_time,pipeline,0.534,0.497,,0.48,0.532,0.532,,1,Yes,1.11,54,1,3,4
+2026-06-24,Scotland vs Brazil,Q7,team_score_2h,ENGINE_GOALS,founded_delivered_on_time,pipeline,0.704,0.529,,0.72,0.69,0.69,,1,Yes,1.51,69,2,1,3
+2026-06-24,Scotland vs Brazil,Q8,total_cards_over,CARDS_OK,founded_delivered_on_time,pipeline,0.391,0.504,,0.52,0.391,0.391,,1,No,6.47,44,-4,6,10
+2026-06-24,Scotland vs Brazil,Q9,player_sot_over,PROP_thin,founded_delivered_on_time,pipeline,0.472,0.471,,0.45,0.471,0.471,,1,Yes,7.29,43,7,-1,8
+2026-06-24,Scotland vs Brazil,Q10,team_score_1h,ENGINE_GOALS,founded_delivered_on_time,pipeline,0.616,0.493,,0.55,0.606,0.606,,1,Yes,-0.54,64,-1,5,6
+2026-06-24,Czechia vs Mexico,Q1,team_more_fouls,SHADOW,founded_delivered_on_time,pipeline,,0.5,,0.52,0.5,0.5,"foul_shadow_won_on_variance_not_signal (RESOLVED:NO; flat 0.50 beat crowd 0.56; variance, not signal) || foul_shadow_vs_crowd_lean",1,No,8.17,56,-3.23,8.17,11
+2026-06-24,Czechia vs Mexico,Q2,team_offsides_over,SHADOW,founded_delivered_on_time,pipeline,,0.485,,0.42,0.485,0.485,,1,No,3.11,50,1.63,3.11,1
+2026-06-24,Czechia vs Mexico,Q3,team_more_sot_2h,RATE_SOT_CMP,founded_delivered_on_time,pipeline,0.229,0.542,,0.5,0.354,0.354,,1,No,4.63,38,-2.02,4.63,7
+2026-06-24,Czechia vs Mexico,Q4,team_more_corners_full,CORNERS_CMP_THIN,founded_delivered_on_time,pipeline,0.45,0.398,,0.52,0.45,0.45,"corner_market_below_crowd_won (RESOLVED:NO; de-vig 3-way corners_1x2, Czechia-must-chase game-state; one favorable resolution, not large-sample)",1,No,11.49,54,-7.21,11.49,19
+2026-06-24,Czechia vs Mexico,Q5,compound_btts_over_2_5,ENGINE_GOALS,founded_delivered_on_time,pipeline,0.391,0.392,,0.38,0.391,0.391,,1,No,0.68,37,3.85,0.68,3
+2026-06-24,Czechia vs Mexico,Q6,team_win,MARKET,founded_delivered_on_time,pipeline,0.214,0.621,,0.34,0.235,0.235,,1,No,3.54,27,-3.15,3.54,7
+2026-06-24,Czechia vs Mexico,Q7,team_score_2h,ENGINE_GOALS,founded_delivered_on_time,pipeline,0.418,0.529,,0.48,0.427,0.427,,1,No,2.82,44,0.38,2.82,2
+2026-06-24,Czechia vs Mexico,Q8,total_cards_over,CARDS_OK,founded_delivered_on_time,pipeline,0.416,0.504,,0.55,0.416,0.416,,1,No,7.24,47,-3.09,7.24,10
+2026-06-24,Czechia vs Mexico,Q9,player_sot_over,SHADOW,founded_delivered_on_time,manual,,0.471,,0.33,0.471,0.33,"confirmed_bench_but_star_super_sub_mustwin_chase_pen_taker_needs_only_1_SOT || RESOLVED:NO super_sub_direction_right_magnitude_uncertain (came on ~60', 0 SOT; +15.55 partly variance; lean-below-crowd right but 0.33 likely too extreme; NOT validated band) || super_sub_contrarian_below_crowd [[super_sub_band_validated_nazon_counterexample]]",1,No,15.55,47,-13.03,15.55,29
+2026-06-24,South Africa vs South Korea,Q1,team_offsides_over,SHADOW,founded_delivered_on_time,pipeline,,0.485,,0.45,0.485,0.485,,1,No,5.81,52,-0.30,5.81,6
+2026-06-24,South Africa vs South Korea,Q2,team_cards_2h_over,SHADOW,founded_delivered_on_time,pipeline,,0.493,,0.45,0.493,0.493,,1,Yes,-3.70,55,-3.70,8.78,12
+2026-06-24,South Africa vs South Korea,Q3,compound_btts_over_2_5,ENGINE_GOALS,founded_delivered_on_time,pipeline,0.315,0.392,,0.32,0.321,0.321,,1,No,4.40,35,-2.22,4.40,7
+2026-06-24,South Africa vs South Korea,Q4,team_more_sot_2h,RATE_SOT_CMP,founded_delivered_on_time,pipeline,0.667,0.542,,0.6,0.617,0.617,,1,Yes,4.23,60,4.23,-0.08,4
+2026-06-24,South Africa vs South Korea,Q5,team_more_fouls,SHADOW,founded_delivered_on_time,pipeline,,0.5,,0.54,0.5,0.5,"foul_shadow_won_on_variance_not_signal (RESOLVED:NO; flat 0.50 beat crowd 0.57 because crowd wrong-confident this time; variance, not shadow vindication) || foul_shadow_vs_crowd_lean",1,No,9.21,57,-4.28,9.21,13
+2026-06-24,South Africa vs South Korea,Q6,team_win,MARKET,founded_delivered_on_time,pipeline,0.171,0.621,,0.2,0.193,0.193,,1,Yes,-2.18,22,-2.18,2.83,5
+2026-06-24,South Africa vs South Korea,Q7,halftime_draw,MARKET,founded_delivered_on_time,pipeline,0.429,0.427,,0.42,0.429,0.429,,1,Yes,1.32,43,1.32,1.62,0
+2026-06-24,South Africa vs South Korea,Q8,team_sot_over,SOT_COUNT,founded_delivered_on_time,pipeline,0.511,0.481,,0.48,0.511,0.511,,1,Yes,1.29,52,1.29,4.20,3
+2026-06-24,South Africa vs South Korea,Q9,player_sot_over,PROP_thin,founded_delivered_on_time,pipeline,0.446,0.471,,0.45,0.461,0.461,confirmed_starter_promote_thin_market || RESOLVED:YES starter_promote_market_won (modest; one resolution) || confirmed_starter_above_crowd,1,Yes,8.47,40,8.47,-1.95,10
+2026-06-24,South Africa vs South Korea,Q10,player_sot_over,SHADOW,founded_delivered_on_time,manual,,0.471,,0.38,0.471,0.38,"confirmed_bench_but_star_super_sub_high_shot_volume_likely_on_in_competitive_states || RESOLVED:NO super_sub_direction_right_magnitude_uncertain (came on ~45', 0 SOT; +21.09 partly DEVIATION x variance, not proven calibration; true P(1+SOT)~0.45-0.48 not 0.38; NOT validated band) || super_sub_contrarian_below_crowd [[super_sub_band_validated_nazon_counterexample]]",1,No,21.09,56,-15.07,21.09,36
+2026-06-26,Paraguay vs Australia,Q1,team_offsides_over,OFFSIDES_FLOOR,no_edge_floor,pipeline,0.4505,0.4852,,,0.4505,0.4505,WC_intl_offside_floor_0.45_no_edge_no_market_no_signal,1,No,1.32,44,4,1,5
+2026-06-26,Paraguay vs Australia,Q2,team_more_fouls,FOUL_CMP,founded_delivered_on_time,pipeline,0.4845,0.5,,,0.4845,0.4845,,1,No,-0.17,46,5,0,5
+2026-06-26,Paraguay vs Australia,Q3,team_offsides_over,OFFSIDES_FLOOR,no_edge_floor,pipeline,0.4505,0.4852,,,0.4505,0.4505,WC_intl_offside_floor_0.45_no_edge,1,No,3.53,47,0,4,4
+2026-06-26,Paraguay vs Australia,Q4,team_more_sot_2h,RATE_SOT_CMP,founded_delivered_on_time,pipeline,0.3613,0.5423,,,0.3662,0.3662,LOW_CONF_SOT_lambda_proxy_near_even_gamestate_supports_paraguay_more,1,No,7.88,44,-6,8,14
+2026-06-26,Paraguay vs Australia,Q5,second_half_more_goals,ENGINE_GOALS_H1MKT,founded_delivered_on_time,pipeline,0.4113,0.514,,,0.4113,0.4113,,1,No,5.55,46,-3,6,9
+2026-06-26,Paraguay vs Australia,Q6,team_win,MARKET,founded_delivered_on_time,pipeline,0.3668,0.6209,,,0.4883,0.4883,,1,No,-8.32,38,15,-8,23
+2026-06-26,Paraguay vs Australia,Q7,second_half_goals_over,H2GOALS_OK,founded_delivered_on_time,pipeline,0.2514,0.45,,,0.2514,0.2514,,1,No,9.22,37,-14,9,23
+2026-06-26,Paraguay vs Australia,Q8,total_cards_over,CARDS_OK,founded_delivered_on_time,pipeline,0.3319,0.5036,,,0.3319,0.3319,,1,No,13.31,47,-14,13,27
+2026-06-26,Paraguay vs Australia,Q9,player_sot_over,PROP_thin,prop_starter_ship_raw,manual,0.5357,0.471,,,0.4969,0.536,ship_raw_k040_frozen_caution; confirmed_starter+penalty_taker+paraguay_must_win,1,No,-3.62,48,8,-4,12
+2026-06-26,Turkey vs USA,Q1,team_more_fouls,FOUL_CMP,founded_delivered_on_time,pipeline,0.4312,0.5,,,0.4312,0.4312,,1,No,5.37,47,-2,5,7
+2026-06-26,Turkey vs USA,Q2,team_offsides_over,OFFSIDES_FLOOR,no_edge_floor,pipeline,0.4505,0.4852,,,0.4505,0.4505,WC_intl_offside_floor_0.45_no_edge,1,Yes,-3.18,50,-3,7,10
+2026-06-26,Turkey vs USA,Q3,second_half_more_goals,ENGINE_GOALS_H1MKT,founded_delivered_on_time,pipeline,0.4615,0.514,,,0.4615,0.4615,,1,No,3.52,48,0,4,4
+2026-06-26,Turkey vs USA,Q4,compound_first_goal_score_2h,ENGINE_GOALS_H1MKT,founded_delivered_on_time,pipeline,0.2377,0.304,,,0.2377,0.2377,,1,No,4.34,28,,,
+2026-06-26,Turkey vs USA,Q5,penalty_or_red_card,PENALTY_BASE,no_edge_floor,pipeline,0.3161,0.3893,,,0.3161,0.3161,sourced_external_const_0.316_no_edge,1,No,3.03,34,-1,3,4
+2026-06-26,Turkey vs USA,Q6,team_win,MARKET,founded_delivered_on_time,pipeline,0.2937,0.6209,,,0.4501,0.4501,fresh_odds_priced_USA_rotation_clinched,1,Yes,19.15,31,19,-9,28
+2026-06-26,Turkey vs USA,Q7,match_total_over,MARKET,founded_delivered_on_time,pipeline,0.5783,0.4967,,,0.5393,0.5393,,1,Yes,2.29,53,2,1,3
+2026-06-26,Turkey vs USA,Q8,team_corners_over,CORNERS_OK,founded_delivered_on_time,pipeline,0.5006,0.3917,,,0.5006,0.5006,,1,No,4.75,52,1,5,6
+2026-06-26,Turkey vs USA,Q9,player_goal_or_assist,PROP_direct_thin,prop_starter_nudge,manual,0.2695,0.3254,,,0.2807,0.3,nudge_up_calhanoglu_OUT_kokcu_inherits_setpiece_duty; confirmed_starter,1,Yes,5.37,28,5,1,6
+2026-06-26,Turkey vs USA,Q10,player_goal,SHADOW,super_sub_override,manual,,0.36,,,0.3574,0.15,super_sub_benched_star_yellowcard_rest_~30min_anytime_goal_dead_rubber (lock-sheet 0.15; confirm if 0.13),1,No,9.05,28,-17,9,26
+2026-06-25,Curaçao vs Ivory Coast,Q1,team_offsides_over,,,results_backfill,,,,,,0.4800,eod_backfill_2026-06-26: Curaçao 2+ offside,1,Yes,10.76,41,,,
+2026-06-25,Curaçao vs Ivory Coast,Q2,team_more_fouls,,,results_backfill,,,,,,0.3300,eod_backfill_2026-06-26: Ivory Coast more fouls,1,No,8.59,42,,,
+2026-06-25,Curaçao vs Ivory Coast,Q3,first_goal_2h,,,results_backfill,,,,,,0.5000,eod_backfill_2026-06-26: Ivory Coast first goal of 2H,1,Yes,-5.79,60,,,
+2026-06-25,Curaçao vs Ivory Coast,Q4,second_half_more_goals,,,results_backfill,,,,,,0.4600,eod_backfill_2026-06-26: 2H>1H goals,1,No,6.25,50,,,
+2026-06-25,Curaçao vs Ivory Coast,Q5,team_more_sot_2h,,,results_backfill,,,,,,0.0700,eod_backfill_2026-06-26: Curaçao more SOT 2H,1,No,7.39,23,,,
+2026-06-25,Curaçao vs Ivory Coast,Q6,team_more_cards,,,results_backfill,,,,,,0.5200,eod_backfill_2026-06-26: Curaçao more cards,1,Yes,2.5,52,,,
+2026-06-25,Curaçao vs Ivory Coast,Q7,team_score_any,,,results_backfill,,,,,,0.4900,eod_backfill_2026-06-26: Curaçao 1+ goal,1,No,-3.58,42,,,
+2026-06-25,Curaçao vs Ivory Coast,Q8,team_corners_over,,,results_backfill,,,,,,0.5000,eod_backfill_2026-06-26: Ivory Coast 5+ corners,1,Yes,-9.32,64,,,
+2026-06-25,Curaçao vs Ivory Coast,Q9,player_sot_over,,,results_backfill,,,,,,0.3000,eod_backfill_2026-06-26: Leandro Bacuna 1+ SOT,1,No,4.29,33,,,
+2026-06-25,Curaçao vs Ivory Coast,Q10,player_sot_over,,,results_backfill,,,,,,0.4800,eod_backfill_2026-06-26: Ibrahim Sangaré 1+ SOT,1,No,-4.38,39,,,
+2026-06-25,Ecuador vs Germany,Q1,both_teams_sot_1h,,,results_backfill,,,,,,0.5000,eod_backfill_2026-06-26: both teams 1+ SOT at HT,1,Yes,-11.05,67,,,
+2026-06-25,Ecuador vs Germany,Q2,team_more_fouls,,,results_backfill,,,,,,0.5300,eod_backfill_2026-06-26: Ecuador more fouls,1,Yes,-1.85,57,,,
+2026-06-25,Ecuador vs Germany,Q3,team_more_corners_2h,,,results_backfill,,,,,,0.4100,eod_backfill_2026-06-26: Ecuador more corners 2H,1,Yes,9.81,35,,,
+2026-06-25,Ecuador vs Germany,Q4,team_more_goals_2h,,,results_backfill,,,,,,0.4700,eod_backfill_2026-06-26: Germany more goals 2H,1,No,9.57,54,,,
+2026-06-25,Ecuador vs Germany,Q5,team_more_sot_2h,,,results_backfill,,,,,,0.6100,eod_backfill_2026-06-26: Germany more SOT 2H,1,No,4.16,62,,,
+2026-06-25,Ecuador vs Germany,Q6,penalty_or_red_card,,,results_backfill,,,,,,0.3000,eod_backfill_2026-06-26: penalty or red,1,No,4.5,34,,,
+2026-06-25,Ecuador vs Germany,Q7,team_offsides_over,,,results_backfill,,,,,,0.4800,eod_backfill_2026-06-26: Ecuador 2+ offside,1,No,-0.61,45,,,
+2026-06-25,Ecuador vs Germany,Q8,compound_btts_over_2_5,,,results_backfill,,,,,,0.4500,eod_backfill_2026-06-26: BTTS & 3+ goals,1,Yes,6.49,41,,,
+2026-06-25,Ecuador vs Germany,Q9,team_score_any,,,results_backfill,,,,,,0.6500,eod_backfill_2026-06-26: Ecuador 1+ goal,1,Yes,10.13,56,,,
+2026-06-25,Ecuador vs Germany,Q10,match_total_under,,,results_backfill,,,,,,0.4400,eod_backfill_2026-06-26: match 2 or fewer goals,1,No,1.87,43,,,
+2026-06-25,Tunisia vs Netherlands,Q1,team_more_fouls,,,results_backfill,,,,,,0.6000,eod_backfill_2026-06-26: Tunisia more fouls,1,Yes,3.46,58,,,
+2026-06-25,Tunisia vs Netherlands,Q2,both_teams_sot_2h,,,results_backfill,,,,,,0.7700,eod_backfill_2026-06-26: both teams 1+ SOT 2H,1,Yes,14.91,59,,,
+2026-06-25,Tunisia vs Netherlands,Q3,compound_btts_over_2_5,,,results_backfill,,,,,,0.3600,eod_backfill_2026-06-26: BTTS & 3+ goals,1,Yes,7.22,32,,,
+2026-06-25,Tunisia vs Netherlands,Q4,team_more_cards,,,results_backfill,,,,,,0.2300,eod_backfill_2026-06-26: Netherlands more cards,1,No,8.4,34,,,
+2026-06-25,Tunisia vs Netherlands,Q5,team_score_any,,,results_backfill,,,,,,0.4300,eod_backfill_2026-06-26: Tunisia 1+ goal,1,Yes,7.98,38,,,
+2026-06-25,Tunisia vs Netherlands,Q6,halftime_tie,,,results_backfill,,,,,,0.3500,eod_backfill_2026-06-26: HT tied,1,No,-1.26,31,,,
+2026-06-25,Tunisia vs Netherlands,Q7,team_score_2h,,,results_backfill,,,,,,0.2700,eod_backfill_2026-06-26: Tunisia score 2H,1,Yes,-0.27,28,,,
+2026-06-25,Tunisia vs Netherlands,Q8,player_sot_over,,,results_backfill,,,,,,0.1400,eod_backfill_2026-06-26: Ellyes Skhiri 1+ SOT,1,No,7.43,26,,,
+2026-06-25,Tunisia vs Netherlands,Q9,match_sot_over,,,results_backfill,,,,,,0.7900,eod_backfill_2026-06-26: 8+ total SOT,1,Yes,14.23,60,,,
+2026-06-25,Tunisia vs Netherlands,Q10,player_goal_or_assist,,,results_backfill,,,,,,0.6300,eod_backfill_2026-06-26: Cody Gakpo score/assist,1,No,-6.41,55,,,
+2026-06-25,Japan vs Sweden,Q1,team_offsides_over,,,results_backfill,,,,,,0.4700,eod_backfill_2026-06-26: Sweden 2+ offside,1,Yes,-1.67,51,,,
+2026-06-25,Japan vs Sweden,Q2,team_more_sot_2h,,,results_backfill,,,,,,0.4800,eod_backfill_2026-06-26: Japan more SOT 2H,1,No,4.94,51,,,
+2026-06-25,Japan vs Sweden,Q3,team_more_goals_2h,,,results_backfill,,,,,,0.2800,eod_backfill_2026-06-26: Sweden more goals 2H,1,No,5.08,33,,,
+2026-06-25,Japan vs Sweden,Q4,penalty_or_red_card,,,results_backfill,,,,,,0.3200,eod_backfill_2026-06-26: penalty or red,1,No,2.94,34,,,
+2026-06-25,Japan vs Sweden,Q5,team_win,,,results_backfill,,,,,,0.5200,eod_backfill_2026-06-26: Japan win,1,No,2.84,52,,,
+2026-06-25,Japan vs Sweden,Q6,match_total_under,,,results_backfill,,,,,,0.4800,eod_backfill_2026-06-26: match 2 or fewer goals,1,Yes,5.57,45,,,
+2026-06-25,Japan vs Sweden,Q7,team_corners_over,,,results_backfill,,,,,,0.4200,eod_backfill_2026-06-26: Sweden 5+ corners,1,Yes,-1.7,46,,,
+2026-06-25,Japan vs Sweden,Q8,player_goal,,,results_backfill,,,,,,0.2900,eod_backfill_2026-06-26: Viktor Gyökeres goal,1,No,5.03,34,,,
+2026-06-26,Senegal vs Iraq,Q1,team_more_corners_h1,CORNER_HALF_STOPGAP,,pregame_T30,,,,,,0.390,direction-blind half-corner constant,1,No,-5.94,27,19,-6,24
+2026-06-26,Senegal vs Iraq,Q2,team_offsides_over,OFFSIDES_FLOOR,,pregame_T30,,,,,,0.450,pooled floor (Iraq uncovered),1,No,-1.45,41,7,-1,8
+2026-06-26,Senegal vs Iraq,Q3,team_more_cards,MORE_CARDS,,pregame_T30,,,,,,0.570,,1,Yes,7.5,51,7,-5,12
+2026-06-26,Senegal vs Iraq,Q4,compound_btts_over_2_5,ENGINE_GOALS,,pregame_T30,,,,,,0.390,,1,No,0.72,37,5,1,6
+2026-06-26,Senegal vs Iraq,Q5,team_more_fouls,FOUL_CMP,,pregame_T30,,,,,,0.590,,1,Yes,4.24,56,4,-2,6
+2026-06-26,Senegal vs Iraq,Q6,total_sot_2h_over,RATE_SOT,,pregame_T30,,,,,,0.750,,1,Yes,11.57,60,12,-18,29
+2026-06-26,Senegal vs Iraq,Q7,player_sot_2h_over,PROP_SOT2H_DERIVED,,pregame_T30,,,,,,0.520,poisson-thin of full-match SOT market (Mane starter),1,No,-2.66,46,8,-3,11
+2026-06-26,Senegal vs Iraq,Q8,team_more_sot_2h,RATE_SOT_CMP,,pregame_T30,,,,,,0.820,,1,Yes,9.0,68,9,-19,28
+2026-06-26,Senegal vs Iraq,Q9,team_win,MARKET,,pregame_T30,,,,,,0.790,,1,Yes,4.58,73,5,-7,12
+2026-06-26,Senegal vs Iraq,Q10,player_goal_or_assist,PROP_direct_market,,pregame_T30,,,,,,0.150,shipped de-vig line ~0.155 (NOT double-discounted 0.036); Mohanad Ali questionable/bench,1,No,3.8,20,-7,4,11
+2026-06-26,Norway vs France,Q1,team_more_fouls,FOUL_CMP,,pregame_T30,,,,,,0.560,,1,No,2.62,57,2,3,4
+2026-06-26,Norway vs France,Q2,team_more_corners_2h,CORNER_HALF_STOPGAP,,pregame_T30,,,,,,0.410,direction-blind half-corner constant,1,Yes,8.84,36,9,-2,11
+2026-06-26,Norway vs France,Q3,team_more_sot_2h,RATE_SOT_CMP,,pregame_T30,,,,,,0.720,,1,No,-10.81,62,8,-11,19
+2026-06-26,Norway vs France,Q4,penalty_or_red_card,PENALTY_BASE,,pregame_T30,,,,,,0.320,,1,Yes,-0.07,34,0,3,3
+2026-06-26,Norway vs France,Q5,compound_btts_over_2_5,ENGINE_GOALS,,pregame_T30,,,,,,0.460,,1,Yes,0.03,49,0,6,6
+2026-06-26,Norway vs France,Q6,team_win,MARKET,,pregame_T30,,,,,,0.130,Norway B-team (Haaland/Odegaard benched),1,No,4.8,22,-13,5,18
+2026-06-26,Norway vs France,Q7,team_score_2h,ENGINE_GOALS_H1MKT,,pregame_T30,,,,,,0.710,,1,Yes,3.36,68,3,-3,6
+2026-06-26,Norway vs France,Q8,match_total_sot_over,MATCH_SOT,,pregame_T30,,,,,,0.760,,1,Yes,11.06,63,11,-15,26
+2026-06-26,Norway vs France,Q9,team_score_any,TEAMGOALS_OK,,pregame_T30,,,,,,0.600,direct team-total market (strict-equiv wiring),1,Yes,1.63,61,2,5,6
+2026-06-26,Norway vs France,Q10,team_score_1h,ENGINE_GOALS_H1MKT,,pregame_T30,,,,,,0.680,,1,Yes,5.68,62,,,

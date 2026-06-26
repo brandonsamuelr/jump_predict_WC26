@@ -1,0 +1,124 @@
+{
+  "match": "Morocco vs Haiti",
+  "kickoff_utc": "2026-06-24T22:00:00Z",
+  "captured_at": "2026-06-24T21:26:47Z",
+  "source": "official_team_sheets_user_confirmed",
+  "notes": "Morocco heavy favorite (GD push). Haiti 4-4-2 open. Nazon a DOUBT, NOT in XI -> Q9 shadows. Pen takers: B.Diaz, Hakimi, Rahimi.",
+  "players": {
+    "Bono": {
+      "team": "Morocco",
+      "status": "starter",
+      "role": "goalkeeper"
+    },
+    "Achraf Hakimi": {
+      "team": "Morocco",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Diop": {
+      "team": "Morocco",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Riad": {
+      "team": "Morocco",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Mazraoui": {
+      "team": "Morocco",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Bouaddi": {
+      "team": "Morocco",
+      "status": "starter",
+      "role": "central_midfielder"
+    },
+    "El Aynaoui": {
+      "team": "Morocco",
+      "status": "starter",
+      "role": "central_midfielder"
+    },
+    "Brahim D\u00edaz": {
+      "team": "Morocco",
+      "status": "starter",
+      "role": "attacking_midfielder"
+    },
+    "Ounahi": {
+      "team": "Morocco",
+      "status": "starter",
+      "role": "central_midfielder"
+    },
+    "El Khannouss": {
+      "team": "Morocco",
+      "status": "starter",
+      "role": "attacking_midfielder"
+    },
+    "Saibari": {
+      "team": "Morocco",
+      "status": "starter",
+      "role": "central_attacker"
+    },
+    "Placide": {
+      "team": "Haiti",
+      "status": "starter",
+      "role": "goalkeeper"
+    },
+    "Duverne": {
+      "team": "Haiti",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Ad\u00e9": {
+      "team": "Haiti",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Delcroix": {
+      "team": "Haiti",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Exp\u00e9rience": {
+      "team": "Haiti",
+      "status": "starter",
+      "role": "defender"
+    },
+    "Deedson": {
+      "team": "Haiti",
+      "status": "starter",
+      "role": "central_midfielder"
+    },
+    "Bellegarde": {
+      "team": "Haiti",
+      "status": "starter",
+      "role": "central_midfielder"
+    },
+    "Jean Jacques": {
+      "team": "Haiti",
+      "status": "starter",
+      "role": "central_midfielder"
+    },
+    "Providence": {
+      "team": "Haiti",
+      "status": "starter",
+      "role": "wide_attacker"
+    },
+    "Isidor": {
+      "team": "Haiti",
+      "status": "starter",
+      "role": "central_attacker"
+    },
+    "Pierrot": {
+      "team": "Haiti",
+      "status": "starter",
+      "role": "central_attacker"
+    },
+    "Duckens Nazon": {
+      "team": "Haiti",
+      "status": "bench_unknown",
+      "role": "central_attacker"
+    }
+  }
+}

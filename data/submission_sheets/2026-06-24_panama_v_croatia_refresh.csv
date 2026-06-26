@@ -1,0 +1,11 @@
+match,q,type,tier,class,k,c_hat,p_hat,mode,SUBMIT,d_base,action
+Panama vs Croatia,Q1,team_offsides_over,PENDING,SHADOW,0.0,0.485,,shadow,0.485,0.0,KEEP
+Panama vs Croatia,Q2,team_more_sot_2h,RATE_SOT_CMP,RATE_SOT,0.6,0.542,0.118,edge,0.288,0.0,KEEP
+Panama vs Croatia,Q3,team_first_goal_2h,PENDING,SHADOW,0.0,0.493,,shadow,0.493,0.0,KEEP
+Panama vs Croatia,Q4,team_more_fouls,PENDING,SHADOW,0.0,0.535,,shadow,0.535,0.0,KEEP
+Panama vs Croatia,Q5,team_more_cards,PENDING,SHADOW,0.0,0.499,,shadow,0.499,0.0,KEEP
+Panama vs Croatia,Q6,team_score_any,ENGINE_GOALS,ENGINE,0.9,0.427,0.546,edge,0.534,0.0,KEEP
+Panama vs Croatia,Q7,total_corners_over,PENDING,SHADOW,0.0,0.493,,shadow,0.493,0.0,KEEP
+Panama vs Croatia,Q8,team_sot_over,RATE_SOT,RATE_SOT,0.5,0.481,0.657,edge,0.569,0.0,KEEP
+Panama vs Croatia,Q9,player_sot_over,PROP_thin,PROP,0.4,0.471,0.522,edge,0.491,0.0,KEEP
+Panama vs Croatia,Q10,player_sot_over,PENDING,SHADOW,0.0,0.471,,shadow,0.471,0.0,KEEP

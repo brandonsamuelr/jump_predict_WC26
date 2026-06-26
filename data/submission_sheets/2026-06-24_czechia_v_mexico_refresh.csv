@@ -1,0 +1,10 @@
+match,q,type,tier,class,k,c_hat,p_hat,mode,SUBMIT,d_base,action
+Czechia vs Mexico,Q1,team_more_fouls,PENDING,SHADOW,0.0,0.5,,shadow,0.5,0.0,KEEP
+Czechia vs Mexico,Q2,team_offsides_over,PENDING,SHADOW,0.0,0.485,,shadow,0.485,0.0,KEEP
+Czechia vs Mexico,Q3,team_more_sot_2h,RATE_SOT_CMP,RATE_SOT,0.6,0.542,0.229,edge,0.354,0.0,KEEP
+Czechia vs Mexico,Q4,team_more_corners_full,CORNERS_CMP_THIN,CORNERS_CMP,1.0,0.398,0.45,edge,0.45,0.0,KEEP
+Czechia vs Mexico,Q5,compound_btts_over_2_5,ENGINE_GOALS,ENGINE,0.92,0.392,0.391,edge,0.391,0.0,KEEP
+Czechia vs Mexico,Q6,team_win,MARKET,MARKET,0.95,0.621,0.214,edge,0.235,0.0,KEEP
+Czechia vs Mexico,Q7,team_score_2h,ENGINE_GOALS,ENGINE,0.92,0.529,0.418,edge,0.427,0.0,KEEP
+Czechia vs Mexico,Q8,total_cards_over,CARDS_OK,CARDS,1.0,0.504,0.416,edge,0.416,0.0,KEEP
+Czechia vs Mexico,Q9,player_sot_over,PENDING,SHADOW,0.0,0.471,,shadow,0.471,0.0,KEEP

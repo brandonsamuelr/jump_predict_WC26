@@ -1,0 +1,11 @@
+{
+  "match": "Senegal vs Iraq",
+  "kickoff_utc": "2026-06-26T19:00:00Z",
+  "captured_at": "2026-06-26T18:30:00Z",
+  "source": "confirmed XIs (Sports Mole / World Soccer Talk / SI / FIFA match centre, T-30)",
+  "notes": "Sadio Mane confirmed fit and starting (spearheads attack). Mohanad Ali listed QUESTIONABLE on the WC injury table and NOT in the projected XI (Ali Al-Hamadi starts as the lone FW); the matchday bench is not yet confirmed, so per lineup-status discipline he is bench_unknown (NOT out_of_squad -- absence unconfirmed), with an injury doubt flagged. Re-check at final squad confirmation.",
+  "players": {
+    "Sadio Mané": {"team": "Senegal", "status": "starter", "role": "wide_attacker"},
+    "Mohanad Ali": {"team": "Iraq", "status": "bench_unknown", "role": "central_attacker"}
+  }
+}

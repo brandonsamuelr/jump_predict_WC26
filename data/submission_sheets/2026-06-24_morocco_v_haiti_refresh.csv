@@ -1,0 +1,11 @@
+match,q,type,tier,class,k,c_hat,p_hat,mode,SUBMIT,d_base,action
+Morocco vs Haiti,Q1,team_more_fouls,PENDING,SHADOW,0.0,0.5,,shadow,0.5,0.0,KEEP
+Morocco vs Haiti,Q2,team_more_corners_1h,PENDING,SHADOW,0.0,0.493,,shadow,0.493,0.0,KEEP
+Morocco vs Haiti,Q3,team_more_cards,MORE_CARDS,MORE_CARDS,1.0,0.499,0.562,edge,0.562,0.0,KEEP
+Morocco vs Haiti,Q4,team_more_sot_2h,RATE_SOT_CMP,RATE_SOT,0.6,0.542,0.823,edge,0.711,0.0,KEEP
+Morocco vs Haiti,Q5,total_sot_2h_over,RATE_SOT,RATE_SOT,0.5,0.623,0.737,edge,0.68,0.0,KEEP
+Morocco vs Haiti,Q6,penalty_or_red_card,PENDING,SHADOW,0.0,0.389,,shadow,0.389,0.0,KEEP
+Morocco vs Haiti,Q7,team_win,MARKET,MARKET,0.95,0.621,0.742,edge,0.736,0.0,KEEP
+Morocco vs Haiti,Q8,team_score_1h,ENGINE_GOALS,ENGINE,0.92,0.493,0.641,edge,0.629,0.0,KEEP
+Morocco vs Haiti,Q9,player_sot_over,PENDING,SHADOW,0.0,0.471,,shadow,0.471,0.0,KEEP
+Morocco vs Haiti,Q10,team_score_2h,ENGINE_GOALS,ENGINE,0.92,0.529,0.318,edge,0.334,0.0,KEEP

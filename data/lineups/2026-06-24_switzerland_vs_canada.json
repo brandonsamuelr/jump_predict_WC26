@@ -1,0 +1,29 @@
+{
+  "match": "Switzerland vs Canada",
+  "kickoff_utc": "2026-06-24T19:00:00Z",
+  "captured_at": "2026-06-24T18:58:06Z",
+  "source": "official_team_sheets_user_confirmed",
+  "notes": "Xhaka & J.David START (Q9/Q10 promote); Davies benched; I.Kon\u00e9 out.",
+  "players": {
+    "Granit Xhaka": {
+      "team": "Switzerland",
+      "status": "starter",
+      "role": "central_midfielder"
+    },
+    "Jonathan David": {
+      "team": "Canada",
+      "status": "starter",
+      "role": "central_attacker"
+    },
+    "Alphonso Davies": {
+      "team": "Canada",
+      "status": "bench_unknown",
+      "role": "defender"
+    },
+    "Isma\u00ebl Kon\u00e9": {
+      "team": "Canada",
+      "status": "out_of_squad",
+      "role": "central_midfielder"
+    }
+  }
+}

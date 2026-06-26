@@ -1,0 +1,24 @@
+{
+  "match": "Bosnia & Herzegovina vs Qatar",
+  "kickoff_utc": "2026-06-24T19:00:00Z",
+  "captured_at": "2026-06-24T18:58:06Z",
+  "source": "official_team_sheets_user_confirmed",
+  "notes": "D\u017eeko STARTS (Q10 promotes); Muharemovi\u0107 suspended (Had\u017eikaduni\u0107 in).",
+  "players": {
+    "Edin Dzeko": {
+      "team": "Bosnia & Herzegovina",
+      "status": "starter",
+      "role": "central_attacker"
+    },
+    "Tarik Muharemovi\u0107": {
+      "team": "Bosnia & Herzegovina",
+      "status": "out_of_squad",
+      "role": "defender"
+    },
+    "Had\u017eikaduni\u0107": {
+      "team": "Bosnia & Herzegovina",
+      "status": "starter",
+      "role": "defender"
+    }
+  }
+}

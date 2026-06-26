@@ -1,0 +1,11 @@
+match,q,type,tier,class,k,c_hat,p_hat,mode,SUBMIT,d_base,action
+Colombia vs DR Congo,Q1,team_more_fouls,PENDING,SHADOW,0.0,0.535,,shadow,0.535,0.0,KEEP
+Colombia vs DR Congo,Q2,team_more_sot_2h,RATE_SOT_CMP,RATE_SOT,0.6,0.542,0.702,edge,0.638,0.0,KEEP
+Colombia vs DR Congo,Q3,team_more_goals_2h,ENGINE_GOALS,ENGINE,0.9,0.53,0.487,edge,0.492,0.0,KEEP
+Colombia vs DR Congo,Q4,penalty_or_red_card,PENDING,SHADOW,0.0,0.389,,shadow,0.389,0.0,KEEP
+Colombia vs DR Congo,Q5,team_win,MARKET,MARKET,0.9,0.621,0.621,edge,0.621,0.0,KEEP
+Colombia vs DR Congo,Q6,halftime_team_win,MARKET,MARKET,0.9,0.493,0.445,edge,0.449,0.0,KEEP
+Colombia vs DR Congo,Q7,match_total_under,MARKET,MARKET,0.9,0.474,0.562,edge,0.553,0.0,KEEP
+Colombia vs DR Congo,Q8,team_corners_over,PENDING,SHADOW,0.0,0.392,,shadow,0.392,0.0,KEEP
+Colombia vs DR Congo,Q9,player_goal_or_assist,PROP_direct_thin,PROP,0.5,0.325,0.449,edge,0.387,0.0,KEEP
+Colombia vs DR Congo,Q10,player_sot_over,PROP_thin,PROP,0.4,0.471,0.5,edge,0.483,0.0,KEEP

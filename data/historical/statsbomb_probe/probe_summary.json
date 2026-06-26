@@ -1,0 +1,47 @@
+{
+  "source": "github.com/statsbomb/open-data (raw.githubusercontent.com/statsbomb/open-data/master/data)",
+  "probe_date": "2026-06-25",
+  "auth": "none (open data, free)",
+  "senior_mens_intl_competitions": {
+    "AFCON 2023 (1267/107)": 52,
+    "Copa America 2024 (223/282)": 32,
+    "Euro 2020 (55/43)": 51,
+    "Euro 2024 (55/282)": 51,
+    "WC 2022 (43/106)": 64,
+    "WC 2018 (43/3)": 64,
+    "WC legacy 1958-1990 (sparse, 1-6 each)": 19,
+    "TOTAL_senior_mens_intl": 333,
+    "MODERN_full_detail_2018plus": 314
+  },
+  "event_field_paths": {
+    "shot": "type.name=='Shot'; shot.outcome.name; team.name; period; minute",
+    "SOT_on_target_outcomes": ["Goal", "Saved", "Saved to Post"],
+    "SOT_off_target_outcomes": ["Off T", "Post", "Wayward", "Blocked"],
+    "SOT_caveat": "StatsBomb 'Blocked' = blocked by defender; Opta excludes blocked from SOT. Pick a convention and hold it.",
+    "fouls": "type.name=='Foul Committed'; team.name; period",
+    "corners": "type.name=='Pass' AND pass.type.name=='Corner'; team.name; period (NOT a top-level type)",
+    "cards": "foul_committed.card.name (from fouls) + bad_behaviour.card.name (non-foul, e.g. dissent); values Yellow Card/Second Yellow/Red Card; team.name; period",
+    "offsides": "type.name=='Pass' AND pass.outcome.name=='Pass Offside' (~5/match); team credited = team CAUGHT offside (the passing/attacking team). NOT a top-level 'Offside' type.",
+    "goals": "type.name=='Shot' AND shot.outcome.name=='Goal' (or use match half scores)"
+  },
+  "half_split": {
+    "field": "period (1=1H, 2=2H, 3/4=extra time, 5=shootout); minute also present on all events",
+    "all_events_have_minute_and_period": true,
+    "recommendation": "bucket by PERIOD (clean); for 2H use period==2; decide ET (3/4) handling for knockouts; exclude shootout (5)"
+  },
+  "per_match_averages_wc2022_sample": {"shots": 24, "sot": 8, "fouls": 29, "corners": 8, "cards": 4.6, "offsides": 5.1},
+  "buildability": {
+    "corner_half_split_CORNER_HALF_SHRINK": "BUILDABLE (corners per half; 314 matches >> enough for a universal constant)",
+    "goals_half_split_H1_SHARE": "BUILDABLE (goals per half; re-confirm the 0.44 on real intl data)",
+    "SOT_2H_comparison": "BUILDABLE (SOT per team per half)",
+    "cards_2H_period": "BUILDABLE (cards per team per half)",
+    "offsides_predictability_gate": "PARTIAL (per-team offsides derivable, but NO odds here for favorite_gap; low volume)",
+    "fouls_tendency": "PARTIAL (universal half-split YES; team-specific minnow tendency NO - minnows absent from these tournaments)"
+  },
+  "hard_limits": [
+    "NO ODDS in StatsBomb - calibration/structure corpus only; favorite_gap features come from live market / club corpus, not here",
+    "Selected tournaments only (WC/Copa/AFCON/Euro), not qualifiers or minnow full histories - universal half-split YES, minnow team-tendency NO",
+    "Cannot help: anything odds-dependent to FIT here, or team-specific tendencies for non-tournament teams (Haiti etc. absent)"
+  ],
+  "bottom_line": "Free StatsBomb open data is ENOUGH to calibrate the half-split STRUCTURE wing (CORNER_HALF_SHRINK, H1_SHARE, 1H/2H SOT-cards-corners-goals) on 314 real international matches with clean period bucketing and confirmed field paths. Still needs a paid intl source (Opta/Sportmonks) ONLY for team-specific minnow tendencies - which the API-Football probe already showed is sparse for those teams anyway."
+}

@@ -1,0 +1,11 @@
+match,q,type,tier,class,k,c_hat,p_hat,mode,SUBMIT,d_base,action
+South Africa vs South Korea,Q1,team_offsides_over,PENDING,SHADOW,0.0,0.485,,shadow,0.485,0.0,KEEP
+South Africa vs South Korea,Q2,team_cards_2h_over,PENDING,SHADOW,0.0,0.493,,shadow,0.493,0.0,KEEP
+South Africa vs South Korea,Q3,compound_btts_over_2_5,ENGINE_GOALS,ENGINE,0.92,0.392,0.315,edge,0.321,0.0,KEEP
+South Africa vs South Korea,Q4,team_more_sot_2h,RATE_SOT_CMP,RATE_SOT,0.6,0.542,0.667,edge,0.617,0.0,KEEP
+South Africa vs South Korea,Q5,team_more_fouls,PENDING,SHADOW,0.0,0.5,,shadow,0.5,0.0,KEEP
+South Africa vs South Korea,Q6,team_win,MARKET,MARKET,0.95,0.621,0.171,edge,0.193,0.0,KEEP
+South Africa vs South Korea,Q7,halftime_draw,MARKET,MARKET,0.95,0.427,0.429,edge,0.429,0.0,KEEP
+South Africa vs South Korea,Q8,team_sot_over,SOT_COUNT,SOT_COUNT,1.0,0.481,0.511,edge,0.511,0.0,KEEP
+South Africa vs South Korea,Q9,player_sot_over,PROP_thin,PROP,0.4,0.471,0.446,edge,0.461,0.0,KEEP
+South Africa vs South Korea,Q10,player_sot_over,PENDING,SHADOW,0.0,0.471,,shadow,0.471,0.0,KEEP

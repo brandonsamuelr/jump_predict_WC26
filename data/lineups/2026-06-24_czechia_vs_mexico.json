@@ -1,0 +1,10 @@
+{
+  "match": "Czechia vs Mexico",
+  "kickoff_utc": "2026-06-25T01:00:00Z",
+  "captured_at": "2026-06-25T00:36:00Z",
+  "source": "manual",
+  "notes": "team-sheet intel: Schick benched",
+  "players": {
+    "Patrik Schick": {"team": "Czech Republic", "status": "bench_unknown", "role": "central_attacker"}
+  }
+}

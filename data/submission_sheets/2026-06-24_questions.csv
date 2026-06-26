@@ -39,3 +39,62 @@ Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q7,Will the match have 2 o
 Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q8,Will Colombia have 5 or more corner kicks?,team_corners_over,Colombia,,4.5,shadow
 Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q9,"Will Luis Díaz score or assist a goal, excluding own goals?",player_goal_or_assist,Colombia,Luis Díaz,0.5,needs_model
 Colombia vs DR Congo,68bfc965eb267508e04d8e8d75c1a0ae,Q10,Will Cédric Bakambu have at least 1 shot on target?,player_sot_over,DR Congo,Cédric Bakambu,0.5,needs_model
+Switzerland vs Canada,c9ef5822ee64fd5275f7c73251bb56c7,Q1,Will Canada commit more fouls than Switzerland?,team_more_fouls,Canada,,,
+Switzerland vs Canada,c9ef5822ee64fd5275f7c73251bb56c7,Q2,Will Switzerland be caught offside 2 or more times?,team_offsides_over,Switzerland,,1.5,
+Switzerland vs Canada,c9ef5822ee64fd5275f7c73251bb56c7,Q3,Will there be 2 or more total cards shown in the second half?,total_cards_2h_over,,,1.5,
+Switzerland vs Canada,c9ef5822ee64fd5275f7c73251bb56c7,Q4,Will both teams score AND the match have 3 or more total goals?,compound_btts_over_2_5,,,,
+Switzerland vs Canada,c9ef5822ee64fd5275f7c73251bb56c7,Q5,Will a penalty kick be awarded in the match?,penalty_awarded,,,,
+Switzerland vs Canada,c9ef5822ee64fd5275f7c73251bb56c7,Q6,Will Switzerland have more shots on target than Canada in the second half?,team_more_sot_2h,Switzerland,,,
+Switzerland vs Canada,c9ef5822ee64fd5275f7c73251bb56c7,Q7,Will Switzerland win the match?,team_win,Switzerland,,,
+Switzerland vs Canada,c9ef5822ee64fd5275f7c73251bb56c7,Q8,Will the second half have 2 or more total goals?,second_half_goals_over,,,1.5,
+Switzerland vs Canada,c9ef5822ee64fd5275f7c73251bb56c7,Q9,Will Granit Xhaka have at least 1 shot on target?,player_sot_over,Switzerland,Granit Xhaka,0.5,
+Switzerland vs Canada,c9ef5822ee64fd5275f7c73251bb56c7,Q10,Will Jonathan David have at least 1 shot on target?,player_sot_over,Canada,Jonathan David,0.5,
+Bosnia & Herzegovina vs Qatar,512ac18beb5aa936a59f7ea3e497ada2,Q1,"In the second half, will Bosnia and Herzegovina have more corner kicks than Qatar?",team_more_corners_2h,Bosnia & Herzegovina,,,
+Bosnia & Herzegovina vs Qatar,512ac18beb5aa936a59f7ea3e497ada2,Q2,Will Bosnia and Herzegovina score more goals than Qatar in the second half?,team_more_goals_2h,Bosnia & Herzegovina,,,
+Bosnia & Herzegovina vs Qatar,512ac18beb5aa936a59f7ea3e497ada2,Q3,Will Qatar have more shots on target than Bosnia and Herzegovina in the second half?,team_more_sot_2h,Qatar,,,
+Bosnia & Herzegovina vs Qatar,512ac18beb5aa936a59f7ea3e497ada2,Q4,Will a penalty kick be awarded OR a red card be shown in the match?,penalty_or_red_card,,,,
+Bosnia & Herzegovina vs Qatar,512ac18beb5aa936a59f7ea3e497ada2,Q5,Will Qatar commit more fouls than Bosnia and Herzegovina?,team_more_fouls,Qatar,,,
+Bosnia & Herzegovina vs Qatar,512ac18beb5aa936a59f7ea3e497ada2,Q6,Will Bosnia and Herzegovina receive more cards than Qatar?,team_more_cards,Bosnia & Herzegovina,,,
+Bosnia & Herzegovina vs Qatar,512ac18beb5aa936a59f7ea3e497ada2,Q7,Will Qatar be caught offside 2 or more times?,team_offsides_over,Qatar,,1.5,
+Bosnia & Herzegovina vs Qatar,512ac18beb5aa936a59f7ea3e497ada2,Q8,Will Bosnia and Herzegovina win the match?,team_win,Bosnia & Herzegovina,,,
+Bosnia & Herzegovina vs Qatar,512ac18beb5aa936a59f7ea3e497ada2,Q9,Will the match have 2 or fewer total goals?,match_total_under,,,2.5,
+Bosnia & Herzegovina vs Qatar,512ac18beb5aa936a59f7ea3e497ada2,Q10,Will Edin Dzeko have at least 1 shot on target?,player_sot_over,Bosnia & Herzegovina,Edin Dzeko,0.5,
+Morocco vs Haiti,d1279ce7f33136a33e99ad442fc855e8,Q1,Will Haiti commit more fouls than Morocco?,team_more_fouls,Haiti,,,
+Morocco vs Haiti,d1279ce7f33136a33e99ad442fc855e8,Q2,"At halftime, will Haiti have more corner kicks than Morocco?",team_more_corners_1h,Haiti,,,
+Morocco vs Haiti,d1279ce7f33136a33e99ad442fc855e8,Q3,Will Haiti receive more cards than Morocco?,team_more_cards,Haiti,,,
+Morocco vs Haiti,d1279ce7f33136a33e99ad442fc855e8,Q4,Will Morocco have more shots on target than Haiti in the second half?,team_more_sot_2h,Morocco,,,
+Morocco vs Haiti,d1279ce7f33136a33e99ad442fc855e8,Q5,Will there be 4 or more total shots on target in the second half?,total_sot_2h_over,,,3.5,
+Morocco vs Haiti,d1279ce7f33136a33e99ad442fc855e8,Q6,Will a penalty kick be awarded OR a red card be shown?,penalty_or_red_card,,,,
+Morocco vs Haiti,d1279ce7f33136a33e99ad442fc855e8,Q7,Will Morocco win the match?,team_win,Morocco,,,
+Morocco vs Haiti,d1279ce7f33136a33e99ad442fc855e8,Q8,Will Morocco score in the first half?,team_score_1h,Morocco,,,
+Morocco vs Haiti,d1279ce7f33136a33e99ad442fc855e8,Q9,Will Duckens Nazon have at least 1 shot on target?,player_sot_over,Haiti,Duckens Nazon,0.5,
+Morocco vs Haiti,d1279ce7f33136a33e99ad442fc855e8,Q10,Will Haiti score in the second half?,team_score_2h,Haiti,,,
+Scotland vs Brazil,885ba95805db310a7bcc3fb1a7a6dd28,Q1,Will Brazil have more shots on target than Scotland in the second half?,team_more_sot_2h,Brazil,,,
+Scotland vs Brazil,885ba95805db310a7bcc3fb1a7a6dd28,Q2,Will Scotland be caught offside 2 or more times?,team_offsides_over,Scotland,,1.5,
+Scotland vs Brazil,885ba95805db310a7bcc3fb1a7a6dd28,Q3,Will Scotland score the first goal of the game AND Brazil score in the second half?,compound_first_goal_score_2h,Scotland,,,
+Scotland vs Brazil,885ba95805db310a7bcc3fb1a7a6dd28,Q4,Will Brazil finish with more corner kicks than Scotland?,team_more_corners_full,Brazil,,,
+Scotland vs Brazil,885ba95805db310a7bcc3fb1a7a6dd28,Q5,Will Scotland score at least 1 goal?,team_score_any,Scotland,,,
+Scotland vs Brazil,885ba95805db310a7bcc3fb1a7a6dd28,Q6,Will the match have 3 or more total goals?,match_total_over,,,2.5,
+Scotland vs Brazil,885ba95805db310a7bcc3fb1a7a6dd28,Q7,Will Brazil score in the second half?,team_score_2h,Brazil,,,
+Scotland vs Brazil,885ba95805db310a7bcc3fb1a7a6dd28,Q8,Will there be 4 or more total cards shown?,total_cards_over,,,3.5,
+Scotland vs Brazil,885ba95805db310a7bcc3fb1a7a6dd28,Q9,Will Scott McTominay have at least 1 shot on target?,player_sot_over,Scotland,Scott McTominay,0.5,
+Scotland vs Brazil,885ba95805db310a7bcc3fb1a7a6dd28,Q10,Will Brazil score in the first half?,team_score_1h,Brazil,,,
+Czechia vs Mexico,5993bd5196ca09f83990f0c3261e442e,Q1,Will Czechia commit more fouls than Mexico?,team_more_fouls,Czech Republic,,,shadow
+Czechia vs Mexico,5993bd5196ca09f83990f0c3261e442e,Q2,Will Mexico be caught offside 2 or more times?,team_offsides_over,Mexico,,1.5,shadow
+Czechia vs Mexico,5993bd5196ca09f83990f0c3261e442e,Q3,Will Czechia have more shots on target than Mexico in the second half?,team_more_sot_2h,Czech Republic,,,engine
+Czechia vs Mexico,5993bd5196ca09f83990f0c3261e442e,Q4,Will Mexico finish with more corner kicks than Czechia?,team_more_corners_full,Mexico,,,market
+Czechia vs Mexico,5993bd5196ca09f83990f0c3261e442e,Q5,Will both teams score AND the match have 3 or more total goals?,compound_btts_over_2_5,,,,engine
+Czechia vs Mexico,5993bd5196ca09f83990f0c3261e442e,Q6,Will Czechia win the match?,team_win,Czech Republic,,,market
+Czechia vs Mexico,5993bd5196ca09f83990f0c3261e442e,Q7,Will Czechia score in the second half?,team_score_2h,Czech Republic,,,engine
+Czechia vs Mexico,5993bd5196ca09f83990f0c3261e442e,Q8,Will there be 4 or more total cards shown?,total_cards_over,,,3.5,market
+Czechia vs Mexico,5993bd5196ca09f83990f0c3261e442e,Q9,Will Patrik Schick have at least 1 shot on target?,player_sot_over,Czech Republic,Patrik Schick,0.5,needs_model
+South Africa vs South Korea,c0355dfc6e26ec327e379b6ef5824a5f,Q1,Will South Korea be caught offside 2 or more times?,team_offsides_over,South Korea,,1.5,shadow
+South Africa vs South Korea,c0355dfc6e26ec327e379b6ef5824a5f,Q2,Will South Korea receive at least 1 card in the second half?,team_cards_2h_over,South Korea,,0.5,shadow
+South Africa vs South Korea,c0355dfc6e26ec327e379b6ef5824a5f,Q3,Will both teams score AND the match have 3 or more total goals?,compound_btts_over_2_5,,,,engine
+South Africa vs South Korea,c0355dfc6e26ec327e379b6ef5824a5f,Q4,Will South Korea have more shots on target than South Africa in the second half?,team_more_sot_2h,South Korea,,,engine
+South Africa vs South Korea,c0355dfc6e26ec327e379b6ef5824a5f,Q5,Will South Africa commit more fouls than South Korea?,team_more_fouls,South Africa,,,shadow
+South Africa vs South Korea,c0355dfc6e26ec327e379b6ef5824a5f,Q6,Will South Africa win the match?,team_win,South Africa,,,market
+South Africa vs South Korea,c0355dfc6e26ec327e379b6ef5824a5f,Q7,"At halftime, will the match be tied?",halftime_draw,,,,market
+South Africa vs South Korea,c0355dfc6e26ec327e379b6ef5824a5f,Q8,Will South Africa have 3 or more shots on target?,team_sot_over,South Africa,,2.5,engine
+South Africa vs South Korea,c0355dfc6e26ec327e379b6ef5824a5f,Q9,Will Oswin Appollis have at least 1 shot on target?,player_sot_over,South Africa,Oswin Appollis,0.5,needs_model
+South Africa vs South Korea,c0355dfc6e26ec327e379b6ef5824a5f,Q10,Will Son Heung-min have at least 1 shot on target?,player_sot_over,South Korea,Son Heung-min,0.5,needs_model

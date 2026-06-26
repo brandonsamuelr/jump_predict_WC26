@@ -1,0 +1,31 @@
+{
+  "match": "Colombia vs DR Congo",
+  "kickoff_utc": "2026-06-24T02:00:00Z",
+  "captured_at": "2026-06-24T01:13:00Z",
+  "source": "official_team_sheets_user_confirmed",
+  "notes": "Confirmed XIs ~46 min pre-kick. Prop-relevant: Luis Díaz STARTS (Colombia Q9, score-or-assist); Cédric Bakambu STARTS (DR Congo Q10, player SOT). Both XIs fully tagged as starters; any player not listed defaults to 'unknown' (non-starter) at the gate, so no benched-as-starter risk. Bench not published -> non-XI players left to loader default, not guessed as out_of_squad.",
+  "players": {
+    "Vargas": {"team": "Colombia", "status": "starter", "role": "goalkeeper"},
+    "Daniel Muñoz": {"team": "Colombia", "status": "starter", "role": "defender"},
+    "Davinson Sánchez": {"team": "Colombia", "status": "starter", "role": "defender"},
+    "Jhon Lucumí": {"team": "Colombia", "status": "starter", "role": "defender"},
+    "Johan Mojica": {"team": "Colombia", "status": "starter", "role": "defender"},
+    "Jefferson Lerma": {"team": "Colombia", "status": "starter", "role": "central_midfielder"},
+    "Gustavo Puerta": {"team": "Colombia", "status": "starter", "role": "central_midfielder"},
+    "Jhon Arias": {"team": "Colombia", "status": "starter", "role": "wide_attacker"},
+    "James Rodríguez": {"team": "Colombia", "status": "starter", "role": "attacking_midfielder"},
+    "Luis Díaz": {"team": "Colombia", "status": "starter", "role": "wide_attacker"},
+    "Luis Suárez": {"team": "Colombia", "status": "starter", "role": "central_attacker"},
+    "Lionel Mpasi": {"team": "DR Congo", "status": "starter", "role": "goalkeeper"},
+    "Aaron Wan-Bissaka": {"team": "DR Congo", "status": "starter", "role": "defender"},
+    "Chancel Mbemba": {"team": "DR Congo", "status": "starter", "role": "defender"},
+    "Axel Tuanzebe": {"team": "DR Congo", "status": "starter", "role": "defender"},
+    "Steve Kapuadi": {"team": "DR Congo", "status": "starter", "role": "defender"},
+    "Arthur Masuaku": {"team": "DR Congo", "status": "starter", "role": "defender"},
+    "Ngal'ayel Mukau": {"team": "DR Congo", "status": "starter", "role": "central_midfielder"},
+    "Samuel Moutoussamy": {"team": "DR Congo", "status": "starter", "role": "central_midfielder"},
+    "Edo Kayembe": {"team": "DR Congo", "status": "starter", "role": "central_midfielder"},
+    "Cédric Bakambu": {"team": "DR Congo", "status": "starter", "role": "central_attacker"},
+    "Yoane Wissa": {"team": "DR Congo", "status": "starter", "role": "central_attacker"}
+  }
+}
