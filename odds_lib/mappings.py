@@ -152,27 +152,19 @@ def _apply_liquidity_gate(
 ) -> Mapping:
     """Post-process a mapping with a per-event-friendly liquidity check.
 
-    - ``num_books >= thin_books_threshold``  -> liquidity_flag = "ok"
-    - ``min_books <= num_books < thin_books_threshold`` -> "thin"
-      (still ``mapped_exact``; user reviews the line manually)
-    - ``num_books < min_books`` -> "low" and ``mapping_status`` is downgraded
-      to ``low_liquidity_review`` so it does not auto-submit.
-
-    Non-``mapped_exact`` statuses are passed through unchanged (their
-    liquidity_flag was set at construction time, typically "n/a").
+    UNIFIED PRINCIPLE: book COUNT never triggers a fallback/downgrade. A present market
+    (mapped_exact) is a real read regardless of count, so liquidity_flag is now a
+    DIAGNOSTIC LABEL only and ``mapping_status`` is NEVER downgraded on count:
+    - ``num_books >= thin_books_threshold`` -> "ok"
+    - ``1 <= num_books < thin_books_threshold`` -> "thin" (USED, not blocked)
+    NOTE: this consensus-count path has no per-book reads, so the full dispersion/scatter
+    gate (see market_quality) can't run here — only the count-downgrade is removed. If this
+    legacy path is revived for live use, plumb per-book dispersion through for the scatter gate.
     """
     if mp.mapping_status != "mapped_exact":
         return mp
     n = mp.all_num_books if mp.all_num_books is not None else 0
-    if n < min_books:
-        mp.mapping_status = "low_liquidity_review"
-        mp.liquidity_flag = "low"
-        suffix = f" [low_liquidity: {n} book(s) < min_books={min_books}]"
-        mp.mapped_bet_description = (mp.mapped_bet_description or "") + suffix
-    elif n < thin_books_threshold:
-        mp.liquidity_flag = "thin"
-    else:
-        mp.liquidity_flag = "ok"
+    mp.liquidity_flag = "ok" if n >= thin_books_threshold else "thin"   # count no longer downgrades
     return mp
 
 

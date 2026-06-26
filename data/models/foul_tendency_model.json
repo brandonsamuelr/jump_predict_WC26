@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "model": "team_foul_tendency_comparison",
+    "status": "VALIDATED_CLUB_OOS__NOT_WIRED__LIVE_APPLICATION_BLOCKED",
+    "gate_oos": {
+      "baseline_brier": 0.24842,
+      "modelB_brier": 0.24576,
+      "dBrier": -0.00267,
+      "trait_coef_retention_under_favgap_control_pct": 89,
+      "consistent_all_6_test_years": true,
+      "prob_spread_p10_p90": 0.157
+    },
+    "live_application_block": "keyed to TEAM IDENTITY (club teams != WC teams); needs each WC team's INTERNATIONAL foul history to compute tendency. Corpus is club-only (no internationals). Same international-sparsity wall as the referee edge, milder (nat teams ~10-30 competitive matches/cycle) but blocked without an intl foul-stat source (FBref had it, was 403).",
+    "crowd_note": "crowd is NOT lazy on fouls (moved toward truth 5/7 resolved rows) \u2014 edge is mainly vs our own flat-0.5 SHADOW (we lose RBP to crowd now), not a large edge vs the crowd.",
+    "features": [
+      "tend_diff (team prior foul mean - opp prior foul mean, shrunk)",
+      "favorite_gap"
+    ],
+    "target": "team committed strictly MORE fouls than opponent (tie->0)",
+    "shrink_K": 10,
+    "global_foul_rate": 12.5114,
+    "min_prior_matches": 5,
+    "standardize": {
+      "tend_diff": {
+        "mean": 0.0,
+        "sd": 1.293775600576674
+      },
+      "favorite_gap": {
+        "mean": 0.0,
+        "sd": 0.3201565289674573
+      }
+    },
+    "note": "coefs on STANDARDIZED features. DO NOT WIRE \u2014 investigation artifact pending intl foul source."
+  },
+  "intercept": -0.16192798411574408,
+  "coefs": {
+    "tend_diff_z": 0.23666515176551534,
+    "favorite_gap_z": -0.14610814669922295
+  }
+}

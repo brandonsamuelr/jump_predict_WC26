@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "fit_utc": "2026-06-24T22:38:29Z",
+    "n": 92266,
+    "features": [
+      "favorite_gap",
+      "total_line_prob"
+    ],
+    "target": "team corners_for > corners_against (FULL match)",
+    "note": "OOS-gate-validated full-match; 1H has NO data source (full-match only)"
+  },
+  "intercept": -0.24504660504792414,
+  "coefs": {
+    "favorite_gap": 2.3213743501708004,
+    "total_line_prob": 0.05991051865443727
+  },
+  "base_rate": 0.45231179416036243
+}

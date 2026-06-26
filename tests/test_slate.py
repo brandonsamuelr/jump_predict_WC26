@@ -19,6 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import pandas as pd
 
 from odds_lib import slate, match_engine as E
+from odds_lib.edge import classify
 from odds_lib.lineups import MatchLineup, PlayerContext
 
 
@@ -55,11 +56,14 @@ def test_prop_unknown_status_is_shadow():
     assert tier == "PENDING" and p is None
 
 
-def test_prop_bench_is_shadow_not_thin():
-    for st in ("bench_high_usage", "bench_low_usage", "bench_unknown", "out_of_squad"):
-        tier, p, _ = slate.resolve_row(_prop_row(), None, _game_sot_market(), None,
-                                       lineup=_lineup(st))
-        assert tier == "PENDING" and p is None, f"{st} must shadow, got {tier}"
+def test_prop_bench_is_minutes_scaled_sub_not_shadow():
+    # Item 4 (2026-06-26): a sub-eligible benched player gets a FOUNDED minutes-scaled true-P
+    # (PROP_SUB), not a c_hat shadow. out_of_squad has no appearance -> stays PENDING.
+    for st in ("bench_high_usage", "bench_low_usage", "bench_unknown"):
+        tier, p, _ = slate.resolve_row(_prop_row(), None, _game_sot_market(), None, lineup=_lineup(st))
+        assert tier == "PROP_SUB" and p is not None and 0.0 < p < 1.0, f"{st}: {tier} {p}"
+    tier, p, _ = slate.resolve_row(_prop_row(), None, _game_sot_market(), None, lineup=_lineup("out_of_squad"))
+    assert tier == "PENDING" and p is None   # no appearance -> no founded read
 
 
 def test_prop_confirmed_starter_expresses():
@@ -92,10 +96,11 @@ def test_halftime_team_win_routes_to_h2h_h1_market():
 def test_total_goals_2h_over_routes_to_engine():
     m = E.calibrate("H", "A", p_home=0.83, p_over=0.57)
     sim = E.simulate(m, n=120_000, seed=4)
-    model_tuple = (m, sim, "H", "A")
+    model_tuple = (m, sim, "H", "A")   # legacy 4-tuple, no totals_h1 -> constant fallback
     row = {"question_type": "total_goals_2h_over", "target_team": "", "line": "1.5"}
     tier, p, _ = slate.resolve_row(row, None, {}, model_tuple)
-    assert tier == "ENGINE_GOALS" and 0.0 < p < 1.0
+    assert tier == "ENGINE_GOALS_H1FALLBACK" and 0.0 < p < 1.0   # flagged constant fallback
+    assert classify(tier, "total_goals_2h_over") == ("ENGINE", "engine")  # still routes as engine
     assert abs(p - E.p_total_goals_2h_over(sim, 2)) < 1e-3   # resolve_row rounds to 4dp
 
 

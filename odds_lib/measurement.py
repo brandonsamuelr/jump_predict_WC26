@@ -95,6 +95,13 @@ HARD_QA_PATTERNS = (
 )
 # Recording errors (NOT decisions) — must be excluded from strategy analysis.
 ENTRY_SHIFT_PATTERNS = ("entry_shift", "entry_error")
+# DELIVERY-PATH failures (NOT decisions, NOT estimates) — the submitted value was
+# forced by a process failure (refresh missed/crashed the lock -> coin-flips, or a
+# slate never reached the board). Like entry_shift, these are excluded from strategy
+# analysis: they must NOT count as pipeline/model performance in the pace/tier stats.
+DELIVERY_FAIL_PATTERNS = ("refresh_missed", "missed_lock", "coinflip", "coin_flip",
+                          "refresh_crash", "attempted_not_submitted", "not_submitted",
+                          "delivery_fail")
 # Empirical (measured-bias) trims, e.g. SOT high-bias. Distinct from soft distrust
 # AND from hard_qa: an empirical bet to be MEASURED separately (may pay or not).
 EMPIRICAL_TRIM_PATTERNS = ("empirical_sot_trim", "sot_trim", "empirical_trim")
@@ -109,7 +116,9 @@ SOFT_PATTERNS = (
 
 def classify_override(reason: str) -> str:
     """Bucket an override reason into one of: 'entry_shift' (a RECORDING error,
-    not a decision — excluded from strategy analysis), 'empirical_trim' (a
+    not a decision — excluded from strategy analysis), 'delivery_failure' (a
+    delivery-path failure — coin-flip/missed/crashed lock; also excluded from
+    strategy analysis, must not count as pipeline performance), 'empirical_trim' (a
     measured-bias trim, tracked separately to see if it pays), 'soft'
     (net-negative distrust, disabled by default), 'hard_qa' (factual/definitional
     correction, kept), 'rounding_or_default', 'unlabeled', or 'other'.
@@ -124,6 +133,10 @@ def classify_override(reason: str) -> str:
         return "unlabeled"
     if any(p in r for p in ENTRY_SHIFT_PATTERNS):
         return "entry_shift"
+    # delivery-path failures BEFORE the round/default check: the coin-flip tag
+    # contains "default" but it is a delivery failure, not a rounding default.
+    if any(p in r for p in DELIVERY_FAIL_PATTERNS):
+        return "delivery_failure"
     if any(p in r for p in EMPIRICAL_TRIM_PATTERNS):
         return "empirical_trim"
     if any(p in r for p in SOFT_PATTERNS):

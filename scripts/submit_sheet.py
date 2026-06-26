@@ -315,6 +315,15 @@ def _resolve_caches(
 
 def main() -> None:
     p = argparse.ArgumentParser(description="Build a SportsPredict submission sheet.")
+    # DEPRECATED / QUARANTINED 2026-06-26. This script builds lock sheets from the OLDER
+    # decision_engine path (p_field-anchored blend with +/-max_dev caps), NOT the guarded
+    # optimize() path. The optimize() path has the TRUST_PRICE_K + universal-guard protections
+    # that make it structurally impossible to shrink a market read toward c_hat; this one does
+    # NOT carry those guarantees. LOCK FROM scripts/pregame_refresh.py (per match) or
+    # scripts/submission_optimizer.py (full slate) instead. Refuses to run without an explicit
+    # acknowledgement flag so nobody accidentally locks from the unguarded engine.
+    p.add_argument("--use-unguarded-decision-engine", action="store_true",
+                   help="REQUIRED to run: acknowledges this is the UNGUARDED engine (see pregame_refresh).")
     p.add_argument("--forecast-run-id", required=True)
     p.add_argument("--sport", default="soccer_fifa_world_cup")
     p.add_argument(
@@ -369,6 +378,18 @@ def main() -> None:
         help="Strategy name recorded with each logged row.",
     )
     args = p.parse_args()
+
+    if not args.use_unguarded_decision_engine:
+        print(
+            "REFUSING TO RUN — submit_sheet.py uses the UNGUARDED decision_engine path.\n"
+            "  A market read here can be blended toward the field (the failure that overrode the\n"
+            "  Turkiye-win line). Lock from the GUARDED optimize() path instead:\n"
+            "    • per match : python scripts/pregame_refresh.py --match \"...\"\n"
+            "    • full slate: python scripts/submission_optimizer.py\n"
+            "  If you truly need this legacy sheet, re-run with --use-unguarded-decision-engine.",
+            file=sys.stderr,
+        )
+        sys.exit(2)
 
     if not INVENTORY_PATH.exists():
         print(

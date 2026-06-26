@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "model": "universal_structural_foul_comparison",
+    "status": "VALIDATED_OOS__READY_TO_WIRE__NOT_YET_WIRED",
+    "purpose": "P(target team commits MORE fouls than opponent) from odds-derived favorite_gap ONLY. Structural/universal (no team identity) -> transfers to any matchup incl. minnows via favorite_gap. Replaces the flat ~0.50 team_more_fouls placeholder.",
+    "features": ["favorite_gap"],
+    "convention": "A = target team (the team named in 'will A commit more fouls'). favorite_gap = de-vigged A_win_prob - opp_win_prob (h2h). y=1 if A fouls strictly > opp; ties -> 0 (contest 'more than' resolves NO on tie).",
+    "fit_set": "data/historical/stat_lines.csv club corpus, 168k team-rows, time-split train<2021 / test>=2021",
+    "oos_vs_flat_0.50": {"brier_flat": 0.25000, "brier_model": 0.24776, "dBrier": -0.00224, "verdict": "BEATS placeholder"},
+    "oos_decomposition": "~70% of the beat is centering at true base rate 0.46 (not 0.50); ~30% is the favorite_gap tilt (dBrier vs base-rate-const -0.00067).",
+    "intl_sanity": "StatsBomb WC2022 foul regime SAME as club (mean 14.06 vs 12.51, same shape) -> structural model applicable to internationals. Direction proxy inconclusive (no intl odds).",
+    "resolved_contest_rows": "11 real team_more_fouls rows: model net +19.89 vs flat-0.50, +22.52 vs crowd (closer 7/11). One heavy-favorite outlier (France +0.857 favgap, fouled MORE, -21.65) -> model is ROUGH, misses unusually-foul-prone favorites; net still positive.",
+    "ship": "SHIP at k=1 (model IS the estimate, undistorted, like corners_cmp). Modest edge: 'stop flat-lining 120 rows with a grounded number', not 'beat the crowd big'. NOT yet wired into slate.py.",
+    "do_not": "do not add team identity; do not moderate toward a placeholder (banned hedge); the model's own near-0.5 conservatism IS the moderation."
+  },
+  "intercept": -0.1590,
+  "coefs": {"favorite_gap": -0.7104},
+  "predict": "P = 1/(1+exp(-(intercept + favorite_gap_coef*favorite_gap)))",
+  "examples": {"even_0.00": 0.460, "mild_underdog_-0.20": 0.496, "heavy_underdog_-0.50": 0.549, "heavy_favorite_+0.50": 0.374}
+}

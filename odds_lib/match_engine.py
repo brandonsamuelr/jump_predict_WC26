@@ -30,9 +30,16 @@ from dataclasses import dataclass, field
 
 import numpy as np
 
-# Empirical share of match goals scored in the first half. ~44-46% across
-# large samples; 0.45 is the documented default. Override per call.
-H1_SHARE = 0.45
+# Empirical share of match goals scored in the first half. MEASURED at 0.4394
+# over 106,328 football-data.co.uk matches (HTHG/HTAG vs full-time), stable across
+# eras (early 0.435 / late 0.444). Replaces the prior GUESSED 0.45 (~0.011 high).
+# A per-match split is deliberately NOT used: the true share varies only ~+/-0.01
+# with game openness AND cannot be validated historically (no historical 2H-goals
+# market to test a market-derived split against actual divisions), so the
+# data-measured CONSTANT is the founded choice. Where a LIVE 2H-goals market
+# exists, the 2H-goals rows defer to it (slate.resolve_row), capturing per-match
+# 2H info directly there rather than through this split. Override per call.
+H1_SHARE = 0.44
 
 _KMAX = 15  # goal grid cap for analytic Poisson comparisons (P(N>=16)~0)
 
@@ -206,6 +213,30 @@ def p_compound_btts_over_2_5(sim: Sim) -> float:
     return float(((sim.nh >= 1) & (sim.na >= 1) & (sim.nh + sim.na >= 3)).mean())
 
 
+def p_team_first_goal_2h(model: "MatchModel", team: str) -> float:
+    """P(``team`` scores the FIRST goal of the second half) — CLOSED FORM.
+
+    The two teams' 2H goals are independent Poisson PROCESSES with rates over the
+    half lam_t2h = lam_team*(1-h1), lam_o2h = lam_opp*(1-h1). For independent
+    Poisson processes the probability that the FIRST arrival belongs to the team is
+    lam_t2h/(lam_t2h+lam_o2h) (independent of how many arrive), and P(>=1 2H goal at
+    all) = 1 - e^{-(lam_t2h+lam_o2h)}. So:
+
+        P(team first in 2H) = [lam_t2h / (lam_t2h + lam_o2h)] * (1 - e^{-(lam_t2h+lam_o2h)})
+
+    This is a derivation from the already market-calibrated, validated goals engine
+    (lambdas + half split) -> no separate gate. Even match -> ~0.5 * P(>=1 2H goal);
+    lopsided -> tilts to the favourite. No 2H goal -> contributes 0 (correct: 'first
+    goal of 2H' does not occur, the question resolves NO)."""
+    is_home = team.strip().lower() == model.home_team.strip().lower()
+    lam_t = (model.lam_home if is_home else model.lam_away) * (1 - model.h1_share)
+    lam_o = (model.lam_away if is_home else model.lam_home) * (1 - model.h1_share)
+    tot = lam_t + lam_o
+    if tot <= 0:
+        return 0.0
+    return float((lam_t / tot) * (1 - math.exp(-tot)))
+
+
 def p_total_goals_2h_over(sim: Sim, threshold: int) -> float:
     """P(total 2H goals, both teams, >= ``threshold``). "2 or more" -> thr=2."""
     return float((sim.n2h + sim.n2a >= threshold).mean())
@@ -233,6 +264,6 @@ __all__ = [
     "p_team_score_any", "p_team_score_1h", "p_team_score_2h",
     "p_second_half_more_goals", "p_team_more_goals_2h",
     "p_compound_first_goal_score_2h", "p_compound_btts_over_2_5",
-    "p_total_goals_2h_over",
+    "p_total_goals_2h_over", "p_team_first_goal_2h",
     "p_home_win", "p_over_2_5", "p_btts", "p_halftime_draw",
 ]

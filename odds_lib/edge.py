@@ -21,23 +21,148 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
+# Gate-validated models (team_sot_over, team_more_cards, match_total_sot_over) are
+# submitted UNDISTORTED — k=1.0 toward the model, exactly like a market price. They
+# passed the out-of-sample gate against actual outcomes, so the model probability IS
+# the best truth-estimate. The former k=0.50 "international level-hedge" pulled them
+# toward the placeholder shadow, which is the SAME ill-conditioned error we removed
+# for corners: the shadow has no claim to being the truth, and club->international
+# level error has UNKNOWN direction, so a pull toward the placeholder injects bias
+# with no basis. Correct level-uncertainty handling: submit undistorted, LOG
+# predictions vs realized (kept), and correct ONLY from measured directional bias.
+GATE_MODEL_TRUST_K = 1.00
+
+# FUTURE, currently-INACTIVE correction hook. Maps a gate-validated (class, subtype)
+# to a DATA-DERIVED, DIRECTIONAL adjustment, set ONLY from observed international
+# miscalibration in the live measurement log (e.g. if logged team_sot_over runs +X
+# above realized, correct DOWN by the measured X). Empty = identity (no correction)
+# = the current state. This is NOT a hedge toward a placeholder and must never be
+# set to one; when populated it is applied in the MEASURED direction only. (Not yet
+# wired into the pricing path — it is the documented location for that future fix.)
+GATE_MODEL_LEVEL_CORRECTION: dict[tuple[str, str], float] = {}   # inactive: identity
+
 # Structural priors by (source_class, subtype). Independent sharp sources get
 # high conviction; odds-independent fallback gets none.
+#
+# CHANGE 1 (anchor-quality k): rows that carry a REAL market/model PRICE must
+# submit AT/NEAR that price, not be blended back toward the field-mean c_hat,
+# which is only a PLACEHOLDER predictor of the crowd on these rows. Diluting a
+# good price toward that placeholder is what cost the Colombia corners row -7.40
+# (hand-priced 0.48 dragged off the ~0.569 market). So the market-priced classes
+# get high k (graded by price reliability). SHADOW stays 0.00 (placeholder and
+# real-base-rate shadow rows are UNTOUCHED — they have no price to dilute).
+# Old -> new shown inline; values are the deliberate, adjustable policy.
+# ====================================================================================
+# ROUTE-ADDING CHECKLIST (read before wiring a new tier into slate.resolve_row):
+#   • If the new route carries a REAL de-vigged MARKET PRICE (or a market-derived read):
+#       1. set its K_PRIOR to 1.00,
+#       2. add its (class, subtype) to TRUST_PRICE_K (immune to the edge-table fit),
+#       3. add the tier to the market lists in BOTH tests/test_no_market_override.py
+#          and tests/test_no_pull_to_constant.py (INDEPENDENT_TIERS).
+#   • If it's a model/derived estimate (k<1 allowed): add it to CONSTANT_DEPENDENT_TIERS in
+#     tests/test_no_pull_to_constant.py so the c_hat-dependence is tracked, and JUSTIFY the
+#     k<1 (outcome-fitted + genuinely overconfident — else fix the distribution, don't shrink
+#     toward c_hat). A k<1 shrinks the read toward the stale field-mean: that is the bug class.
+#   • Never use a TYPE_BASE_RATE / hardcoded constant as a CENTER on the main path — only as a
+#     degenerate fallback when the engine/market literally cannot run (and population-matched).
+#   See memory: feedback_dont_shrink_liquid_h2h, feedback_ship_true_p_no_anchor.
+# ====================================================================================
 K_PRIOR = {
-    ("MARKET", "market"): 0.90,
-    ("ENGINE", "engine"): 0.90,
-    ("PROP", "confirmed"): 0.75,
-    ("PROP", "thin"): 0.40,
-    # goal-or-assist routing: a DIRECT but thin (1-2 book) score-or-assist market
-    # is exact-but-noisy -> between confirmed and thin. The anytime-goal fallback
-    # is a LOWER-BOUND proxy (+ submission clamp) -> conservative like thin.
-    ("PROP", "direct_thin"): 0.50,
-    ("PROP", "proxy_floor"): 0.40,
-    ("RATE_SOT", "comparison"): 0.60,   # directionally robust (constant ~cancels)
-    ("RATE_SOT", "single"): 0.50,
-    ("RATE_SOT", "single_2h"): 0.50,
-    # total_2h: c_hat is now the computed contest base rate (~0.62), not the
-    # 0.49 global fallback — see field_model.TYPE_BASE_RATE. D5 slope/dispersion
+    ("MARKET", "market"): 1.00,        # de-vigged sharp book line: submit AT the line, NEVER shrink
+                                       # toward c_hat (TRUST_PRICE_K enforces immunity to the fit)
+    # ENGINE de-hedged to k=1 (2026-06-26): the goals engine is MARKET-CALIBRATED (lambda from
+    # de-vigged 1X2+totals) and beats base OOS (edge table fitted k_hat 2.08 -> deployed 1.0). The
+    # 0.92 "small model hedge" was a residual shrink toward the stale c_hat -> removed. Ship raw.
+    ("ENGINE", "engine"): 1.00,
+    # ALL confirmed-starter player-prop reads are REAL de-vigged MARKET reads -> ship RAW (k=1).
+    # Thin = VARIANCE, not bias; shrinking a prop de-vig toward c_hat is the base-rate-over-specific-
+    # info error (live: Sangare shrunk LOST -4.24; Skhiri raw WON +7.5). The liquidity/quality gate
+    # in price_player_prop still routes garbage single-book quotes to their fallback; we only removed
+    # the c_hat SHRINK. (Benched players are a SEPARATE minutes-scaled path -> _prop_tier never
+    # fires for them; see PROP_SUB.) All in TRUST_PRICE_K.
+    ("PROP", "confirmed"): 1.00,       # was 0.90 — liquid prop market
+    ("PROP", "thin"): 1.00,            # was 0.40 — thin (few-book) prop, variance not bias
+    ("PROP", "direct_thin"): 1.00,     # was 0.80 — direct 1-2 book score-or-assist
+    ("PROP", "proxy_floor"): 1.00,     # was 0.40 — anytime-goal de-vig as a LOWER BOUND (lower_bound clamp)
+    ("PROP", "sub"): 1.00,             # benched-player minutes-scaled closed form (founded), ship raw
+    # Gate-validated team_sot_over count model: submit UNDISTORTED (k=1, see above).
+    ("SOT_COUNT", "model"): GATE_MODEL_TRUST_K,
+    # CHANGE 3 (corrected): corners count rows submit the de-vigged market price
+    # UNDISTORTED (k=1). A thin/few-book market is higher-VARIANCE but NOT biased
+    # in a known direction, so blending it toward an arbitrary anchor (placeholder
+    # shadow or 0.50) would inject a directional bias the data doesn't support —
+    # the best estimate of a noisy-but-unbiased price IS that price. The ok/thin
+    # split is now a DIAGNOSTIC liquidity flag only (tracked via the tier), it no
+    # longer pulls the number. (No real price -> caller falls back to shadow.)
+    ("CORNERS", "ok"): 1.00,
+    ("CORNERS", "thin"): 1.00,
+    # line-gap Poisson-ladder fit = market-DERIVED read -> submit undistorted (k=1).
+    ("CORNERS", "ladder"): 1.00,
+    # no-ladder MEASURED corner base rate: it IS the estimate (like CORNER_HALF stopgap),
+    # submit undistorted (k=1). An honest measured anchor, NOT a pull toward the crowd.
+    ("CORNERS", "base"): 1.00,
+    # Newly founded shadow families. Closed-form derivations from the validated goals
+    # engine (+ the OOS-validated SOT conversion); submit undistorted (k=1) like any
+    # gate-validated model. The measured base-rate fallbacks also submit at k=1 (they
+    # ARE the estimate where the engine can't run) -- never pulled toward the crowd mean.
+    ("BOTH_SOT_1H", "model"): GATE_MODEL_TRUST_K,
+    ("BOTH_SOT_1H", "base"): 1.00,
+    # 2H both-SOT: RAW true-P shipped undistorted (k=1), NO anchor/damping. Volume lever
+    # validated OOS (monotone 0.70->0.94 across realized-goal tertiles). base = degenerate
+    # no-engine fallback only (k=1, it IS the estimate then).
+    ("BOTH_SOT_2H", "model"): GATE_MODEL_TRUST_K,
+    ("BOTH_SOT_2H", "base"): 1.00,
+    ("FIRST_GOAL_2H", "model"): GATE_MODEL_TRUST_K,
+    ("FIRST_GOAL_2H", "base"): 1.00,
+    # Measured anchors (offsides corpus rate; sourced external pen/red): the measured
+    # rate IS the estimate -> submit undistorted (k=1), never pulled toward the crowd mean.
+    # offsides: NO per-match signal OOS -> honest no-edge floor (pooled measured rate),
+    # submit undistorted (k=1, it IS the floor estimate). Documented as no-edge, not founded.
+    ("OFFSIDES", "floor"): 1.00,
+    # 2H cards: market-derived (full-card lambda x 2H share) -> per-match, correctly populated,
+    # submit undistorted (k=1). Club-only corpus floor is the last-resort fallback (mis-populated).
+    ("CARDS_2H", "market"): 1.00,
+    ("CARDS_2H", "floor"): 1.00,
+    ("PENALTY", "base"): 1.00,
+    # Cards count row (total_cards_over) off alternate_totals_cards — same policy
+    # as corners: de-vigged market price UNDISTORTED (k=1); flag is diagnostic only.
+    ("CARDS", "ok"): 1.00,
+    ("CARDS", "thin"): 1.00,
+    # Remaining market-available rows (Track 1): all submit the de-vigged market
+    # price UNDISTORTED (k=1); ok/thin is a diagnostic liquidity flag only.
+    ("TEAMGOALS", "ok"): 1.00,   ("TEAMGOALS", "thin"): 1.00,   # team_total_goals_over
+    ("CORNERS_CMP", "ok"): 1.00, ("CORNERS_CMP", "thin"): 1.00, # team_more_corners_full (corners_1x2 market)
+    # corner-comparison MODEL: full-match fallback (no market) + provisional 1H/2H.
+    # Undistorted (k=1) — the gate-validated model IS the estimate, not hedged.
+    ("CORNERS_CMP", "model"): 1.00,          # full-match model fallback (favorite_gap)
+    ("CORNERS_CMP", "provisional_1h"): 1.00, # DEPRECATED old 1H/2H shrink path
+    # 1H/2H more-corners STOPGAP: submit the measured per-half base-rate floor
+    # UNDISTORTED (k=1, it IS the base-rate estimate). STOPGAP_NOT_TRUE_P — ignores
+    # favorite_gap (data wall blocks a conditioned half model). HIGH-PRIORITY UNSOLVED.
+    ("CORNER_HALF", "stopgap"): 1.00,
+    # OddsPapi-Pinnacle sharp half-corner read (0.0 handicap de-vig); single_book sharp,
+    # use-if-plausible (LAW) -> submit UNDISTORTED (k=1); plausibility band is the guard.
+    ("CORNER_HALF", "pinnacle"): 1.00,
+    ("H2GOALS", "ok"): 1.00,     ("H2GOALS", "thin"): 1.00,     # second_half_goals_over (alternate_totals_h2)
+    # 1st-half total goals direct (totals_h1), de-vigged market price UNDISTORTED (k=1);
+    # ok/thin is a diagnostic book-count flag only (totals_h1 is often thin/split-line).
+    ("H1GOALS", "ok"): 1.00,     ("H1GOALS", "thin"): 1.00,
+    # Track 2 gate-validated corpus models (NO market): submit UNDISTORTED (k=1).
+    ("MORE_CARDS", "model"): GATE_MODEL_TRUST_K,   # team_more_cards
+    ("FOUL_CMP", "model"): GATE_MODEL_TRUST_K,     # team_more_fouls (validated favorite_gap model)
+    ("MATCH_SOT", "model"): GATE_MODEL_TRUST_K,    # match_total_sot_over
+    # RATE_SOT family DE-SHRUNK to k=1 (2026-06-26, Item 3): the concave SOT-mean (rate_layer,
+    # OOS-validated) makes the single-team SOT model BEAT the base rate OOS at every threshold
+    # (Brier P(SOT>=4/5/6/7): concave < base); the comparison beats base per the edge table (CUR
+    # Q5 raw 0.07 WON +7.38). So ship raw -> NO shrink toward c_hat. (Was 0.60/0.50/0.50 = a
+    # c_hat shrink that was an unvalidated overdispersion proxy; the overdispersion is now handled
+    # by the concave MEAN + the ~Poisson tail, not by dragging toward the field.)
+    ("RATE_SOT", "comparison"): 1.00,
+    ("RATE_SOT", "single"): 1.00,
+    ("RATE_SOT", "single_2h"): 1.00,
+    # total_2h: c_hat is an UNVALIDATED placeholder anchor (~0.62, set from CROWD
+    # agreement, NOT gate-validated against outcomes), used as a less-bad fallback
+    # than the 0.49 global mean — see field_model.TYPE_BASE_RATE. D5 slope/dispersion
     # audit (scripts/audit_total_sot_2h_slope.py) RESOLVED the open question:
     #   - the MEAN slope is data-backed (team OLS 3.03; full-match model mean
     #     10.34 vs observed 10.78) -> the recenter keeps it; do NOT flatten it.
@@ -50,7 +175,13 @@ K_PRIOR = {
     # (over-steep). Magnitude isn't calibratable (no paired SOT-lambda; n=9) -> a
     # neg-binomial tail is the eventual structural fix; until then 0.50 + the
     # n_active<4 freeze. (Was 0.90 when k routed around the bad 0.49 baseline.)
-    ("RATE_SOT", "total_2h"): 0.50,
+    # total_2h FIXED 2026-06-26: was 0.50 (shrink toward the c_hat=0.623 placeholder) ON TOP of a
+    # -1.2 mu offset -- a DOUBLE pull toward a stale constant, both unvalidated. Now k=1.0: ship the
+    # raw market-anchored Poisson tail (offset removed; total 2H SOT var/mean=1.21 ~Poisson so no
+    # tail discount needed). Residual = the LINEAR SOT-mean over-extrapolation at high lambda
+    # (shared w/ MATCH_SOT) -> dedicated saturation fix, NOT a field-pull. single/single_2h/comparison
+    # below stay <1 (flagged in test_no_pull_to_constant for review; same overdispersion question).
+    ("RATE_SOT", "total_2h"): 1.00,
     ("SHADOW", "shadow"): 0.00,
 }
 M_PRIOR = 8.0            # pseudo-matches of prior conviction (prior dominates at small n)
@@ -88,26 +219,65 @@ def edge_submit(p_model: float | None, c_hat: float | None, k: float) -> float:
     return min(max(q, EDGE_CLIP_LO), EDGE_CLIP_HI)
 
 
+# Classes that carry a REAL de-vigged market price (a sharp/liquid book line). These must
+# ALWAYS submit AT the price — the edge-table fit must NEVER be allowed to shrink them toward
+# the field-mean c_hat. Overriding a sharp book line is the banned behavior that pulled
+# 'Turkiye win' from the de-vig 0.29 up to 0.45 (k=0.52 fit toward the high team_win field-mean
+# 0.62). The rule was in the prior; this enforces it against the FIT. MODEL classes (ENGINE,
+# RATE_SOT, FOUL_CMP, MATCH_SOT, ...) and measured FLOORS stay fit-adjustable. See
+# memory feedback_dont_shrink_liquid_h2h / feedback_no_hardcoded_p_truth.
+TRUST_PRICE_K = frozenset({
+    ("MARKET", "market"),
+    ("CORNERS", "ok"), ("CORNERS", "thin"), ("CORNERS", "ladder"),
+    ("CARDS", "ok"), ("CARDS", "thin"),
+    ("TEAMGOALS", "ok"), ("TEAMGOALS", "thin"),
+    ("CORNERS_CMP", "ok"), ("CORNERS_CMP", "thin"),
+    ("H2GOALS", "ok"), ("H2GOALS", "thin"),
+    ("H1GOALS", "ok"), ("H1GOALS", "thin"),
+    ("CORNER_HALF", "pinnacle"),
+    ("CARDS_2H", "market"),                 # cards-market lambda x 2H share (market-derived)
+    # All confirmed-starter player-prop reads (real de-vigged markets) -> k=1, ship raw.
+    ("PROP", "confirmed"), ("PROP", "thin"), ("PROP", "direct_thin"), ("PROP", "proxy_floor"),
+    # Every member of TRUST_PRICE_K MUST have prior == 1.0 (enforced by
+    # test_trust_price_classes_have_high_prior).
+})
+
+
 def deployed_k(cls: str, sub: str, table: pd.DataFrame | None = None) -> float:
     """Deployed k for a (class, subtype).
 
-    Uses the fitted edge table's ``k_deployed`` (which already shrinks toward,
-    and FREEZES on, the structural prior at small samples) when that class has
-    resolved rows; otherwise the structural prior. At the current sample every
-    class is frozen, so this returns the prior — by design.
+    HARD RULE: direct-market-price classes (TRUST_PRICE_K) are IMMUNE to the edge-table fit —
+    they always deploy their structural prior (~1, trust the de-vigged line). A sharp book line
+    is never shrunk toward the field-mean, no matter what the fitted k says.
+
+    All other (MODEL / floor) classes use the fitted edge table's ``k_deployed`` (which shrinks
+    toward, and freezes on, the structural prior at small samples) when resolved rows exist;
+    otherwise the structural prior.
     """
+    prior = float(K_PRIOR.get((cls, sub), 0.0))
+    if (cls, sub) in TRUST_PRICE_K:
+        return prior                                  # market price: hard-pinned, immune to the fit
     if table is not None and not table.empty and (cls, sub) in table.index:
-        return float(table.loc[(cls, sub), "k_deployed"])
-    return float(K_PRIOR.get((cls, sub), 0.0))
+        fitted = float(table.loc[(cls, sub), "k_deployed"])
+        # UNIVERSAL GUARD: the fit may only RAISE trust in a read (higher k = closer to the read).
+        # It may NEVER lower k below the structural prior — i.e. never increase the shrink toward
+        # the field-mean c_hat beyond the deliberate prior. This makes it structurally impossible
+        # for a small-sample fit to drag ANY row's read toward c_hat (the Turkiye-win failure mode).
+        # If a model is genuinely overconfident, fix the model / lower its prior explicitly — never
+        # let the fit silently shrink it. (k clamped to [prior, 1].)
+        return min(max(prior, fitted), 1.0)
+    return prior
 
 
 def classify(tier: str, question_type: str) -> tuple[str, str]:
     t = (tier or "").strip()
     qt = (question_type or "").strip().lower()
-    if t == "MARKET":
+    if t == "MARKET" or t == "MARKET_INTERP":   # MARKET_INTERP = totals 2.5 used for a non-2.5 line (no alt market)
         return ("MARKET", "market")
-    if t == "ENGINE_GOALS":
+    if t.startswith("ENGINE_GOALS"):   # incl. _H1MKT (market half-split) / _H1FALLBACK (constant H1_SHARE)
         return ("ENGINE", "engine")
+    if t == "H1GOALS_OK":   return ("H1GOALS", "ok")     # 1H total goals direct (totals_h1)
+    if t == "H1GOALS_THIN": return ("H1GOALS", "thin")
     if t == "PROP_ok":
         return ("PROP", "confirmed")
     if t == "PROP_thin":
@@ -116,6 +286,45 @@ def classify(tier: str, question_type: str) -> tuple[str, str]:
         return ("PROP", "direct_thin")
     if t == "PROP_proxy_floor":
         return ("PROP", "proxy_floor")
+    if t == "PROP_SUB":
+        return ("PROP", "sub")
+    if t == "SOT_COUNT":   # CHANGE 2: validated team_sot_over count-row logistic
+        return ("SOT_COUNT", "model")
+    if t == "CORNERS_OK":   # CHANGE 3: direct corners market, well-booked line
+        return ("CORNERS", "ok")
+    if t == "CORNERS_THIN":  # CHANGE 3: direct corners market, thin line
+        return ("CORNERS", "thin")
+    if t == "CORNERS_LADDER":  # line-gap: Poisson fit of the quoted book ladder (market-derived)
+        return ("CORNERS", "ladder")
+    if t == "CORNERS_BASE":    # no ladder: MEASURED corner base rate (anchor, not 0.50)
+        return ("CORNERS", "base")
+    if t == "BOTH_SOT_1H":        return ("BOTH_SOT_1H", "model")   # engine-lambda volume model (OOS-gated)
+    if t == "BOTH_SOT_1H_BASE":   return ("BOTH_SOT_1H", "base")    # measured base rate fallback
+    if t == "BOTH_SOT_2H":        return ("BOTH_SOT_2H", "model")   # raw closed-form true P (k=1, no anchor)
+    if t == "BOTH_SOT_2H_BASE":   return ("BOTH_SOT_2H", "base")    # degenerate no-engine fallback
+    if t == "FIRST_GOAL_2H":      return ("FIRST_GOAL_2H", "model") # closed-form race of 2H Poissons
+    if t == "FIRST_GOAL_2H_BASE": return ("FIRST_GOAL_2H", "base")  # measured home/away anchor
+    if t == "OFFSIDES_FLOOR":     return ("OFFSIDES", "floor")      # no-edge floor (no per-match signal OOS)
+    if t == "CARDS_2H_MKT":       return ("CARDS_2H", "market")     # full-card market lambda x 2H share (per-match)
+    if t == "CARDS_2H_FLOOR":     return ("CARDS_2H", "floor")      # CLUB-only corpus floor (last resort, mis-populated)
+    if t == "PENALTY_BASE":       return ("PENALTY", "base")        # sourced external pen/red rate
+    if t == "CARDS_OK":     # direct total-cards market, well-booked line
+        return ("CARDS", "ok")
+    if t == "CARDS_THIN":   # direct total-cards market, thin line
+        return ("CARDS", "thin")
+    if t == "TEAMGOALS_OK":   return ("TEAMGOALS", "ok")
+    if t == "TEAMGOALS_THIN": return ("TEAMGOALS", "thin")
+    if t == "CORNERS_CMP_OK":   return ("CORNERS_CMP", "ok")
+    if t == "CORNERS_CMP_THIN": return ("CORNERS_CMP", "thin")
+    if t == "CORNERS_CMP_MODEL": return ("CORNERS_CMP", "model")        # full-match model fallback
+    if t == "CORNERS_CMP_1H":    return ("CORNERS_CMP", "provisional_1h")  # DEPRECATED old shrink path
+    if t == "CORNER_HALF_STOPGAP": return ("CORNER_HALF", "stopgap")    # 1H/2H base-rate floor (STOPGAP, not true P)
+    if t == "CORNER_HALF_PINNACLE": return ("CORNER_HALF", "pinnacle")  # sharp Pinnacle half-corner read
+    if t == "H2GOALS_OK":   return ("H2GOALS", "ok")
+    if t == "H2GOALS_THIN": return ("H2GOALS", "thin")
+    if t == "MORE_CARDS":   return ("MORE_CARDS", "model")   # Track 2 gate-validated
+    if t == "FOUL_CMP":     return ("FOUL_CMP", "model")     # validated favorite_gap foul model
+    if t == "MATCH_SOT":    return ("MATCH_SOT", "model")     # Track 2 gate-validated
     if t == "RATE_SOT_CMP":
         return ("RATE_SOT", "comparison")
     if t == "RATE_SOT":
@@ -195,5 +404,6 @@ def compute_edge_table(df: pd.DataFrame) -> pd.DataFrame:
 
 
 __all__ = ["classify", "compute_edge_table", "edge_submit", "deployed_k",
-           "K_PRIOR", "M_PRIOR", "D_BAR_SQ_FALLBACK", "ACTIVE_D",
-           "ACTIVE_FREEZE_N", "MIN_CLUSTERS", "EDGE_CLIP_LO", "EDGE_CLIP_HI"]
+           "K_PRIOR", "TRUST_PRICE_K", "M_PRIOR", "D_BAR_SQ_FALLBACK", "ACTIVE_D",
+           "ACTIVE_FREEZE_N", "MIN_CLUSTERS", "EDGE_CLIP_LO", "EDGE_CLIP_HI",
+           "GATE_MODEL_TRUST_K", "GATE_MODEL_LEVEL_CORRECTION"]

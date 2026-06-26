@@ -59,7 +59,7 @@ def test_prior_dominates_at_small_sample():
     df = _df([("MARKET", "market", "m1", 0.8, 0.5, 1)])   # d=0.3, resid=0.5, k_hat=1.67
     row = compute_edge_table(df).loc[("MARKET", "market")]
     assert row["k_shrunk"] < row["k_hat"]                 # pulled toward prior
-    assert abs(row["k_shrunk"] - 0.9) < 0.2               # near the 0.90 prior
+    assert abs(row["k_shrunk"] - K_PRIOR[("MARKET", "market")]) < 0.25  # near the MARKET prior
 
 
 def test_thin_class_frozen_to_prior():

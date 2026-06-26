@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "status": "TWO items WIRED; the rest are STOPGAPS / UNSOLVED (see flags)",
+    "source": "StatsBomb 72 intl matches (half-splits, no odds); goals from club raw 106k",
+    "SOT_definition": "on-target = {Goal, Saved, Saved to Post}; EXCLUDES Blocked (matches contest/Opta SOT)",
+    "TOP_OPEN_FRONTIER__DATA_WALL": "No single dataset has BOTH half-splits AND odds. StatsBomb = halves, no odds; club corpus = odds, no half corners/SOT. This BLOCKS fitting favorite_gap-conditioned half models and forces base-rate floors on corners/cards. Cracking this (sourcing or constructing a joint half-split + odds dataset) is the HIGH-PRIORITY open item that would convert the floored families to true conditional theta. NOT closed.",
+    "leakage_note": "full->half persistence is INFLATED (half is part of full); used leakage-free 1H<->2H for the true carry."
+  },
+
+  "WIRED": {
+    "sot_2h__re-center": {
+      "status": "VERIFIED_ALREADY_CORRECT__NO_CHANGE_NEEDED",
+      "finding": "The conditional RATE_SOT_CMP route uses Skellam P(A>B) which already accounts for ties -> it centers at ~0.41 for an EVEN matchup (0.407-0.421), statistically indistinguishable from the measured base rate 0.438 (SE ~0.04 on 72 matches). The resolved-row mean of 0.508 was favorite-pull, not a 0.5 center. NO intercept shift wired (would be a tiny, unjustified +0.025 nudge). Family STAYS CONDITIONAL (it beat a flat base-rate anchor by +71.86 on 11 resolved rows).",
+      "action": "none — verified already base-rate-centered + conditional"
+    },
+    "corner_per_half__replace_0.65_shrink": {
+      "status": "WIRED as STOPGAP (tier CORNER_HALF_STOPGAP, k=1)",
+      "old": "CORNER_HALF_SHRINK=0.65 centered at 0.5 — PROVEN WRONG (doubly miscalibrated)",
+      "new": "measured per-half BASE-RATE FLOOR: 1H 0.389, 2H 0.410 (CORNER_HALF_BASE_RATE)",
+      "wired_in": ["odds_lib/corners_cmp_model.py: half_stopgap_p()", "odds_lib/slate.py: CORNERS_CMP_1H route", "odds_lib/edge.py: ('CORNER_HALF','stopgap')=1.0"],
+      "STOPGAP_FLAG": "STOPGAP_NOT_TRUE_P__HIGH_PRIORITY_UNSOLVED",
+      "why_stopgap": "flat ~0.40 for EVERY match ignores favorite_gap, which demonstrably matters for full-match corners; corner dominance barely persists per-half (1H<->2H carry +0.031) so we can't size a tilt, AND no joint half+odds data to fit one (data wall). Beats the actually-submitted flat shadow (Morocco Q2 0.389 vs 0.493 on a NO) but loses to the discarded favorite_gap on extreme underdogs — exactly why it's flagged unsolved. Open."
+    }
+  },
+
+  "goals_H1_SHARE": {"value": 0.4394, "n": 106328, "status": "CONFIRMED_CORRECT__NO_CHANGE", "note": "= the wired constant; total-goals conditioning gradient 0.425->0.445 negligible"},
+
+  "FLAGGED_UNSOLVED__STOPGAP_NOT_TRUE_P__HIGH_PRIORITY": {
+    "corners_1h": {"floor": 0.389, "reason": "data wall blocks favorite_gap-conditioned half model; flat floor ignores favorite_gap. OPEN."},
+    "corners_2h": {"floor": 0.410, "reason": "same data wall. OPEN."},
+    "cards_2h_over_1plus": {"floor": 0.660, "reason": "base-rate floor, n=1 resolved (lowest confidence), unconditioned. Not validated, not true P. OPEN."},
+    "cards_more_2h": {"floor": 0.333, "reason": "base-rate floor, huge ties, low-count non-predictable. OPEN."},
+    "penalty_awarded": {"floor": 0.30, "reason": "base-rate stopgap, unconditioned. OPEN."},
+    "penalty_or_red_card": {"floor": 0.40, "reason": "base-rate stopgap, unconditioned. OPEN."},
+    "offsides_over": {"floor": 0.59, "reason": "base-rate floor; NEVER gate-tested for conditioning. OPEN."},
+    "benched_player_sot_over": {"reason": "no P(on)xP(SOT|minutes) model; super-sub band direction-right/magnitude-uncertain. OPEN."}
+  }
+}

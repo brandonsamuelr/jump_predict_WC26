@@ -1,0 +1,228 @@
+{
+  "_meta": {
+    "fit_utc": "2026-06-26T04:01:48Z",
+    "corpus": "data/historical/sgo_settlement_corpus.csv",
+    "note": "MEASURED base-rate anchors + OOS gate for shadow-family routes"
+  },
+  "both_teams_sot_1h": {
+    "verdict": "validated",
+    "n": 407,
+    "n_test": 82,
+    "lam_total_proxy": 2.9572,
+    "brier_model": 0.19303,
+    "brier_base": 0.19641,
+    "oos_delta": 0.00337,
+    "base_rate": 0.7396,
+    "indep_check": {
+      "P_home_ge1": 0.8968,
+      "P_away_ge1": 0.8231,
+      "product": 0.7382,
+      "empirical_both": 0.7396,
+      "phi_corr": 0.0121
+    },
+    "sot_per_goal": 3.0209
+  },
+  "both_teams_sot_2h_1plus": {
+    "verdict_fixed": "validated",
+    "verdict_volume": "failed",
+    "n": 406,
+    "n_test": 82,
+    "brier_fixed": 0.15907,
+    "brier_volume": 0.18736,
+    "brier_base": 0.16497,
+    "oos_delta_fixed": 0.00591,
+    "oos_delta_volume": -0.02239,
+    "volume_monotonicity_P_both_by_goals_tertile": {
+      "low": 0.6971,
+      "mid": 0.8792,
+      "high": 0.939
+    },
+    "base_rate": 0.8128,
+    "indep_check": {
+      "P_home_ge1": 0.931,
+      "P_away_ge1": 0.8645,
+      "product": 0.8049,
+      "empirical_both": 0.8128,
+      "phi_corr": 0.0911
+    }
+  },
+  "first_goal_2h": {
+    "derivation": "closed_form_engine_lambda_half_split",
+    "home": 0.4701,
+    "away": 0.331,
+    "p_any_2h_goal": 0.8011,
+    "n": 528
+  },
+  "team_offsides_over_ge2": {
+    "p_ge2_pooled": 0.4782,
+    "team_ge_club_reference": {
+      "1": 0.8013,
+      "2": 0.4782,
+      "3": 0.2436,
+      "4": 0.1205,
+      "5": 0.0462
+    },
+    "team_ge": {
+      "1": 0.7824,
+      "2": 0.4505,
+      "3": 0.1975,
+      "4": 0.0688,
+      "5": 0.0198
+    },
+    "wc_match_mean_offsides": 3.05,
+    "wc_team_mean": 1.525,
+    "wc_source": "WC2026 3.05 offsides/match (Squawka/PerformanceOdds); /2 per team; Poisson per-threshold",
+    "mean_offsides_club": 1.729,
+    "n_club": 780,
+    "is_floor_no_edge": true,
+    "per_match_search": {
+      "baseline": "pooled_base_rate_vs_ACTUAL_OUTCOMES_brier_not_chat",
+      "drivers": {
+        "fg_team": {
+          "oos_delta_vs_base": -0.00019,
+          "beats_base": false
+        },
+        "is_home": {
+          "oos_delta_vs_base": -0.00175,
+          "beats_base": false
+        },
+        "tot_goals": {
+          "oos_delta_vs_base": -0.00024,
+          "beats_base": false
+        },
+        "tot_shots": {
+          "oos_delta_vs_base": -0.00238,
+          "beats_base": false
+        }
+      },
+      "verdict": "NO_per_match_signal_oos__measured_rate_is_last_resort_floor__no_edge"
+    }
+  },
+  "cards_2h": {
+    "team_ge": {
+      "1": 0.7766,
+      "2": 0.4264,
+      "3": 0.1929,
+      "4": 0.0533
+    },
+    "total_ge": {
+      "1": 0.9365,
+      "2": 0.7665,
+      "3": 0.5381,
+      "4": 0.3401,
+      "5": 0.1904,
+      "6": 0.1041,
+      "7": 0.0279
+    },
+    "team_mean": 1.466,
+    "total_mean": 2.931,
+    "n_team": 788,
+    "is_floor_no_clean_signal": true,
+    "gate": {
+      "team": {
+        "feature": "fg_team",
+        "results": [
+          {
+            "k": 1,
+            "coef": 0.041,
+            "delta_vs_base": -5e-05
+          },
+          {
+            "k": 2,
+            "coef": 0.152,
+            "delta_vs_base": 0.00043
+          }
+        ],
+        "verdict": "no_clean_signal_floor"
+      },
+      "total": {
+        "signed_fg": [
+          {
+            "k": 2,
+            "coef": -0.395,
+            "delta_vs_base": 0.00105
+          },
+          {
+            "k": 3,
+            "coef": -0.219,
+            "delta_vs_base": 0.00286
+          },
+          {
+            "k": 4,
+            "coef": -0.227,
+            "delta_vs_base": 0.00076
+          }
+        ],
+        "abs_fg_clean_mechanism": [
+          {
+            "k": 2,
+            "coef": -1.157,
+            "delta_vs_base": -0.00043
+          },
+          {
+            "k": 3,
+            "coef": -1.065,
+            "delta_vs_base": -0.00262
+          },
+          {
+            "k": 4,
+            "coef": -0.731,
+            "delta_vs_base": -0.00206
+          }
+        ],
+        "verdict": "weak_signed_signal_beats_base_but_clean_|fg|_fails__floored_pending_clean_driver"
+      }
+    }
+  },
+  "penalties": {
+    "penalty_awarded": 0.2442,
+    "penalty_or_red_card": 0.3161,
+    "_source": {
+      "pen_per_game": 0.28,
+      "red_per_game": 0.1,
+      "p_pen": 0.2442,
+      "p_red": 0.0952,
+      "note": "pen 0.28/g (5-WC 2006-2022, 88 pens); red 0.10/g (modern VAR-era WC); P(>=1)=1-e^-rate (Poisson); union=indep approx"
+    }
+  },
+  "corners": {
+    "team_ge": {
+      "1": 0.9829,
+      "2": 0.9059,
+      "3": 0.7958,
+      "4": 0.6516,
+      "5": 0.4976,
+      "6": 0.3802,
+      "7": 0.2604,
+      "8": 0.1711,
+      "9": 0.1064,
+      "10": 0.0648,
+      "11": 0.044,
+      "12": 0.0257
+    },
+    "total_ge": {
+      "3": 0.9927,
+      "4": 0.9756,
+      "5": 0.9535,
+      "6": 0.9022,
+      "7": 0.8289,
+      "8": 0.7139,
+      "9": 0.6259,
+      "10": 0.5306,
+      "11": 0.3936,
+      "12": 0.3081,
+      "13": 0.2372,
+      "14": 0.1638,
+      "15": 0.1076,
+      "16": 0.0489,
+      "17": 0.0293,
+      "18": 0.0196,
+      "19": 0.0098,
+      "20": 0.0024,
+      "21": 0.0024
+    },
+    "team_mean": 4.932,
+    "total_mean": 9.863,
+    "n_team": 818
+  }
+}

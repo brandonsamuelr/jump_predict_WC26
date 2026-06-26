@@ -19,18 +19,30 @@ import pandas as pd
 DEFAULT_HISTORY = "data/historical/sportspredict_collected_data.csv"
 MIN_COUNT = 4  # below this, fall back (type base rate if known, else global mean)
 
-# Computed contest-resolved base rates for question types whose qt-mean has too
-# few historical rows to clear MIN_COUNT — so they'd otherwise hit the global
-# ~0.49 fallback, which is a BAD anchor for them. A bad c_hat can't be fixed by
-# any submission multiplier (the rule is c_hat + k*(p_model-c_hat)), so we fix
-# the baseline directly.
+# UNVALIDATED PLACEHOLDER anchors (pending the outcome gate, odds_lib/validation.py)
+# for question types whose qt-mean has too few historical rows to clear MIN_COUNT,
+# so they'd otherwise hit the global ~0.49 fallback. These are a less-bad FALLBACK,
+# NOT a validated base rate: they were set from agreement with the realized CROWD
+# on a tiny sample, which is NOT evidence they predict the OUTCOME (matching the
+# crowd earns zero edge by construction). Do not treat as "reliable" — they stay
+# placeholders until they pass the gate against actual outcomes.
 TYPE_BASE_RATE = {
-    # n=3 field-resolved instances (0.63/0.64/0.60), tight. The full-match x0.55
-    # ESPN diagnostic says ~0.84 — the gap is the SOT definition mismatch (ESPN
-    # counts more than the contest resolves), so the contest-resolved ~0.62 is
-    # the correct anchor and confirms the ESPN-calibrated model ran high. SOFT
-    # (n=3); hardens as resolved outcomes on this row accumulate.
+    # total_sot_2h_over: n=3 crowd-AGREEMENT instances (0.63/0.64/0.60); tight but
+    # NOT outcome-gate-validated. Kept only as a less-bad fallback than the 0.49
+    # global mean. UNVALIDATED placeholder; value unchanged here (labeling only).
     "total_sot_2h_over": 0.623,
+}
+
+# OUTCOME-derived shadow recalibrations (highest precedence — used INSTEAD of the
+# crowd qt-mean). Distinct from TYPE_BASE_RATE (crowd-agreement fallback): these are
+# set from REALIZED outcomes where the qt-mean is measurably off.
+TYPE_SHADOW_OVERRIDE = {
+    # team_more_fouls: crowd qt-mean is 0.535, but realized outcomes are 0.500
+    # (15/30 historical) and 0.50 is the principled symmetric base for "does THIS
+    # team foul more" (each side equally likely, minus ties). The fouls diagnostic
+    # confirmed the model can't beat shadow (would lose -7.31 RBP on actual rows),
+    # so the only data-supported fix is this VALUE recalibration.
+    "team_more_fouls": 0.50,
 }
 
 
@@ -58,6 +70,9 @@ class FieldMeanEstimator:
     def estimate(self, question_type: str | None) -> FieldEstimate:
         qt = (question_type or "").strip().lower()
         rec = self._by_type.get(qt)
+        if qt in TYPE_SHADOW_OVERRIDE:  # outcome-derived recalibration, highest precedence
+            return FieldEstimate(q_hat=TYPE_SHADOW_OVERRIDE[qt], source="outcome_base_rate",
+                                 n=(rec[2] if rec else 0), std=None)
         if rec is not None and rec[2] >= MIN_COUNT:
             return FieldEstimate(q_hat=rec[0], source="qt_mean", n=rec[2], std=rec[1])
         if qt in TYPE_BASE_RATE:  # better-sourced fallback than the global ~0.49 mean

@@ -16,8 +16,10 @@ Two endpoints are supported:
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -28,6 +30,41 @@ from dotenv import load_dotenv
 
 API_BASE = "https://api.the-odds-api.com/v4"
 RAW_DIR = Path("data/raw")
+
+
+def _safe_markets(markets: str) -> str:
+    """Filename-safe market segment. Long market lists (now incl. corners/cards/2H)
+    would blow past the OS 255-char filename limit, so they collapse to a short
+    stable hash. latest_*_cache globs match this segment with ``*`` regardless."""
+    s = markets.replace(",", "-")
+    if len(s) > 80:
+        s = "mkts" + hashlib.md5(markets.encode()).hexdigest()[:12]
+    return s
+
+
+def _persist(payload: str, canonical: Path, fallback: Path) -> Path:
+    """Persist a fetched response so a PAID (200) fetch can NEVER be lost.
+
+    Normal path: write the canonical cache file. If that write fails for ANY
+    reason (filename length, permissions, disk, ...), write a SHORT deterministic
+    fallback (event_id + timestamp only — cannot fail the long-name way) and warn
+    to stderr; do NOT re-raise — a successful fetch must not be killed by a write
+    problem. Returns the path actually written so the caller can read it back.
+    Only re-raises if even the fallback write fails (data is genuinely unwritable).
+    """
+    try:
+        canonical.write_text(payload)
+        return canonical
+    except Exception as e:
+        try:
+            fallback.write_text(payload)
+        except Exception as e2:
+            raise RuntimeError(
+                f"paid fetch could not be persisted: canonical failed ({e}) AND "
+                f"fallback failed ({e2})") from e2
+        print(f"WARNING: canonical cache write failed ({e}); persisted FALLBACK "
+              f"{fallback.name} instead — paid fetch preserved.", file=sys.stderr)
+        return fallback
 
 
 def _api_key() -> str:
@@ -89,10 +126,11 @@ def fetch_odds(
 
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     raw_dir.mkdir(parents=True, exist_ok=True)
-    safe_markets = markets.replace(",", "-")
+    safe_markets = _safe_markets(markets)
     safe_regions = regions.replace(",", "-")
-    out = raw_dir / f"{sport}__{safe_markets}__{safe_regions}__{ts}.json"
-    out.write_text(json.dumps(resp.json(), indent=2))
+    canonical = raw_dir / f"{sport}__{safe_markets}__{safe_regions}__{ts}.json"
+    fallback = raw_dir / f"fallback__{safe_regions}__{ts}.json"
+    out = _persist(json.dumps(resp.json(), indent=2), canonical, fallback)
 
     print(f"wrote {out}")
     print(
@@ -133,13 +171,16 @@ def fetch_event_odds(
 
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     raw_dir.mkdir(parents=True, exist_ok=True)
-    safe_markets = markets.replace(",", "-")
+    safe_markets = _safe_markets(markets)
     safe_regions = regions.replace(",", "-")
-    out = (
+    canonical = (
         raw_dir
         / f"{sport}__event-{event_id}__{safe_markets}__{safe_regions}__{ts}.json"
     )
-    out.write_text(json.dumps(resp.json(), indent=2))
+    # fallback: event_id + timestamp ONLY -> guaranteed short, cannot fail the
+    # long-name way that crashed the live lock.
+    fallback = raw_dir / f"fallback__event-{event_id}__{ts}.json"
+    out = _persist(json.dumps(resp.json(), indent=2), canonical, fallback)
 
     print(
         f"  wrote {out.name}  "
@@ -175,6 +216,8 @@ def latest_bulk_cache(sport: str, regions: str, raw_dir: Path = RAW_DIR) -> Path
     candidates = [
         p for p in raw_dir.glob(pattern) if "__event-" not in p.name
     ]
+    # also accept a bulk FALLBACK cache (written when the canonical write failed)
+    candidates += list(raw_dir.glob(f"fallback__{safe_regions}__*.json"))
     if not candidates:
         raise FileNotFoundError(
             f"no bulk cache matches {pattern} (excluding per-event); "
@@ -187,10 +230,17 @@ def latest_bulk_cache(sport: str, regions: str, raw_dir: Path = RAW_DIR) -> Path
 def latest_event_cache(
     sport: str, event_id: str, regions: str, raw_dir: Path = RAW_DIR
 ) -> Path | None:
-    """Return the newest per-event cache for this event, or None if absent."""
+    """Return the newest per-event cache for this event, or None if absent.
+
+    Looks across BOTH the canonical pattern and the short fallback pattern
+    (written when a canonical write failed), newest-wins by filename timestamp,
+    so a fallback-persisted fetch is still found downstream.
+    """
     safe_regions = regions.replace(",", "-")
     pattern = f"{sport}__event-{event_id}__*__{safe_regions}__*.json"
-    candidates = sorted(raw_dir.glob(pattern), key=_cache_timestamp)
+    candidates = list(raw_dir.glob(pattern))
+    candidates += list(raw_dir.glob(f"fallback__event-{event_id}__*.json"))
+    candidates.sort(key=_cache_timestamp)
     return candidates[-1] if candidates else None
 
 

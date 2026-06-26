@@ -1,0 +1,40 @@
+{
+  "offsides_over": {
+    "family": "offsides_over",
+    "status": "anchor_no_conditional_signal",
+    "line": "team offsides >= 2 (line 1.5)",
+    "base_rate_anchor": 0.4559,
+    "intercept": -0.17709894176908472,
+    "coefs": {
+      "favorite_gap": 0.018255091986486338
+    },
+    "oos_brier_model": 0.2082,
+    "oos_brier_base": 0.2083,
+    "feature": "favorite_gap (team perspective)",
+    "n_fit": 1020,
+    "note": "favorite_gap coef ~0 (OOS d~0) -> NOT conditionally foundable; base-rate anchor. intl offsides sparse in corpus -> pooled rate used; StatsBomb intl est ~0.59 (higher) noted.",
+    "anchor_pooled": 0.478,
+    "anchor_value": 0.478,
+    "statsbomb_intl_ref": 0.59
+  },
+  "half_sot_cmp": {
+    "family": "half_sot_cmp",
+    "status": "validated_not_wired_existing_route",
+    "line": "team more SOT in 2H (ties->NO)",
+    "base_rate_anchor": 0.4068,
+    "intercept": -0.4127369047067665,
+    "coefs": {
+      "favorite_gap": 1.304725805078087
+    },
+    "oos_brier_model": 0.2197,
+    "oos_brier_base": 0.2478,
+    "feature": "favorite_gap (team perspective)",
+    "n_fit": 812,
+    "note": "validated (coef +1.3, OOS d -0.028) but team_more_sot_2h already on RATE_SOT_CMP (resolved-row validated +71.86); cross-check only, not double-wired"
+  },
+  "_meta": {
+    "source": "sgo_settlement_corpus.csv",
+    "gate": "OOS last-20%-by-date Brier vs base-rate; failed_oos -> auto-anchor",
+    "fit": "2026-06-25"
+  }
+}

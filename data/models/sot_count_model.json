@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "fit_utc": "2026-06-24T16:53:30Z",
+    "n_rows": 92266,
+    "features": [
+      "favorite_gap",
+      "total_line_prob"
+    ],
+    "corpus": "data/historical/stat_lines.csv",
+    "source": "club football (football-data.co.uk)",
+    "note": "OOS-validated via scripts/validate_sot.py; deployed fit on full corpus"
+  },
+  "thresholds": {
+    "2": {
+      "intercept": 0.4805278855251712,
+      "favorite_gap": 2.5728593546915275,
+      "total_line_prob": 3.7243541434203102,
+      "base_rate": 0.8891465978800425
+    },
+    "3": {
+      "intercept": -0.5679469699236211,
+      "favorite_gap": 2.3313565131540135,
+      "total_line_prob": 3.6041819556560237,
+      "base_rate": 0.7465371859623263
+    },
+    "4": {
+      "intercept": -1.4297015391197032,
+      "favorite_gap": 2.1939543794604144,
+      "total_line_prob": 3.5628730503458117,
+      "base_rate": 0.5722909847614506
+    },
+    "5": {
+      "intercept": -2.2704959684113284,
+      "favorite_gap": 2.1679661298783297,
+      "total_line_prob": 3.727704776739936,
+      "base_rate": 0.4054798083801184
+    },
+    "6": {
+      "intercept": -3.081789133527909,
+      "favorite_gap": 2.213077668657463,
+      "total_line_prob": 3.901983504349703,
+      "base_rate": 0.26525480675438406
+    }
+  }
+}

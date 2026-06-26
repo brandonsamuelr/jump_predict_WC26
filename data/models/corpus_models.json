@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "fit_utc": "2026-06-24T18:19:11Z",
+    "corpus": "data/historical/stat_lines.csv",
+    "source": "club football (football-data.co.uk)",
+    "note": "OOS-gate-validated; deployed fit on full corpus"
+  },
+  "team_more_cards": {
+    "features": [
+      "favorite_gap",
+      "total_line_prob",
+      "is_home"
+    ],
+    "coefs": {
+      "favorite_gap": -0.9703502025993977,
+      "total_line_prob": -0.30303330686122054,
+      "is_home": -0.23472523120849043
+    },
+    "intercept": -0.20701296355701032,
+    "base_rate": 0.387,
+    "n": 92266
+  },
+  "match_total_sot_over": {
+    "features": [
+      "favorite_gap",
+      "total_line_prob"
+    ],
+    "thresholds": {
+      "6": {
+        "coefs": {
+          "favorite_gap": 0.05824744756258293,
+          "total_line_prob": 5.719713434087279
+        },
+        "intercept": -1.2463964582164573,
+        "base_rate": 0.8237
+      },
+      "7": {
+        "coefs": {
+          "favorite_gap": 0.057518615239049116,
+          "total_line_prob": 5.530554918779728
+        },
+        "intercept": -1.794492262666864,
+        "base_rate": 0.7161
+      },
+      "8": {
+        "coefs": {
+          "favorite_gap": 0.026211650080560603,
+          "total_line_prob": 5.47577415224678
+        },
+        "intercept": -2.3469514628990797,
+        "base_rate": 0.5907
+      },
+      "9": {
+        "coefs": {
+          "favorite_gap": -0.005276755550677852,
+          "total_line_prob": 5.425462917008444
+        },
+        "intercept": -2.8576763782046357,
+        "base_rate": 0.4634
+      },
+      "10": {
+        "coefs": {
+          "favorite_gap": -0.009113276667871513,
+          "total_line_prob": 5.614124843622027
+        },
+        "intercept": -3.4750955090740026,
+        "base_rate": 0.3444
+      }
+    },
+    "n": 46133
+  }
+}

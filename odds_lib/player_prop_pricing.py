@@ -406,9 +406,36 @@ def price_player_prop(
     )
 
 
+# Benched-player prop: a confirmed-bench player's true-P is NOT the starter read (assumes 90'),
+# nor a shadow constant. It's a principled minutes-scaled closed form:
+#   P(event) = P(appears) * [1 - (1 - p_starter)^(sub_minutes / 90)]
+# where p_starter is the de-vigged STARTER market read (the book prices him as if he plays a full
+# match). (appearance_prob, expected_sub_minutes) keyed on bench-usage status. out_of_squad -> None
+# (no appearance -> route stays PENDING). Defaults: a rested star (high usage) ~0.85 appearance/35',
+# scaling down for lower-usage / unknown. Documented, transfer-safe (no team identity).
+SUB_PROFILE: dict[str, tuple[float, float]] = {
+    "bench_high_usage": (0.85, 35.0),
+    "bench_unknown":    (0.70, 28.0),
+    "bench_low_usage":  (0.45, 20.0),
+}
+
+
+def minutes_scaled_sub(p_starter: float | None, status: str) -> float | None:
+    """Minutes-scaled benched-player prob; None if status is not a sub-eligible bench status."""
+    if p_starter is None:
+        return None
+    prof = SUB_PROFILE.get((status or "").strip().lower())
+    if prof is None:
+        return None
+    appearance, minutes = prof
+    return float(appearance * (1.0 - (1.0 - float(p_starter)) ** (minutes / 90.0)))
+
+
 __all__ = [
     "PropSpec",
     "PropPricing",
+    "SUB_PROFILE",
+    "minutes_scaled_sub",
     "PROP_EQUIVALENCE",
     "ANYTIME_SCORER_OVERROUND",
     "SOT_OVERROUND",
