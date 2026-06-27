@@ -215,3 +215,43 @@ run_id,match,question_number,question_type,tier,weak_row_class,source,p_hat,shad
 2026-06-26,Norway vs France,Q8,match_total_sot_over,MATCH_SOT,,pregame_T30,,,,,,0.760,,1,Yes,11.06,63,11,-15,26
 2026-06-26,Norway vs France,Q9,team_score_any,TEAMGOALS_OK,,pregame_T30,,,,,,0.600,direct team-total market (strict-equiv wiring),1,Yes,1.63,61,2,5,6
 2026-06-26,Norway vs France,Q10,team_score_1h,ENGINE_GOALS_H1MKT,,pregame_T30,,,,,,0.680,,1,Yes,5.68,62,,,
+2026-06-27,Cape Verde vs Saudi Arabia,Q1,team_more_fouls,FOUL_CMP,,pregame_T30,,,,,,0.460,,1,No,1.44,45,3,1,5
+2026-06-27,Cape Verde vs Saudi Arabia,Q2,both_teams_sot_2h_1plus,BOTH_SOT_2H,,pregame_T30,,,,,,0.800,,1,Yes,10.09,66,10,-18,28
+2026-06-27,Cape Verde vs Saudi Arabia,Q3,team_more_cards,MORE_CARDS,,pregame_T30,,,,,,0.420,,1,Yes,-3.29,46,-3,6,9
+2026-06-27,Cape Verde vs Saudi Arabia,Q4,penalty_awarded,PENALTY_BASE,,pregame_T30,,,,,,0.240,penalty-only anchor,1,No,3.79,28,-4,4,7
+2026-06-27,Cape Verde vs Saudi Arabia,Q5,team_offsides_over,OFFSIDES_FLOOR,,pregame_T30,,,,,,0.420,EB pooled prior (CV uncovered),1,Yes,-2.72,47,-3,7,10
+2026-06-27,Cape Verde vs Saudi Arabia,Q6,team_more_sot_2h,RATE_SOT_CMP,,pregame_T30,,,,,,0.410,,1,No,4.69,44,-2,5,7
+2026-06-27,Cape Verde vs Saudi Arabia,Q7,team_win,MARKET,,pregame_T30,,,,,,0.350,,1,No,5.24,39,-4,5,9
+2026-06-27,Cape Verde vs Saudi Arabia,Q8,team_score_2h,ENGINE_GOALS_H1MKT,,pregame_T30,,,,,,0.500,engine lam==direct team-total mkt (confirmed),1,No,0.88,49,3,1,4
+2026-06-27,Cape Verde vs Saudi Arabia,Q9,player_goal_or_assist,PROP_direct_thin,,pregame_T30,,,,,,0.310,Ryan Mendes starter,1,No,1.21,30,3,1,4
+2026-06-27,Cape Verde vs Saudi Arabia,Q10,player_goal,PROP_ok,,pregame_T30,,,,,,0.210,Salem Al-Dawsari starter,1,No,3.89,25,-5,4,8
+2026-06-27,Uruguay vs Spain,Q1,team_more_fouls,FOUL_CMP,,pregame_T30,,,,,,0.530,,1,No,7.93,58,-3,8,11
+2026-06-27,Uruguay vs Spain,Q2,team_more_sot_2h,RATE_SOT_CMP,,pregame_T30,,,,,,0.170,RATE_SOT_CMP favorite-tail; shipped as-is (flagged ~+0.05 possible),1,Yes,-16.85,29,-17,8,25
+2026-06-27,Uruguay vs Spain,Q3,player_sot_2h_over,PROP_SUB,,pregame_T30,,,,,,0.260,Dani Olmo BENCH; derived = minutes_scaled_sub full-SOT ~= 2H (sub plays only 2H),1,No,9.05,35,-10,9,19
+2026-06-27,Uruguay vs Spain,Q4,team_score_any,TEAMGOALS_OK,,pregame_T30,,,,,,0.570,direct team-total market,1,No,-1.76,54,5,-2,7
+2026-06-27,Uruguay vs Spain,Q5,halftime_draw,MARKET,,pregame_T30,,,,,,0.430,,1,No,-0.01,41,4,0,4
+2026-06-27,Uruguay vs Spain,Q6,match_total_under,MARKET,,pregame_T30,,,,,,0.530,,1,Yes,8.51,47,9,-3,12
+2026-06-27,Uruguay vs Spain,Q7,total_goals_2h_over,H2GOALS_OK,,pregame_T30,,,,,,0.430,,1,No,3.4,44,0,3,4
+2026-06-27,Uruguay vs Spain,Q8,total_corners_over,CORNERS_OK,,pregame_T30,,,,,,0.550,,1,No,3.8,56,2,4,5
+2026-06-27,Uruguay vs Spain,Q9,total_cards_over,CARDS_OK,,pregame_T30,,,,,,0.420,,1,Yes,-2.06,46,-2,6,8
+2026-06-27,Uruguay vs Spain,Q10,player_sot_over,PROP_thin,,pregame_T30,,,,,,0.510,Darwin Núñez starter,1,No,-0.73,47,6,-1,7
+2026-06-27,New Zealand vs Belgium,Q1,both_teams_sot_1h,BOTH_SOT_1H,,pregame_T12,,,,,,0.730,,1,No,-14.41,60,12,-14,26
+2026-06-27,New Zealand vs Belgium,Q2,team_more_fouls,FOUL_CMP,,pregame_T12,,,,,,0.590,,1,Yes,3.36,57,3,0,4
+2026-06-27,New Zealand vs Belgium,Q3,team_card_2h,CARDS_2H_MKT,,pregame_T12,,,,,,0.560,,1,No,-2.67,51,7,-3,9
+2026-06-27,New Zealand vs Belgium,Q4,compound_btts_over_2_5,ENGINE_GOALS,,pregame_T12,,,,,,0.490,,1,Yes,12.11,40,12,-5,17
+2026-06-27,New Zealand vs Belgium,Q5,team_sot_2h_over,RATE_SOT,,pregame_T12,,,,,,0.450,,1,Yes,4.77,43,5,1,6
+2026-06-27,New Zealand vs Belgium,Q6,team_more_cards,MORE_CARDS,,pregame_T12,,,,,,0.510,,1,Yes,2.71,50,3,1,4
+2026-06-27,New Zealand vs Belgium,Q7,team_score_any,TEAMGOALS_OK,,pregame_T12,,,,,,0.550,,1,Yes,9.21,48,9,-5,14
+2026-06-27,New Zealand vs Belgium,Q8,team_score_2h,ENGINE_GOALS_H1MKT,,pregame_T12,,,,,,0.800,,1,Yes,6.28,71,6,-13,19
+2026-06-27,New Zealand vs Belgium,Q9,team_sot_over,SOT_COUNT,,pregame_T12,,,,,,0.950,,1,Yes,9.52,73,10,-34,43
+2026-06-27,New Zealand vs Belgium,Q10,player_sot_over,PROP_thin,,pregame_T12,,,,,,0.480,,1,No,-2.11,43,8,-2,10
+2026-06-27,Egypt vs Iran,Q1,team_offsides_over,OFFSIDES_TEAM,,pregame_T12,,,,,,0.430,,1,Yes,-2.43,47,-2,5,8
+2026-06-27,Egypt vs Iran,Q2,team_more_sot_2h,RATE_SOT_CMP,,pregame_T12,,,,,,0.370,,1,No,3.86,40,-2,4,6
+2026-06-27,Egypt vs Iran,Q3,team_more_corners_full,CORNERS_CMP_OK,,pregame_T12,,,,,,0.410,,1,No,2.46,42,1,2,4
+2026-06-27,Egypt vs Iran,Q4,team_win,MARKET,,pregame_T12,,,,,,0.370,,1,No,7.3,43,-5,7,13
+2026-06-27,Egypt vs Iran,Q5,match_total_under,MARKET,,pregame_T12,,,,,,0.670,,1,Yes,8.4,58,8,-9,17
+2026-06-27,Egypt vs Iran,Q6,total_goals_2h_over,H2GOALS_OK,,pregame_T12,,,,,,0.330,,1,No,4.67,37,-4,5,8
+2026-06-27,Egypt vs Iran,Q7,total_cards_over,CARDS_OK,,pregame_T12,,,,,,0.350,,1,Yes,-9.57,45,-10,10,19
+2026-06-27,Egypt vs Iran,Q8,team_sot_over,SOT_COUNT,,pregame_T12,,,,,,0.700,,1,Yes,4.8,66,5,-3,8
+2026-06-27,Egypt vs Iran,Q9,player_sot_over,PROP_derived,,pregame_T12,,,,,,0.530,,1,Yes,14.01,42,14,-8,22
+2026-06-27,Egypt vs Iran,Q10,player_sot_over,PROP_thin,,pregame_T12,,,,,,0.570,,1,Yes,9.89,49,10,-6,16

@@ -1,0 +1,7109 @@
+{
+  "id": "22f6ac06dfcc88a847920f62633e6459",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-26T02:00:00Z",
+  "home_team": "Paraguay",
+  "away_team": "Australia",
+  "bookmakers": [
+    {
+      "key": "winamax_de",
+      "title": "Winamax (DE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:18Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 300
+            },
+            {
+              "name": "Paraguay",
+              "price": 160
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:50Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 295
+            },
+            {
+              "name": "Paraguay",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tipico_de",
+      "title": "Tipico",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:49Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 320
+            },
+            {
+              "name": "Paraguay",
+              "price": 140
+            },
+            {
+              "name": "Draw",
+              "price": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_uk",
+      "title": "Unibet (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:29Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 325
+            },
+            {
+              "name": "Paraguay",
+              "price": 160
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:16Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 340
+            },
+            {
+              "name": "Paraguay",
+              "price": 165
+            },
+            {
+              "name": "Draw",
+              "price": 120
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-26T01:40:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": -156,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": 320,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -460,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": 3300,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 3300,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": -215,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": 164,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 255,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -360,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:40:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 240,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 1600,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -520,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 4000,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 590,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -128,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -310,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -6000,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -950,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 104,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T01:40:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -1200,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 148,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -230,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -470,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 1000,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 680,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 2800,
+              "point": 14.5
+            },
+            {
+              "name": "Over",
+              "price": 1500,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": 250,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 410,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 580,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 168,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 310,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -4000,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -1600,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -360,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -700,
+              "point": 10.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:40:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 122
+            },
+            {
+              "name": "No",
+              "price": -156
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T01:40:06Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 280
+            },
+            {
+              "name": "Paraguay",
+              "price": 270
+            },
+            {
+              "name": "Draw",
+              "price": -135
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T01:40:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Gabriel Avalos",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Nestory Irankunda",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Volpato",
+              "price": 410
+            },
+            {
+              "name": "Yes",
+              "description": "Julio Cesar Enciso",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Conor Metcalfe",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Matias Galarza Fonda",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Jackson Irvine",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Bos",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Souttar",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Omar Alderete",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Aiden O'Neill",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Gomez",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Alexandro Maidana",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Herrington",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Aziz Eraltay Behich",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Victor Gustavo Velazquez",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Alessandro Circati",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Jose Caceres",
+              "price": 3000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-26T01:40:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Julio Cesar Enciso",
+              "price": -200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gabriel Avalos",
+              "price": -175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nestory Irankunda",
+              "price": -145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Volpato",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Conor Metcalfe",
+              "price": 140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jackson Irvine",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Matias Galarza Fonda",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aziz Eraltay Behich",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexandro Maidana",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Omar Alderete",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Souttar",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan Bos",
+              "price": 310,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Gomez",
+              "price": 390,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alessandro Circati",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aiden O'Neill",
+              "price": 460,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Victor Gustavo Velazquez",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Juan Jose Caceres",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Herrington",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Julio Cesar Enciso",
+              "price": 240,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Gabriel Avalos",
+              "price": 290,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nestory Irankunda",
+              "price": 380,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Volpato",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Conor Metcalfe",
+              "price": 950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jackson Irvine",
+              "price": 1000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Matias Galarza Fonda",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexandro Maidana",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Aziz Eraltay Behich",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Omar Alderete",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Julio Cesar Enciso",
+              "price": 900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Gabriel Avalos",
+              "price": 1100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Nestory Irankunda",
+              "price": 1700,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-26T01:40:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Julio Cesar Enciso",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Gabriel Avalos",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Volpato",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Nestory Irankunda",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Conor Metcalfe",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Matias Galarza Fonda",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Jackson Irvine",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Bos",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Aiden O'Neill",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Alexandro Maidana",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Aziz Eraltay Behich",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Souttar",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Omar Alderete",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Jose Caceres",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Gomez",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Herrington",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Victor Gustavo Velazquez",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Alessandro Circati",
+              "price": 1200
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-26T01:40:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": -156,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": -215,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": 164,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 240,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -310,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-26T01:40:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -130,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 102,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:39Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 335
+            },
+            {
+              "name": "Paraguay",
+              "price": 171
+            },
+            {
+              "name": "Draw",
+              "price": 124
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:39Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -128,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T01:40:39Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 376
+            },
+            {
+              "name": "Paraguay",
+              "price": 250
+            },
+            {
+              "name": "Draw",
+              "price": -128
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-26T01:40:39Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -133,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 104,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:31Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 333
+            },
+            {
+              "name": "Paraguay",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:40:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -588,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -137,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 225,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 550,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 1700,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -303,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -1000,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -5000,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:40:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -149
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T01:40:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Omar Alderete",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Matias Galarza Fonda",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Gabriel Avalos",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Julio Cesar Enciso",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Jose Caceres",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Gomez",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Victor Gustavo Velazquez",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Alexandro Maidana",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Herrington",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Bos",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Aziz Eraltay Behich",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Aiden O'Neill",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Conor Metcalfe",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Souttar",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Nestory Irankunda",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Jackson Irvine",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Alessandro Circati",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Volpato",
+              "price": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 333
+            },
+            {
+              "name": "Paraguay",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 125
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:40:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 230,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -138,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 600,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -350,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -1400,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:40:24Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "price": -167
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 340
+            },
+            {
+              "name": "Paraguay",
+              "price": 164
+            },
+            {
+              "name": "Draw",
+              "price": 150
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 350
+            },
+            {
+              "name": "Paraguay",
+              "price": 166
+            },
+            {
+              "name": "Draw",
+              "price": 152
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:39:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 295,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 2100,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -104,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 15900,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 5900,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 15900,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 99900,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 720,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -303,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -2500,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 102,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -769,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-26T01:39:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 198,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -238,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T01:39:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 166,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 450,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -179,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -476,
+              "point": 10.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:39:47Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 166
+            },
+            {
+              "name": "No",
+              "price": -172
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T01:39:47Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Gabriel Avalos",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Julio Cesar Enciso",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Nestory Irankunda",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Volpato",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 720
+            },
+            {
+              "name": "Yes",
+              "description": "Matias Galarza Fonda",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Conor Metcalfe",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Jackson Irvine",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Bos",
+              "price": 1350
+            },
+            {
+              "name": "Yes",
+              "description": "Omar Alderete",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Souttar",
+              "price": 1450
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Gomez",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Alexandro Maidana",
+              "price": 1850
+            },
+            {
+              "name": "Yes",
+              "description": "Aiden O'Neill",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Herrington",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Aziz Eraltay Behich",
+              "price": 2100
+            },
+            {
+              "name": "Yes",
+              "description": "Victor Gustavo Velazquez",
+              "price": 2300
+            },
+            {
+              "name": "Yes",
+              "description": "Alessandro Circati",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Jose Caceres",
+              "price": 2400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_eu",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 340
+            },
+            {
+              "name": "Paraguay",
+              "price": 164
+            },
+            {
+              "name": "Draw",
+              "price": 150
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 350
+            },
+            {
+              "name": "Paraguay",
+              "price": 166
+            },
+            {
+              "name": "Draw",
+              "price": 152
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coolbet",
+      "title": "Coolbet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 315
+            },
+            {
+              "name": "Paraguay",
+              "price": 165
+            },
+            {
+              "name": "Draw",
+              "price": 143
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 820,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -367,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -250,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": 710,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": 2150,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "price": 295,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 2200,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 225,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -1261,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 210,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -1023,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -9990,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": -355,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -12214,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -256,
+              "point": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:39:44Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 300
+            },
+            {
+              "name": "Paraguay",
+              "price": 162
+            },
+            {
+              "name": "Draw",
+              "price": 138
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:39:44Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 150
+            },
+            {
+              "name": "No",
+              "price": -200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "smarkets",
+      "title": "Smarkets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:48Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 330
+            },
+            {
+              "name": "Paraguay",
+              "price": 184
+            },
+            {
+              "name": "Draw",
+              "price": 148
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-26T01:40:48Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 350
+            },
+            {
+              "name": "Paraguay",
+              "price": 168
+            },
+            {
+              "name": "Draw",
+              "price": 152
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:49Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 346
+            },
+            {
+              "name": "Paraguay",
+              "price": 152
+            },
+            {
+              "name": "Draw",
+              "price": 146
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -106,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -106,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:40:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -106,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -272,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": -155,
+              "point": 1.25
+            },
+            {
+              "name": "Over",
+              "price": 125,
+              "point": 1.75
+            },
+            {
+              "name": "Over",
+              "price": 177,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -106,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 207,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 128,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -152,
+              "point": 1.75
+            },
+            {
+              "name": "Under",
+              "price": -229,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-26T01:40:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": 107,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -139,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 109,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -142,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-26T01:40:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -269,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 134,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 205,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -170,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T01:40:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -102,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -449,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -346,
+              "point": 6.0
+            },
+            {
+              "name": "Over",
+              "price": -204,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -149,
+              "point": 7.0
+            },
+            {
+              "name": "Over",
+              "price": 126,
+              "point": 8.0
+            },
+            {
+              "name": "Over",
+              "price": 152,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 199,
+              "point": 9.0
+            },
+            {
+              "name": "Over",
+              "price": 225,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -121,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 263,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 222,
+              "point": 6.0
+            },
+            {
+              "name": "Under",
+              "price": 148,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 114,
+              "point": 7.0
+            },
+            {
+              "name": "Under",
+              "price": -166,
+              "point": 8.0
+            },
+            {
+              "name": "Under",
+              "price": -210,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -301,
+              "point": 9.0
+            },
+            {
+              "name": "Under",
+              "price": -364,
+              "point": 9.5
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-26T01:40:33Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 159
+            },
+            {
+              "name": "Paraguay",
+              "price": -136
+            },
+            {
+              "name": "Draw",
+              "price": 720
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T01:40:33Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 412
+            },
+            {
+              "name": "Paraguay",
+              "price": 266
+            },
+            {
+              "name": "Draw",
+              "price": -138
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T01:40:33Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Isidro Pitta",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Julio Cesar Enciso",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Alex Adrian Arce Barrios",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed Toure",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Tete Yengi",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Nestory Irankunda",
+              "price": 376
+            },
+            {
+              "name": "Yes",
+              "description": "Matias Galarza Fonda",
+              "price": 645
+            },
+            {
+              "name": "Yes",
+              "description": "Jacob Italiano",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Mauricio Magalhaes Prado",
+              "price": 649
+            },
+            {
+              "name": "Yes",
+              "description": "Conor Metcalfe",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Damian Bobadilla",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Bos",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Gomez",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Souttar",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Aiden O'Neill",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Alexandro Maidana",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Adrian Cubas",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Paul Okon",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Omar Alderete",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Junior Alonso",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Victor Gustavo Velazquez",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Aziz Eraltay Behich",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Jose Caceres",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Alessandro Circati",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Milos Degenek",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Cameron Burgess",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Herrington",
+              "price": 1700
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-26T01:40:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": -130,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": 107,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": -200,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": 162,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-26T01:40:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -114,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -102,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:27Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 300
+            },
+            {
+              "name": "Paraguay",
+              "price": 167
+            },
+            {
+              "name": "Draw",
+              "price": 147
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:27Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 185,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -215,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:40:27Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 1.75
+            },
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -145,
+              "point": 1.75
+            },
+            {
+              "name": "Under",
+              "price": -101,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T01:39:58Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 380
+            },
+            {
+              "name": "Paraguay",
+              "price": 245
+            },
+            {
+              "name": "Draw",
+              "price": -128
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-26T01:39:58Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": -135,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": -195,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": 170,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-26T01:39:58Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -122,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 102,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_se",
+      "title": "Unibet (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:28Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 320
+            },
+            {
+              "name": "Paraguay",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 148
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:28Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -113,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -108,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 300
+            },
+            {
+              "name": "Paraguay",
+              "price": 148
+            },
+            {
+              "name": "Draw",
+              "price": 138
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 160
+            },
+            {
+              "name": "No",
+              "price": -227
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 255,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -185,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -385,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 135,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 575,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 245,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -189,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 155,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -357,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 380,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -833,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 138,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -370,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -1250,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -123,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -213,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 240,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 430,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -667,
+              "point": 10.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 133,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -167,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -192,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 117,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas",
+      "title": "LeoVegas",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 310
+            },
+            {
+              "name": "Paraguay",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -117,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -112,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 300
+            },
+            {
+              "name": "Paraguay",
+              "price": 148
+            },
+            {
+              "name": "Draw",
+              "price": 138
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 160
+            },
+            {
+              "name": "No",
+              "price": -227
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "casumo",
+      "title": "Casumo",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:09Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 310
+            },
+            {
+              "name": "Paraguay",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 143
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:09Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -118,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_nl",
+      "title": "Unibet (NL)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:29Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 320
+            },
+            {
+              "name": "Paraguay",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 148
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:29Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -117,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -112,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grosvenor",
+      "title": "Grosvenor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:27Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 300
+            },
+            {
+              "name": "Paraguay",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 125
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:27Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -117,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -112,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:48Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 310
+            },
+            {
+              "name": "Paraguay",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -117,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -112,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-26T01:39:54Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": -122,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -112,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": 420,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -770,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 250,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -385,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 900,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": -200,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": 145,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:39:54Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 300,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -118,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 800,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -435,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 335,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -2000,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T01:39:54Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 380,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 575,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -190,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -360,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 155,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 245,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -835,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -670,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -124,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -1250,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 138,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 240,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -215,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -375,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 430,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-26T01:39:54Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -186,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 255,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 135,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -385,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:39:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 160
+            },
+            {
+              "name": "No",
+              "price": -230
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T01:39:54Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 400
+            },
+            {
+              "name": "Paraguay",
+              "price": 245
+            },
+            {
+              "name": "Draw",
+              "price": -148
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T01:39:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Aiden O'Neill",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Matias Galarza Fonda",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Julio Cesar Enciso",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Conor Metcalfe",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Aziz Eraltay Behich",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Herrington",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Souttar",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Victor Gustavo Velazquez",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Omar Alderete",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Bos",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Gabriel Avalos",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Gomez",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Nestory Irankunda",
+              "price": 410
+            },
+            {
+              "name": "Yes",
+              "description": "Alexandro Maidana",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Jackson Irvine",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Alessandro Circati",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Jose Caceres",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Volpato",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-26T01:39:54Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Jordan Bos",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Matias Galarza Fonda",
+              "price": 185,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexandro Maidana",
+              "price": 475,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Omar Alderete",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Volpato",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Juan Jose Caceres",
+              "price": 575,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Herrington",
+              "price": 575,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Gomez",
+              "price": 340,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aiden O'Neill",
+              "price": 340,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Victor Gustavo Velazquez",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Julio Cesar Enciso",
+              "price": 310,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jackson Irvine",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nestory Irankunda",
+              "price": 102,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Souttar",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Volpato",
+              "price": 950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Alessandro Circati",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gabriel Avalos",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Gabriel Avalos",
+              "price": 480,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Julio Cesar Enciso",
+              "price": -129,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aziz Eraltay Behich",
+              "price": 525,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Conor Metcalfe",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nestory Irankunda",
+              "price": 450,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas_se",
+      "title": "LeoVegas (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:16Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 310
+            },
+            {
+              "name": "Paraguay",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 143
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:16Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 330
+            },
+            {
+              "name": "Paraguay",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-26T01:40:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": -126,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -113,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": 415,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -840,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": -204,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": 140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 252,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -409,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 820,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -4600,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-26T01:40:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": 110,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -155,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 120,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -170,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-26T01:40:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T01:40:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -380,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -195,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 155,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 260,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 250,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 140,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -125,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -225,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -400,
+              "point": 9.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:40:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 165
+            },
+            {
+              "name": "No",
+              "price": -215
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T01:40:25Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 425
+            },
+            {
+              "name": "Paraguay",
+              "price": 245
+            },
+            {
+              "name": "Draw",
+              "price": -140
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T01:40:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Gabriel Avalos",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Julio Cesar Enciso",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Nestory Irankunda",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Volpato",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Matias Galarza Fonda",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Conor Metcalfe",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Jackson Irvine",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Alexandro Maidana",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Bos",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Souttar",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Gomez",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Aziz Eraltay Behich",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Omar Alderete",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Aiden O'Neill",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Victor Gustavo Velazquez",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Jose Caceres",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Herrington",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Alessandro Circati",
+              "price": 3500
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-26T01:40:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Gabriel Avalos",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Julio Cesar Enciso",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Nestory Irankunda",
+              "price": 255
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Volpato",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Conor Metcalfe",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Mathew Leckie",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Matias Galarza Fonda",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Jackson Irvine",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Alexandro Maidana",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Bos",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Aziz Eraltay Behich",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Jacob Italiano",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Jose Caceres",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Aiden O'Neill",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Souttar",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Gomez",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Herrington",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Omar Alderete",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Victor Gustavo Velazquez",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Alessandro Circati",
+              "price": 1600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:39:34Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 310
+            },
+            {
+              "name": "Paraguay",
+              "price": 160
+            },
+            {
+              "name": "Draw",
+              "price": 133
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:39:34Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -117,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -104,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "everygame",
+      "title": "Everygame",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:35Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 320
+            },
+            {
+              "name": "Paraguay",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sport888",
+      "title": "888sport",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:27Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 260
+            },
+            {
+              "name": "Paraguay",
+              "price": 175
+            },
+            {
+              "name": "Draw",
+              "price": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 260
+            },
+            {
+              "name": "Paraguay",
+              "price": 175
+            },
+            {
+              "name": "Draw",
+              "price": 120
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 275,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -400,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 162
+            },
+            {
+              "name": "No",
+              "price": -225
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:40:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 275,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -400,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T01:40:02Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Gabriel Avalos",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Nestory Irankunda",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Julio Cesar Enciso",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Volpato",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Matias Galarza Fonda",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Conor Metcalfe",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Jackson Irvine",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Bos",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Souttar",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Alexandro Maidana",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Gomez",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Aiden O'Neill",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Aziz Eraltay Behich",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Omar Alderete",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Victor Gustavo Velazquez",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Herrington",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Alessandro Circati",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Jose Caceres",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-26T01:40:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Gabriel Avalos",
+              "price": -138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gabriel Avalos",
+              "price": 300,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Gabriel Avalos",
+              "price": 850,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Gabriel Avalos",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Julio Cesar Enciso",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Julio Cesar Enciso",
+              "price": 400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Julio Cesar Enciso",
+              "price": 1100,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Julio Cesar Enciso",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 480,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 1400,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 3500,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Gomez",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Gomez",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Matias Galarza Fonda",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Matias Galarza Fonda",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Alexandro Maidana",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexandro Maidana",
+              "price": 1400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Omar Alderete",
+              "price": 333,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Omar Alderete",
+              "price": 1600,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Juan Jose Caceres",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Juan Jose Caceres",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Victor Gustavo Velazquez",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Victor Gustavo Velazquez",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Nestory Irankunda",
+              "price": -118,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nestory Irankunda",
+              "price": 375,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Nestory Irankunda",
+              "price": 1000,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Nestory Irankunda",
+              "price": 2500,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Volpato",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Volpato",
+              "price": 500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Conor Metcalfe",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Conor Metcalfe",
+              "price": 800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jordan Bos",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan Bos",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jackson Irvine",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jackson Irvine",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Harry Souttar",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Souttar",
+              "price": 1400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Aiden O'Neill",
+              "price": 333,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aiden O'Neill",
+              "price": 1600,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Herrington",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Herrington",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Aziz Eraltay Behich",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aziz Eraltay Behich",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Alessandro Circati",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alessandro Circati",
+              "price": 3300,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boylesports",
+      "title": "BoyleSports",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:06Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 333
+            },
+            {
+              "name": "Paraguay",
+              "price": 160
+            },
+            {
+              "name": "Draw",
+              "price": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:49Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 320
+            },
+            {
+              "name": "Paraguay",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:40:49Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 162
+            },
+            {
+              "name": "No",
+              "price": -227
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:40:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 1800,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 3300,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 6600,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 270,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 650,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -455,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -100000,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -100000,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -100000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -400,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -118,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -1667,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 280,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T01:40:49Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 380
+            },
+            {
+              "name": "Paraguay",
+              "price": 230
+            },
+            {
+              "name": "Draw",
+              "price": -154
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 333
+            },
+            {
+              "name": "Paraguay",
+              "price": 160
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 162
+            },
+            {
+              "name": "No",
+              "price": -227
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 1800,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 3300,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 6600,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 275,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -118,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 700,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -455,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -100000,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -100000,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -100000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -400,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -118,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -1429,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 290,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 380
+            },
+            {
+              "name": "Paraguay",
+              "price": 230
+            },
+            {
+              "name": "Draw",
+              "price": -154
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:42Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 340
+            },
+            {
+              "name": "Paraguay",
+              "price": 160
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:42Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-26T01:40:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": -122,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": 102,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": 240,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -300,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -575,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": -183,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 136,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -165,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 275,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -360,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-26T01:40:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": 100,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -130,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": -150,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": 115,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:40:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -440,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -260,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": 188,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 280,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 600,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 1500,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 3300,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 9000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 210,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -230,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -365,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -1000,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -7500,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-26T01:40:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -310,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 195,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 220,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -118,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -265,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T01:40:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -385,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -315,
+              "point": 6.0
+            },
+            {
+              "name": "Over",
+              "price": -190,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -150,
+              "point": 7.0
+            },
+            {
+              "name": "Over",
+              "price": -108,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 125,
+              "point": 8.0
+            },
+            {
+              "name": "Over",
+              "price": 155,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 215,
+              "point": 9.0
+            },
+            {
+              "name": "Over",
+              "price": 250,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 265,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 225,
+              "point": 6.0
+            },
+            {
+              "name": "Under",
+              "price": 145,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 7.0
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -165,
+              "point": 8.0
+            },
+            {
+              "name": "Under",
+              "price": -210,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -300,
+              "point": 9.0
+            },
+            {
+              "name": "Under",
+              "price": -360,
+              "point": 9.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:40:02Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 150
+            },
+            {
+              "name": "No",
+              "price": -200
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-26T01:40:02Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 140
+            },
+            {
+              "name": "Paraguay",
+              "price": -125
+            },
+            {
+              "name": "Draw",
+              "price": 550
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T01:40:02Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 400
+            },
+            {
+              "name": "Paraguay",
+              "price": 250
+            },
+            {
+              "name": "Draw",
+              "price": -136
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T01:40:02Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Julio Cesar Enciso",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Gomez",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Omar Alderete",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Souttar",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Alexandro Maidana",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Herrington",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Nestory Irankunda",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Aziz Eraltay Behich",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Bos",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Victor Gustavo Velazquez",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Jose Caceres",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Gabriel Avalos",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Aiden O'Neill",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Matias Galarza Fonda",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Volpato",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Jackson Irvine",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Alessandro Circati",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Conor Metcalfe",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-26T01:40:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -122,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 102,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betclic_fr",
+      "title": "Betclic (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:38:47Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 320
+            },
+            {
+              "name": "Paraguay",
+              "price": 160
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 300
+            },
+            {
+              "name": "Paraguay",
+              "price": 167
+            },
+            {
+              "name": "Draw",
+              "price": 147
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 185,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -215,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 1.75
+            },
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -145,
+              "point": 1.75
+            },
+            {
+              "name": "Under",
+              "price": -101,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmu_fr",
+      "title": "PMU (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:48Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 300
+            },
+            {
+              "name": "Paraguay",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 148
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -122,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -117,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_fr",
+      "title": "Unibet (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:39:56Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 320
+            },
+            {
+              "name": "Paraguay",
+              "price": 160
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:39:44Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 320
+            },
+            {
+              "name": "Paraguay",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:39:44Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:39:44Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 170
+            },
+            {
+              "name": "No",
+              "price": -220
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-26T01:39:04Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": 5500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": -118,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": 475,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": 1900,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -10000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 260,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -375,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": -190,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": 138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 900,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -2000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 2800,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -100000,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-26T01:39:04Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": -110,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -130,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": 185,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -275,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": -250,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": 175,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": -175,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": 120,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 115,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -165,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": 225,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": -350,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:39:04Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 290,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 750,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -425,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 2200,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -375,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -1200,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-26T01:39:04Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 210,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -350,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -300,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 240,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T01:39:04Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 125,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -250,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 220,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -525,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 360,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -1200,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -102,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -185,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 175,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -325,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 320,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -600,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 625,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-26T01:39:04Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 270,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 950,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -425,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -2500,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-26T01:39:04Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 140
+            },
+            {
+              "name": "Paraguay",
+              "price": -125
+            },
+            {
+              "name": "Draw",
+              "price": 550
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T01:39:04Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 400
+            },
+            {
+              "name": "Paraguay",
+              "price": 230
+            },
+            {
+              "name": "Draw",
+              "price": -150
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T01:39:04Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Gabriel Avalos",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Julio Cesar Enciso",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Nestory Irankunda",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Volpato",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Conor Metcalfe",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Matias Galarza Fonda",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Jackson Irvine",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Bos",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Alexandro Maidana",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Souttar",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Gomez",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Aiden O'Neill",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Omar Alderete",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Aziz Eraltay Behich",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Victor Gustavo Velazquez",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Jose Caceres",
+              "price": 1450
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Herrington",
+              "price": 1550
+            },
+            {
+              "name": "Yes",
+              "description": "Alessandro Circati",
+              "price": 1550
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-26T01:39:04Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Australia",
+              "price": -118,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Australia",
+              "price": -115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Paraguay",
+              "price": -190,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Paraguay",
+              "price": 138,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-26T01:39:04Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:16Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 364
+            },
+            {
+              "name": "Paraguay",
+              "price": 180
+            },
+            {
+              "name": "Draw",
+              "price": 126
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:16Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -121,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:40:16Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 129
+            },
+            {
+              "name": "No",
+              "price": -177
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:40:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -476,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -294,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": -121,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 149,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 222,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 445,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": 510,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 1700,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "price": 2200,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 2800,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 268,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 194,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -217,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -370,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -1176,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -1613,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -5000,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": -6667,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -14286,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-26T01:40:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 181,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": 305,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 870,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 970,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 2200,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 113,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -233,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -455,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -4000,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -8333,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T01:40:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Antonio Sanabria",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Alex Adrian Arce Barrios",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Isidro Pitta",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed Toure",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Gabriel Avalos",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Volpato",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Julio Cesar Enciso",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Nestory Irankunda",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Tete Yengi",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Ramon Sosa Acosta",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Alejandro Romero Gamarra",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Mauricio Magalhaes Prado",
+              "price": 470
+            },
+            {
+              "name": "Yes",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 470
+            },
+            {
+              "name": "Yes",
+              "description": "Matias Galarza Fonda",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Nishan Velupillay",
+              "price": 490
+            },
+            {
+              "name": "Yes",
+              "description": "Jackson Irvine",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Damian Bobadilla",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Conor Metcalfe",
+              "price": 830
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Gomez",
+              "price": 890
+            },
+            {
+              "name": "Yes",
+              "description": "Alexandro Maidana",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Jordan Bos",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Jacob Italiano",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Victor Gustavo Velazquez",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Aziz Eraltay Behich",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Cameron Devlin",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Paul Okon",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Junior Alonso",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Omar Alderete",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Jose Caceres",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Adrian Cubas",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Kai Trewin",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Aiden O'Neill",
+              "price": 1450
+            },
+            {
+              "name": "Yes",
+              "description": "Jason Geria",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Herrington",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Cameron Burgess",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Harry Souttar",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Alessandro Circati",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Milos Degenek",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Maria Canale Dominguez",
+              "price": 1800
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-26T01:40:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Aziz Eraltay Behich",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aziz Eraltay Behich",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Gomez",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Adrian Cubas",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Souttar",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Harry Souttar",
+              "price": 2800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jackson Irvine",
+              "price": 185,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jackson Irvine",
+              "price": 1200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jackson Irvine",
+              "price": 4500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Aiden O'Neill",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aiden O'Neill",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Mohamed Toure",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Conor Metcalfe",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Conor Metcalfe",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Conor Metcalfe",
+              "price": 3500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Victor Gustavo Velazquez",
+              "price": 425,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Omar Alderete",
+              "price": 425,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Julio Cesar Enciso",
+              "price": -118,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Julio Cesar Enciso",
+              "price": 265,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Julio Cesar Enciso",
+              "price": 700,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Juan Jose Caceres",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan Bos",
+              "price": 255,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jordan Bos",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Gabriel Avalos",
+              "price": -172,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gabriel Avalos",
+              "price": 260,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Gabriel Avalos",
+              "price": 850,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Isidro Pitta",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Volpato",
+              "price": 140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Volpato",
+              "price": 850,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Volpato",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Nestory Irankunda",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nestory Irankunda",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nestory Irankunda",
+              "price": 1200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Alessandro Circati",
+              "price": 380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Diego Alexander Gomez Amarilla",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Herrington",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Matias Galarza Fonda",
+              "price": -111,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Matias Galarza Fonda",
+              "price": 475,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Matias Galarza Fonda",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Alexandro Maidana",
+              "price": 400,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:39Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 340
+            },
+            {
+              "name": "Paraguay",
+              "price": 166
+            },
+            {
+              "name": "Draw",
+              "price": 148
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-26T01:40:39Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 350
+            },
+            {
+              "name": "Paraguay",
+              "price": 168
+            },
+            {
+              "name": "Draw",
+              "price": 152
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:39Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -102,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T01:40:39Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 166
+            },
+            {
+              "name": "No",
+              "price": -169
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betway",
+      "title": "Betway",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:39Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 333
+            },
+            {
+              "name": "Paraguay",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:39:31Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 305
+            },
+            {
+              "name": "Paraguay",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 330
+            },
+            {
+              "name": "Paraguay",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "codere_it",
+      "title": "Codere (IT)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:39Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 310
+            },
+            {
+              "name": "Paraguay",
+              "price": 160
+            },
+            {
+              "name": "Draw",
+              "price": 135
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:39Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -123,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -116,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T01:40:39Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -455,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -123,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 260,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 580,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 900,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 1000,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -116,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -435,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -1667,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 4.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 300
+            },
+            {
+              "name": "Paraguay",
+              "price": 167
+            },
+            {
+              "name": "Draw",
+              "price": 147
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 1.75
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 1.75
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 370
+            },
+            {
+              "name": "Paraguay",
+              "price": 220
+            },
+            {
+              "name": "Draw",
+              "price": -120
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -132,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 112,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 315
+            },
+            {
+              "name": "Paraguay",
+              "price": 170
+            },
+            {
+              "name": "Draw",
+              "price": 135
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betsson",
+      "title": "Betsson",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:19Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 325
+            },
+            {
+              "name": "Paraguay",
+              "price": 165
+            },
+            {
+              "name": "Draw",
+              "price": 135
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:19Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 275,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -357,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nordicbet",
+      "title": "Nordic Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:31Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 325
+            },
+            {
+              "name": "Paraguay",
+              "price": 165
+            },
+            {
+              "name": "Draw",
+              "price": 135
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T01:40:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 275,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -357,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betvictor",
+      "title": "Bet Victor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:39:18Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 320
+            },
+            {
+              "name": "Paraguay",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_sb_uk",
+      "title": "Betfair Sportsbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T01:40:27Z",
+          "outcomes": [
+            {
+              "name": "Australia",
+              "price": 180
+            },
+            {
+              "name": "Paraguay",
+              "price": 180
+            },
+            {
+              "name": "Draw",
+              "price": 130
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

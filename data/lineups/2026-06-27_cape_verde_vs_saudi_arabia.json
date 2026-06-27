@@ -1,0 +1,11 @@
+{
+  "match": "Cape Verde vs Saudi Arabia",
+  "kickoff_utc": "2026-06-27T00:00:00Z",
+  "captured_at": "2026-06-26T23:30:00Z",
+  "source": "official confirmed XIs (Oddschecker / RotoWire / The Football Faithful, T-30)",
+  "notes": "Ryan Mendes confirmed STARTING (100th cap; predicted XI had him benched -> official supersedes). Salem Al-Dawsari confirmed STARTING.",
+  "players": {
+    "Ryan Mendes": {"team": "Cape Verde", "status": "starter", "role": "wide_attacker"},
+    "Salem Al-Dawsari": {"team": "Saudi Arabia", "status": "starter", "role": "wide_attacker"}
+  }
+}

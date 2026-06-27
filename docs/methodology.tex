@@ -1,0 +1,136 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue}
+\setlist{nosep,leftmargin=1.3em}
+\title{\textbf{A Founded, Calibration-First Forecasting Pipeline}\\[2pt]
+\large Probability-Cup (FIFA World Cup 2026) --- methodology note}
+\author{Diracat98}
+\date{June 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent This note describes a forecasting pipeline for a crowd-relative prediction contest.
+The design principle is simple and enforced everywhere: \emph{ship a calibrated estimate of the
+true probability, derived from a market of the identical event where one exists, from an
+out-of-sample--validated model where it does not, and from a population-matched measured base
+rate otherwise --- never a copy of the crowd, never a shrink toward a stale constant.} Every
+non-market route must beat its baseline out-of-sample before it ships; routes that do not are
+left as honest base rates rather than dressed up as models. Calibration is judged against
+\emph{realized outcomes}, never against the contest scoreboard.
+\end{abstract}
+
+\section{Objective and why we optimize true-P}
+The contest scores each question with a crowd-relative proper rule (``relative Brier points'',
+RBP): a forecast is rewarded for being closer to the realized outcome than the crowd. Because
+the rule is proper, expected score is maximized by reporting one's \emph{true belief}, independent
+of where the crowd sits:
+\[
+\mathbb{E}[\mathrm{RBP}] = \underbrace{\mathbb{E}[s(p,y)]}_{\text{maximized at } p=p^\star}
+-\ \underbrace{\mathbb{E}[s(p_{\text{crowd}},y)]}_{\text{outside our control}} .
+\]
+Two consequences are treated as laws in the pipeline:
+\begin{itemize}
+\item \textbf{We never fit to the crowd.} ``We beat the crowd here'' is not evidence a number is
+good; if the crowd is mis-calibrated we can win RBP while also being wrong. Calibration is
+measured as \emph{realized hit-rate vs.\ shipped probability}, bucketed, against outcomes.
+\item \textbf{We never shrink toward a constant.} A caution multiplier that drags a per-match
+estimate toward a stale field mean lowers expected score on a proper rule. Founded estimates
+ship raw ($k=1$).
+\end{itemize}
+
+\section{Resolution chain}
+Each contest question is resolved by the first applicable source:
+\[
+\textbf{market of the identical event} \;\succ\; \textbf{OOS-validated model} \;\succ\;
+\textbf{population-matched measured base rate}.
+\]
+A question is priced from a market \emph{only} if that market is the identical event (strict
+equivalence; prop types are never cross-mapped, and one-sided prices are vig-adjusted, not treated
+as clean). Where no such market exists, a model is used only if it beats its baseline
+out-of-sample; otherwise the honest answer is the measured base rate for the matched population.
+Sharp market reads are pinned to $k=1$ and are structurally protected from being shrunk by any
+downstream fit.
+
+\section{Founded methods}
+\paragraph{Goals engine.} Per-team goal intensities $(\lambda_h,\lambda_a)$ are recovered from the
+de-vigged 1X2 and totals markets; the first-/second-half split is taken from the half-totals market
+per match (a measured constant only as last resort). All goal-derived questions (team-to-score,
+both-teams-score-and-over, half-conditional goals) are computed from one joint distribution, so they
+are internally coherent. ``Team scores $\ge 1$'' prefers the \emph{direct} team-total ($>0.5$)
+market when quoted, because the engine's $\lambda$-split over-allocates to heavy favorites.
+
+\paragraph{Shots on target.} A team's SOT mean is a concave function of its goal intensity,
+$\mu(\lambda)=A\,(1-e^{-B\lambda})$ with $A,B$ fit on club data and \emph{OOS-validated against a
+linear alternative at every threshold} (the linear form over-extrapolates at high $\lambda$). Half
+and comparison variants thin $\mu$ by the measured half-share and compare via a Poisson difference.
+
+\paragraph{Offsides (per-team, empirical Bayes).} Team offside counts are modeled
+$O\sim\mathrm{Poisson}(\lambda_t)$ with a Gamma prior whose mean is the pooled rate; the shrinkage
+strength is \emph{estimated from the between-team variance} (method of moments), not chosen. A
+covered team's rate is the posterior $\hat\lambda_t=(\alpha+\sum O)/(\beta+n)$; an uncovered team
+is the $n{=}0$ limit (the pooled prior), so ``floor'' and ``model'' are one coherent route. The
+table is refreshed from data and self-disables to the floor if a refresh fails its OOS gate.
+
+\paragraph{Half-corner comparison.} With no second-half corner market, the favorite's
+\emph{first}-half corner edge is modeled from the de-vigged win-edge (favorite controls early
+territory); it beats the direction-blind constant by $+0.015$ Brier overall and $+0.020$ on the
+lopsided subset (predictor has zero overlap with the corner outcome). The \emph{second} half is
+left on the measured base rate: there the favorite signal is game-state--reversed (the trailing
+underdog chases late corners), so a favorite tilt would be wrong-signed --- a deliberate asymmetry.
+
+\paragraph{Player props.} Priced from the de-vigged player market, gated on a confirmed-starter
+lineup. A benched but sub-eligible player is minutes-scaled,
+$P(\text{appears})\cdot[1-(1-p_{\text{start}})^{m/90}]$. Half-specific props with no half market are
+derived by Poisson-thinning the full-match market read; for a substitute (who plays only the second
+half) the minutes-scaled full-match prop \emph{is} the second-half estimate.
+
+\section{Discipline and guardrails}
+\begin{itemize}
+\item \textbf{Gate before building.} A candidate ships only if it beats both the na\"ive baseline
+\emph{and} the incumbent route out-of-sample, on a date-split, including a lopsided-favorite slice.
+Several plausible ideas (a 2H-corner count model, a team-SOT ``form'' adjustment, a per-referee
+penalty model) were gated and \emph{rejected} --- the honest answer was the existing base rate.
+\item \textbf{Population transfer.} Club-measured \emph{levels} are not assumed to transfer to
+international play; only market-anchored magnitudes and dimensionless ratios are used, and
+international data is used to set levels where it exists.
+\item \textbf{Calibration shadows.} High-stakes routes carry a shadow layer that logs shipped
+probability, conditioning features, and outcome, and compares the live route against
+order-preserving recalibrations \emph{on outcomes} --- never replacing production until a candidate
+beats the incumbent out-of-sample at adequate power.
+\item \textbf{Regression tests.} Standing tests assert that no sharp market line can be overridden
+and that no tier's submitted price depends on the crowd/field constant.
+\end{itemize}
+
+\section{Validation and results}
+Edge is measured by Brier against realized outcomes (the crowd-relative score is the scoreboard,
+not the optimization target). On the current pipeline (the most recent, single-version slice),
+\[
+\text{Brier}_{\text{ours}} = 0.206 \quad<\quad \text{Brier}_{\text{crowd}} = 0.212,
+\]
+with the forecaster beating the crowd on $62\%$ of resolved questions. (Pooled over the full logged
+history --- which spans earlier, weaker pipeline versions --- the figures are $0.210$ vs.\ $0.214$;
+we report the recent slice separately precisely because pooling across pipeline versions is
+misleading.) Cumulative logged RBP is positive on all but one resolved slate.
+
+\section{Honest limitations}
+\begin{itemize}
+\item \textbf{Variance.} A short competition window is high-variance; a strong finish corroborates
+edge but does not prove it. The calibration record is the more reliable signal than rank.
+\item \textbf{Open calibration questions.} Two SOT routes have unresolved tail-calibration
+questions (a high-confidence count model; a comparison model's $0.70$--$0.85$ band) currently under
+shadow review with insufficient power to act --- explicitly \emph{not} ``fixed'' on small samples.
+\item \textbf{Coverage.} Team-conditional routes cover well-sampled sides only; minnows fall to the
+pooled prior by design rather than a fabricated estimate.
+\end{itemize}
+
+\paragraph{Summary.} The system is deliberately conservative: it founds a per-match read wherever a
+market or a validated model supports one, ships it calibrated and undistorted, and otherwise tells
+the truth with a measured base rate. Its discipline --- gate before building, calibrate against
+outcomes not the crowd, never shrink to a constant --- is the point, not any single model.
+\end{document}

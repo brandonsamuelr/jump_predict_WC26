@@ -1,0 +1,7132 @@
+{
+  "id": "885ba95805db310a7bcc3fb1a7a6dd28",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-24T22:00:00Z",
+  "home_team": "Scotland",
+  "away_team": "Brazil",
+  "bookmakers": [
+    {
+      "key": "pmu_fr",
+      "title": "PMU (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:49Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -335
+            },
+            {
+              "name": "Scotland",
+              "price": 1000
+            },
+            {
+              "name": "Draw",
+              "price": 480
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -148,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 102,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_nl",
+      "title": "Unibet (NL)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -335
+            },
+            {
+              "name": "Scotland",
+              "price": 1000
+            },
+            {
+              "name": "Draw",
+              "price": 510
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -139,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 107,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tipico_de",
+      "title": "Tipico",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -333
+            },
+            {
+              "name": "Scotland",
+              "price": 850
+            },
+            {
+              "name": "Draw",
+              "price": 450
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas",
+      "title": "LeoVegas",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -360
+            },
+            {
+              "name": "Scotland",
+              "price": 950
+            },
+            {
+              "name": "Draw",
+              "price": 475
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -139,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 107,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -370
+            },
+            {
+              "name": "Scotland",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 450
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 117
+            },
+            {
+              "name": "No",
+              "price": -164
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -588,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 290,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 340,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -455,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -123,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 190,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 290,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 430,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": -217,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -833,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -132,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -400,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -455,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -769,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -270,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 430,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 155,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -164,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -103,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 260,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 135,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -164,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "casumo",
+      "title": "Casumo",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:48Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -360
+            },
+            {
+              "name": "Scotland",
+              "price": 950
+            },
+            {
+              "name": "Draw",
+              "price": 475
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -139,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 107,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_se",
+      "title": "Unibet (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:48Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -335
+            },
+            {
+              "name": "Scotland",
+              "price": 1000
+            },
+            {
+              "name": "Draw",
+              "price": 510
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -132,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -370
+            },
+            {
+              "name": "Scotland",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 450
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 117
+            },
+            {
+              "name": "No",
+              "price": -164
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 290,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -588,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -455,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 340,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -123,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 190,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 290,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 430,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": -217,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -132,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -833,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -400,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -455,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -769,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -270,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 430,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 155,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -164,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -103,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 260,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 135,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -164,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:48Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -360
+            },
+            {
+              "name": "Scotland",
+              "price": 950
+            },
+            {
+              "name": "Draw",
+              "price": 475
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -139,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 107,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T21:26:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 850,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -2500,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 135,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -186,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 360,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -625,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -245,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 170,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -1430,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 480,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -1000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": -103,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -134,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:26:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 190,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -835,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 290,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 430,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": -400,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -220,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -132,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -275,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -165,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 430,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -455,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -770,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": 260,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 155,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -104,
+              "point": 8.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T21:26:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 290,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -590,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -124,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -455,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 340,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:07Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 117
+            },
+            {
+              "name": "No",
+              "price": -165
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:26:07Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -141
+            },
+            {
+              "name": "Scotland",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 150
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:26:07Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Andrew Robertson",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "John McGinn",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McKenna",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Paqueta",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Jack Hendry",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Guimaraes",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Kenny Mclean",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Lewis Ferguson",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Matheus Cunha",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Douglas Santos de Melo",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Magalhaes Gabriel",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Lawrence Shankland",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan Patterson",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo Luiz da Silva",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Casemiro",
+              "price": 510
+            },
+            {
+              "name": "Yes",
+              "description": "Vinicius Junior",
+              "price": -129
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McTominay",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Vitor",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T21:26:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Douglas Santos de Melo",
+              "price": 380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Paqueta",
+              "price": -129,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Paqueta",
+              "price": 320,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lawrence Shankland",
+              "price": 140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lawrence Shankland",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Casemiro",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Guimaraes",
+              "price": 185,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jack Hendry",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Scott McTominay",
+              "price": 105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": 240,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": -141,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Magalhaes Gabriel",
+              "price": 390,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "John McGinn",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Danilo Luiz da Silva",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": -295,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": -530,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": -112,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": 150,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Scott McKenna",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": 600,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Andrew Robertson",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lewis Ferguson",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": 410,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": 300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kenny Mclean",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nathan Patterson",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Scott McTominay",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Casemiro",
+              "price": 140,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grosvenor",
+      "title": "Grosvenor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:48Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -335
+            },
+            {
+              "name": "Scotland",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 450
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -139,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 107,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas_se",
+      "title": "LeoVegas (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -360
+            },
+            {
+              "name": "Scotland",
+              "price": 950
+            },
+            {
+              "name": "Draw",
+              "price": 475
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -296
+            },
+            {
+              "name": "Scotland",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 421
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -109,
+              "point": -1.5
+            },
+            {
+              "name": "Scotland",
+              "price": -117,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -102,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -125
+            },
+            {
+              "name": "Scotland",
+              "price": 741
+            },
+            {
+              "name": "Draw",
+              "price": 155
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 159,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -206,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:36Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -284
+            },
+            {
+              "name": "Scotland",
+              "price": 980
+            },
+            {
+              "name": "Draw",
+              "price": 444
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:26:36Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": 100,
+              "point": -1.5
+            },
+            {
+              "name": "Scotland",
+              "price": -116,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -121,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 126
+            },
+            {
+              "name": "No",
+              "price": -172
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T21:23:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -505,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -256,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": 105,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 226,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 325,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 800,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 2500,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 315,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 190,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -130,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -312,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -526,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -2000,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Vinicius Junior",
+              "price": 100
+            },
+            {
+              "name": "Yes",
+              "description": "Matheus Cunha",
+              "price": 132
+            },
+            {
+              "name": "Yes",
+              "description": "Igor Thiago Nascimento Rodrigues",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Neymar",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Endrick Felipe Moreira de Sousa",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Raphael Dias Belloli",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Vitor",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Paqueta",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Luiz Henrique Andre Rosa da Silva",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Gabriel Martinelli",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Casemiro",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Lawrence Shankland",
+              "price": 490
+            },
+            {
+              "name": "Yes",
+              "description": "George Hirst",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Ederson Moraes",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McTominay",
+              "price": 540
+            },
+            {
+              "name": "Yes",
+              "description": "Che Adams",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Ross Stewart",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Lyndon Dykes",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Leonardo Pereira",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Guimaraes",
+              "price": 670
+            },
+            {
+              "name": "Yes",
+              "description": "Fabio Henrique Tavares",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Gleison Bremer Silva Nascimento",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Roger Ibanez da Silva",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Findlay Curtis",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "John McGinn",
+              "price": 790
+            },
+            {
+              "name": "Yes",
+              "description": "Alex Sandro Lobo",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ben Doak",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Magalhaes Gabriel",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo Luiz da Silva",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ryan Christie",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo dos Santos de Oliveira",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Marcos Aoas Correa",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Douglas Santos de Melo",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Lewis Ferguson",
+              "price": 1250
+            },
+            {
+              "name": "Yes",
+              "description": "Kieran Tierney",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Anthony Ralston",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Grant Hanley",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Kenny Mclean",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Dominic Hyam",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Hickey",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan Patterson",
+              "price": 2300
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McKenna",
+              "price": 2300
+            },
+            {
+              "name": "Yes",
+              "description": "John Souttar",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Andrew Robertson",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Jack Hendry",
+              "price": 2800
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Kenny Mclean",
+              "price": 285,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kenny Mclean",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "John McGinn",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "John McGinn",
+              "price": 1300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Andrew Robertson",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcos Aoas Correa",
+              "price": 245,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marcos Aoas Correa",
+              "price": 1800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Casemiro",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Casemiro",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Casemiro",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Lewis Ferguson",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lewis Ferguson",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Scott McKenna",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Danilo Luiz da Silva",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Danilo Luiz da Silva",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Magalhaes Gabriel",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Magalhaes Gabriel",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Scott McTominay",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Scott McTominay",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Scott McTominay",
+              "price": 2000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": -323,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": 110,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": 300,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": 1600,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Paqueta",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Paqueta",
+              "price": 200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Paqueta",
+              "price": 1100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Paqueta",
+              "price": 2500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Jack Hendry",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": -312,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": 145,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": 350,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": 1600,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Douglas Santos de Melo",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Douglas Santos de Melo",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lawrence Shankland",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lawrence Shankland",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lawrence Shankland",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Nathan Patterson",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Guimaraes",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Guimaraes",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Guimaraes",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ben Doak",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ben Doak",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ben Doak",
+              "price": 6900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": -227,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": 200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": 550,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": 2500,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coolbet",
+      "title": "Coolbet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:27:00Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -303
+            },
+            {
+              "name": "Scotland",
+              "price": 975
+            },
+            {
+              "name": "Draw",
+              "price": 460
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:27:00Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -124,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 108,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:15Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -333
+            },
+            {
+              "name": "Scotland",
+              "price": 1000
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:15Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 138
+            },
+            {
+              "name": "No",
+              "price": -188
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:24Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -400
+            },
+            {
+              "name": "Scotland",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:20Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:15Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -400
+            },
+            {
+              "name": "Scotland",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 450
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:47Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 130
+            },
+            {
+              "name": "No",
+              "price": -175
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:26:47Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Lewis Ferguson",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Jack Hendry",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan Patterson",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McTominay",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Andrew Robertson",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Lawrence Shankland",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Kenny Mclean",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McKenna",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "John McGinn",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo Luiz da Silva",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Guimaraes",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Douglas Santos de Melo",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Paqueta",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Vitor",
+              "price": 188
+            },
+            {
+              "name": "Yes",
+              "description": "Vinicius Junior",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Casemiro",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Matheus Cunha",
+              "price": 163
+            },
+            {
+              "name": "Yes",
+              "description": "Magalhaes Gabriel",
+              "price": 800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:48Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -350
+            },
+            {
+              "name": "Scotland",
+              "price": 1000
+            },
+            {
+              "name": "Draw",
+              "price": 450
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 1000,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -3000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 400,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -620,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 148,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -192,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -1400,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 680,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -225,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 172,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 2000,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 3300,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 2000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 112,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -142,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 320,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -490,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 188,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -260,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -1450,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 640,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 2200,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -450,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 300,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 520,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -1000,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 100,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -132,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 1280,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -7000,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 880,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -3000,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -205,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 152,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 2500,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 640,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -1450,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 310,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -470,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": -180,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": 134,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 144,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -194,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 1200,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -5000,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -114,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -390,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 920,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": 1280,
+              "point": 14.5
+            },
+            {
+              "name": "Over",
+              "price": -10000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -2000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -800,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -380,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -210,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 140,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 230,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 400,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 650,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 1100,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": 1800,
+              "point": 14.5
+            },
+            {
+              "name": "Over",
+              "price": 630,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": -210,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 240,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -3000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 2200,
+              "point": 15.5
+            },
+            {
+              "name": "Over",
+              "price": 152,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -850,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 400,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -114,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 265,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -3500,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -7000,
+              "point": 14.5
+            },
+            {
+              "name": "Under",
+              "price": 2200,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 1000,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 490,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 250,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 140,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -130,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -210,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -360,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -650,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -1100,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -2500,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -7000,
+              "point": 14.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 15.5
+            },
+            {
+              "name": "Under",
+              "price": -1400,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": 154,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -350,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 850,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -205,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 470,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -670,
+              "point": 11.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 136
+            },
+            {
+              "name": "No",
+              "price": -174
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -320
+            },
+            {
+              "name": "Scotland",
+              "price": 380
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -150
+            },
+            {
+              "name": "Scotland",
+              "price": 750
+            },
+            {
+              "name": "Draw",
+              "price": 155
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Vinicius Junior",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Matheus Cunha",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Vitor",
+              "price": 190
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Paqueta",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Guimaraes",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Casemiro",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Lawrence Shankland",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McTominay",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "John McGinn",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Magalhaes Gabriel",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo Luiz da Silva",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Douglas Santos de Melo",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Lewis Ferguson",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Kenny Mclean",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Andrew Robertson",
+              "price": 2700
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan Patterson",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Jack Hendry",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McKenna",
+              "price": 3500
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": 1100,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": 1400,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": 2700,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": 100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": 120,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": 195,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Paqueta",
+              "price": 360,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Casemiro",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Scott McTominay",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Guimaraes",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lawrence Shankland",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Douglas Santos de Melo",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Danilo Luiz da Silva",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "John McGinn",
+              "price": 1800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Magalhaes Gabriel",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": -450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": -380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": -250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Paqueta",
+              "price": -155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Casemiro",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Scott McTominay",
+              "price": 105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Guimaraes",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lawrence Shankland",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Danilo Luiz da Silva",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Douglas Santos de Melo",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "John McGinn",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Magalhaes Gabriel",
+              "price": 280,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lewis Ferguson",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kenny Mclean",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Andrew Robertson",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jack Hendry",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nathan Patterson",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Scott McKenna",
+              "price": 850,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": 350,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": 430,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": 750,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Paqueta",
+              "price": 1600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Scott McTominay",
+              "price": 2700,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Casemiro",
+              "price": 3000,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Vinicius Junior",
+              "price": -180
+            },
+            {
+              "name": "Yes",
+              "description": "Matheus Cunha",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Vitor",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Paqueta",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Guimaraes",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Casemiro",
+              "price": 190
+            },
+            {
+              "name": "Yes",
+              "description": "Douglas Santos de Melo",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Magalhaes Gabriel",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo Luiz da Silva",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Lawrence Shankland",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McTominay",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "John McGinn",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan Patterson",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Andrew Robertson",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Kenny Mclean",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Lewis Ferguson",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Jack Hendry",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McKenna",
+              "price": 1600
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:22:57Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -115,
+              "point": -1.5
+            },
+            {
+              "name": "Scotland",
+              "price": -111,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 148,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -192,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 112,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -142,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -3500,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -750,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 160,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 235,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "smarkets",
+      "title": "Smarkets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:59Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -294
+            },
+            {
+              "name": "Scotland",
+              "price": 1000
+            },
+            {
+              "name": "Draw",
+              "price": 470
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T21:26:59Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -286
+            },
+            {
+              "name": "Scotland",
+              "price": 1049
+            },
+            {
+              "name": "Draw",
+              "price": 480
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:59Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -286
+            },
+            {
+              "name": "Scotland",
+              "price": 1000
+            },
+            {
+              "name": "Draw",
+              "price": 470
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T21:26:59Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -278
+            },
+            {
+              "name": "Scotland",
+              "price": 1050
+            },
+            {
+              "name": "Draw",
+              "price": 480
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T21:26:53Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 162,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -141,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -167,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 126,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:26:53Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 230,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -106,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -250,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 8.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:53Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 140
+            },
+            {
+              "name": "No",
+              "price": -143
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:26:53Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Vinicius Junior",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Matheus Cunha",
+              "price": 198
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Vitor",
+              "price": 285
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Paqueta",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Casemiro",
+              "price": 660
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Guimaraes",
+              "price": 760
+            },
+            {
+              "name": "Yes",
+              "description": "Lawrence Shankland",
+              "price": 660
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McTominay",
+              "price": 640
+            },
+            {
+              "name": "Yes",
+              "description": "John McGinn",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo Luiz da Silva",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Magalhaes Gabriel",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Lewis Ferguson",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Douglas Santos de Melo",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Kenny Mclean",
+              "price": 2700
+            },
+            {
+              "name": "Yes",
+              "description": "Andrew Robertson",
+              "price": 3900
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan Patterson",
+              "price": 2600
+            },
+            {
+              "name": "Yes",
+              "description": "Jack Hendry",
+              "price": 2100
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McKenna",
+              "price": 4100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_eu",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:59Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -286
+            },
+            {
+              "name": "Scotland",
+              "price": 1000
+            },
+            {
+              "name": "Draw",
+              "price": 470
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T21:26:59Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -278
+            },
+            {
+              "name": "Scotland",
+              "price": 1050
+            },
+            {
+              "name": "Draw",
+              "price": 480
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:51Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -295
+            },
+            {
+              "name": "Scotland",
+              "price": 950
+            },
+            {
+              "name": "Draw",
+              "price": 450
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:26:51Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": 104,
+              "point": -1.5
+            },
+            {
+              "name": "Scotland",
+              "price": -112,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -118,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 107,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T21:26:53Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -114,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -110,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": -141,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": 109,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T21:26:53Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 102,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": -151,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 144,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -123,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -183,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:26:53Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -113,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -405,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -321,
+              "point": 7.0
+            },
+            {
+              "name": "Over",
+              "price": -204,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -158,
+              "point": 8.0
+            },
+            {
+              "name": "Over",
+              "price": 111,
+              "point": 9.0
+            },
+            {
+              "name": "Over",
+              "price": 136,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 173,
+              "point": 10.0
+            },
+            {
+              "name": "Over",
+              "price": 196,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -107,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 244,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 210,
+              "point": 7.0
+            },
+            {
+              "name": "Under",
+              "price": 148,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 121,
+              "point": 8.0
+            },
+            {
+              "name": "Under",
+              "price": -145,
+              "point": 9.0
+            },
+            {
+              "name": "Under",
+              "price": -185,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -253,
+              "point": 10.0
+            },
+            {
+              "name": "Under",
+              "price": -303,
+              "point": 10.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:53Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 130
+            },
+            {
+              "name": "No",
+              "price": -158
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T21:26:53Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -345
+            },
+            {
+              "name": "Scotland",
+              "price": 373
+            },
+            {
+              "name": "Draw",
+              "price": 819
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:26:53Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -134
+            },
+            {
+              "name": "Scotland",
+              "price": 898
+            },
+            {
+              "name": "Draw",
+              "price": 174
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:26:53Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Vinicius Junior",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Igor Thiago Nascimento Rodrigues",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Matheus Cunha",
+              "price": 195
+            },
+            {
+              "name": "Yes",
+              "description": "Endrick Felipe Moreira de Sousa",
+              "price": 155
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Vitor",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Luiz Henrique Andre Rosa da Silva",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Paqueta",
+              "price": 317
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McTominay",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Che Adams",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Lawrence Shankland",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Casemiro",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Lyndon Dykes",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Guimaraes",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ben Doak",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "John McGinn",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Lewis Ferguson",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo Luiz da Silva",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Roger Ibanez da Silva",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Alex Sandro Lobo",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Magalhaes Gabriel",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Douglas Santos de Melo",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Ryan Christie",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan Patterson",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Hickey",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Kieran Tierney",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Anthony Ralston",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Kenny Mclean",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Andrew Robertson",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "John Souttar",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Jack Hendry",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Grant Hanley",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Che Adams",
+              "price": 575
+            },
+            {
+              "name": "No",
+              "description": "Che Adams",
+              "price": -836
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McTominay",
+              "price": 605
+            },
+            {
+              "name": "No",
+              "description": "Scott McTominay",
+              "price": -900
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Vitor",
+              "price": 255
+            },
+            {
+              "name": "No",
+              "description": "Rayan Vitor",
+              "price": -319
+            },
+            {
+              "name": "Yes",
+              "description": "Matheus Cunha",
+              "price": 183
+            },
+            {
+              "name": "No",
+              "description": "Matheus Cunha",
+              "price": -224
+            },
+            {
+              "name": "Yes",
+              "description": "Vinicius Junior",
+              "price": 140
+            },
+            {
+              "name": "No",
+              "description": "Vinicius Junior",
+              "price": -170
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Paqueta",
+              "price": 315
+            },
+            {
+              "name": "No",
+              "description": "Lucas Paqueta",
+              "price": -400
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T21:26:53Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 155,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -190,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -134,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:26:53Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 118,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -133,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:37Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -315
+            },
+            {
+              "name": "Scotland",
+              "price": 965
+            },
+            {
+              "name": "Draw",
+              "price": 465
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:26:37Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -106,
+              "point": -1.5
+            },
+            {
+              "name": "Scotland",
+              "price": -110,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 104,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:26:49Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -135
+            },
+            {
+              "name": "Scotland",
+              "price": 825
+            },
+            {
+              "name": "Draw",
+              "price": 172
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T21:26:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 169,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -189,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -130,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:26:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "everygame",
+      "title": "Everygame",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:28Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -333
+            },
+            {
+              "name": "Scotland",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 425
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:36Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -310
+            },
+            {
+              "name": "Scotland",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 425
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -1420,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 555,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -219,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 149,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 145,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -213,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 373,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -710,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 810,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -4400,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": -105,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -136,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 469,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -1040,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -125,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -110,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": -145,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": 105,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -150,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -390,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -205,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 140,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 225,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 255,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 145,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -195,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -330,
+              "point": 10.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -155
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -140
+            },
+            {
+              "name": "Scotland",
+              "price": 850
+            },
+            {
+              "name": "Draw",
+              "price": 165
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Vinicius Junior",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Matheus Cunha",
+              "price": 145
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Vitor",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Paqueta",
+              "price": 285
+            },
+            {
+              "name": "Yes",
+              "description": "Lawrence Shankland",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Casemiro",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McTominay",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Guimaraes",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "John McGinn",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Ben Doak",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo Luiz da Silva",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Magalhaes Gabriel",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "No Scorer",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Douglas Santos de Melo",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Kenny Mclean",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Lewis Ferguson",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Andrew Robertson",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Jack Hendry",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McKenna",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan Patterson",
+              "price": 5000
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Vinicius Junior",
+              "price": -145
+            },
+            {
+              "name": "Yes",
+              "description": "Matheus Cunha",
+              "price": -135
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Vitor",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Paqueta",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Guimaraes",
+              "price": 205
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Casemiro",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Douglas Santos de Melo",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Lawrence Shankland",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McTominay",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "John McGinn",
+              "price": 425
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo Luiz da Silva",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Ben Doak",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Magalhaes Gabriel",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Kenny Mclean",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Andrew Robertson",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Lewis Ferguson",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan Patterson",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Jack Hendry",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McKenna",
+              "price": 2200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:49Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -312
+            },
+            {
+              "name": "Scotland",
+              "price": 800
+            },
+            {
+              "name": "Draw",
+              "price": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_de",
+      "title": "Winamax (DE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:50Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -312
+            },
+            {
+              "name": "Scotland",
+              "price": 800
+            },
+            {
+              "name": "Draw",
+              "price": 450
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:25:51Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -310
+            },
+            {
+              "name": "Scotland",
+              "price": 810
+            },
+            {
+              "name": "Draw",
+              "price": 410
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:25:51Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -106,
+              "point": -1.5
+            },
+            {
+              "name": "Scotland",
+              "price": -115,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:25:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 102,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sport888",
+      "title": "888sport",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -333
+            },
+            {
+              "name": "Scotland",
+              "price": 800
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:02Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -333
+            },
+            {
+              "name": "Scotland",
+              "price": 850
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -133,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:02Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 115
+            },
+            {
+              "name": "No",
+              "price": -150
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:26:18Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Vinicius Junior",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Matheus Cunha",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Vitor",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Paqueta",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Lawrence Shankland",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McTominay",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "John McGinn",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Casemiro",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Guimaraes",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo Luiz da Silva",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Magalhaes Gabriel",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Douglas Santos de Melo",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Kenny Mclean",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Lewis Ferguson",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Jack Hendry",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McKenna",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Andrew Robertson",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan Patterson",
+              "price": 2500
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T21:26:18Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Scott McTominay",
+              "price": -110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Scott McTominay",
+              "price": 380,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Scott McTominay",
+              "price": 1100,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Scott McTominay",
+              "price": 2500,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "John McGinn",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "John McGinn",
+              "price": 550,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Lawrence Shankland",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lawrence Shankland",
+              "price": 700,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Kenny Mclean",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kenny Mclean",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Lewis Ferguson",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lewis Ferguson",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Nathan Patterson",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nathan Patterson",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Andrew Robertson",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Andrew Robertson",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jack Hendry",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jack Hendry",
+              "price": 2800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Scott McKenna",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Scott McKenna",
+              "price": 3300,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": -350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": 125,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": 360,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Matheus Cunha",
+              "price": 850,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": -450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": 105,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": 290,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Vinicius Junior",
+              "price": 700,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": -275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": 170,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": 480,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Rayan Vitor",
+              "price": 1100,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Paqueta",
+              "price": -138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Paqueta",
+              "price": 290,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Paqueta",
+              "price": 850,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Lucas Paqueta",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Casemiro",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Casemiro",
+              "price": 450,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Casemiro",
+              "price": 1200,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Casemiro",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Guimaraes",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bruno Guimaraes",
+              "price": 800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Douglas Santos de Melo",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Douglas Santos de Melo",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Danilo Luiz da Silva",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Danilo Luiz da Silva",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Magalhaes Gabriel",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Magalhaes Gabriel",
+              "price": 1400,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boylesports",
+      "title": "BoyleSports",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -333
+            },
+            {
+              "name": "Scotland",
+              "price": 850
+            },
+            {
+              "name": "Draw",
+              "price": 375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_fr",
+      "title": "Unibet (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:02Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -345
+            },
+            {
+              "name": "Scotland",
+              "price": 1050
+            },
+            {
+              "name": "Draw",
+              "price": 490
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:36Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -303
+            },
+            {
+              "name": "Scotland",
+              "price": 800
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -167
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:26:36Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -137
+            },
+            {
+              "name": "Scotland",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 160
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:27:00Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -303
+            },
+            {
+              "name": "Scotland",
+              "price": 800
+            },
+            {
+              "name": "Draw",
+              "price": 425
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:27:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -167
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:27:00Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -137
+            },
+            {
+              "name": "Scotland",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 160
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_uk",
+      "title": "Unibet (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:25Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -286
+            },
+            {
+              "name": "Scotland",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 425
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:28Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -315
+            },
+            {
+              "name": "Scotland",
+              "price": 850
+            },
+            {
+              "name": "Draw",
+              "price": 425
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:26:28Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -102,
+              "point": -1.5
+            },
+            {
+              "name": "Scotland",
+              "price": -118,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:28Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -122,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 102,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T21:26:32Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -1000,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -195,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 160,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -112,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -108,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 158,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -193,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 105,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 365,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 550,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -900,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T21:26:32Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -110,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -120,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": -160,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": 120,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T21:26:32Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -165,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 145,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 290,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -190,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -425,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:26:32Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -375,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -315,
+              "point": 7.0
+            },
+            {
+              "name": "Over",
+              "price": -210,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -163,
+              "point": 8.0
+            },
+            {
+              "name": "Over",
+              "price": -122,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 113,
+              "point": 9.0
+            },
+            {
+              "name": "Over",
+              "price": 132,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 185,
+              "point": 10.0
+            },
+            {
+              "name": "Over",
+              "price": 210,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 260,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 225,
+              "point": 7.0
+            },
+            {
+              "name": "Under",
+              "price": 155,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 123,
+              "point": 8.0
+            },
+            {
+              "name": "Under",
+              "price": -108,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -148,
+              "point": 9.0
+            },
+            {
+              "name": "Under",
+              "price": -175,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -250,
+              "point": 10.0
+            },
+            {
+              "name": "Under",
+              "price": -290,
+              "point": 10.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:32Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 123
+            },
+            {
+              "name": "No",
+              "price": -163
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T21:26:32Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -335
+            },
+            {
+              "name": "Scotland",
+              "price": 350
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:26:32Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -650
+            },
+            {
+              "name": "Scotland",
+              "price": 435
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:26:32Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "No Scorer",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Magalhaes Gabriel",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Lewis Ferguson",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Jack Hendry",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Kenny Mclean",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Paqueta",
+              "price": 285
+            },
+            {
+              "name": "Yes",
+              "description": "Andrew Robertson",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Matheus Cunha",
+              "price": 145
+            },
+            {
+              "name": "Yes",
+              "description": "Lawrence Shankland",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo Luiz da Silva",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "John McGinn",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Guimaraes",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McTominay",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Vinicius Junior",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Casemiro",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo Luiz da Silva",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Vitor",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McKenna",
+              "price": 3500
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:26:32Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 114,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -138,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betclic_fr",
+      "title": "Betclic (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:25:10Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -333
+            },
+            {
+              "name": "Scotland",
+              "price": 1000
+            },
+            {
+              "name": "Draw",
+              "price": 475
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:49Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -315
+            },
+            {
+              "name": "Scotland",
+              "price": 965
+            },
+            {
+              "name": "Draw",
+              "price": 465
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:26:49Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -106,
+              "point": -1.5
+            },
+            {
+              "name": "Scotland",
+              "price": -110,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 104,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:47Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -295
+            },
+            {
+              "name": "Scotland",
+              "price": 775
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -118,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:26:47Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -165
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 150,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 380,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -625,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -200,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 145,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -1100,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 625,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": -102,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -135,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -12500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 6000,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -120,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -118,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -225,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 155,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": 145,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": -210,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": -160,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": 110,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": 145,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -210,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": -475,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": 300,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 270,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -175,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 140,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -425,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -130,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 125,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -235,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 210,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -450,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 333,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -900,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -185,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 160,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -300,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 275,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -550,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 500,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 333,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -475,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 950,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -145,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -525,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -2500,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -325
+            },
+            {
+              "name": "Scotland",
+              "price": 350
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -140
+            },
+            {
+              "name": "Scotland",
+              "price": 625
+            },
+            {
+              "name": "Draw",
+              "price": 160
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Vinicius Junior",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Matheus Cunha",
+              "price": 145
+            },
+            {
+              "name": "Yes",
+              "description": "Rayan Vitor",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Paqueta",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Lawrence Shankland",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Casemiro",
+              "price": 425
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McTominay",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Bruno Guimaraes",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "John McGinn",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ben Doak",
+              "price": 725
+            },
+            {
+              "name": "Yes",
+              "description": "Magalhaes Gabriel",
+              "price": 825
+            },
+            {
+              "name": "Yes",
+              "description": "Danilo Luiz da Silva",
+              "price": 875
+            },
+            {
+              "name": "Yes",
+              "description": "Lewis Ferguson",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Douglas Santos de Melo",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Kenny Mclean",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Andrew Robertson",
+              "price": 1650
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan Patterson",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Jack Hendry",
+              "price": 1850
+            },
+            {
+              "name": "Yes",
+              "description": "Scott McKenna",
+              "price": 1850
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brazil",
+              "price": -200,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Brazil",
+              "price": 145,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Scotland",
+              "price": -102,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Scotland",
+              "price": -135,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 155,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:27:00Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -278
+            },
+            {
+              "name": "Scotland",
+              "price": 1000
+            },
+            {
+              "name": "Draw",
+              "price": 470
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T21:27:00Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -270
+            },
+            {
+              "name": "Scotland",
+              "price": 1050
+            },
+            {
+              "name": "Draw",
+              "price": 480
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:27:00Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": 108,
+              "point": -1.5
+            },
+            {
+              "name": "Scotland",
+              "price": -111,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:27:00Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -114,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 112,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:27:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 140
+            },
+            {
+              "name": "No",
+              "price": -143
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betvictor",
+      "title": "Bet Victor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:24:58Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -333
+            },
+            {
+              "name": "Scotland",
+              "price": 850
+            },
+            {
+              "name": "Draw",
+              "price": 425
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betway",
+      "title": "Betway",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:27:00Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -333
+            },
+            {
+              "name": "Scotland",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 425
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betsson",
+      "title": "Betsson",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:27Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -278
+            },
+            {
+              "name": "Scotland",
+              "price": 890
+            },
+            {
+              "name": "Draw",
+              "price": 405
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:27Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -122,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nordicbet",
+      "title": "Nordic Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:51Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -278
+            },
+            {
+              "name": "Scotland",
+              "price": 850
+            },
+            {
+              "name": "Draw",
+              "price": 405
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -122,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:59Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -325
+            },
+            {
+              "name": "Scotland",
+              "price": 850
+            },
+            {
+              "name": "Draw",
+              "price": 425
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:27:02Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -320
+            },
+            {
+              "name": "Scotland",
+              "price": 800
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "codere_it",
+      "title": "Codere (IT)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:49Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -303
+            },
+            {
+              "name": "Scotland",
+              "price": 820
+            },
+            {
+              "name": "Draw",
+              "price": 420
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -106,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -350
+            },
+            {
+              "name": "Scotland",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 445
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -106,
+              "point": -1.5
+            },
+            {
+              "name": "Scotland",
+              "price": -114,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 145,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -175,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -125
+            },
+            {
+              "name": "Scotland",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 160
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:26:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 118,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -138,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -325
+            },
+            {
+              "name": "Scotland",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 465
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": 101,
+              "point": -1.5
+            },
+            {
+              "name": "Scotland",
+              "price": -121,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:26:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_sb_uk",
+      "title": "Betfair Sportsbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:26:36Z",
+          "outcomes": [
+            {
+              "name": "Brazil",
+              "price": -400
+            },
+            {
+              "name": "Scotland",
+              "price": 850
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3495 @@
+{
+  "id": "f3c4657daa143a0c5bd62cb370d01ce4",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-25T23:00:00Z",
+  "home_team": "Tunisia",
+  "away_team": "Netherlands",
+  "bookmakers": [
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:57:00Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1429
+            },
+            {
+              "name": "Tunisia",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 1000
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:58:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -10000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -1250,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -278,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 225,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 500,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 1000,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 2200,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 3300,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 210,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -120,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -303,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -769,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -2500,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 7.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:58:35Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 160
+            },
+            {
+              "name": "No",
+              "price": -227
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_uk",
+      "title": "Unibet (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:14Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -833
+            },
+            {
+              "name": "Tunisia",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 850
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:13Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -800
+            },
+            {
+              "name": "Tunisia",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:59:13Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 162
+            },
+            {
+              "name": "No",
+              "price": -225
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coolbet",
+      "title": "Coolbet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:18Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -833
+            },
+            {
+              "name": "Tunisia",
+              "price": 2800
+            },
+            {
+              "name": "Draw",
+              "price": 950
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:58:18Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 103,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -119,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:58:18Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 1000,
+              "point": 6.0
+            },
+            {
+              "name": "Over",
+              "price": -608,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 103,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 1050,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 235,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -791,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -239,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 500,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -6699,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": 173,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "price": 430,
+              "point": 5.0
+            },
+            {
+              "name": "Over",
+              "price": 2050,
+              "point": 7.0
+            },
+            {
+              "name": "Over",
+              "price": -163,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -1665,
+              "point": 6.0
+            },
+            {
+              "name": "Under",
+              "price": 470,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -119,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -1870,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -278,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 580,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 205,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -668,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 1900,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -202,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": -553,
+              "point": 5.0
+            },
+            {
+              "name": "Under",
+              "price": -8242,
+              "point": 7.0
+            },
+            {
+              "name": "Under",
+              "price": 141,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:09Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1111
+            },
+            {
+              "name": "Tunisia",
+              "price": 1900
+            },
+            {
+              "name": "Draw",
+              "price": 1050
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "smarkets",
+      "title": "Smarkets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:15Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -770
+            },
+            {
+              "name": "Tunisia",
+              "price": 2903
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-25T21:59:15Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -770
+            },
+            {
+              "name": "Tunisia",
+              "price": 3105
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1100
+            },
+            {
+              "name": "Tunisia",
+              "price": 2700
+            },
+            {
+              "name": "Draw",
+              "price": 950
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:58:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 1120,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 1800,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 540,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -260,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -8000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 240,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 102,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 4000,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -3000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -8000,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -800,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 590,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 205,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 1800,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -310,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -124,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:58:31Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 164
+            },
+            {
+              "name": "No",
+              "price": -215
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T21:58:31Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -280
+            },
+            {
+              "name": "Tunisia",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 240
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-25T21:58:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Netherlands",
+              "price": -170,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Netherlands",
+              "price": 132,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Tunisia",
+              "price": 148,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Tunisia",
+              "price": -192,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:58:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 102,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -124,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T21:58:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -104,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:26Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1016
+            },
+            {
+              "name": "Tunisia",
+              "price": 2240
+            },
+            {
+              "name": "Draw",
+              "price": 871
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:59:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 103,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -126,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T21:59:26Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -257
+            },
+            {
+              "name": "Tunisia",
+              "price": 1362
+            },
+            {
+              "name": "Draw",
+              "price": 244
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T21:59:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -103,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -124,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:39Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1200
+            },
+            {
+              "name": "Tunisia",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:58:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -275,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -50000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 1000,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 230,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 550,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -133,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 188,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 1600,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -8000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -350,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -1200,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:58:33Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 160
+            },
+            {
+              "name": "No",
+              "price": -225
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:14Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -875
+            },
+            {
+              "name": "Tunisia",
+              "price": 2750
+            },
+            {
+              "name": "Draw",
+              "price": 975
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 104,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -117,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 104,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -265,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -221,
+              "point": 2.75
+            },
+            {
+              "name": "Over",
+              "price": -174,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": -124,
+              "point": 3.25
+            },
+            {
+              "name": "Over",
+              "price": 131,
+              "point": 3.75
+            },
+            {
+              "name": "Over",
+              "price": 177,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "price": 206,
+              "point": 4.25
+            },
+            {
+              "name": "Over",
+              "price": 238,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -117,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 202,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 171,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": 142,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 106,
+              "point": 3.25
+            },
+            {
+              "name": "Under",
+              "price": -153,
+              "point": 3.75
+            },
+            {
+              "name": "Under",
+              "price": -219,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": -271,
+              "point": 4.25
+            },
+            {
+              "name": "Under",
+              "price": -319,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:59:15Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 161
+            },
+            {
+              "name": "No",
+              "price": -197
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T21:59:15Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -266
+            },
+            {
+              "name": "Tunisia",
+              "price": 1626
+            },
+            {
+              "name": "Draw",
+              "price": 277
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-25T21:59:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Netherlands",
+              "price": -170,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Netherlands",
+              "price": 127,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Tunisia",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Tunisia",
+              "price": -210,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T21:59:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -106,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -118,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:14Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -969
+            },
+            {
+              "name": "Tunisia",
+              "price": 2950
+            },
+            {
+              "name": "Draw",
+              "price": 1000
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -111,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -126,
+              "point": 3.25
+            },
+            {
+              "name": "Over",
+              "price": -166,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 3.25
+            },
+            {
+              "name": "Under",
+              "price": 147,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T21:58:50Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -272
+            },
+            {
+              "name": "Tunisia",
+              "price": 1700
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-25T21:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Netherlands",
+              "price": -170,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Netherlands",
+              "price": 150,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Tunisia",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Tunisia",
+              "price": -180,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T21:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_se",
+      "title": "Unibet (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:13Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -910
+            },
+            {
+              "name": "Tunisia",
+              "price": 2400
+            },
+            {
+              "name": "Draw",
+              "price": 1050
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:59:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -103,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -118,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1111
+            },
+            {
+              "name": "Tunisia",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 143
+            },
+            {
+              "name": "No",
+              "price": -200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas",
+      "title": "LeoVegas",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:13Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2400
+            },
+            {
+              "name": "Draw",
+              "price": 950
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:59:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:03Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1250
+            },
+            {
+              "name": "Tunisia",
+              "price": 2400
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:59:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 155
+            },
+            {
+              "name": "No",
+              "price": -222
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "casumo",
+      "title": "Casumo",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2400
+            },
+            {
+              "name": "Draw",
+              "price": 950
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_nl",
+      "title": "Unibet (NL)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:53Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -910
+            },
+            {
+              "name": "Tunisia",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:58:53Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -103,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -127,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grosvenor",
+      "title": "Grosvenor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -910
+            },
+            {
+              "name": "Tunisia",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 800
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2400
+            },
+            {
+              "name": "Draw",
+              "price": 950
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:59:09Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 230,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -103,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -1115,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -265,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 525,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 1100,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -315,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -127,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 575,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 195,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -910,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -5000,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:59:09Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 155
+            },
+            {
+              "name": "No",
+              "price": -225
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T21:59:09Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -315
+            },
+            {
+              "name": "Tunisia",
+              "price": 1300
+            },
+            {
+              "name": "Draw",
+              "price": 255
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas_se",
+      "title": "LeoVegas (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:51Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1115
+            },
+            {
+              "name": "Tunisia",
+              "price": 2500
+            },
+            {
+              "name": "Draw",
+              "price": 950
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:51Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -900
+            },
+            {
+              "name": "Tunisia",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:58:55Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 145
+            },
+            {
+              "name": "No",
+              "price": -185
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T21:58:55Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -255
+            },
+            {
+              "name": "Tunisia",
+              "price": 1200
+            },
+            {
+              "name": "Draw",
+              "price": 265
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:30Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2100
+            },
+            {
+              "name": "Draw",
+              "price": 840
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:58:30Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 102,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -125,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sport888",
+      "title": "888sport",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:02Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 850
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -250,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 175,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 130
+            },
+            {
+              "name": "No",
+              "price": -175
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -250,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 175,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "everygame",
+      "title": "Everygame",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:56Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boylesports",
+      "title": "BoyleSports",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:51Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 850
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:41Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -769
+            },
+            {
+              "name": "Tunisia",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 850
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:58:41Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 150
+            },
+            {
+              "name": "No",
+              "price": -208
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:58:41Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -909,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 100,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -100000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 210,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 425,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -250,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 850,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -133,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 2000,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -303,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -769,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 180,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -2500,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T21:58:41Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -278
+            },
+            {
+              "name": "Tunisia",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 260
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -833
+            },
+            {
+              "name": "Tunisia",
+              "price": 1600
+            },
+            {
+              "name": "Draw",
+              "price": 850
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 150
+            },
+            {
+              "name": "No",
+              "price": -208
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -909,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 100,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -100000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 210,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 425,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -250,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 850,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -137,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 1800,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -303,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -769,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 180,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -2500,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -278
+            },
+            {
+              "name": "Tunisia",
+              "price": 900
+            },
+            {
+              "name": "Draw",
+              "price": 260
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:44Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -950
+            },
+            {
+              "name": "Tunisia",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 875
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:58:44Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 100,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -120,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:59:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -255,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -217,
+              "point": 2.75
+            },
+            {
+              "name": "Over",
+              "price": -175,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 3.25
+            },
+            {
+              "name": "Over",
+              "price": 130,
+              "point": 3.75
+            },
+            {
+              "name": "Over",
+              "price": 178,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "price": 212,
+              "point": 4.25
+            },
+            {
+              "name": "Over",
+              "price": 245,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 205,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 175,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": 143,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 3.25
+            },
+            {
+              "name": "Under",
+              "price": -157,
+              "point": 3.75
+            },
+            {
+              "name": "Under",
+              "price": -220,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": -265,
+              "point": 4.25
+            },
+            {
+              "name": "Under",
+              "price": -305,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:59:24Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 147
+            },
+            {
+              "name": "No",
+              "price": -195
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T21:59:24Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -2000
+            },
+            {
+              "name": "Tunisia",
+              "price": 950
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T21:59:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betclic_fr",
+      "title": "Betclic (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:22Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2900
+            },
+            {
+              "name": "Draw",
+              "price": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_de",
+      "title": "Winamax (DE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:47Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1111
+            },
+            {
+              "name": "Tunisia",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tipico_de",
+      "title": "Tipico",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:40Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1111
+            },
+            {
+              "name": "Tunisia",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 950
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:52Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -969
+            },
+            {
+              "name": "Tunisia",
+              "price": 2950
+            },
+            {
+              "name": "Draw",
+              "price": 1000
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:58:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -111,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:58:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -126,
+              "point": 3.25
+            },
+            {
+              "name": "Over",
+              "price": -166,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 3.25
+            },
+            {
+              "name": "Under",
+              "price": 147,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmu_fr",
+      "title": "PMU (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:51Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -910
+            },
+            {
+              "name": "Tunisia",
+              "price": 2400
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:58:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -134,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:15Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -750
+            },
+            {
+              "name": "Tunisia",
+              "price": 1700
+            },
+            {
+              "name": "Draw",
+              "price": 850
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:59:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 105,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -130,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:59:15Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 155
+            },
+            {
+              "name": "No",
+              "price": -200
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -250,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 105,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -10000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 220,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 450,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 950,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 190,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 550,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -130,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 2500,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -295,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -650,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -1600,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T21:59:03Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -275
+            },
+            {
+              "name": "Tunisia",
+              "price": 1000
+            },
+            {
+              "name": "Draw",
+              "price": 260
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-25T21:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Netherlands",
+              "price": -160,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Netherlands",
+              "price": 115,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Tunisia",
+              "price": 138,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Tunisia",
+              "price": -190,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T21:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -120,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_fr",
+      "title": "Unibet (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:53Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2900
+            },
+            {
+              "name": "Draw",
+              "price": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_eu",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -769
+            },
+            {
+              "name": "Tunisia",
+              "price": 3100
+            },
+            {
+              "name": "Draw",
+              "price": 1050
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -714
+            },
+            {
+              "name": "Tunisia",
+              "price": 3300
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:26Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -769
+            },
+            {
+              "name": "Tunisia",
+              "price": 3100
+            },
+            {
+              "name": "Draw",
+              "price": 1050
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-25T21:59:26Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -714
+            },
+            {
+              "name": "Tunisia",
+              "price": 3300
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:59:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -227,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 250,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -5000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 1300,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -769,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 106,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 2700,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 6900,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 560,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 225,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -256,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 3300,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -1429,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -5000,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -588,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:59:10Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 170
+            },
+            {
+              "name": "No",
+              "price": -172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:52Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -877
+            },
+            {
+              "name": "Tunisia",
+              "price": 2700
+            },
+            {
+              "name": "Draw",
+              "price": 1110
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:58:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 101,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -117,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:58:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 144
+            },
+            {
+              "name": "No",
+              "price": -199
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T21:58:01Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -11111,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -10000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": -1515,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -990,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": -286,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -185,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": 101,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 156,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "price": 204,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 365,
+              "point": 5.0
+            },
+            {
+              "name": "Over",
+              "price": 430,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 790,
+              "point": 6.0
+            },
+            {
+              "name": "Over",
+              "price": 1000,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 2000,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 4000,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 1850,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 1450,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 495,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 410,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": 184,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 132,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -117,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -222,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": -323,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -813,
+              "point": 5.0
+            },
+            {
+              "name": "Under",
+              "price": -1087,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -14286,
+              "point": 6.0
+            },
+            {
+              "name": "Under",
+              "price": -2000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -6667,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -25000,
+              "point": 8.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -833
+            },
+            {
+              "name": "Tunisia",
+              "price": 3100
+            },
+            {
+              "name": "Draw",
+              "price": 1050
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -769
+            },
+            {
+              "name": "Tunisia",
+              "price": 3300
+            },
+            {
+              "name": "Draw",
+              "price": 1100
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 108,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 170
+            },
+            {
+              "name": "No",
+              "price": -172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:52Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1150
+            },
+            {
+              "name": "Tunisia",
+              "price": 2900
+            },
+            {
+              "name": "Draw",
+              "price": 1025
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:58:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 170,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": -220,
+              "point": 4.0
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T21:58:52Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -272
+            },
+            {
+              "name": "Tunisia",
+              "price": 1700
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T21:58:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betway",
+      "title": "Betway",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:17Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:40Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2800
+            },
+            {
+              "name": "Draw",
+              "price": 1000
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:58:40Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 105,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -125,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:14Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:39Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1000
+            },
+            {
+              "name": "Tunisia",
+              "price": 2000
+            },
+            {
+              "name": "Draw",
+              "price": 850
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betsson",
+      "title": "Betsson",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:53Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -769
+            },
+            {
+              "name": "Tunisia",
+              "price": 2600
+            },
+            {
+              "name": "Draw",
+              "price": 760
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:58:53Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -244,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 195,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nordicbet",
+      "title": "Nordic Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:06Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -769
+            },
+            {
+              "name": "Tunisia",
+              "price": 2600
+            },
+            {
+              "name": "Draw",
+              "price": 760
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T21:59:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -244,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 195,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betvictor",
+      "title": "Bet Victor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:58:01Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1205
+            },
+            {
+              "name": "Tunisia",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_sb_uk",
+      "title": "Betfair Sportsbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T21:59:25Z",
+          "outcomes": [
+            {
+              "name": "Netherlands",
+              "price": -1250
+            },
+            {
+              "name": "Tunisia",
+              "price": 2200
+            },
+            {
+              "name": "Draw",
+              "price": 700
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

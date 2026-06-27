@@ -1,0 +1,4963 @@
+{
+  "id": "c1bc8c26480cd42b89a0de5329581314",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-23T23:00:00Z",
+  "home_team": "Panama",
+  "away_team": "Croatia",
+  "bookmakers": [
+    {
+      "key": "winamax_de",
+      "title": "Winamax (DE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:38Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -244
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 390
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmu_fr",
+      "title": "PMU (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:52Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -240
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 375
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -167,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 118,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_uk",
+      "title": "Unibet (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -238
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_nl",
+      "title": "Unibet (NL)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -240
+            },
+            {
+              "name": "Panama",
+              "price": 750
+            },
+            {
+              "name": "Draw",
+              "price": 375
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -162,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 123,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tipico_de",
+      "title": "Tipico",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:40:02Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -270
+            },
+            {
+              "name": "Panama",
+              "price": 750
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas",
+      "title": "LeoVegas",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -245
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 360
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -162,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 123,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -263
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -123
+            },
+            {
+              "name": "No",
+              "price": -112
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "casumo",
+      "title": "Casumo",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -245
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 360
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -162,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 123,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_se",
+      "title": "Unibet (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -240
+            },
+            {
+              "name": "Panama",
+              "price": 750
+            },
+            {
+              "name": "Draw",
+              "price": 375
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -155,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 128,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_fr",
+      "title": "Unibet (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:01Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -250
+            },
+            {
+              "name": "Panama",
+              "price": 725
+            },
+            {
+              "name": "Draw",
+              "price": 390
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -263
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -123
+            },
+            {
+              "name": "No",
+              "price": -112
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -245
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 360
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -162,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 123,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -124
+            },
+            {
+              "name": "No",
+              "price": -113
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -117
+            },
+            {
+              "name": "Panama",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 155
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Josip Sutalo",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Andres Andrade",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Petar Musa",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Luis Rodriguez",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Perisic",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Jesus Martinez",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Baturina",
+              "price": 190
+            },
+            {
+              "name": "Yes",
+              "description": "Cesar Blackman",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Cordoba",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Marco Pasalic",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Josko Gvardiol",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Fajardo Nelson",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Stanisic",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Mateo Kovacic",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Marin Pongracic",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Modric",
+              "price": 205
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Harvey",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Jiovany Ramos",
+              "price": 1600
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Luka Modric",
+              "price": 800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": 600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": 475,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Mateo Kovacic",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": 125,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Luka Modric",
+              "price": 250,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Baturina",
+              "price": -195,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": -360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luka Modric",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Baturina",
+              "price": 650,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": 105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": 330,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": 900,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": 195,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Baturina",
+              "price": 210,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": -215,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jiovany Ramos",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marin Pongracic",
+              "price": 310,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mateo Kovacic",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Josip Stanisic",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Cordoba",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josko Gvardiol",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Andres Andrade",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cesar Blackman",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Jesus Martinez",
+              "price": 280,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Harvey",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Fajardo Nelson",
+              "price": 340,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Luis Rodriguez",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Fajardo Nelson",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josip Sutalo",
+              "price": 320,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grosvenor",
+      "title": "Grosvenor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -250
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -162,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 123,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:52Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -250
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas_se",
+      "title": "LeoVegas (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -245
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 360
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:38Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -224
+            },
+            {
+              "name": "Panama",
+              "price": 642
+            },
+            {
+              "name": "Draw",
+              "price": 342
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T22:39:38Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": 118,
+              "point": -1.5
+            },
+            {
+              "name": "Panama",
+              "price": -144,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -141,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 117,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T22:39:38Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -101
+            },
+            {
+              "name": "Panama",
+              "price": 593
+            },
+            {
+              "name": "Draw",
+              "price": 147
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T22:39:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 150,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -193,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "codere_it",
+      "title": "Codere (IT)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -244
+            },
+            {
+              "name": "Panama",
+              "price": 660
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -156,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 109,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -224
+            },
+            {
+              "name": "Panama",
+              "price": 745
+            },
+            {
+              "name": "Draw",
+              "price": 385
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": 115,
+              "point": -1.5
+            },
+            {
+              "name": "Panama",
+              "price": -133,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -142,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 123,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -106
+            },
+            {
+              "name": "No",
+              "price": -127
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T22:39:10Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Petar Musa",
+              "price": 114
+            },
+            {
+              "name": "Yes",
+              "description": "Ante Budimir",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Andrej Kramaric",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Perisic",
+              "price": 185
+            },
+            {
+              "name": "Yes",
+              "description": "Igor Matanovic",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Marco Pasalic",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Modric",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Vlasic",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Baturina",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Sucic",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Cecilio Waterman",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Fajardo Nelson",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Tomas Abdiel Rodriguez Mena",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Ismael Diaz",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Luis Rodriguez",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Mario Pasalic",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Mateo Kovacic",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Josko Gvardiol",
+              "price": 540
+            },
+            {
+              "name": "Yes",
+              "description": "Alberto Quintero Medina",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Petar Sucic",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Moro",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Cesar Augusto Yanis Velasco",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Azarias Londono",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Stanisic",
+              "price": 840
+            },
+            {
+              "name": "Yes",
+              "description": "Marin Pongracic",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Vuskovic",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Adalberto Carrasquilla",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Edgar Barcenas",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Sutalo",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Anibal Godoy",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Murillo",
+              "price": 1450
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Jesus Martinez",
+              "price": 1450
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Harvey",
+              "price": 1550
+            },
+            {
+              "name": "Yes",
+              "description": "Andres Andrade",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Jiovany Ramos",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Cordoba",
+              "price": 2100
+            },
+            {
+              "name": "Yes",
+              "description": "Cesar Blackman",
+              "price": 2300
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-23T22:39:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Luka Modric",
+              "price": -133,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luka Modric",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Luka Modric",
+              "price": 1200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": -222,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": 310,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": 400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Mateo Kovacic",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mateo Kovacic",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Mateo Kovacic",
+              "price": 4000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Andres Andrade",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Murillo",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Michael Murillo",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Marin Pongracic",
+              "price": 475,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Fajardo Nelson",
+              "price": -132,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Fajardo Nelson",
+              "price": 390,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Fajardo Nelson",
+              "price": 1300,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Luis Rodriguez",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Luis Rodriguez",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Luis Rodriguez",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Edgar Barcenas",
+              "price": -152,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edgar Barcenas",
+              "price": 320,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Edgar Barcenas",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Josip Stanisic",
+              "price": 140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josip Stanisic",
+              "price": 850,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Harvey",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Harvey",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cesar Blackman",
+              "price": 340,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cesar Blackman",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Josko Gvardiol",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josko Gvardiol",
+              "price": 1000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Josko Gvardiol",
+              "price": 5900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": -500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": -111,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": 275,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": 800,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Josip Sutalo",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josip Sutalo",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Baturina",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Baturina",
+              "price": 295,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Baturina",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Cordoba",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": -233,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": 200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": 500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": 2500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Jiovany Ramos",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Jesus Martinez",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Jesus Martinez",
+              "price": 950,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:14Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -250
+            },
+            {
+              "name": "Panama",
+              "price": 640
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T22:39:14Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": 111,
+              "point": -1.5
+            },
+            {
+              "name": "Panama",
+              "price": -136,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 112,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -138,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coolbet",
+      "title": "Coolbet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:38Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -227
+            },
+            {
+              "name": "Panama",
+              "price": 745
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 118,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -136,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -225
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -240
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 360
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:39:34Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -108
+            },
+            {
+              "name": "No",
+              "price": -116
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T22:39:34Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -125
+            },
+            {
+              "name": "Panama",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T22:39:34Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Petar Musa",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Perisic",
+              "price": 190
+            },
+            {
+              "name": "Yes",
+              "description": "Marco Pasalic",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Baturina",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Modric",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Fajardo Nelson",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Mateo Kovacic",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Edgar Barcenas",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Luis Rodriguez",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Josko Gvardiol",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Jesus Martinez",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Harvey",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Stanisic",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Marin Pongracic",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Sutalo",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Cesar Blackman",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Andres Andrade",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Jiovany Ramos",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Cordoba",
+              "price": 2700
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-23T22:39:34Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": 100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": 145,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": 180,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Baturina",
+              "price": 320,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Luka Modric",
+              "price": 380,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Fajardo Nelson",
+              "price": 430,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Luis Rodriguez",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Edgar Barcenas",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Mateo Kovacic",
+              "price": 950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Josko Gvardiol",
+              "price": 1200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Josip Stanisic",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Harvey",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jiovany Ramos",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Jesus Martinez",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": 1000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": 1800,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": 2200,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": -475,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": -320,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": -270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Baturina",
+              "price": -165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luka Modric",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Fajardo Nelson",
+              "price": -130,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Luis Rodriguez",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edgar Barcenas",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mateo Kovacic",
+              "price": 140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josko Gvardiol",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Harvey",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josip Stanisic",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Jesus Martinez",
+              "price": 280,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jiovany Ramos",
+              "price": 310,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josip Sutalo",
+              "price": 390,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cesar Blackman",
+              "price": 420,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Andres Andrade",
+              "price": 430,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marin Pongracic",
+              "price": 470,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Cordoba",
+              "price": 850,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": 330,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": 500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": 650,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Baturina",
+              "price": 1400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Luka Modric",
+              "price": 1700,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Fajardo Nelson",
+              "price": 1800,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-23T22:39:34Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Petar Musa",
+              "price": -150
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Perisic",
+              "price": -125
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Baturina",
+              "price": 100
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Modric",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Marco Pasalic",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "Mateo Kovacic",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Josko Gvardiol",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Fajardo Nelson",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Luis Rodriguez",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Stanisic",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Edgar Barcenas",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Jesus Martinez",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Marin Pongracic",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Harvey",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Sutalo",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Andres Andrade",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Cesar Blackman",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Jiovany Ramos",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Cordoba",
+              "price": 1200
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T22:33:50Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": 124,
+              "point": -1.5
+            },
+            {
+              "name": "Panama",
+              "price": -158,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-23T22:39:34Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Croatia",
+              "price": -205,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Croatia",
+              "price": 158,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Panama",
+              "price": -160,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Panama",
+              "price": 124,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:34Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -148,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 120,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T22:39:34Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 148,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -190,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -275
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:40:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "smarkets",
+      "title": "Smarkets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:40:03Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -227
+            },
+            {
+              "name": "Panama",
+              "price": 780
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-23T22:40:03Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -217
+            },
+            {
+              "name": "Panama",
+              "price": 800
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:40:04Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -278
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 375
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:40:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -120
+            },
+            {
+              "name": "No",
+              "price": -120
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T22:40:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Jose Fajardo Nelson",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Harvey",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Jesus Martinez",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Cesar Blackman",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Jiovany Ramos",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Andres Andrade",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Edgar Barcenas",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Cordoba",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Luis Rodriguez",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Perisic",
+              "price": 188
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Baturina",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Stanisic",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Sutalo",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Modric",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Josko Gvardiol",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Marin Pongracic",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Marco Pasalic",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Petar Musa",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "Mateo Kovacic",
+              "price": 450
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:40:02Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -227
+            },
+            {
+              "name": "Panama",
+              "price": 780
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-23T22:40:02Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -222
+            },
+            {
+              "name": "Panama",
+              "price": 800
+            },
+            {
+              "name": "Draw",
+              "price": 410
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:40:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -102
+            },
+            {
+              "name": "No",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T22:40:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Petar Musa",
+              "price": 156
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Perisic",
+              "price": 285
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Baturina",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Modric",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Marco Pasalic",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Fajardo Nelson",
+              "price": 520
+            },
+            {
+              "name": "Yes",
+              "description": "Mateo Kovacic",
+              "price": 780
+            },
+            {
+              "name": "Yes",
+              "description": "Edgar Barcenas",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Luis Rodriguez",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Josko Gvardiol",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Jesus Martinez",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Harvey",
+              "price": 1650
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Stanisic",
+              "price": 1550
+            },
+            {
+              "name": "Yes",
+              "description": "Marin Pongracic",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Cesar Blackman",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Sutalo",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Jiovany Ramos",
+              "price": 2600
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Cordoba",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Andres Andrade",
+              "price": 2900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_eu",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:40:02Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -227
+            },
+            {
+              "name": "Panama",
+              "price": 780
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-23T22:40:02Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -222
+            },
+            {
+              "name": "Panama",
+              "price": 800
+            },
+            {
+              "name": "Draw",
+              "price": 410
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:40:02Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -225
+            },
+            {
+              "name": "Panama",
+              "price": 735
+            },
+            {
+              "name": "Draw",
+              "price": 375
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T22:40:02Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -108,
+              "point": -1.25
+            },
+            {
+              "name": "Panama",
+              "price": 101,
+              "point": 1.25
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:40:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -111,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 2.75
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:39:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -123
+            },
+            {
+              "name": "No",
+              "price": 102
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T22:39:52Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -112
+            },
+            {
+              "name": "Panama",
+              "price": 682
+            },
+            {
+              "name": "Draw",
+              "price": 162
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T22:39:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ante Budimir",
+              "price": 143
+            },
+            {
+              "name": "Yes",
+              "description": "Andrej Kramaric",
+              "price": 155
+            },
+            {
+              "name": "Yes",
+              "description": "Petar Musa",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Igor Matanovic",
+              "price": 204
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Modric",
+              "price": 238
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Perisic",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Baturina",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Cecilio Waterman",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Fajardo Nelson",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Ismael Diaz",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Mario Pasalic",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Marco Pasalic",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Mateo Kovacic",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Petar Sucic",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Josko Gvardiol",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Edgar Barcenas",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Luis Rodriguez",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Stanisic",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Marin Pongracic",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Vuskovic",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Sutalo",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Duje Caleta Car",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Jesus Martinez",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Cesar Blackman",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Fidel Escobar",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Anibal Godoy",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Harvey",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Roderick Miller",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Cordoba",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Andres Andrade",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Edgardo Farina",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Jiovany Ramos",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Cecilio Waterman",
+              "price": 350
+            },
+            {
+              "name": "No",
+              "description": "Cecilio Waterman",
+              "price": -450
+            },
+            {
+              "name": "Yes",
+              "description": "Petar Musa",
+              "price": 146
+            },
+            {
+              "name": "No",
+              "description": "Petar Musa",
+              "price": -178
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Baturina",
+              "price": 304
+            },
+            {
+              "name": "No",
+              "description": "Martin Baturina",
+              "price": -386
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Perisic",
+              "price": 279
+            },
+            {
+              "name": "No",
+              "description": "Ivan Perisic",
+              "price": -352
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Modric",
+              "price": 360
+            },
+            {
+              "name": "No",
+              "description": "Luka Modric",
+              "price": -464
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-23T22:39:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Croatia",
+              "price": -184,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Croatia",
+              "price": 150,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Panama",
+              "price": -134,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Panama",
+              "price": 110,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T22:39:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 118,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -133,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -235
+            },
+            {
+              "name": "Panama",
+              "price": 765
+            },
+            {
+              "name": "Draw",
+              "price": 370
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -153,
+              "point": -1.0
+            },
+            {
+              "name": "Panama",
+              "price": 135,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -139,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 123,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T22:39:05Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -110
+            },
+            {
+              "name": "Panama",
+              "price": 565
+            },
+            {
+              "name": "Draw",
+              "price": 159
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-23T22:39:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Croatia",
+              "price": -188,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Croatia",
+              "price": 168,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Panama",
+              "price": -135,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Panama",
+              "price": 115,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T22:39:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -145,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:38:06Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -250
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 360
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T22:38:06Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -112,
+              "point": -1.25
+            },
+            {
+              "name": "Panama",
+              "price": -108,
+              "point": 1.25
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:38:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 2.75
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -115
+            },
+            {
+              "name": "No",
+              "price": -115
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -460
+            },
+            {
+              "name": "Panama",
+              "price": 340
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Josko Gvardiol",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Jiovany Ramos",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Perisic",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Cesar Blackman",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Petar Musa",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Baturina",
+              "price": 195
+            },
+            {
+              "name": "Yes",
+              "description": "Marin Pongracic",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Stanisic",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Jesus Martinez",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Sutalo",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Harvey",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Modric",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Murillo",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Marco Pasalic",
+              "price": 265
+            },
+            {
+              "name": "Yes",
+              "description": "Mateo Kovacic",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Cordoba",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Andres Andrade",
+              "price": 3000
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 115,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -140,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "everygame",
+      "title": "Everygame",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:58Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -250
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 360
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:24Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -230
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 360
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -115
+            },
+            {
+              "name": "No",
+              "price": -110
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -115
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Petar Musa",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Baturina",
+              "price": 195
+            },
+            {
+              "name": "Yes",
+              "description": "Marco Pasalic",
+              "price": 265
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Perisic",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Modric",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Fajardo Nelson",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Luis Rodriguez",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Edgar Barcenas",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Mateo Kovacic",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Josko Gvardiol",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Jesus Martinez",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Stanisic",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Murillo",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Harvey",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Sutalo",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Marin Pongracic",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Cesar Blackman",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Jiovany Ramos",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Cordoba",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Andres Andrade",
+              "price": 3000
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-23T22:39:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Petar Musa",
+              "price": -130
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Baturina",
+              "price": -105
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Perisic",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Marco Pasalic",
+              "price": 145
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Modric",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Fajardo Nelson",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Stanisic",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Mateo Kovacic",
+              "price": 295
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Luis Rodriguez",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Edgar Barcenas",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Josko Gvardiol",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Jesus Martinez",
+              "price": 425
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Murillo",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Harvey",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Cesar Blackman",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Marin Pongracic",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Sutalo",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Andres Andrade",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Jiovany Ramos",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Cordoba",
+              "price": 1600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -227
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -125
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -118
+            },
+            {
+              "name": "Panama",
+              "price": 500
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:40:02Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -250
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:40:02Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -125
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T22:40:02Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -118
+            },
+            {
+              "name": "Panama",
+              "price": 500
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:36Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -235
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -145,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:39:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -120
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T22:39:18Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -118
+            },
+            {
+              "name": "Panama",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T22:39:18Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Petar Musa",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Perisic",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Baturina",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Marco Pasalic",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Modric",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Fajardo Nelson",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Edgar Barcenas",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Luis Rodriguez",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Mateo Kovacic",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Josko Gvardiol",
+              "price": 625
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Harvey",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Jesus Martinez",
+              "price": 725
+            },
+            {
+              "name": "Yes",
+              "description": "Michael Murillo",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Sutalo",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Stanisic",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Cesar Blackman",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Marin Pongracic",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Jiovany Ramos",
+              "price": 1250
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Cordoba",
+              "price": 1550
+            },
+            {
+              "name": "Yes",
+              "description": "Andres Andrade",
+              "price": 1600
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-23T22:39:18Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Croatia",
+              "price": -200,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Croatia",
+              "price": 145,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Panama",
+              "price": -140,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Panama",
+              "price": 105,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T22:39:18Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 155,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boylesports",
+      "title": "BoyleSports",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:14Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -275
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sport888",
+      "title": "888sport",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -250
+            },
+            {
+              "name": "Panama",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:40:01Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -250
+            },
+            {
+              "name": "Panama",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 333
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:40:01Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -150,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:40:01Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -118
+            },
+            {
+              "name": "No",
+              "price": -110
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-23T22:39:55Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Petar Musa",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Baturina",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Marco Pasalic",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Perisic",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Fajardo Nelson",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Luka Modric",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Luis Rodriguez",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Edgar Barcenas",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Mateo Kovacic",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Josko Gvardiol",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Jesus Martinez",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Stanisic",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Harvey",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Josip Sutalo",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Cesar Blackman",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Marin Pongracic",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Jiovany Ramos",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Andres Andrade",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Jose Cordoba",
+              "price": 1600
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-23T22:39:55Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Jose Luis Rodriguez",
+              "price": -118,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Luis Rodriguez",
+              "price": 380,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jose Luis Rodriguez",
+              "price": 1000,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Jose Luis Rodriguez",
+              "price": 2500,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Harvey",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Carlos Harvey",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Cesar Blackman",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cesar Blackman",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jose Fajardo Nelson",
+              "price": -110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Fajardo Nelson",
+              "price": 380,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jose Fajardo Nelson",
+              "price": 1100,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Jose Fajardo Nelson",
+              "price": 2500,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Edgar Barcenas",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edgar Barcenas",
+              "price": 700,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Jesus Martinez",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cristian Jesus Martinez",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jiovany Ramos",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jiovany Ramos",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Andres Andrade",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Andres Andrade",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jose Cordoba",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jose Cordoba",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": -286,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": 145,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": 380,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Petar Musa",
+              "price": 900,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Martin Baturina",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Baturina",
+              "price": 280,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Martin Baturina",
+              "price": 800,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Martin Baturina",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": -154,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": 275,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": 800,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Marco Pasalic",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Luka Modric",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luka Modric",
+              "price": 280,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Luka Modric",
+              "price": 800,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Luka Modric",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": -225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": 190,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": 550,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Perisic",
+              "price": 1200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Mateo Kovacic",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mateo Kovacic",
+              "price": 550,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Josko Gvardiol",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josko Gvardiol",
+              "price": 850,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Josip Stanisic",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josip Stanisic",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Josip Sutalo",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josip Sutalo",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Marin Pongracic",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Marin Pongracic",
+              "price": 1800,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betclic_fr",
+      "title": "Betclic (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:03Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -250
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 365
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -225
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 345
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -155,
+              "point": -1.0
+            },
+            {
+              "name": "Panama",
+              "price": 135,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 175,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -225,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -115
+            },
+            {
+              "name": "Panama",
+              "price": 625
+            },
+            {
+              "name": "Draw",
+              "price": 155
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -140,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:40:01Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -235
+            },
+            {
+              "name": "Panama",
+              "price": 725
+            },
+            {
+              "name": "Draw",
+              "price": 375
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T22:40:01Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": 130,
+              "point": -1.5
+            },
+            {
+              "name": "Panama",
+              "price": -150,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:40:01Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 117,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -137,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:40:03Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -235
+            },
+            {
+              "name": "Panama",
+              "price": 765
+            },
+            {
+              "name": "Draw",
+              "price": 370
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T22:40:03Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -153,
+              "point": -1.0
+            },
+            {
+              "name": "Panama",
+              "price": 135,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:40:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -139,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 123,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betway",
+      "title": "Betway",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -235
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:40:01Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -217
+            },
+            {
+              "name": "Panama",
+              "price": 780
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-23T22:40:01Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -213
+            },
+            {
+              "name": "Panama",
+              "price": 800
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-23T22:40:01Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -102,
+              "point": -1.25
+            },
+            {
+              "name": "Panama",
+              "price": 100,
+              "point": 1.25
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-23T22:40:01Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -102
+            },
+            {
+              "name": "No",
+              "price": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:40:01Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -250
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:25Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -240
+            },
+            {
+              "name": "Panama",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 340
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nordicbet",
+      "title": "Nordic Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:51Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -227
+            },
+            {
+              "name": "Panama",
+              "price": 710
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:39:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -143,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betsson",
+      "title": "Betsson",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:40:02Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -227
+            },
+            {
+              "name": "Panama",
+              "price": 710
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-23T22:40:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -143,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betvictor",
+      "title": "Bet Victor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:17Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -275
+            },
+            {
+              "name": "Panama",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_sb_uk",
+      "title": "Betfair Sportsbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-23T22:39:49Z",
+          "outcomes": [
+            {
+              "name": "Croatia",
+              "price": -303
+            },
+            {
+              "name": "Panama",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 275
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

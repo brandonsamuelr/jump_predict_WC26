@@ -1,0 +1,20 @@
+match,question_number,p,fav_p,result,fav_won
+Argentina vs Austria,Q2,0.14,0.86,No,1
+Portugal vs Uzbekistan,Q2,0.759,0.759,Yes,1
+England vs Ghana,Q6,0.248,0.752,No,1
+Panama vs Croatia,Q2,0.49,0.51,No,1
+Colombia vs DR Congo,Q2,0.64,0.64,Yes,1
+Switzerland vs Canada,Q6,0.49,0.51,No,1
+Bosnia & Herzegovina vs Qatar,Q3,0.5,0.5,No,0
+Morocco vs Haiti,Q4,0.65,0.65,Yes,1
+Scotland vs Brazil,Q1,0.703,0.703,No,0
+Czechia vs Mexico,Q3,0.354,0.646,No,1
+South Africa vs South Korea,Q4,0.617,0.617,Yes,1
+Paraguay vs Australia,Q4,0.3662,0.6337999999999999,No,1
+Curaçao vs Ivory Coast,Q5,0.07,0.9299999999999999,No,1
+Ecuador vs Germany,Q5,0.61,0.61,No,0
+Japan vs Sweden,Q2,0.48,0.52,No,1
+Senegal vs Iraq,Q8,0.82,0.82,Yes,1
+Norway vs France,Q3,0.72,0.72,No,0
+Cape Verde vs Saudi Arabia,Q6,0.41,0.5900000000000001,No,1
+Uruguay vs Spain,Q2,0.17,0.83,Yes,0

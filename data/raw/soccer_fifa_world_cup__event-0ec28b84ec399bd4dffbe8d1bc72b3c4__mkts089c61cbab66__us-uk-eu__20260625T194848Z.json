@@ -1,0 +1,6987 @@
+{
+  "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-25T20:00:00Z",
+  "home_team": "Ecuador",
+  "away_team": "Germany",
+  "bookmakers": [
+    {
+      "key": "unibet_uk",
+      "title": "Unibet (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 350
+            },
+            {
+              "name": "Germany",
+              "price": -137
+            },
+            {
+              "name": "Draw",
+              "price": 325
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:39Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 320
+            },
+            {
+              "name": "Germany",
+              "price": -143
+            },
+            {
+              "name": "Draw",
+              "price": 330
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coolbet",
+      "title": "Coolbet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:37Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 350
+            },
+            {
+              "name": "Germany",
+              "price": -133
+            },
+            {
+              "name": "Draw",
+              "price": 340
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 118,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -136,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 850,
+              "point": 5.0
+            },
+            {
+              "name": "Over",
+              "price": -421,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 410,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 118,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": -141,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -3471,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 180,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 335,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "price": -296,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": -2083,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": 950,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 1950,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 1900,
+              "point": 6.0
+            },
+            {
+              "name": "Under",
+              "price": -1320,
+              "point": 5.0
+            },
+            {
+              "name": "Under",
+              "price": 340,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -521,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -136,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 122,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 1500,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -209,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -411,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": 250,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": 1150,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -1521,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -7028,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -6308,
+              "point": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:37Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 363
+            },
+            {
+              "name": "Germany",
+              "price": -164
+            },
+            {
+              "name": "Draw",
+              "price": 346
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-25T19:48:37Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 128,
+              "point": 0.5
+            },
+            {
+              "name": "Germany",
+              "price": -160,
+              "point": -0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -143,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 117,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T19:48:37Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 369
+            },
+            {
+              "name": "Germany",
+              "price": 128
+            },
+            {
+              "name": "Draw",
+              "price": 153
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T19:48:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 159,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -197,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:16Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 333
+            },
+            {
+              "name": "Germany",
+              "price": -149
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:47:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -10000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -588,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -161,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 163,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 350,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 850,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 2000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 1800,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -227,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -588,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -2000,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:47:51Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -175
+            },
+            {
+              "name": "No",
+              "price": 130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 350
+            },
+            {
+              "name": "Germany",
+              "price": -150
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -137
+            },
+            {
+              "name": "No",
+              "price": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 340
+            },
+            {
+              "name": "Germany",
+              "price": -140
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 215,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -290,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 2000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -245,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 186,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 800,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -1800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -800,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 1400,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -6000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -150,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 118,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 230,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -310,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 600,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -1100,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 520,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -1000,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -158,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 118,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 6000,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 280,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -420,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -400,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 270,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 140,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -188,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 7000,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 880,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -3000,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 2800,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 1400,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -8000,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 7500,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 104,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -140,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 220,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -310,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -168,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 126,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -360,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 250,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 920,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -3500,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 6000,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 2800,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -1100,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 550,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 390,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -650,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 1500,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -10000,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 580,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -1300,
+              "point": 8.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 8000,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 410,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 176,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 1800,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -4500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 4000,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 920,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -150,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -590,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -220,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 360,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -8000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 1300,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -2000,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 122,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -310,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -108,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 164,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -172,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 270,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -4000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -1500,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -600,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -310,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -180,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 160,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 260,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 440,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 700,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": 1200,
+              "point": 14.5
+            },
+            {
+              "name": "Over",
+              "price": 2000,
+              "point": 15.5
+            },
+            {
+              "name": "Over",
+              "price": 410,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 1400,
+              "point": 15.5
+            },
+            {
+              "name": "Over",
+              "price": -5000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 920,
+              "point": 14.5
+            },
+            {
+              "name": "Over",
+              "price": -1450,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 680,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": -600,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 220,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -225,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 128,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -400,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 1500,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 700,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 380,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 200,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -150,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -240,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -400,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -700,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -1500,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -2500,
+              "point": 14.5
+            },
+            {
+              "name": "Under",
+              "price": -7000,
+              "point": 15.5
+            },
+            {
+              "name": "Under",
+              "price": -700,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -8000,
+              "point": 15.5
+            },
+            {
+              "name": "Under",
+              "price": 1200,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -3500,
+              "point": 14.5
+            },
+            {
+              "name": "Under",
+              "price": 640,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -1600,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": 370,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -158
+            },
+            {
+              "name": "No",
+              "price": 124
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 190
+            },
+            {
+              "name": "Germany",
+              "price": -160
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 360
+            },
+            {
+              "name": "Germany",
+              "price": 115
+            },
+            {
+              "name": "Draw",
+              "price": 135
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": 500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamal Musiala",
+              "price": 1100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Enner Valencia",
+              "price": 1300,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Florian Wirtz",
+              "price": 1400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Leroy Sane",
+              "price": 1800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Gonzalo Plata",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "John Yeboah",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": -330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamal Musiala",
+              "price": -180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Florian Wirtz",
+              "price": -165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Enner Valencia",
+              "price": -160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Leroy Sane",
+              "price": -140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gonzalo Plata",
+              "price": -120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "John Yeboah",
+              "price": -115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nilson David Angulo Ramirez",
+              "price": -105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Felix Nmecha",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joshua Kimmich",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Vite",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Moises Caicedo",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alan Steven Franco Palma",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aleksandar Pavlovic",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "David Raum",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan Tah",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Rudiger",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Piero Hincapie",
+              "price": 460,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "William Joel Pacho Tenorio",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joel Ordonez",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": 140,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamal Musiala",
+              "price": 290,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Florian Wirtz",
+              "price": 330,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Enner Valencia",
+              "price": 330,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Leroy Sane",
+              "price": 410,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Gonzalo Plata",
+              "price": 470,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nilson David Angulo Ramirez",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "John Yeboah",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Felix Nmecha",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joshua Kimmich",
+              "price": 1000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Vite",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Moises Caicedo",
+              "price": 1800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Alan Steven Franco Palma",
+              "price": 1900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Aleksandar Pavlovic",
+              "price": 2200,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-25T19:47:40Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 900,
+              "point": -1.5
+            },
+            {
+              "name": "Germany",
+              "price": -2500,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -245,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 186,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -150,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 118,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -4500,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -2000,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 150,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -192,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "smarkets",
+      "title": "Smarkets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:25Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 450
+            },
+            {
+              "name": "Germany",
+              "price": -130
+            },
+            {
+              "name": "Draw",
+              "price": 340
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-25T19:48:25Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 380
+            },
+            {
+              "name": "Germany",
+              "price": -128
+            },
+            {
+              "name": "Draw",
+              "price": 360
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:02Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 333
+            },
+            {
+              "name": "Germany",
+              "price": -143
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 800,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -167,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 380,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 175,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -20000,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -3300,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -700,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -250,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 1200,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -167
+            },
+            {
+              "name": "No",
+              "price": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 360
+            },
+            {
+              "name": "Germany",
+              "price": -130
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 370
+            },
+            {
+              "name": "Germany",
+              "price": -128
+            },
+            {
+              "name": "Draw",
+              "price": 360
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:28Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -130,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 470,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -370,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 2900,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 1250,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 7900,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 17900,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -2000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 200,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 128,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -500,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -3333,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -1429,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 1650,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -208,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-25T19:48:28Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 194,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -111,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -250,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-25T19:48:28Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -145,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 176,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 142,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -192,
+              "point": 10.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:28Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -127
+            },
+            {
+              "name": "No",
+              "price": 124
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_eu",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 360
+            },
+            {
+              "name": "Germany",
+              "price": -130
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 370
+            },
+            {
+              "name": "Germany",
+              "price": -128
+            },
+            {
+              "name": "Draw",
+              "price": 360
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_fr",
+      "title": "Unibet (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:12Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 370
+            },
+            {
+              "name": "Germany",
+              "price": -156
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 375
+            },
+            {
+              "name": "Germany",
+              "price": -153
+            },
+            {
+              "name": "Draw",
+              "price": 370
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 110,
+              "point": 0.75
+            },
+            {
+              "name": "Germany",
+              "price": -119,
+              "point": -0.75
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -109,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": -102,
+              "point": 2.75
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -109,
+              "point": 2.75
+            },
+            {
+              "name": "Over",
+              "price": -355,
+              "point": 1.75
+            },
+            {
+              "name": "Over",
+              "price": -294,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": -190,
+              "point": 2.25
+            },
+            {
+              "name": "Over",
+              "price": -140,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 122,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": 153,
+              "point": 3.25
+            },
+            {
+              "name": "Over",
+              "price": 183,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 240,
+              "point": 3.75
+            },
+            {
+              "name": "Under",
+              "price": -102,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": 280,
+              "point": 1.75
+            },
+            {
+              "name": "Under",
+              "price": 237,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": 161,
+              "point": 2.25
+            },
+            {
+              "name": "Under",
+              "price": 122,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -140,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -181,
+              "point": 3.25
+            },
+            {
+              "name": "Under",
+              "price": -223,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -299,
+              "point": 3.75
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-25T19:48:29Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 124,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -163,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 111,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -145,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-25T19:48:29Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -113,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -239,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 140,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -107,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 184,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -178,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-25T19:48:29Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -123,
+              "point": 9.0
+            },
+            {
+              "name": "Over",
+              "price": -508,
+              "point": 7.0
+            },
+            {
+              "name": "Over",
+              "price": -293,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -233,
+              "point": 8.0
+            },
+            {
+              "name": "Over",
+              "price": -161,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 103,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 130,
+              "point": 10.0
+            },
+            {
+              "name": "Over",
+              "price": 153,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 202,
+              "point": 11.0
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 9.0
+            },
+            {
+              "name": "Under",
+              "price": 288,
+              "point": 7.0
+            },
+            {
+              "name": "Under",
+              "price": 195,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 166,
+              "point": 8.0
+            },
+            {
+              "name": "Under",
+              "price": 123,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -132,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -176,
+              "point": 10.0
+            },
+            {
+              "name": "Under",
+              "price": -217,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -314,
+              "point": 11.0
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:29Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -151
+            },
+            {
+              "name": "No",
+              "price": 125
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-25T19:48:29Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 161
+            },
+            {
+              "name": "Germany",
+              "price": -146
+            },
+            {
+              "name": "Draw",
+              "price": 824
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T19:48:29Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 372
+            },
+            {
+              "name": "Germany",
+              "price": 147
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-25T19:48:29Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -225,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 181,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -130,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 107,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T19:48:29Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -126,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 112,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 365
+            },
+            {
+              "name": "Germany",
+              "price": -143
+            },
+            {
+              "name": "Draw",
+              "price": 340
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 126,
+              "point": 0.5
+            },
+            {
+              "name": "Germany",
+              "price": -143,
+              "point": -0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -136,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 120,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -116,
+              "point": 2.75
+            },
+            {
+              "name": "Over",
+              "price": 123,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": -140,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 365
+            },
+            {
+              "name": "Germany",
+              "price": 145
+            },
+            {
+              "name": "Draw",
+              "price": 135
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -200,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -140,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 120,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 165,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -190,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "casumo",
+      "title": "Casumo",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:01Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 335
+            },
+            {
+              "name": "Germany",
+              "price": -141
+            },
+            {
+              "name": "Draw",
+              "price": 325
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:01Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -150,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas_se",
+      "title": "LeoVegas (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:15Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 335
+            },
+            {
+              "name": "Germany",
+              "price": -141
+            },
+            {
+              "name": "Draw",
+              "price": 325
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 320
+            },
+            {
+              "name": "Germany",
+              "price": -147
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -159
+            },
+            {
+              "name": "No",
+              "price": 115
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -625,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 270,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -417,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -112,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -345,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 200,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -200,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -122,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -667,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 300,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 440,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -833,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -476,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": 235,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -111,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 143,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -175,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 380,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -286,
+              "point": 11.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -357,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 175,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -127,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -263,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -111,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 225,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas",
+      "title": "LeoVegas",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 335
+            },
+            {
+              "name": "Germany",
+              "price": -141
+            },
+            {
+              "name": "Draw",
+              "price": 325
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -150,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_nl",
+      "title": "Unibet (NL)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:48Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 350
+            },
+            {
+              "name": "Germany",
+              "price": -134
+            },
+            {
+              "name": "Draw",
+              "price": 340
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -150,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grosvenor",
+      "title": "Grosvenor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:01Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 350
+            },
+            {
+              "name": "Germany",
+              "price": -167
+            },
+            {
+              "name": "Draw",
+              "price": 340
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:01Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -150,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:48Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 335
+            },
+            {
+              "name": "Germany",
+              "price": -141
+            },
+            {
+              "name": "Draw",
+              "price": 325
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -150,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-25T19:48:44Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 200,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -286,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 650,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -1667,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -245,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 550,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -1250,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -835,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 440,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 1600,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -5000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -152,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 110,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 215,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -315,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:44Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 950,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -150,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -10000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 410,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -530,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 175,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -2500,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 1300,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -625,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 340,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -235,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-25T19:48:44Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 300,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 200,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 440,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": -345,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -122,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -670,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -200,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -480,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -286,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -835,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": 235,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -112,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -177,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 380,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 143,
+              "point": 8.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-25T19:48:44Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 270,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -625,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -121,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -420,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -113,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:44Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -159
+            },
+            {
+              "name": "No",
+              "price": 115
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T19:48:44Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 340
+            },
+            {
+              "name": "Germany",
+              "price": 128
+            },
+            {
+              "name": "Draw",
+              "price": 138
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-25T19:48:44Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": 500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Gonzalo Plata",
+              "price": 575,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": -245,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Enner Valencia",
+              "price": -200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Leroy Sane",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "John Yeboah",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joel Ordonez",
+              "price": 410,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Vite",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Rudiger",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gonzalo Plata",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamal Musiala",
+              "price": -148,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Leroy Sane",
+              "price": -122,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamal Musiala",
+              "price": 280,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Enner Valencia",
+              "price": 210,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nilson David Angulo Ramirez",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alan Steven Franco Palma",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Felix Nmecha",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Moises Caicedo",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Florian Wirtz",
+              "price": -143,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Piero Hincapie",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nilson David Angulo Ramirez",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Enner Valencia",
+              "price": 650,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Joshua Kimmich",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "William Joel Pacho Tenorio",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aleksandar Pavlovic",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "John Yeboah",
+              "price": 430,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "David Raum",
+              "price": 390,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Florian Wirtz",
+              "price": 300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan Tah",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": 175,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:48Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 320
+            },
+            {
+              "name": "Germany",
+              "price": -147
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:48Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -159
+            },
+            {
+              "name": "No",
+              "price": 115
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-25T19:48:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -625,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 270,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -417,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -112,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-25T19:48:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -345,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 200,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -667,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -122,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -200,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 300,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 440,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -833,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -476,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": 235,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -111,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -175,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 380,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -286,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 143,
+              "point": 8.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-25T19:48:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -357,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 175,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -127,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -263,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -111,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 225,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_se",
+      "title": "Unibet (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:24Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 350
+            },
+            {
+              "name": "Germany",
+              "price": -134
+            },
+            {
+              "name": "Draw",
+              "price": 340
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -143,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 118,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmu_fr",
+      "title": "PMU (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 320
+            },
+            {
+              "name": "Germany",
+              "price": -134
+            },
+            {
+              "name": "Draw",
+              "price": 335
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -157,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:47:49Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 340
+            },
+            {
+              "name": "Germany",
+              "price": -135
+            },
+            {
+              "name": "Draw",
+              "price": 330
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-25T19:47:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -236,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 196,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -299,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 610,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -1800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -810,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 406,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -148,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 103,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 212,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -330,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 548,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -1400,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-25T19:47:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -170,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 120,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 120,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -165,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-25T19:47:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-25T19:47:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -295,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -170,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 100,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 160,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 255,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 200,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 120,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -140,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -230,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -390,
+              "point": 11.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:47:33Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -140
+            },
+            {
+              "name": "No",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T19:47:33Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 350
+            },
+            {
+              "name": "Germany",
+              "price": 130
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:46:41Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 350
+            },
+            {
+              "name": "Germany",
+              "price": -150
+            },
+            {
+              "name": "Draw",
+              "price": 330
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-25T19:46:41Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": -141,
+              "point": 1.0
+            },
+            {
+              "name": "Germany",
+              "price": 115,
+              "point": -1.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:46:41Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -139,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 113,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sport888",
+      "title": "888sport",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:12Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 300
+            },
+            {
+              "name": "Germany",
+              "price": -150
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:39Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 300
+            },
+            {
+              "name": "Germany",
+              "price": -143
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:39Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -162,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 120,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:39Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -150
+            },
+            {
+              "name": "No",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:39Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -162,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -500,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 333,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-25T19:48:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Enner Valencia",
+              "price": -225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Enner Valencia",
+              "price": 200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Enner Valencia",
+              "price": 550,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Enner Valencia",
+              "price": 1200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Gonzalo Plata",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gonzalo Plata",
+              "price": 333,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Gonzalo Plata",
+              "price": 900,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Gonzalo Plata",
+              "price": 2200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "John Yeboah",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "John Yeboah",
+              "price": 333,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "John Yeboah",
+              "price": 900,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "John Yeboah",
+              "price": 2200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Nilson David Angulo Ramirez",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nilson David Angulo Ramirez",
+              "price": 550,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Vite",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Vite",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Piero Hincapie",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Piero Hincapie",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Moises Caicedo",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Moises Caicedo",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Alan Steven Franco Palma",
+              "price": 375,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alan Steven Franco Palma",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "William Joel Pacho Tenorio",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "William Joel Pacho Tenorio",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Joel Ordonez",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joel Ordonez",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": -350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": 120,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": 350,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": 850,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Jamal Musiala",
+              "price": -188,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamal Musiala",
+              "price": 225,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jamal Musiala",
+              "price": 650,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Jamal Musiala",
+              "price": 1400,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Leroy Sane",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Leroy Sane",
+              "price": 250,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Leroy Sane",
+              "price": 700,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Leroy Sane",
+              "price": 1600,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Florian Wirtz",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Florian Wirtz",
+              "price": 280,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Florian Wirtz",
+              "price": 800,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Florian Wirtz",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Felix Nmecha",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Felix Nmecha",
+              "price": 700,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Joshua Kimmich",
+              "price": 162,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joshua Kimmich",
+              "price": 800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Aleksandar Pavlovic",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aleksandar Pavlovic",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "David Raum",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "David Raum",
+              "price": 1200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Rudiger",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Antonio Rudiger",
+              "price": 1200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan Tah",
+              "price": 375,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan Tah",
+              "price": 2000,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "everygame",
+      "title": "Everygame",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:47:46Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 340
+            },
+            {
+              "name": "Germany",
+              "price": -143
+            },
+            {
+              "name": "Draw",
+              "price": 333
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boylesports",
+      "title": "BoyleSports",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:27Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 333
+            },
+            {
+              "name": "Germany",
+              "price": -162
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 320
+            },
+            {
+              "name": "Germany",
+              "price": -137
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -143
+            },
+            {
+              "name": "No",
+              "price": 105
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 170,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 800,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 1600,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -149,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 380,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -5000,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -227,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -2000,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 320,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -667,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 1200,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T19:48:47Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 320
+            },
+            {
+              "name": "Germany",
+              "price": 120
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:38Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 320
+            },
+            {
+              "name": "Germany",
+              "price": -137
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:38Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -149
+            },
+            {
+              "name": "No",
+              "price": 105
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 162,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 800,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -556,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 1600,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 380,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -154,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -5000,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -250,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -2000,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 320,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -100000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -667,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 1200,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T19:48:38Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 320
+            },
+            {
+              "name": "Germany",
+              "price": 115
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:46:33Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 335
+            },
+            {
+              "name": "Germany",
+              "price": -144
+            },
+            {
+              "name": "Draw",
+              "price": 330
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-25T19:46:33Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": -115,
+              "point": 0.75
+            },
+            {
+              "name": "Germany",
+              "price": -105,
+              "point": -0.75
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:46:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 2.75
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-25T19:48:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -210,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 169,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 113,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -136,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 230,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -290,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -400,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 300,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -130,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 110,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 155,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -188,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-25T19:48:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -350,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 235,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -140,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 105,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -170,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 125,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 110,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -148,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -350,
+              "point": 1.75
+            },
+            {
+              "name": "Over",
+              "price": -290,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": -188,
+              "point": 2.25
+            },
+            {
+              "name": "Over",
+              "price": -140,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 122,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": 155,
+              "point": 3.25
+            },
+            {
+              "name": "Over",
+              "price": 188,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 245,
+              "point": 3.75
+            },
+            {
+              "name": "Under",
+              "price": 300,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 270,
+              "point": 1.75
+            },
+            {
+              "name": "Under",
+              "price": 230,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": 155,
+              "point": 2.25
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -148,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -188,
+              "point": 3.25
+            },
+            {
+              "name": "Under",
+              "price": -230,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -305,
+              "point": 3.75
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-25T19:48:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -370,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -122,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 185,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 255,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -108,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -250,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-25T19:48:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -300,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -250,
+              "point": 8.0
+            },
+            {
+              "name": "Over",
+              "price": -170,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -132,
+              "point": 9.0
+            },
+            {
+              "name": "Over",
+              "price": -102,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 132,
+              "point": 10.0
+            },
+            {
+              "name": "Over",
+              "price": 165,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 210,
+              "point": 11.0
+            },
+            {
+              "name": "Over",
+              "price": 250,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 215,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 185,
+              "point": 8.0
+            },
+            {
+              "name": "Under",
+              "price": 128,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 102,
+              "point": 9.0
+            },
+            {
+              "name": "Under",
+              "price": -128,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -175,
+              "point": 10.0
+            },
+            {
+              "name": "Under",
+              "price": -220,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -290,
+              "point": 11.0
+            },
+            {
+              "name": "Under",
+              "price": -360,
+              "point": 11.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:12Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -145
+            },
+            {
+              "name": "No",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-25T19:48:12Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 190
+            },
+            {
+              "name": "Germany",
+              "price": -182
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T19:48:12Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 193
+            },
+            {
+              "name": "Germany",
+              "price": -240
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T19:48:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -128,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 108,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betclic_fr",
+      "title": "Betclic (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:47:19Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 350
+            },
+            {
+              "name": "Germany",
+              "price": -161
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_de",
+      "title": "Winamax (DE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:38Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 330
+            },
+            {
+              "name": "Germany",
+              "price": -143
+            },
+            {
+              "name": "Draw",
+              "price": 340
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tipico_de",
+      "title": "Tipico",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:01Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 330
+            },
+            {
+              "name": "Germany",
+              "price": -143
+            },
+            {
+              "name": "Draw",
+              "price": 340
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 365
+            },
+            {
+              "name": "Germany",
+              "price": -143
+            },
+            {
+              "name": "Draw",
+              "price": 340
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 126,
+              "point": 0.5
+            },
+            {
+              "name": "Germany",
+              "price": -143,
+              "point": -0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -136,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 120,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -116,
+              "point": 2.75
+            },
+            {
+              "name": "Over",
+              "price": 123,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": -140,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:00Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 310
+            },
+            {
+              "name": "Germany",
+              "price": -140
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:00Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -140
+            },
+            {
+              "name": "No",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-25T19:48:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -225,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 210,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -295,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 700,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -1200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 2200,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -12500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -145,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 105,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 220,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -300,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -700,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 575,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -1000,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-25T19:48:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": 140,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": -200,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -145,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 105,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -350,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 230,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -165,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 120,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 110,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -155,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": 190,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": -275,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 175,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -475,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 425,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -3000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 900,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 2000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -225,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -600,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 1500,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -1600,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-25T19:48:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 210,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -350,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -325,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -118,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 230,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-25T19:48:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -175,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 155,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -300,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 260,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -625,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 400,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -135,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -225,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 210,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -400,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 375,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -700,
+              "point": 12.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-25T19:48:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -625,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 250,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 700,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 375,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -375,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -1400,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-25T19:48:22Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 175
+            },
+            {
+              "name": "Germany",
+              "price": -165
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T19:48:22Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 320
+            },
+            {
+              "name": "Germany",
+              "price": 120
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-25T19:48:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ecuador",
+              "price": -225,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Ecuador",
+              "price": 165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Germany",
+              "price": -145,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Germany",
+              "price": 105,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T19:48:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 165,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -220,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:37Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 344
+            },
+            {
+              "name": "Germany",
+              "price": -134
+            },
+            {
+              "name": "Draw",
+              "price": 331
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-25T19:48:37Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": -238,
+              "point": 1.5
+            },
+            {
+              "name": "Germany",
+              "price": 186,
+              "point": -1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -128,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:37Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -135
+            },
+            {
+              "name": "No",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:46:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -6250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -3125,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": -463,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -260,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": -128,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 124,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": 178,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 359,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "price": 411,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 730,
+              "point": 5.0
+            },
+            {
+              "name": "Over",
+              "price": 801,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 1380,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 3300,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 1400,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 1080,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 333,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 202,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -154,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -225,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -500,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": -595,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -6250,
+              "point": 5.0
+            },
+            {
+              "name": "Under",
+              "price": -1667,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -6250,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -20000,
+              "point": 7.5
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-25T19:43:41Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Antonio Rudiger",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Leroy Sane",
+              "price": -213,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Leroy Sane",
+              "price": 220,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Leroy Sane",
+              "price": 1300,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Leroy Sane",
+              "price": 2800,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Enner Valencia",
+              "price": -213,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Enner Valencia",
+              "price": 270,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Enner Valencia",
+              "price": 1100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan Tah",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan Tah",
+              "price": 2800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "John Yeboah",
+              "price": -116,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "John Yeboah",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "John Yeboah",
+              "price": 1700,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Joshua Kimmich",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joshua Kimmich",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joshua Kimmich",
+              "price": 4900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Felix Nmecha",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Felix Nmecha",
+              "price": 950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Felix Nmecha",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Gonzalo Plata",
+              "price": -116,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gonzalo Plata",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Gonzalo Plata",
+              "price": 1600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Moises Caicedo",
+              "price": 265,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Moises Caicedo",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Florian Wirtz",
+              "price": -161,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Florian Wirtz",
+              "price": 320,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Florian Wirtz",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamal Musiala",
+              "price": -182,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamal Musiala",
+              "price": 215,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamal Musiala",
+              "price": 850,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamal Musiala",
+              "price": 2800,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "William Joel Pacho Tenorio",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "David Raum",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "David Raum",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": -323,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": 155,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": 400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kai Havertz",
+              "price": 1500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Piero Hincapie",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Vite",
+              "price": 205,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Vite",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nilson David Angulo Ramirez",
+              "price": -111,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nilson David Angulo Ramirez",
+              "price": 475,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nilson David Angulo Ramirez",
+              "price": 2000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Alan Steven Franco Palma",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alan Steven Franco Palma",
+              "price": 1500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joel Ordonez",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aleksandar Pavlovic",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aleksandar Pavlovic",
+              "price": 1600,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:26Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 360
+            },
+            {
+              "name": "Germany",
+              "price": -132
+            },
+            {
+              "name": "Draw",
+              "price": 340
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-25T19:48:26Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 380
+            },
+            {
+              "name": "Germany",
+              "price": -130
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-25T19:48:26Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": -102,
+              "point": 0.75
+            },
+            {
+              "name": "Germany",
+              "price": -101,
+              "point": -0.75
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-25T19:48:26Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -130
+            },
+            {
+              "name": "No",
+              "price": 126
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 335
+            },
+            {
+              "name": "Germany",
+              "price": -140
+            },
+            {
+              "name": "Draw",
+              "price": 340
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Germany",
+              "price": -140,
+              "point": -0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 185,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -235,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 365
+            },
+            {
+              "name": "Germany",
+              "price": 145
+            },
+            {
+              "name": "Draw",
+              "price": 135
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-25T19:48:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -130,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betway",
+      "title": "Betway",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:37Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 300
+            },
+            {
+              "name": "Germany",
+              "price": -150
+            },
+            {
+              "name": "Draw",
+              "price": 333
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betvictor",
+      "title": "Bet Victor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:43Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 333
+            },
+            {
+              "name": "Germany",
+              "price": -143
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betsson",
+      "title": "Betsson",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:15Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 335
+            },
+            {
+              "name": "Germany",
+              "price": -133
+            },
+            {
+              "name": "Draw",
+              "price": 325
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -139,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nordicbet",
+      "title": "Nordic Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:15Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 335
+            },
+            {
+              "name": "Germany",
+              "price": -133
+            },
+            {
+              "name": "Draw",
+              "price": 325
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -139,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:32Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 325
+            },
+            {
+              "name": "Germany",
+              "price": -145
+            },
+            {
+              "name": "Draw",
+              "price": 305
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "codere_it",
+      "title": "Codere (IT)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:25Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 340
+            },
+            {
+              "name": "Germany",
+              "price": -141
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:48:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -152,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-25T19:48:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -3333,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -476,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -152,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 165,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 350,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 660,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 760,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 280,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -244,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -667,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -2500,
+              "point": 5.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:35Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 330
+            },
+            {
+              "name": "Germany",
+              "price": -145
+            },
+            {
+              "name": "Draw",
+              "price": 330
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:47:50Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 355
+            },
+            {
+              "name": "Germany",
+              "price": -148
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-25T19:47:50Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 128,
+              "point": 0.5
+            },
+            {
+              "name": "Germany",
+              "price": -148,
+              "point": -0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-25T19:47:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_sb_uk",
+      "title": "Betfair Sportsbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-25T19:48:25Z",
+          "outcomes": [
+            {
+              "name": "Ecuador",
+              "price": 300
+            },
+            {
+              "name": "Germany",
+              "price": -161
+            },
+            {
+              "name": "Draw",
+              "price": 240
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

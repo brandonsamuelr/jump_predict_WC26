@@ -1,0 +1,6984 @@
+{
+  "id": "d1279ce7f33136a33e99ad442fc855e8",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-24T22:05:00Z",
+  "home_team": "Morocco",
+  "away_team": "Haiti",
+  "bookmakers": [
+    {
+      "key": "tipico_de",
+      "title": "Tipico",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 950
+            },
+            {
+              "name": "Morocco",
+              "price": -370
+            },
+            {
+              "name": "Draw",
+              "price": 480
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_uk",
+      "title": "Unibet (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:26Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 900
+            },
+            {
+              "name": "Morocco",
+              "price": -333
+            },
+            {
+              "name": "Draw",
+              "price": 475
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_fr",
+      "title": "Unibet (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1200
+            },
+            {
+              "name": "Morocco",
+              "price": -435
+            },
+            {
+              "name": "Draw",
+              "price": 560
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1100
+            },
+            {
+              "name": "Morocco",
+              "price": -400
+            },
+            {
+              "name": "Draw",
+              "price": 500
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coolbet",
+      "title": "Coolbet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:14Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1000
+            },
+            {
+              "name": "Morocco",
+              "price": -333
+            },
+            {
+              "name": "Draw",
+              "price": 510
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 102,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -118,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:14Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 900
+            },
+            {
+              "name": "Morocco",
+              "price": -357
+            },
+            {
+              "name": "Draw",
+              "price": 480
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:13Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1000
+            },
+            {
+              "name": "Morocco",
+              "price": -380
+            },
+            {
+              "name": "Draw",
+              "price": 500
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T21:57:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -850,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 1700,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -10000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 3300,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -108,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -118,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -295,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 220,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -2500,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 900,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 800,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -1800,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 310,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -440,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 118,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -150,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 1500,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -7000,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T21:57:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 205,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -290,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 880,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -3000,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 1700,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -122,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -108,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 450,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -800,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 240,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -350,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 400,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -670,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -260,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 188,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -130,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -102,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -600,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 360,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 142,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -192,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 1400,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -8000,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 640,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -1450,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 920,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -3500,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 2500,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -2000,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 750,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:57:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -114,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -3000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 370,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -800,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -200,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 2000,
+              "point": 15.5
+            },
+            {
+              "name": "Over",
+              "price": 1260,
+              "point": 14.5
+            },
+            {
+              "name": "Over",
+              "price": 880,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": -10000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -2000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -750,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -380,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -210,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 135,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 220,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 380,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 600,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 1000,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": 1600,
+              "point": 14.5
+            },
+            {
+              "name": "Over",
+              "price": 235,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 580,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": -380,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 152,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -114,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 880,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -600,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 450,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 148,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -6000,
+              "point": 14.5
+            },
+            {
+              "name": "Under",
+              "price": -3000,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": 2200,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 1000,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 470,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 240,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 135,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -130,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -210,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -350,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -600,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -1100,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -2000,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -5000,
+              "point": 14.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 15.5
+            },
+            {
+              "name": "Under",
+              "price": -340,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -1200,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": 260,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 9.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "price": -152
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T21:57:52Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 550
+            },
+            {
+              "name": "Morocco",
+              "price": -550
+            },
+            {
+              "name": "Draw",
+              "price": 900
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:57:52Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 750
+            },
+            {
+              "name": "Morocco",
+              "price": -160
+            },
+            {
+              "name": "Draw",
+              "price": 170
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:57:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ayoub El Kaabi",
+              "price": 100
+            },
+            {
+              "name": "Yes",
+              "description": "Ismael Saibari",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Brahim Diaz",
+              "price": 145
+            },
+            {
+              "name": "Yes",
+              "description": "Bilal El Khannous",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Neil El Aynaoui",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Achraf Hakimi",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Wilson Isidor",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Lenny Joseph",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Chadi Riad",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Sofyan Amrabat",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Providence",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Josue Casimir",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Jeanricner Bellegarde",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Danley Jean Jacques",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Anass Salah-Eddine",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Redouane Halhal",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Kevin Duverne",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Experience",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Hannes Delcroix",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Ade",
+              "price": 5000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T21:57:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": -105,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": -105,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": 135,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": 200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Achraf Hakimi",
+              "price": 440,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Neil El Aynaoui",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Wilson Isidor",
+              "price": 550,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lenny Joseph",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Josue Casimir",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Providence",
+              "price": 1300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jeanricner Bellegarde",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Sofyan Amrabat",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Chadi Riad",
+              "price": 1800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Anass Salah-Eddine",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Redouane Halhal",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Danley Jean Jacques",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": 1000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": 1000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": 1600,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": 2500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": 330,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": 330,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": 490,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": 750,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Achraf Hakimi",
+              "price": 1900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Neil El Aynaoui",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Wilson Isidor",
+              "price": 2700,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": -475,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": -475,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": -340,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": -240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Achraf Hakimi",
+              "price": -130,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Neil El Aynaoui",
+              "price": -115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Wilson Isidor",
+              "price": -105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lenny Joseph",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josue Casimir",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Providence",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sofyan Amrabat",
+              "price": 195,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jeanricner Bellegarde",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Chadi Riad",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anass Salah-Eddine",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Redouane Halhal",
+              "price": 320,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Danley Jean Jacques",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Experience",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jean-Kevin Duverne",
+              "price": 900,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Ade",
+              "price": 900,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hannes Delcroix",
+              "price": 950,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-24T21:57:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ayoub El Kaabi",
+              "price": -165
+            },
+            {
+              "name": "Yes",
+              "description": "Ismael Saibari",
+              "price": -155
+            },
+            {
+              "name": "Yes",
+              "description": "Brahim Diaz",
+              "price": -140
+            },
+            {
+              "name": "Yes",
+              "description": "Bilal El Khannous",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Achraf Hakimi",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Neil El Aynaoui",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Anass Salah-Eddine",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Redouane Halhal",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Sofyan Amrabat",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Wilson Isidor",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Chadi Riad",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Lenny Joseph",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Josue Casimir",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Jeanricner Bellegarde",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Providence",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Danley Jean Jacques",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Experience",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Kevin Duverne",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Ade",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Hannes Delcroix",
+              "price": 1700
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:57:52Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": -104,
+              "point": 1.5
+            },
+            {
+              "name": "Morocco",
+              "price": -125,
+              "point": -1.5
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T21:57:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -108,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -118,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 118,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -150,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -170,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 138,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:57:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -164,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_de",
+      "title": "Winamax (DE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:15Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 900
+            },
+            {
+              "name": "Morocco",
+              "price": -357
+            },
+            {
+              "name": "Draw",
+              "price": 490
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:25Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 959
+            },
+            {
+              "name": "Morocco",
+              "price": -443
+            },
+            {
+              "name": "Draw",
+              "price": 505
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:57:25Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": -102,
+              "point": 1.5
+            },
+            {
+              "name": "Morocco",
+              "price": -120,
+              "point": -1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -159,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 132,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:57:25Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 868
+            },
+            {
+              "name": "Morocco",
+              "price": -144
+            },
+            {
+              "name": "Draw",
+              "price": 177
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:57:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -165,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:15Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1000
+            },
+            {
+              "name": "Morocco",
+              "price": -400
+            },
+            {
+              "name": "Draw",
+              "price": 500
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:56:56Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -149
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:56:56Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Redouane Halhal",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Chadi Riad",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Anass Salah-Eddine",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ismael Saibari",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "Brahim Diaz",
+              "price": 138
+            },
+            {
+              "name": "Yes",
+              "description": "Bilal El Khannous",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Ayoub El Kaabi",
+              "price": 100
+            },
+            {
+              "name": "Yes",
+              "description": "Sofyan Amrabat",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Neil El Aynaoui",
+              "price": 333
+            },
+            {
+              "name": "Yes",
+              "description": "Achraf Hakimi",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Providence",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Danley Jean Jacques",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Hannes Delcroix",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Wilson Isidor",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Experience",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Josue Casimir",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Kevin Duverne",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Ade",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Jeanricner Bellegarde",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Lenny Joseph",
+              "price": 550
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:47Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1000
+            },
+            {
+              "name": "Morocco",
+              "price": -400
+            },
+            {
+              "name": "Draw",
+              "price": 450
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "price": -167
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1050
+            },
+            {
+              "name": "Morocco",
+              "price": -303
+            },
+            {
+              "name": "Draw",
+              "price": 500
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1100
+            },
+            {
+              "name": "Morocco",
+              "price": -294
+            },
+            {
+              "name": "Draw",
+              "price": 520
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T21:57:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -102,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 230,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -114,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -250,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:57:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 235,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -106,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -270,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -101,
+              "point": 8.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:31Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 126
+            },
+            {
+              "name": "No",
+              "price": -130
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:57:31Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ayoub El Kaabi",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Ismael Saibari",
+              "price": 146
+            },
+            {
+              "name": "Yes",
+              "description": "Brahim Diaz",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Bilal El Khannous",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Achraf Hakimi",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Neil El Aynaoui",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Wilson Isidor",
+              "price": 680
+            },
+            {
+              "name": "Yes",
+              "description": "Chadi Riad",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Sofyan Amrabat",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Lenny Joseph",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Providence",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Josue Casimir",
+              "price": 1450
+            },
+            {
+              "name": "Yes",
+              "description": "Jeanricner Bellegarde",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Anass Salah-Eddine",
+              "price": 1550
+            },
+            {
+              "name": "Yes",
+              "description": "Redouane Halhal",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Danley Jean Jacques",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Kevin Duverne",
+              "price": 3900
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Experience",
+              "price": 5900
+            },
+            {
+              "name": "Yes",
+              "description": "Hannes Delcroix",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Ade",
+              "price": 5900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_eu",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:47Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1050
+            },
+            {
+              "name": "Morocco",
+              "price": -303
+            },
+            {
+              "name": "Draw",
+              "price": 500
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T21:57:47Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1100
+            },
+            {
+              "name": "Morocco",
+              "price": -294
+            },
+            {
+              "name": "Draw",
+              "price": 520
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "smarkets",
+      "title": "Smarkets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:38Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1049
+            },
+            {
+              "name": "Morocco",
+              "price": -313
+            },
+            {
+              "name": "Draw",
+              "price": 500
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T21:57:38Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1150
+            },
+            {
+              "name": "Morocco",
+              "price": -303
+            },
+            {
+              "name": "Draw",
+              "price": 520
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 910
+            },
+            {
+              "name": "Morocco",
+              "price": -312
+            },
+            {
+              "name": "Draw",
+              "price": 477
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 102,
+              "point": 1.5
+            },
+            {
+              "name": "Morocco",
+              "price": -118,
+              "point": -1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -177,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 142,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 112
+            },
+            {
+              "name": "No",
+              "price": -139
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T21:57:09Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -667,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -391,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": -130,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 166,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 255,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 650,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 1800,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 442,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 292,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 106,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -208,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -338,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -1613,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -5000,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:56:07Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ismael Saibari",
+              "price": -138
+            },
+            {
+              "name": "Yes",
+              "description": "Ayoub El Kaabi",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Soufiane Rahimi",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Brahim Diaz",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Gessime Yassine",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Ayoube Amaimouni-Echghouyab",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Azzedine Ounahi",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Chemsdine Talbi",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Zakaria El Ouahdi",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Bilal El Khannous",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Neil El Aynaoui",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Achraf Hakimi",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Youssef Belammari",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Samir El Mourabet",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Wilson Isidor",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Frantzdy Pierrot",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Sofyan Amrabat",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Duckens Nazon",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Yassin Fortune",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Ayyoub Bouaddi",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Anass Salah-Eddine",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Lenny Joseph",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Chadi Riad",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Josue Casimir",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Derrick Etienne",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Redouane Halhal",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Providence",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Louicius Don Deedson",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Noussair Mazraoui",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Jeanricner Bellegarde",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Danley Jean Jacques",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Issa Diop",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Dominique Simon",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Carlens Arcus",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Josue Duverger",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Olivier Pierre Woodensky",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Keeto Thermoncy",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Carl Fred Sainte",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Duke Lacroix",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Wilguens Paugain",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Experience",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Kevin Duverne",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Hannes Delcroix",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Ade",
+              "price": 2800
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T21:56:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Sofyan Amrabat",
+              "price": 138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sofyan Amrabat",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Sofyan Amrabat",
+              "price": 6400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Achraf Hakimi",
+              "price": -120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Achraf Hakimi",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Achraf Hakimi",
+              "price": 1800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": -299,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": 162,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": 550,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": 1800,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Hannes Delcroix",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jeanricner Bellegarde",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jeanricner Bellegarde",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jeanricner Bellegarde",
+              "price": 6900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jean-Kevin Duverne",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": -455,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": 100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": 333,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": 1000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Ade",
+              "price": 900,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Wilson Isidor",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Wilson Isidor",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Wilson Isidor",
+              "price": 1800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Chadi Riad",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Chadi Riad",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Josue Casimir",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josue Casimir",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Josue Casimir",
+              "price": 4500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Providence",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Providence",
+              "price": 1800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Providence",
+              "price": 5900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": -556,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": -120,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": 275,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": 800,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Experience",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Neil El Aynaoui",
+              "price": -120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Neil El Aynaoui",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Neil El Aynaoui",
+              "price": 1800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Lenny Joseph",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lenny Joseph",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lenny Joseph",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Redouane Halhal",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Redouane Halhal",
+              "price": 1800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Danley Jean Jacques",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Danley Jean Jacques",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": -138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": 1600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": 3000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Anass Salah-Eddine",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anass Salah-Eddine",
+              "price": 1400,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:38Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1000
+            },
+            {
+              "name": "Morocco",
+              "price": -320
+            },
+            {
+              "name": "Draw",
+              "price": 490
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:57:38Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": -102,
+              "point": 1.5
+            },
+            {
+              "name": "Morocco",
+              "price": -106,
+              "point": -1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 103,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -114,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -146,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": 112,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -127,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -101,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -123,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -255,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 132,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 101,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 195,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -167,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -116,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -489,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -385,
+              "point": 7.0
+            },
+            {
+              "name": "Over",
+              "price": -228,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -171,
+              "point": 8.0
+            },
+            {
+              "name": "Over",
+              "price": 108,
+              "point": 9.0
+            },
+            {
+              "name": "Over",
+              "price": 132,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 175,
+              "point": 10.0
+            },
+            {
+              "name": "Over",
+              "price": 201,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 280,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 241,
+              "point": 7.0
+            },
+            {
+              "name": "Under",
+              "price": 163,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 8.0
+            },
+            {
+              "name": "Under",
+              "price": -140,
+              "point": 9.0
+            },
+            {
+              "name": "Under",
+              "price": -179,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -255,
+              "point": 10.0
+            },
+            {
+              "name": "Under",
+              "price": -314,
+              "point": 10.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 122
+            },
+            {
+              "name": "No",
+              "price": -151
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 390
+            },
+            {
+              "name": "Morocco",
+              "price": -368
+            },
+            {
+              "name": "Draw",
+              "price": 846
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 828
+            },
+            {
+              "name": "Morocco",
+              "price": -145
+            },
+            {
+              "name": "Draw",
+              "price": 186
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ismael Saibari",
+              "price": 103
+            },
+            {
+              "name": "Yes",
+              "description": "Brahim Diaz",
+              "price": 129
+            },
+            {
+              "name": "Yes",
+              "description": "Ayoub El Kaabi",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Soufiane Rahimi",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Azzedine Ounahi",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Chemsdine Talbi",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Neil El Aynaoui",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Zakaria El Ouahdi",
+              "price": 496
+            },
+            {
+              "name": "Yes",
+              "description": "Achraf Hakimi",
+              "price": 369
+            },
+            {
+              "name": "Yes",
+              "description": "Bilal El Khannous",
+              "price": 366
+            },
+            {
+              "name": "Yes",
+              "description": "Wilson Isidor",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Ayyoub Bouaddi",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Issa Diop",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Noussair Mazraoui",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Sofyan Amrabat",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Lenny Joseph",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Derrick Etienne",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Frantzdy Pierrot",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Providence",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Anass Salah-Eddine",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Chadi Riad",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Jeanricner Bellegarde",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Josue Casimir",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Louicius Don Deedson",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Olivier Pierre Woodensky",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Dominique Simon",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Carlens Arcus",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Kevin Duverne",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Hannes Delcroix",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Ade",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Duke Lacroix",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Experience",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Wilguens Paugain",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Ismael Saibari",
+              "price": 114
+            },
+            {
+              "name": "No",
+              "description": "Ismael Saibari",
+              "price": -138
+            },
+            {
+              "name": "Yes",
+              "description": "Brahim Diaz",
+              "price": 156
+            },
+            {
+              "name": "No",
+              "description": "Brahim Diaz",
+              "price": -190
+            },
+            {
+              "name": "Yes",
+              "description": "Azzedine Ounahi",
+              "price": 235
+            },
+            {
+              "name": "No",
+              "description": "Azzedine Ounahi",
+              "price": -293
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -106,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -114,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 111,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -135,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -103,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -117,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1085
+            },
+            {
+              "name": "Morocco",
+              "price": -360
+            },
+            {
+              "name": "Draw",
+              "price": 515
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 102,
+              "point": 1.5
+            },
+            {
+              "name": "Morocco",
+              "price": -118,
+              "point": -1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 107,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -123,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:57:06Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 900
+            },
+            {
+              "name": "Morocco",
+              "price": -150
+            },
+            {
+              "name": "Draw",
+              "price": 180
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T21:57:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 105,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -140,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:57:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 135,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -155,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmu_fr",
+      "title": "PMU (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 850
+            },
+            {
+              "name": "Morocco",
+              "price": -315
+            },
+            {
+              "name": "Draw",
+              "price": 460
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -155,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 108,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_se",
+      "title": "Unibet (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:47Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1000
+            },
+            {
+              "name": "Morocco",
+              "price": -315
+            },
+            {
+              "name": "Draw",
+              "price": 480
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -141,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 116,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 850
+            },
+            {
+              "name": "Morocco",
+              "price": -357
+            },
+            {
+              "name": "Draw",
+              "price": 440
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 112
+            },
+            {
+              "name": "No",
+              "price": -156
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:25Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 850
+            },
+            {
+              "name": "Morocco",
+              "price": -357
+            },
+            {
+              "name": "Draw",
+              "price": 440
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:25Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 112
+            },
+            {
+              "name": "No",
+              "price": -156
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "casumo",
+      "title": "Casumo",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 900
+            },
+            {
+              "name": "Morocco",
+              "price": -335
+            },
+            {
+              "name": "Draw",
+              "price": 460
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -148,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 112,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_nl",
+      "title": "Unibet (NL)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1000
+            },
+            {
+              "name": "Morocco",
+              "price": -315
+            },
+            {
+              "name": "Draw",
+              "price": 480
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -148,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 112,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas_se",
+      "title": "LeoVegas (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 900
+            },
+            {
+              "name": "Morocco",
+              "price": -335
+            },
+            {
+              "name": "Draw",
+              "price": 460
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 900
+            },
+            {
+              "name": "Morocco",
+              "price": -335
+            },
+            {
+              "name": "Draw",
+              "price": 460
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -148,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 112,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T21:57:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -107,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -127,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 460,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -910,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -1667,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 850,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -2500,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -245,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 175,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 133,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -186,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 350,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -590,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:57:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -400,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -225,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 190,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 440,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": -132,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 290,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -835,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 265,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 160,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -278,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -835,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -104,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -167,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -455,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 450,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T21:57:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -590,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 290,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 340,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -455,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:35Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 112
+            },
+            {
+              "name": "No",
+              "price": -157
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:57:35Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 700
+            },
+            {
+              "name": "Morocco",
+              "price": -137
+            },
+            {
+              "name": "Draw",
+              "price": 163
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:57:35Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Wilson Isidor",
+              "price": 410
+            },
+            {
+              "name": "Yes",
+              "description": "Ismael Saibari",
+              "price": -122
+            },
+            {
+              "name": "Yes",
+              "description": "Achraf Hakimi",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Bilal El Khannous",
+              "price": 430
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Kevin Duverne",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Jeanricner Bellegarde",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Chadi Riad",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Josue Casimir",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Brahim Diaz",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Experience",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Neil El Aynaoui",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Ade",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Hannes Delcroix",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Redouane Halhal",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Anass Salah-Eddine",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Sofyan Amrabat",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ayoub El Kaabi",
+              "price": 155
+            },
+            {
+              "name": "Yes",
+              "description": "Lenny Joseph",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Providence",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Danley Jean Jacques",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T21:57:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": -200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jean-Kevin Duverne",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": 480,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Neil El Aynaoui",
+              "price": 950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": 330,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Achraf Hakimi",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": 210,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": 900,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Ade",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Providence",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Providence",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Josue Casimir",
+              "price": 185,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Achraf Hakimi",
+              "price": 102,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Redouane Halhal",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jeanricner Bellegarde",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Sofyan Amrabat",
+              "price": 420,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lenny Joseph",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": 650,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Wilson Isidor",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Anass Salah-Eddine",
+              "price": 410,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hannes Delcroix",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Danley Jean Jacques",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Experience",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Chadi Riad",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Neil El Aynaoui",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jeanricner Bellegarde",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": 800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": -182,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lenny Joseph",
+              "price": 140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Wilson Isidor",
+              "price": -108,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": 240,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": -360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": 123,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas",
+      "title": "LeoVegas",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 900
+            },
+            {
+              "name": "Morocco",
+              "price": -335
+            },
+            {
+              "name": "Draw",
+              "price": 460
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -148,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 112,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grosvenor",
+      "title": "Grosvenor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1000
+            },
+            {
+              "name": "Morocco",
+              "price": -670
+            },
+            {
+              "name": "Draw",
+              "price": 480
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -148,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 112,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:13Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 950
+            },
+            {
+              "name": "Morocco",
+              "price": -330
+            },
+            {
+              "name": "Draw",
+              "price": 475
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T21:57:18Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -126,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -113,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 378,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -720,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -2200,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 670,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -277,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 183,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 117,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -168,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 302,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -519,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 660,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -2200,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T21:57:18Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -150,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": 105,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -125,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -110,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T21:57:18Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -120,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:57:18Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -425,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -215,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 130,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 215,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 270,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 155,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -185,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -320,
+              "point": 10.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:18Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 105
+            },
+            {
+              "name": "No",
+              "price": -130
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:57:18Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 750
+            },
+            {
+              "name": "Morocco",
+              "price": -150
+            },
+            {
+              "name": "Draw",
+              "price": 185
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:57:18Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ismael Saibari",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Ayoub El Kaabi",
+              "price": 135
+            },
+            {
+              "name": "Yes",
+              "description": "Brahim Diaz",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Bilal El Khannous",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Achraf Hakimi",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Neil El Aynaoui",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Wilson Isidor",
+              "price": 425
+            },
+            {
+              "name": "Yes",
+              "description": "Lenny Joseph",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Providence",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Josue Casimir",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Jeanricner Bellegarde",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Sofyan Amrabat",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Anass Salah-Eddine",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Chadi Riad",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Danley Jean Jacques",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Redouane Halhal",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "No Scorer",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Kevin Duverne",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Experience",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Hannes Delcroix",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Ade",
+              "price": 4500
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-24T21:57:18Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ismael Saibari",
+              "price": -145
+            },
+            {
+              "name": "Yes",
+              "description": "Ayoub El Kaabi",
+              "price": -130
+            },
+            {
+              "name": "Yes",
+              "description": "Brahim Diaz",
+              "price": -125
+            },
+            {
+              "name": "Yes",
+              "description": "Bilal El Khannous",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Achraf Hakimi",
+              "price": 155
+            },
+            {
+              "name": "Yes",
+              "description": "Neil El Aynaoui",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Anass Salah-Eddine",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Sofyan Amrabat",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Wilson Isidor",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Providence",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Jeanricner Bellegarde",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Josue Casimir",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Lenny Joseph",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Redouane Halhal",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Chadi Riad",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Danley Jean Jacques",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Experience",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Kevin Duverne",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Ade",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Hannes Delcroix",
+              "price": 3000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:49Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 890
+            },
+            {
+              "name": "Morocco",
+              "price": -370
+            },
+            {
+              "name": "Draw",
+              "price": 480
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:57:49Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 102,
+              "point": 1.5
+            },
+            {
+              "name": "Morocco",
+              "price": -124,
+              "point": -1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -104,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -118,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sport888",
+      "title": "888sport",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:25Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 800
+            },
+            {
+              "name": "Morocco",
+              "price": -350
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 850
+            },
+            {
+              "name": "Morocco",
+              "price": -350
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -182,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -105
+            },
+            {
+              "name": "No",
+              "price": -133
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:57:16Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ismael Saibari",
+              "price": -125
+            },
+            {
+              "name": "Yes",
+              "description": "Ayoub El Kaabi",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Brahim Diaz",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Bilal El Khannous",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Neil El Aynaoui",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Achraf Hakimi",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Wilson Isidor",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Sofyan Amrabat",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Providence",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Lenny Joseph",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Josue Casimir",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Jeanricner Bellegarde",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Chadi Riad",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Anass Salah-Eddine",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Redouane Halhal",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Danley Jean Jacques",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Experience",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Kevin Duverne",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Hannes Delcroix",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Ade",
+              "price": 2500
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T21:57:16Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": -550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": -118,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": 250,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ayoub El Kaabi",
+              "price": 550,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": -450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": 110,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": 300,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ismael Saibari",
+              "price": 750,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": -275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": 162,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": 480,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Brahim Diaz",
+              "price": 1000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": -138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": 300,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": 850,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Bilal El Khannous",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Neil El Aynaoui",
+              "price": -120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Neil El Aynaoui",
+              "price": 350,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Neil El Aynaoui",
+              "price": 900,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Neil El Aynaoui",
+              "price": 2200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Achraf Hakimi",
+              "price": -120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Achraf Hakimi",
+              "price": 350,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Achraf Hakimi",
+              "price": 900,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Achraf Hakimi",
+              "price": 2200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Sofyan Amrabat",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sofyan Amrabat",
+              "price": 800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Chadi Riad",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Chadi Riad",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Anass Salah-Eddine",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Anass Salah-Eddine",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Redouane Halhal",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Redouane Halhal",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Wilson Isidor",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Wilson Isidor",
+              "price": 700,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Josue Casimir",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Josue Casimir",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Providence",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Providence",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Lenny Joseph",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lenny Joseph",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jeanricner Bellegarde",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jeanricner Bellegarde",
+              "price": 1400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Danley Jean Jacques",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Danley Jean Jacques",
+              "price": 2200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Hannes Delcroix",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hannes Delcroix",
+              "price": 5500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Martin Experience",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Martin Experience",
+              "price": 5500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jean-Kevin Duverne",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jean-Kevin Duverne",
+              "price": 5500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Ade",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Ade",
+              "price": 5500,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boylesports",
+      "title": "BoyleSports",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:38Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 900
+            },
+            {
+              "name": "Morocco",
+              "price": -400
+            },
+            {
+              "name": "Draw",
+              "price": 450
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 800
+            },
+            {
+              "name": "Morocco",
+              "price": -357
+            },
+            {
+              "name": "Draw",
+              "price": 475
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -149
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 550
+            },
+            {
+              "name": "Morocco",
+              "price": -154
+            },
+            {
+              "name": "Draw",
+              "price": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:26Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 800
+            },
+            {
+              "name": "Morocco",
+              "price": -333
+            },
+            {
+              "name": "Draw",
+              "price": 500
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:26Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -149
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:57:26Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 600
+            },
+            {
+              "name": "Morocco",
+              "price": -149
+            },
+            {
+              "name": "Draw",
+              "price": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:56:40Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 900
+            },
+            {
+              "name": "Morocco",
+              "price": -340
+            },
+            {
+              "name": "Draw",
+              "price": 460
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:56:40Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 100,
+              "point": 1.5
+            },
+            {
+              "name": "Morocco",
+              "price": -120,
+              "point": -1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:56:40Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 100,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -120,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T21:57:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -110,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 280,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -365,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -675,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -245,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 195,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -360,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 275,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -145,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 120,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 128,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -155,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T21:57:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -135,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": 105,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 105,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -135,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T21:57:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -335,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 180,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 235,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -245,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:57:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -425,
+              "point": 7.0
+            },
+            {
+              "name": "Over",
+              "price": -235,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -205,
+              "point": 8.0
+            },
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 9.0
+            },
+            {
+              "name": "Over",
+              "price": 118,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 150,
+              "point": 10.0
+            },
+            {
+              "name": "Over",
+              "price": 188,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 260,
+              "point": 11.0
+            },
+            {
+              "name": "Under",
+              "price": 290,
+              "point": 7.0
+            },
+            {
+              "name": "Under",
+              "price": 175,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 152,
+              "point": 8.0
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 9.0
+            },
+            {
+              "name": "Under",
+              "price": -155,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 10.0
+            },
+            {
+              "name": "Under",
+              "price": -255,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -375,
+              "point": 11.0
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:10Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -145
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T21:57:10Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 425
+            },
+            {
+              "name": "Morocco",
+              "price": -420
+            },
+            {
+              "name": "Draw",
+              "price": 800
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:57:10Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 435
+            },
+            {
+              "name": "Morocco",
+              "price": -650
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:57:10Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Danley Jean Jacques",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Wilson Isidor",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Kevin Duverne",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "No Scorer",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Bilal El Khannous",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Ismael Saibari",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Josue Casimir",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Achraf Hakimi",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Redouane Halhal",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Hannes Delcroix",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Sofyan Amrabat",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ayoub El Kaabi",
+              "price": 135
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Experience",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Lenny Joseph",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Providence",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Jeanricner Bellegarde",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Brahim Diaz",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Neil El Aynaoui",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:57:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betclic_fr",
+      "title": "Betclic (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:55:44Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1000
+            },
+            {
+              "name": "Morocco",
+              "price": -400
+            },
+            {
+              "name": "Draw",
+              "price": 500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:15Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1085
+            },
+            {
+              "name": "Morocco",
+              "price": -360
+            },
+            {
+              "name": "Draw",
+              "price": 515
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:57:15Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 102,
+              "point": 1.5
+            },
+            {
+              "name": "Morocco",
+              "price": -118,
+              "point": -1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 107,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -123,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:47Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 800
+            },
+            {
+              "name": "Morocco",
+              "price": -350
+            },
+            {
+              "name": "Draw",
+              "price": 475
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -160,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:47Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 115
+            },
+            {
+              "name": "No",
+              "price": -145
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -115,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -118,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 1700,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -10000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 5500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -165,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -250,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 180,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 300,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -450,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -1400,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 725,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -145,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": 100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": 160,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -235,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -425,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": 270,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 125,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -185,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -140,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -102,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": -275,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": 180,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -140,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 180,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -400,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -102,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -275,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 260,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -140,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 190,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -250,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 310,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -475,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -1000,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -165,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -102,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -285,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 165,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -500,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 300,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 550,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 270,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 750,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -120,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -450,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -1600,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 425
+            },
+            {
+              "name": "Morocco",
+              "price": -400
+            },
+            {
+              "name": "Draw",
+              "price": 800
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 575
+            },
+            {
+              "name": "Morocco",
+              "price": -150
+            },
+            {
+              "name": "Draw",
+              "price": 185
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ismael Saibari",
+              "price": -105
+            },
+            {
+              "name": "Yes",
+              "description": "Ayoub El Kaabi",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Brahim Diaz",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Bilal El Khannous",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Neil El Aynaoui",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Achraf Hakimi",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Wilson Isidor",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Lenny Joseph",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Sofyan Amrabat",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Providence",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Anass Salah-Eddine",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Josue Casimir",
+              "price": 675
+            },
+            {
+              "name": "Yes",
+              "description": "Chadi Riad",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Jeanricner Bellegarde",
+              "price": 725
+            },
+            {
+              "name": "Yes",
+              "description": "Redouane Halhal",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Danley Jean Jacques",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Jean-Kevin Duverne",
+              "price": 1650
+            },
+            {
+              "name": "Yes",
+              "description": "Martin Experience",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Ade",
+              "price": 1850
+            },
+            {
+              "name": "Yes",
+              "description": "Hannes Delcroix",
+              "price": 1900
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Haiti",
+              "price": -115,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Haiti",
+              "price": -118,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Morocco",
+              "price": 120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Morocco",
+              "price": -165,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 130,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -165,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:37Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1050
+            },
+            {
+              "name": "Morocco",
+              "price": -303
+            },
+            {
+              "name": "Draw",
+              "price": 500
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T21:57:37Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1150
+            },
+            {
+              "name": "Morocco",
+              "price": -294
+            },
+            {
+              "name": "Draw",
+              "price": 520
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:57:37Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": -130,
+              "point": 1.75
+            },
+            {
+              "name": "Morocco",
+              "price": 126,
+              "point": -1.75
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T21:57:37Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 128
+            },
+            {
+              "name": "No",
+              "price": -132
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betvictor",
+      "title": "Bet Victor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:56:54Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1000
+            },
+            {
+              "name": "Morocco",
+              "price": -400
+            },
+            {
+              "name": "Draw",
+              "price": 475
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betway",
+      "title": "Betway",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:14Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 800
+            },
+            {
+              "name": "Morocco",
+              "price": -350
+            },
+            {
+              "name": "Draw",
+              "price": 450
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 900
+            },
+            {
+              "name": "Morocco",
+              "price": -375
+            },
+            {
+              "name": "Draw",
+              "price": 485
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:43Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 850
+            },
+            {
+              "name": "Morocco",
+              "price": -345
+            },
+            {
+              "name": "Draw",
+              "price": 450
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betsson",
+      "title": "Betsson",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:39Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1000
+            },
+            {
+              "name": "Morocco",
+              "price": -333
+            },
+            {
+              "name": "Draw",
+              "price": 465
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:39Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -161,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nordicbet",
+      "title": "Nordic Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:16Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1000
+            },
+            {
+              "name": "Morocco",
+              "price": -333
+            },
+            {
+              "name": "Draw",
+              "price": 465
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:16Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -161,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "codere_it",
+      "title": "Codere (IT)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 880
+            },
+            {
+              "name": "Morocco",
+              "price": -333
+            },
+            {
+              "name": "Draw",
+              "price": 460
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -179,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 123,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:14Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 950
+            },
+            {
+              "name": "Morocco",
+              "price": -375
+            },
+            {
+              "name": "Draw",
+              "price": 500
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:57:14Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": -170,
+              "point": 2.0
+            },
+            {
+              "name": "Morocco",
+              "price": 145,
+              "point": -2.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 172,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -207,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T21:57:14Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 800
+            },
+            {
+              "name": "Morocco",
+              "price": -160
+            },
+            {
+              "name": "Draw",
+              "price": 195
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T21:57:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:13Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 1000
+            },
+            {
+              "name": "Morocco",
+              "price": -350
+            },
+            {
+              "name": "Draw",
+              "price": 500
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T21:57:13Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": -110,
+              "point": 1.5
+            },
+            {
+              "name": "Morocco",
+              "price": -110,
+              "point": -1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T21:57:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 100,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -120,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_sb_uk",
+      "title": "Betfair Sportsbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T21:57:36Z",
+          "outcomes": [
+            {
+              "name": "Haiti",
+              "price": 900
+            },
+            {
+              "name": "Morocco",
+              "price": -455
+            },
+            {
+              "name": "Draw",
+              "price": 350
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

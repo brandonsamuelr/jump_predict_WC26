@@ -1,0 +1,7189 @@
+{
+  "id": "c9ef5822ee64fd5275f7c73251bb56c7",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-24T19:00:00Z",
+  "home_team": "Switzerland",
+  "away_team": "Canada",
+  "bookmakers": [
+    {
+      "key": "coolbet",
+      "title": "Coolbet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:44Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 227
+            },
+            {
+              "name": "Switzerland",
+              "price": 160
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:44Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 124,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -143,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tipico_de",
+      "title": "Tipico",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:40Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 210
+            },
+            {
+              "name": "Switzerland",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_de",
+      "title": "Winamax (DE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:04Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 210
+            },
+            {
+              "name": "Switzerland",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 205
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 226
+            },
+            {
+              "name": "Switzerland",
+              "price": 152
+            },
+            {
+              "name": "Draw",
+              "price": 206
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 114,
+              "point": 0.0
+            },
+            {
+              "name": "Switzerland",
+              "price": -133,
+              "point": 0.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 116,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -134,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -127
+            },
+            {
+              "name": "No",
+              "price": 102
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T18:58:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -417,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -205,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": 112,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 315,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 396,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 1000,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 138,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -164,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -500,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -833,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -3333,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:57:00Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Breel Embolo",
+              "price": 188
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Itten",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed Zeki Amdouni",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Promise Oluwatobi Emmanuel David",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Manzambi",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Jonathan David",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Noah Okafor",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Tani Oluwaseyi",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Cyle Larin",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Christian Fassnacht",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Dan Ndoye",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Vargas",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Jayden Nelson",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Alphonso Davies",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Tajon Buchanan",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Granit Xhaka",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Liam Millar",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Fabian Rieder",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Jonathan Osorio",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Jacob Shaffelburg",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Ahmed",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Miro Muheim",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ardon Jashari",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan-Dylan Saliba",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Remo Freuler",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Michel Aebischer",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Denis Zakaria",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Mathieu Choiniere",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Derek Cornelius",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Djibril Sow",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Richie Laryea",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Silvan Widmer",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Eray Cumart",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Aurele Amenda",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Manuel Akanji",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Nico Elvedi",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Alfie Jones",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Moise Bombito",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Stephen Eustaquio",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Niko Kristian Sigur",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Alistair Johnston",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Luca Jaquez",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Joel Waterman",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Luc De Fougerolles",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T18:57:00Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 1900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nico Elvedi",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": -175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": 275,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": 2500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Granit Xhaka",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Granit Xhaka",
+              "price": 1200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Granit Xhaka",
+              "price": 3000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyle Larin",
+              "price": -175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyle Larin",
+              "price": 275,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyle Larin",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Djibril Sow",
+              "price": 333,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Djibril Sow",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Remo Freuler",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Remo Freuler",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Richie Laryea",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Richie Laryea",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan David",
+              "price": -187,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan David",
+              "price": 250,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan David",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Manuel Akanji",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mathieu Choiniere",
+              "price": 333,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mathieu Choiniere",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Derek Cornelius",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Tajon Buchanan",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Tajon Buchanan",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Tajon Buchanan",
+              "price": 2500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Vargas",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Vargas",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Vargas",
+              "price": 1600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Alistair Johnston",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nathan-Dylan Saliba",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nathan-Dylan Saliba",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nathan-Dylan Saliba",
+              "price": 5400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Ahmed",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Ahmed",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Ahmed",
+              "price": 5400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Luc De Fougerolles",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luca Jaquez",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luca Jaquez",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Manzambi",
+              "price": -175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Manzambi",
+              "price": 275,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Manzambi",
+              "price": 1000,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 210
+            },
+            {
+              "name": "Switzerland",
+              "price": 140
+            },
+            {
+              "name": "Draw",
+              "price": 210
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -120
+            },
+            {
+              "name": "No",
+              "price": -120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:04Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 210
+            },
+            {
+              "name": "Switzerland",
+              "price": 145
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 220
+            },
+            {
+              "name": "Switzerland",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 190
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -280,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 830,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -2000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 215,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -280,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 2500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 164,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -215,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 1700,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -10000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": -390,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": 280,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 600,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -1100,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -240,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": 174,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 730,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -2000,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 2500,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 310,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -470,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 1280,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -7000,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -600,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": 370,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 550,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -1100,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -112,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -118,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 178,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -245,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 1500,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -10000,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": -198,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": 146,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": -470,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": 310,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 370,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -600,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 205,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -290,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 110,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -146,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 640,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -1450,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 1000,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -4000,
+              "point": 8.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -10000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -4000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -1100,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -550,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -280,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -160,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 105,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 185,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 300,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 500,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 850,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": 1400,
+              "point": 14.5
+            },
+            {
+              "name": "Over",
+              "price": 2200,
+              "point": 15.5
+            },
+            {
+              "name": "Over",
+              "price": 750,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": 490,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 310,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -1400,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 1100,
+              "point": 14.5
+            },
+            {
+              "name": "Over",
+              "price": 1500,
+              "point": 15.5
+            },
+            {
+              "name": "Over",
+              "price": -500,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 130,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -152,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -4500,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -270,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 194,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 1300,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 650,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 330,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 180,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -170,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -280,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -475,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -900,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -2000,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -4000,
+              "point": 14.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 15.5
+            },
+            {
+              "name": "Under",
+              "price": -2000,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -900,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -470,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 630,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -4500,
+              "point": 14.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 15.5
+            },
+            {
+              "name": "Under",
+              "price": 320,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -178,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 114,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 1100,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 194,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -270,
+              "point": 10.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -130
+            },
+            {
+              "name": "No",
+              "price": 104
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": -105
+            },
+            {
+              "name": "Switzerland",
+              "price": 120
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 260
+            },
+            {
+              "name": "Switzerland",
+              "price": 200
+            },
+            {
+              "name": "Draw",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Breel Embolo",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Jonathan David",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Cyle Larin",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Manzambi",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Vargas",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Tajon Buchanan",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Granit Xhaka",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Ahmed",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Remo Freuler",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Djibril Sow",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan-Dylan Saliba",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Mathieu Choiniere",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Manuel Akanji",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Richie Laryea",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Nico Elvedi",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Luca Jaquez",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Derek Cornelius",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Alistair Johnston",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Luc De Fougerolles",
+              "price": 2700
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": -260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan David",
+              "price": -220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Manzambi",
+              "price": -190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyle Larin",
+              "price": -170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Vargas",
+              "price": -135,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Tajon Buchanan",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Granit Xhaka",
+              "price": 130,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nathan-Dylan Saliba",
+              "price": 165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Ahmed",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Djibril Sow",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mathieu Choiniere",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Derek Cornelius",
+              "price": 310,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Manuel Akanji",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Remo Freuler",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Richie Laryea",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alistair Johnston",
+              "price": 470,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luca Jaquez",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luc De Fougerolles",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nico Elvedi",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": 185,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan David",
+              "price": 230,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Manzambi",
+              "price": 260,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyle Larin",
+              "price": 300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Vargas",
+              "price": 410,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Tajon Buchanan",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Granit Xhaka",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Ahmed",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nathan-Dylan Saliba",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Djibril Sow",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Mathieu Choiniere",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Derek Cornelius",
+              "price": 2700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Manuel Akanji",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Remo Freuler",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": 650,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan David",
+              "price": 900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Manzambi",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyle Larin",
+              "price": 1300,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Vargas",
+              "price": 1700,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Breel Embolo",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Vargas",
+              "price": 165
+            },
+            {
+              "name": "Yes",
+              "description": "Jonathan David",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Manzambi",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Cyle Larin",
+              "price": 190
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Ahmed",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Granit Xhaka",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Tajon Buchanan",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Djibril Sow",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Remo Freuler",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Richie Laryea",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 410
+            },
+            {
+              "name": "Yes",
+              "description": "Mathieu Choiniere",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan-Dylan Saliba",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Alistair Johnston",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Luca Jaquez",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Manuel Akanji",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Nico Elvedi",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Derek Cornelius",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Luc De Fougerolles",
+              "price": 1000
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:58:01Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": -850,
+              "point": 1.5
+            },
+            {
+              "name": "Switzerland",
+              "price": 500,
+              "point": -1.5
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -280,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 164,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -215,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -260,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -430,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -230,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 178,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 210
+            },
+            {
+              "name": "Switzerland",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 180
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:37Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -138
+            },
+            {
+              "name": "No",
+              "price": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:53Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 210
+            },
+            {
+              "name": "Switzerland",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 188
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:56Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -137
+            },
+            {
+              "name": "No",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:58:56Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Manuel Akanji",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Luca Jaquez",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Breel Embolo",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Djibril Sow",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Remo Freuler",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Granit Xhaka",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Nico Elvedi",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Manzambi",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Vargas",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Derek Cornelius",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Ahmed",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Jonathan David",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Tajon Buchanan",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Cyle Larin",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Richie Laryea",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan-Dylan Saliba",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Luc De Fougerolles",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Mathieu Choiniere",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Alistair Johnston",
+              "price": 1600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_uk",
+      "title": "Unibet (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 210
+            },
+            {
+              "name": "Switzerland",
+              "price": 160
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_fr",
+      "title": "Unibet (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 235
+            },
+            {
+              "name": "Switzerland",
+              "price": 145
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "smarkets",
+      "title": "Smarkets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:08Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 230
+            },
+            {
+              "name": "Switzerland",
+              "price": 166
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T18:59:08Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 235
+            },
+            {
+              "name": "Switzerland",
+              "price": 170
+            },
+            {
+              "name": "Draw",
+              "price": 205
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 224
+            },
+            {
+              "name": "Switzerland",
+              "price": 146
+            },
+            {
+              "name": "Draw",
+              "price": 194
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": -173,
+              "point": 0.5
+            },
+            {
+              "name": "Switzerland",
+              "price": 145,
+              "point": -0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 123,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -147,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 279
+            },
+            {
+              "name": "Switzerland",
+              "price": 224
+            },
+            {
+              "name": "Draw",
+              "price": 114
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -212,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 163,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:04Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 230
+            },
+            {
+              "name": "Switzerland",
+              "price": 168
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T18:59:04Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 235
+            },
+            {
+              "name": "Switzerland",
+              "price": 170
+            },
+            {
+              "name": "Draw",
+              "price": 205
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T18:58:54Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 184,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -130,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 128,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:58:54Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 184,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -133,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -208,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 122,
+              "point": 8.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -111
+            },
+            {
+              "name": "No",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:58:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Jonathan David",
+              "price": 285
+            },
+            {
+              "name": "Yes",
+              "description": "Breel Embolo",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Cyle Larin",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Vargas",
+              "price": 540
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Manzambi",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Tajon Buchanan",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Granit Xhaka",
+              "price": 760
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Ahmed",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Remo Freuler",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Djibril Sow",
+              "price": 1250
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan-Dylan Saliba",
+              "price": 1750
+            },
+            {
+              "name": "Yes",
+              "description": "Mathieu Choiniere",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Manuel Akanji",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 2900
+            },
+            {
+              "name": "Yes",
+              "description": "Richie Laryea",
+              "price": 2100
+            },
+            {
+              "name": "Yes",
+              "description": "Nico Elvedi",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Alistair Johnston",
+              "price": 3100
+            },
+            {
+              "name": "Yes",
+              "description": "Luca Jaquez",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Derek Cornelius",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Luc De Fougerolles",
+              "price": 3900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_eu",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:04Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 230
+            },
+            {
+              "name": "Switzerland",
+              "price": 168
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T18:59:04Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 235
+            },
+            {
+              "name": "Switzerland",
+              "price": 170
+            },
+            {
+              "name": "Draw",
+              "price": 205
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 217
+            },
+            {
+              "name": "Switzerland",
+              "price": 166
+            },
+            {
+              "name": "Draw",
+              "price": 203
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 116,
+              "point": -0.0
+            },
+            {
+              "name": "Switzerland",
+              "price": -124,
+              "point": 0.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 101,
+              "point": 2.25
+            },
+            {
+              "name": "Under",
+              "price": -112,
+              "point": 2.25
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T18:59:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -122,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -104,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": -101,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -127,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T18:59:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -328,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 118,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 112,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 244,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -148,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:59:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -111,
+              "point": 9.0
+            },
+            {
+              "name": "Over",
+              "price": -487,
+              "point": 7.0
+            },
+            {
+              "name": "Over",
+              "price": -282,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -221,
+              "point": 8.0
+            },
+            {
+              "name": "Over",
+              "price": -151,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 114,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 143,
+              "point": 10.0
+            },
+            {
+              "name": "Over",
+              "price": 165,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 212,
+              "point": 11.0
+            },
+            {
+              "name": "Under",
+              "price": -109,
+              "point": 9.0
+            },
+            {
+              "name": "Under",
+              "price": 279,
+              "point": 7.0
+            },
+            {
+              "name": "Under",
+              "price": 190,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 159,
+              "point": 8.0
+            },
+            {
+              "name": "Under",
+              "price": 116,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -149,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -197,
+              "point": 10.0
+            },
+            {
+              "name": "Under",
+              "price": -238,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -335,
+              "point": 11.0
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:05Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -129
+            },
+            {
+              "name": "No",
+              "price": 107
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T18:59:05Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": -123
+            },
+            {
+              "name": "Switzerland",
+              "price": 144
+            },
+            {
+              "name": "Draw",
+              "price": 726
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:59:05Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 285
+            },
+            {
+              "name": "Switzerland",
+              "price": 244
+            },
+            {
+              "name": "Draw",
+              "price": 107
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:59:05Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Breel Embolo",
+              "price": 188
+            },
+            {
+              "name": "Yes",
+              "description": "Jonathan David",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Cyle Larin",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Dan Ndoye",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Tani Oluwaseyi",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Noah Okafor",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Manzambi",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Vargas",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Alphonso Davies",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Ardon Jashari",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Granit Xhaka",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Tajon Buchanan",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Liam Millar",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Fabian Rieder",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Remo Freuler",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Jacob Shaffelburg",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Michel Aebischer",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Silvan Widmer",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Denis Zakaria",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Ahmed",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Djibril Sow",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan-Dylan Saliba",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Luc De Fougerolles",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Stephen Eustaquio",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Manuel Akanji",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Nico Elvedi",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Eray Cumart",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Richie Laryea",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Derek Cornelius",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Moise Bombito",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Alistair Johnston",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Breel Embolo",
+              "price": 203
+            },
+            {
+              "name": "No",
+              "description": "Breel Embolo",
+              "price": -250
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Manzambi",
+              "price": 471
+            },
+            {
+              "name": "No",
+              "description": "Johan Manzambi",
+              "price": -663
+            },
+            {
+              "name": "Yes",
+              "description": "Cyle Larin",
+              "price": 314
+            },
+            {
+              "name": "No",
+              "description": "Cyle Larin",
+              "price": -399
+            },
+            {
+              "name": "Yes",
+              "description": "Jonathan David",
+              "price": 245
+            },
+            {
+              "name": "No",
+              "description": "Jonathan David",
+              "price": -306
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T18:59:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -248,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": 198,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 168,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -207,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:59:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -129,
+              "point": 0.75
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 0.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 220
+            },
+            {
+              "name": "Switzerland",
+              "price": 157
+            },
+            {
+              "name": "Draw",
+              "price": 205
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": -178,
+              "point": 0.5
+            },
+            {
+              "name": "Switzerland",
+              "price": 157,
+              "point": -0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -145,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 300
+            },
+            {
+              "name": "Switzerland",
+              "price": 233
+            },
+            {
+              "name": "Draw",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 205,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -245,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 165,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -190,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -148,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "casumo",
+      "title": "Casumo",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:28Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 225
+            },
+            {
+              "name": "Switzerland",
+              "price": 148
+            },
+            {
+              "name": "Draw",
+              "price": 195
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:28Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -143,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas_se",
+      "title": "LeoVegas (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 225
+            },
+            {
+              "name": "Switzerland",
+              "price": 148
+            },
+            {
+              "name": "Draw",
+              "price": 195
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 220
+            },
+            {
+              "name": "Switzerland",
+              "price": 143
+            },
+            {
+              "name": "Draw",
+              "price": 190
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -135
+            },
+            {
+              "name": "No",
+              "price": -102
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 123,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 400,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -714,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -167,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 260,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -1250,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -556,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 500,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 340,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 225,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -172,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 148,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -294,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 550,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -1000,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -128,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -556,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": 340,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -333,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -204,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 205,
+              "point": 7.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -154,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 143,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 108,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -208,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas",
+      "title": "LeoVegas",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 225
+            },
+            {
+              "name": "Switzerland",
+              "price": 148
+            },
+            {
+              "name": "Draw",
+              "price": 195
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -143,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_nl",
+      "title": "Unibet (NL)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 240
+            },
+            {
+              "name": "Switzerland",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 205
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -143,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grosvenor",
+      "title": "Grosvenor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 220
+            },
+            {
+              "name": "Switzerland",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 195
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -143,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:29Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 225
+            },
+            {
+              "name": "Switzerland",
+              "price": 148
+            },
+            {
+              "name": "Draw",
+              "price": 195
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:29Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -143,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T18:59:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 600,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -1430,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 185,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -265,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -275,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 138,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -190,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 450,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -835,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": -375,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": 245,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:59:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 340,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": -106,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 148,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -1250,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 500,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": -295,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -560,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 225,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -175,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -560,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -129,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -205,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 550,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -1000,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": 205,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 340,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -335,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 8.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T18:59:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 123,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -715,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -167,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:10Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -136
+            },
+            {
+              "name": "No",
+              "price": -103
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:59:10Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 270
+            },
+            {
+              "name": "Switzerland",
+              "price": 200
+            },
+            {
+              "name": "Draw",
+              "price": 108
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:59:10Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Granit Xhaka",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Manuel Akanji",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Djibril Sow",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Ahmed",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Nico Elvedi",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Manzambi",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Tajon Buchanan",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Luca Jaquez",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan-Dylan Saliba",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Derek Cornelius",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Remo Freuler",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Cyle Larin",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Jonathan David",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Richie Laryea",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Mathieu Choiniere",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Vargas",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Breel Embolo",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Luc De Fougerolles",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Alistair Johnston",
+              "price": 1400
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T18:59:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": 550,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": 190,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Derek Cornelius",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mathieu Choiniere",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nathan-Dylan Saliba",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan David",
+              "price": -200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Manzambi",
+              "price": 300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Vargas",
+              "price": -143,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Vargas",
+              "price": 290,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": -215,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan David",
+              "price": 600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Luca Jaquez",
+              "price": 420,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Granit Xhaka",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nathan-Dylan Saliba",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Richie Laryea",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Remo Freuler",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Ahmed",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Tajon Buchanan",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Manzambi",
+              "price": -136,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alistair Johnston",
+              "price": 430,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luc De Fougerolles",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nico Elvedi",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Djibril Sow",
+              "price": 310,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Tajon Buchanan",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Manuel Akanji",
+              "price": 410,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan David",
+              "price": 210,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyle Larin",
+              "price": 260,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyle Larin",
+              "price": -165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyle Larin",
+              "price": 850,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Granit Xhaka",
+              "price": 150,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:40Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 220
+            },
+            {
+              "name": "Switzerland",
+              "price": 143
+            },
+            {
+              "name": "Draw",
+              "price": 190
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:40Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -135
+            },
+            {
+              "name": "No",
+              "price": -102
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T18:58:40Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 123,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 400,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -714,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -167,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 260,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:58:40Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -1250,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -556,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 340,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 500,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": -172,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 148,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 225,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -294,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 550,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -1000,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -128,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -556,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": 340,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -333,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -204,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 205,
+              "point": 7.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T18:58:40Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -154,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 143,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -208,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 108,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_se",
+      "title": "Unibet (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 240
+            },
+            {
+              "name": "Switzerland",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 205
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 114,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -139,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmu_fr",
+      "title": "PMU (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 225
+            },
+            {
+              "name": "Switzerland",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 205
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 106,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -152,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:05Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 210
+            },
+            {
+              "name": "Switzerland",
+              "price": 165
+            },
+            {
+              "name": "Draw",
+              "price": 195
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -276,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": 183,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 181,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -274,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 599,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -1680,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": -336,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": 216,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 151,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -222,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 491,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -1120,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -135,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -105,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 110,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -155,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -140,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -265,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -150,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 175,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 280,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 185,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -150,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -250,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -450,
+              "point": 11.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -125
+            },
+            {
+              "name": "No",
+              "price": -105
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 275
+            },
+            {
+              "name": "Switzerland",
+              "price": 240
+            },
+            {
+              "name": "Draw",
+              "price": -105
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Breel Embolo",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Jonathan David",
+              "price": 245
+            },
+            {
+              "name": "Yes",
+              "description": "Cyle Larin",
+              "price": 295
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Manzambi",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Vargas",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Tajon Buchanan",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Granit Xhaka",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Ahmed",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "No Scorer",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Remo Freuler",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan-Dylan Saliba",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Djibril Sow",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Mathieu Choiniere",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Manuel Akanji",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Alistair Johnston",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Richie Laryea",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Nico Elvedi",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Luca Jaquez",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Derek Cornelius",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Luc De Fougerolles",
+              "price": 2800
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Breel Embolo",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Jonathan David",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Cyle Larin",
+              "price": 195
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Manzambi",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Vargas",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Ahmed",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Tajon Buchanan",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Granit Xhaka",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Miro Muheim",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Ismael Kone",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Remo Freuler",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Mathieu Choiniere",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan-Dylan Saliba",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Djibril Sow",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Alistair Johnston",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Richie Laryea",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Manuel Akanji",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Alfie Jones",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Luc De Fougerolles",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Nico Elvedi",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Luca Jaquez",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Derek Cornelius",
+              "price": 1500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:55Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 204
+            },
+            {
+              "name": "Switzerland",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 196
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:58:55Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 108,
+              "point": 0.0
+            },
+            {
+              "name": "Switzerland",
+              "price": -132,
+              "point": 0.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:55Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -147,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sport888",
+      "title": "888sport",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 190
+            },
+            {
+              "name": "Switzerland",
+              "price": 145
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 190
+            },
+            {
+              "name": "Switzerland",
+              "price": 145
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 115,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -154,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -118
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:59:08Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Breel Embolo",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Jonathan David",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Cyle Larin",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Manzambi",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Vargas",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Tajon Buchanan",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Granit Xhaka",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Ahmed",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Remo Freuler",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan-Dylan Saliba",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Djibril Sow",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Mathieu Choiniere",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Manuel Akanji",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Richie Laryea",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Alistair Johnston",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Nico Elvedi",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Luca Jaquez",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Derek Cornelius",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Luc De Fougerolles",
+              "price": 1600
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T18:59:08Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": -286,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": 145,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": 380,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Breel Embolo",
+              "price": 900,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Vargas",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Vargas",
+              "price": 280,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Vargas",
+              "price": 800,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ruben Vargas",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Johan Manzambi",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Manzambi",
+              "price": 280,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Johan Manzambi",
+              "price": 800,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Johan Manzambi",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Granit Xhaka",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Granit Xhaka",
+              "price": 500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Granit Xhaka",
+              "price": 1400,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Granit Xhaka",
+              "price": 4000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Remo Freuler",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Remo Freuler",
+              "price": 850,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Djibril Sow",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Djibril Sow",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Luca Jaquez",
+              "price": 380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luca Jaquez",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Manuel Akanji",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Manuel Akanji",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Nico Elvedi",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nico Elvedi",
+              "price": 2200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan David",
+              "price": -200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan David",
+              "price": 220,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan David",
+              "price": 600,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Jonathan David",
+              "price": 1400,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Cyle Larin",
+              "price": -188,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyle Larin",
+              "price": 220,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Cyle Larin",
+              "price": 600,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Cyle Larin",
+              "price": 1400,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Tajon Buchanan",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Tajon Buchanan",
+              "price": 500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Tajon Buchanan",
+              "price": 1400,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Tajon Buchanan",
+              "price": 4000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Ali Ahmed",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ali Ahmed",
+              "price": 850,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Nathan-Dylan Saliba",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nathan-Dylan Saliba",
+              "price": 850,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Mathieu Choiniere",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mathieu Choiniere",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Richie Laryea",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Richie Laryea",
+              "price": 1200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Derek Cornelius",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Derek Cornelius",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Alistair Johnston",
+              "price": 375,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Alistair Johnston",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Luc De Fougerolles",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luc De Fougerolles",
+              "price": 2200,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "everygame",
+      "title": "Everygame",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:02Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 210
+            },
+            {
+              "name": "Switzerland",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 195
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boylesports",
+      "title": "BoyleSports",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 200
+            },
+            {
+              "name": "Switzerland",
+              "price": 140
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 220
+            },
+            {
+              "name": "Switzerland",
+              "price": 145
+            },
+            {
+              "name": "Draw",
+              "price": 187
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -120
+            },
+            {
+              "name": "No",
+              "price": -118
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 260
+            },
+            {
+              "name": "Switzerland",
+              "price": 200
+            },
+            {
+              "name": "Draw",
+              "price": -105
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 220
+            },
+            {
+              "name": "Switzerland",
+              "price": 145
+            },
+            {
+              "name": "Draw",
+              "price": 188
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 130,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -145,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -118
+            },
+            {
+              "name": "No",
+              "price": -110
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -250,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 200,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -285,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 725,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -1400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 2200,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -12500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 150,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -210,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": -325,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 500,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 1450,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -5000,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -105,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -135,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -210,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": 150,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 175,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -250,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": -105,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -135,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 175,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -250,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": -220,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": 150,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 170,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -145,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -450,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -250,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 280,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 105,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -160,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 175,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -285,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 280,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -550,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 475,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -150,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -250,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 195,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -450,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 340,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -800,
+              "point": 12.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 125,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -375,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 1150,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -175,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -650,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -3000,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 105
+            },
+            {
+              "name": "Switzerland",
+              "price": 105
+            },
+            {
+              "name": "Draw",
+              "price": 600
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 270
+            },
+            {
+              "name": "Switzerland",
+              "price": 210
+            },
+            {
+              "name": "Draw",
+              "price": -105
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Breel Embolo",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Cyle Larin",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Jonathan David",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Manzambi",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Vargas",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Tajon Buchanan",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Ahmed",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Granit Xhaka",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan-Dylan Saliba",
+              "price": 675
+            },
+            {
+              "name": "Yes",
+              "description": "Remo Freuler",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Djibril Sow",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Mathieu Choiniere",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Richie Laryea",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Manuel Akanji",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Derek Cornelius",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Nico Elvedi",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Luca Jaquez",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Alistair Johnston",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Luc De Fougerolles",
+              "price": 1600
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -250,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 150,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -210,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -200,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 150,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 225
+            },
+            {
+              "name": "Switzerland",
+              "price": 150
+            },
+            {
+              "name": "Draw",
+              "price": 190
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -120
+            },
+            {
+              "name": "No",
+              "price": -110
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 270
+            },
+            {
+              "name": "Switzerland",
+              "price": 210
+            },
+            {
+              "name": "Draw",
+              "price": -105
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:57:10Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 205
+            },
+            {
+              "name": "Switzerland",
+              "price": 158
+            },
+            {
+              "name": "Draw",
+              "price": 195
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:57:10Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 111,
+              "point": 0.0
+            },
+            {
+              "name": "Switzerland",
+              "price": -132,
+              "point": 0.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:57:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -108,
+              "point": 2.25
+            },
+            {
+              "name": "Under",
+              "price": -112,
+              "point": 2.25
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T18:58:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -240,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": 193,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -108,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -112,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": 195,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -245,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": -300,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": 235,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": -145,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": 120,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": 160,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -195,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T18:58:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Canada",
+              "price": -115,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Canada",
+              "price": -115,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Switzerland",
+              "price": -105,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Switzerland",
+              "price": -125,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T18:58:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -385,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -122,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 175,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 265,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -108,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -235,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:58:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -1100,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -500,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 600,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 335,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:07Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -125
+            },
+            {
+              "name": "No",
+              "price": -105
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T18:58:07Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 105
+            },
+            {
+              "name": "Switzerland",
+              "price": 105
+            },
+            {
+              "name": "Draw",
+              "price": 600
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:07Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 108
+            },
+            {
+              "name": "Switzerland",
+              "price": -128
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:58:07Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Granit Xhaka",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Ahmed",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Nico Elvedi",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Djibril Sow",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Manuel Akanji",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Richie Laryea",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Tajon Buchanan",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Rodr\u00edguez",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Alistair Johnston",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Jonathan David",
+              "price": 245
+            },
+            {
+              "name": "Yes",
+              "description": "Remo Freuler",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Luc De Fougerolles",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Nathan-Dylan Saliba",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Ruben Vargas",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Cyle Larin",
+              "price": 295
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Manzambi",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Derek Cornelius",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "No Scorer",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Luca Jaquez",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Mathieu Choiniere",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Breel Embolo",
+              "price": 210
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:58:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -136,
+              "point": 0.75
+            },
+            {
+              "name": "Under",
+              "price": 113,
+              "point": 0.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betclic_fr",
+      "title": "Betclic (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:54:03Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 230
+            },
+            {
+              "name": "Switzerland",
+              "price": 143
+            },
+            {
+              "name": "Draw",
+              "price": 190
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "codere_it",
+      "title": "Codere (IT)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 210
+            },
+            {
+              "name": "Switzerland",
+              "price": 155
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -159,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:15Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 220
+            },
+            {
+              "name": "Switzerland",
+              "price": 157
+            },
+            {
+              "name": "Draw",
+              "price": 205
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:59:15Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": -178,
+              "point": 0.5
+            },
+            {
+              "name": "Switzerland",
+              "price": 157,
+              "point": -0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -145,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 230
+            },
+            {
+              "name": "Switzerland",
+              "price": 170
+            },
+            {
+              "name": "Draw",
+              "price": 205
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 235
+            },
+            {
+              "name": "Switzerland",
+              "price": 172
+            },
+            {
+              "name": "Draw",
+              "price": 210
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 122,
+              "point": 0.0
+            },
+            {
+              "name": "Switzerland",
+              "price": -125,
+              "point": 0.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 134,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -137,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -111
+            },
+            {
+              "name": "No",
+              "price": 110
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betway",
+      "title": "Betway",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:40Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 210
+            },
+            {
+              "name": "Switzerland",
+              "price": 140
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:39Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 220
+            },
+            {
+              "name": "Switzerland",
+              "price": 145
+            },
+            {
+              "name": "Draw",
+              "price": 190
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:39Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 215
+            },
+            {
+              "name": "Switzerland",
+              "price": 145
+            },
+            {
+              "name": "Draw",
+              "price": 192
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:33Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 205
+            },
+            {
+              "name": "Switzerland",
+              "price": 160
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:58:33Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 116,
+              "point": 0.0
+            },
+            {
+              "name": "Switzerland",
+              "price": -136,
+              "point": 0.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -265,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 205,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:33Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 265
+            },
+            {
+              "name": "Switzerland",
+              "price": 235
+            },
+            {
+              "name": "Draw",
+              "price": 103
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:58:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -130,
+              "point": 0.75
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 0.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nordicbet",
+      "title": "Nordic Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 235
+            },
+            {
+              "name": "Switzerland",
+              "price": 140
+            },
+            {
+              "name": "Draw",
+              "price": 215
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 105,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -128,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betsson",
+      "title": "Betsson",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:53Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 220
+            },
+            {
+              "name": "Switzerland",
+              "price": 158
+            },
+            {
+              "name": "Draw",
+              "price": 198
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:53Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -154,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betvictor",
+      "title": "Bet Victor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:51:44Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 200
+            },
+            {
+              "name": "Switzerland",
+              "price": 145
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:28Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 215
+            },
+            {
+              "name": "Switzerland",
+              "price": 160
+            },
+            {
+              "name": "Draw",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:58:28Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 112,
+              "point": 0.0
+            },
+            {
+              "name": "Switzerland",
+              "price": -132,
+              "point": 0.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:28Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 125,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -145,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_sb_uk",
+      "title": "Betfair Sportsbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Canada",
+              "price": 200
+            },
+            {
+              "name": "Switzerland",
+              "price": 130
+            },
+            {
+              "name": "Draw",
+              "price": 150
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

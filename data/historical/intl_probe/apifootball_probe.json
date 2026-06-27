@@ -1,0 +1,369 @@
+{
+  "status": {
+    "account": {
+      "firstname": "Brandon",
+      "lastname": "Roldan",
+      "email": "brandonsamuelr@gmail.com"
+    },
+    "subscription": {
+      "plan": "Free",
+      "end": "2027-06-25T00:00:00+00:00",
+      "active": true
+    },
+    "requests": {
+      "current": 9,
+      "limit_day": 100
+    }
+  },
+  "teams": {
+    "Haiti": {
+      "query": "Haiti",
+      "team_id": 2386,
+      "team_name": "Haiti",
+      "fixtures_exposed": 27,
+      "seasons_seen": [
+        {
+          "season": 2022,
+          "fixtures": 13
+        },
+        {
+          "season": 2023,
+          "fixtures": 7
+        },
+        {
+          "season": 2024,
+          "fixtures": 7
+        }
+      ],
+      "sampled": [
+        {
+          "fixture_id": 592676,
+          "match": "Haiti vs Belize",
+          "date": "2021-03-25",
+          "referee": "W. L\u00f3pez",
+          "fields_populated": null
+        },
+        {
+          "fixture_id": 592712,
+          "match": "Turks and Caicos Islands vs Haiti",
+          "date": "2021-06-05",
+          "referee": "D. Monta\u00f1o",
+          "fields_populated": null
+        },
+        {
+          "fixture_id": 592718,
+          "match": "Haiti vs Nicaragua",
+          "date": "2021-06-08",
+          "referee": "K. Morrison",
+          "fields_populated": null
+        }
+      ],
+      "populated_count": 0
+    },
+    "South Africa": {
+      "query": "South Africa",
+      "team_id": 1531,
+      "team_name": "South Africa",
+      "fixtures_exposed": 61,
+      "seasons_seen": [
+        {
+          "season": 2022,
+          "fixtures": 15
+        },
+        {
+          "season": 2023,
+          "fixtures": 32
+        },
+        {
+          "season": 2024,
+          "fixtures": 14
+        }
+      ],
+      "sampled": [
+        {
+          "fixture_id": 701043,
+          "match": "Zimbabwe vs South Africa",
+          "date": "2021-09-03",
+          "referee": "Mahmoud Mohamed",
+          "fields_populated": {
+            "Fouls": true,
+            "Corner Kicks": true,
+            "Offsides": true,
+            "Yellow Cards": true,
+            "Red Cards": false,
+            "Total Shots": true,
+            "Shots on Goal": true
+          }
+        },
+        {
+          "fixture_id": 701063,
+          "match": "South Africa vs Ghana",
+          "date": "2021-09-06",
+          "referee": "D. Kafuli",
+          "fields_populated": {
+            "Fouls": true,
+            "Corner Kicks": true,
+            "Offsides": true,
+            "Yellow Cards": true,
+            "Red Cards": false,
+            "Total Shots": true,
+            "Shots on Goal": true
+          }
+        },
+        {
+          "fixture_id": 701084,
+          "match": "Ethiopia vs South Africa",
+          "date": "2021-10-09",
+          "referee": "Abdulwahid Huraywidah",
+          "fields_populated": {
+            "Fouls": true,
+            "Corner Kicks": true,
+            "Offsides": true,
+            "Yellow Cards": true,
+            "Red Cards": false,
+            "Total Shots": true,
+            "Shots on Goal": true
+          }
+        }
+      ],
+      "populated_count": 3
+    },
+    "Panama": {
+      "query": "Panama",
+      "team_id": 11,
+      "team_name": "Panama",
+      "fixtures_exposed": 64,
+      "seasons_seen": [
+        {
+          "season": 2022,
+          "fixtures": 35
+        },
+        {
+          "season": 2023,
+          "fixtures": 18
+        },
+        {
+          "season": 2024,
+          "fixtures": 11
+        }
+      ],
+      "sampled": [
+        {
+          "fixture_id": 592675,
+          "match": "Panama vs Barbados",
+          "date": "2021-03-26",
+          "referee": "N. Saghafi",
+          "fields_populated": null
+        },
+        {
+          "fixture_id": 592687,
+          "match": "Dominica vs Panama",
+          "date": "2021-03-28",
+          "referee": "M. Ort\u00edz",
+          "fields_populated": null
+        },
+        {
+          "fixture_id": 592711,
+          "match": "Anguilla vs Panama",
+          "date": "2021-06-06",
+          "referee": "S. Reyna",
+          "fields_populated": null
+        }
+      ],
+      "populated_count": 0
+    },
+    "Jordan": {
+      "query": "Jordan",
+      "team_id": 1548,
+      "team_name": "Jordan",
+      "fixtures_exposed": 36,
+      "seasons_seen": [
+        {
+          "season": 2022,
+          "fixtures": 17
+        },
+        {
+          "season": 2023,
+          "fixtures": 15
+        },
+        {
+          "season": 2024,
+          "fixtures": 4
+        }
+      ],
+      "sampled": [
+        {
+          "fixture_id": 256106,
+          "match": "Chinese Taipei vs Jordan",
+          "date": "2019-09-05",
+          "referee": "Y. Araki",
+          "fields_populated": null
+        },
+        {
+          "fixture_id": 256146,
+          "match": "Jordan vs Kuwait",
+          "date": "2019-10-10",
+          "referee": "R. Sato",
+          "fields_populated": null
+        },
+        {
+          "fixture_id": 256164,
+          "match": "Jordan vs Nepal",
+          "date": "2019-10-15",
+          "referee": "S. Gulmurodi",
+          "fields_populated": null
+        }
+      ],
+      "populated_count": 0
+    },
+    "Brazil": {
+      "query": "Brazil",
+      "team_id": 6,
+      "team_name": "Brazil",
+      "fixtures_exposed": 39,
+      "seasons_seen": [
+        {
+          "season": 2022,
+          "fixtures": 28
+        },
+        {
+          "season": 2023,
+          "fixtures": 3
+        },
+        {
+          "season": 2024,
+          "fixtures": 8
+        }
+      ],
+      "sampled": [
+        {
+          "fixture_id": 293578,
+          "match": "Brazil vs Bolivia",
+          "date": "2020-10-10",
+          "referee": "L. Gonz\u00e1lez",
+          "fields_populated": {
+            "Fouls": true,
+            "Corner Kicks": true,
+            "Offsides": true,
+            "Yellow Cards": true,
+            "Red Cards": false,
+            "Total Shots": true,
+            "Shots on Goal": true
+          }
+        },
+        {
+          "fixture_id": 293581,
+          "match": "Peru vs Brazil",
+          "date": "2020-10-14",
+          "referee": "J. Bascu\u00f1\u00e1n",
+          "fields_populated": {
+            "Fouls": true,
+            "Corner Kicks": true,
+            "Offsides": true,
+            "Yellow Cards": true,
+            "Red Cards": true,
+            "Total Shots": true,
+            "Shots on Goal": true
+          }
+        },
+        {
+          "fixture_id": 293587,
+          "match": "Brazil vs Venezuela",
+          "date": "2020-11-14",
+          "referee": "J. Ben\u00edtez",
+          "fields_populated": {
+            "Fouls": true,
+            "Corner Kicks": true,
+            "Offsides": true,
+            "Yellow Cards": true,
+            "Red Cards": false,
+            "Total Shots": true,
+            "Shots on Goal": true
+          }
+        }
+      ],
+      "populated_count": 3
+    },
+    "Mexico": {
+      "query": "Mexico",
+      "team_id": 16,
+      "team_name": "Mexico",
+      "fixtures_exposed": 63,
+      "seasons_seen": [
+        {
+          "season": 2022,
+          "fixtures": 32
+        },
+        {
+          "season": 2023,
+          "fixtures": 18
+        },
+        {
+          "season": 2024,
+          "fixtures": 13
+        }
+      ],
+      "sampled": [
+        {
+          "fixture_id": 708812,
+          "match": "Mexico vs Jamaica",
+          "date": "2021-09-03",
+          "referee": "S. Brown",
+          "fields_populated": {
+            "Fouls": true,
+            "Corner Kicks": true,
+            "Offsides": true,
+            "Yellow Cards": true,
+            "Red Cards": false,
+            "Total Shots": true,
+            "Shots on Goal": true
+          }
+        },
+        {
+          "fixture_id": 708815,
+          "match": "Costa Rica vs Mexico",
+          "date": "2021-09-05",
+          "referee": "I. Elfath",
+          "fields_populated": {
+            "Fouls": true,
+            "Corner Kicks": true,
+            "Offsides": true,
+            "Yellow Cards": true,
+            "Red Cards": false,
+            "Total Shots": true,
+            "Shots on Goal": true
+          }
+        },
+        {
+          "fixture_id": 708819,
+          "match": "Panama vs Mexico",
+          "date": "2021-09-09",
+          "referee": "M. Escobar",
+          "fields_populated": {
+            "Fouls": true,
+            "Corner Kicks": true,
+            "Offsides": true,
+            "Yellow Cards": false,
+            "Red Cards": false,
+            "Total Shots": true,
+            "Shots on Goal": true
+          }
+        }
+      ],
+      "populated_count": 2
+    }
+  },
+  "fields_checked": [
+    "Fouls",
+    "Corner Kicks",
+    "Offsides",
+    "Yellow Cards",
+    "Red Cards",
+    "Total Shots",
+    "Shots on Goal"
+  ],
+  "half_splits_available": false,
+  "note": "free-tier season-limited; tests FIELD POPULATION on visible matches",
+  "calls_used": 43,
+  "rate_remaining": "57"
+}

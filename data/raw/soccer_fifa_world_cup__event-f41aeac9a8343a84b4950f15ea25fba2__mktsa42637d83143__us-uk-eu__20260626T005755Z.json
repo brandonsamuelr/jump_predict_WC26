@@ -1,0 +1,7407 @@
+{
+  "id": "f41aeac9a8343a84b4950f15ea25fba2",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-26T02:00:00Z",
+  "home_team": "Turkey",
+  "away_team": "USA",
+  "bookmakers": [
+    {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:49Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 250
+            },
+            {
+              "name": "USA",
+              "price": -114
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:27Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 268
+            },
+            {
+              "name": "USA",
+              "price": -113
+            },
+            {
+              "name": "Draw",
+              "price": 298
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:27Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -174,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 134,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T00:57:27Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 297
+            },
+            {
+              "name": "USA",
+              "price": 149
+            },
+            {
+              "name": "Draw",
+              "price": 150
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-26T00:57:27Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 154,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coolbet",
+      "title": "Coolbet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:56:55Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 270
+            },
+            {
+              "name": "USA",
+              "price": -108
+            },
+            {
+              "name": "Draw",
+              "price": 325
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:56:55Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -100,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:56:55Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 355,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -2744,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": -100,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": -5294,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 280,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "price": -498,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -358,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 710,
+              "point": 5.0
+            },
+            {
+              "name": "Over",
+              "price": 155,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -161,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 1700,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 790,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 1600,
+              "point": 6.0
+            },
+            {
+              "name": "Under",
+              "price": -443,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 1350,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 1750,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -341,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": 395,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 295,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -1034,
+              "point": 5.0
+            },
+            {
+              "name": "Under",
+              "price": -179,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 139,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -4599,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -1201,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -4144,
+              "point": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_uk",
+      "title": "Unibet (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:17Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 275
+            },
+            {
+              "name": "USA",
+              "price": -111
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 275
+            },
+            {
+              "name": "USA",
+              "price": -120
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -188
+            },
+            {
+              "name": "No",
+              "price": 138
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 260
+            },
+            {
+              "name": "USA",
+              "price": -115
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -10000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -714,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -189,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 140,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 333,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 750,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 1800,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 2000,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 140,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -189,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -500,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -1667,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -5000,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -161
+            },
+            {
+              "name": "No",
+              "price": 125
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Eren Elmali",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Arda Guler",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Orkun Kokcu",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Kenan Yildiz",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Baris Alper Yilmaz",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Salih Ozcan",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulkerim Bardakci",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Mehmet Zeki Celik",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Giovanni Reyna",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Brendan Aaronson",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Joseph Scally",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Miles Robinson",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Auston Trusty",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Mark Alexander McKenzie",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Weston McKennie",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Sebastian Berhalter",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Weah",
+              "price": 333
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Pepi",
+              "price": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 270
+            },
+            {
+              "name": "USA",
+              "price": -115
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-26T00:57:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 1500,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -7000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 560,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 164,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -215,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": -320,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": 235,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 630,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -1200,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -146,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 114,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 1500,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -7000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -800,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 235,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -320,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-26T00:57:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": -550,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": 350,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 700,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -1800,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 4000,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 7000,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 1200,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -5000,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 2000,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": -215,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": 158,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 106,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -140,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 390,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -650,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 6500,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 205,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -290,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 6500,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 2200,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 470,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -850,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -138,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 104,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -300,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 210,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -800,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 450,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 148,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -200,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 4000,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 270,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -400,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 720,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -1800,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 1200,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -5000,
+              "point": 9.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:57:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -172,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -5000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 3500,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 152,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 8000,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 1600,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -590,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 360,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 820,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 140,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 1500,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -188,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -6000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 410,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -500,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -1600,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T00:57:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -4000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -1500,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -600,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -320,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -185,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 155,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 250,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 430,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 700,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": 1100,
+              "point": 14.5
+            },
+            {
+              "name": "Over",
+              "price": 1900,
+              "point": 15.5
+            },
+            {
+              "name": "Over",
+              "price": -650,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 920,
+              "point": 14.5
+            },
+            {
+              "name": "Over",
+              "price": 168,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 640,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": 1280,
+              "point": 15.5
+            },
+            {
+              "name": "Over",
+              "price": -1600,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 410,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": -320,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -174,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 100,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 270,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -5000,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 1600,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 750,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 380,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 210,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 120,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -145,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -230,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -390,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -700,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -1250,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -2500,
+              "point": 14.5
+            },
+            {
+              "name": "Under",
+              "price": -7000,
+              "point": 15.5
+            },
+            {
+              "name": "Under",
+              "price": 390,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -3500,
+              "point": 14.5
+            },
+            {
+              "name": "Under",
+              "price": -230,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -1450,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -7000,
+              "point": 15.5
+            },
+            {
+              "name": "Under",
+              "price": 680,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -700,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": 225,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -132,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -400,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 1200,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:24Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -154
+            },
+            {
+              "name": "No",
+              "price": 120
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-26T00:57:24Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 140
+            },
+            {
+              "name": "USA",
+              "price": -115
+            },
+            {
+              "name": "Draw",
+              "price": 600
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T00:57:24Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 290
+            },
+            {
+              "name": "USA",
+              "price": 130
+            },
+            {
+              "name": "Draw",
+              "price": 140
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T00:57:24Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ricardo Pepi",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Giovanni Reyna",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Kenan Yildiz",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Brendan Aaronson",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Arda Guler",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Weah",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Sebastian Berhalter",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Weston McKennie",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Baris Alper Yilmaz",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Orkun Kokcu",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Mark Alexander McKenzie",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Joseph Scally",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Salih Ozcan",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Auston Trusty",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulkerim Bardakci",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Miles Robinson",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Mehmet Zeki Celik",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Eren Elmali",
+              "price": 2700
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-26T00:57:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": -220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Arda Guler",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Giovanni Reyna",
+              "price": -145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kenan Yildiz",
+              "price": -130,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Brendan Aaronson",
+              "price": -120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Baris Alper Yilmaz",
+              "price": 105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Timothy Weah",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Weston McKennie",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Orkun Kokcu",
+              "price": 140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sebastian Berhalter",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Salih Ozcan",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joseph Scally",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mark Alexander McKenzie",
+              "price": 440,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Auston Trusty",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdulkerim Bardakci",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Eren Elmali",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Miles Robinson",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mehmet Zeki Celik",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": 220,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Arda Guler",
+              "price": 370,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Giovanni Reyna",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kenan Yildiz",
+              "price": 430,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brendan Aaronson",
+              "price": 480,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Baris Alper Yilmaz",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Timothy Weah",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Weston McKennie",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Orkun Kokcu",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Sebastian Berhalter",
+              "price": 1200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": 850,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Arda Guler",
+              "price": 1600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Giovanni Reyna",
+              "price": 1700,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kenan Yildiz",
+              "price": 1900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Brendan Aaronson",
+              "price": 2200,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-26T00:57:24Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ricardo Pepi",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Brendan Aaronson",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Giovanni Reyna",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "Sebastian Berhalter",
+              "price": 135
+            },
+            {
+              "name": "Yes",
+              "description": "Arda Guler",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Weston McKennie",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Weah",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Kenan Yildiz",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Baris Alper Yilmaz",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Orkun Kokcu",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Joseph Scally",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Mark Alexander McKenzie",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Salih Ozcan",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Eren Elmali",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Auston Trusty",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Mehmet Zeki Celik",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Miles Robinson",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulkerim Bardakci",
+              "price": 800
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-26T00:57:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 164,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -215,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -146,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 114,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -590,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -1600,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-26T00:57:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 140,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -182,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "smarkets",
+      "title": "Smarkets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:49Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 290
+            },
+            {
+              "name": "USA",
+              "price": -104
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-26T00:57:49Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 290
+            },
+            {
+              "name": "USA",
+              "price": 102
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:56:54Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 260
+            },
+            {
+              "name": "USA",
+              "price": -115
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:57:41Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 350,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -20000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 700,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -175,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 140,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -600,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 380,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 1200,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -2000,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:41Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -167
+            },
+            {
+              "name": "No",
+              "price": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:50Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 285
+            },
+            {
+              "name": "USA",
+              "price": -103
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-26T00:57:50Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 290
+            },
+            {
+              "name": "USA",
+              "price": -102
+            },
+            {
+              "name": "Draw",
+              "price": 330
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:57:45Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 162,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 5900,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 10900,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 2300,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 950,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -154,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 400,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -455,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -2500,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -169,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -3333,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -1111,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 148,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -417,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 440,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 2100,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-26T00:57:45Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 205,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 104,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -357,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -143,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T00:57:45Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 158,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -172,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -179,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 154,
+              "point": 8.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:45Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -154
+            },
+            {
+              "name": "No",
+              "price": 150
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T00:57:45Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ricardo Pepi",
+              "price": 168
+            },
+            {
+              "name": "Yes",
+              "description": "Kenan Yildiz",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Arda Guler",
+              "price": 490
+            },
+            {
+              "name": "Yes",
+              "description": "Giovanni Reyna",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Brendan Aaronson",
+              "price": 490
+            },
+            {
+              "name": "Yes",
+              "description": "Oguz Aydin",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Weah",
+              "price": 620
+            },
+            {
+              "name": "Yes",
+              "description": "Baris Alper Yilmaz",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Sebastian Berhalter",
+              "price": 660
+            },
+            {
+              "name": "Yes",
+              "description": "Weston McKennie",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Orkun Kokcu",
+              "price": 540
+            },
+            {
+              "name": "Yes",
+              "description": "Mark Alexander McKenzie",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Joseph Scally",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Ozan Kabak",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Auston Trusty",
+              "price": 1350
+            },
+            {
+              "name": "Yes",
+              "description": "Salih Ozcan",
+              "price": 1550
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulkerim Bardakci",
+              "price": 2100
+            },
+            {
+              "name": "Yes",
+              "description": "Miles Robinson",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Mehmet Zeki Celik",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Eren Elmali",
+              "price": 2000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_eu",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 280
+            },
+            {
+              "name": "USA",
+              "price": -103
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 285
+            },
+            {
+              "name": "USA",
+              "price": -102
+            },
+            {
+              "name": "Draw",
+              "price": 330
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 273
+            },
+            {
+              "name": "USA",
+              "price": -108
+            },
+            {
+              "name": "Draw",
+              "price": 326
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 106,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -117,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 106,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": -357,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": -220,
+              "point": 2.25
+            },
+            {
+              "name": "Over",
+              "price": -158,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -127,
+              "point": 2.75
+            },
+            {
+              "name": "Over",
+              "price": 133,
+              "point": 3.25
+            },
+            {
+              "name": "Over",
+              "price": 160,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 205,
+              "point": 3.75
+            },
+            {
+              "name": "Over",
+              "price": 290,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": -117,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": 281,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": 181,
+              "point": 2.25
+            },
+            {
+              "name": "Under",
+              "price": 135,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 111,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": -152,
+              "point": 3.25
+            },
+            {
+              "name": "Under",
+              "price": -188,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -251,
+              "point": 3.75
+            },
+            {
+              "name": "Under",
+              "price": -369,
+              "point": 4.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-26T00:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": -106,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -119,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -125,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -102,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-26T00:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -117,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -269,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 135,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -103,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 205,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -171,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T00:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -121,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -339,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -276,
+              "point": 8.0
+            },
+            {
+              "name": "Over",
+              "price": -191,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -157,
+              "point": 9.0
+            },
+            {
+              "name": "Over",
+              "price": 105,
+              "point": 10.0
+            },
+            {
+              "name": "Over",
+              "price": 129,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 173,
+              "point": 11.0
+            },
+            {
+              "name": "Over",
+              "price": 201,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -102,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 214,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 186,
+              "point": 8.0
+            },
+            {
+              "name": "Under",
+              "price": 140,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 120,
+              "point": 9.0
+            },
+            {
+              "name": "Under",
+              "price": -136,
+              "point": 10.0
+            },
+            {
+              "name": "Under",
+              "price": -175,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -252,
+              "point": 11.0
+            },
+            {
+              "name": "Under",
+              "price": -313,
+              "point": 11.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -156
+            },
+            {
+              "name": "No",
+              "price": 128
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-26T00:57:36Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 115
+            },
+            {
+              "name": "USA",
+              "price": 110
+            },
+            {
+              "name": "Draw",
+              "price": 607
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T00:57:36Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 301
+            },
+            {
+              "name": "USA",
+              "price": 154
+            },
+            {
+              "name": "Draw",
+              "price": 149
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T00:57:36Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Folarin Balogun",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Haji Wright",
+              "price": 195
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Pepi",
+              "price": 199
+            },
+            {
+              "name": "Yes",
+              "description": "Arda Guler",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Deniz Gul",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Baris Alper Yilmaz",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Kenan Yildiz",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Can Yilmaz Uzun",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Weah",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Giovanni Reyna",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Alejandro Zendejas",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Hakan Calhanoglu",
+              "price": 430
+            },
+            {
+              "name": "Yes",
+              "description": "Yunus Akgun",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Orkun Kokcu",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Roldan",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Sebastian Berhalter",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Alex Freeman",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Salih Ozcan",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Antonee Robinson",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Joseph Scally",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Ream",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Ferdi Kadioglu",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Mark Alexander McKenzie",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Ozan Kabak",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Chris Richards",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Auston Trusty",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Miles Robinson",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ismail Yuksek",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Mehmet Zeki Celik",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Eren Elmali",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Mert Muldur",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Caglar Soyuncu",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulkerim Bardakci",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Merih Demiral",
+              "price": 1300
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-26T00:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 166,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -205,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -130,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 107,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-26T00:57:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 100,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 267
+            },
+            {
+              "name": "USA",
+              "price": -110
+            },
+            {
+              "name": "Draw",
+              "price": 328
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 104,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -120,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 2.75
+            },
+            {
+              "name": "Over",
+              "price": 131,
+              "point": 3.25
+            },
+            {
+              "name": "Under",
+              "price": 119,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": -148,
+              "point": 3.25
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T00:57:31Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 305
+            },
+            {
+              "name": "USA",
+              "price": 140
+            },
+            {
+              "name": "Draw",
+              "price": 160
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-26T00:57:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 165,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -185,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -138,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 118,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-26T00:57:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -169,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 149,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_se",
+      "title": "Unibet (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:26Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 290
+            },
+            {
+              "name": "USA",
+              "price": -117
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -165,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 135,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 270
+            },
+            {
+              "name": "USA",
+              "price": -123
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -185
+            },
+            {
+              "name": "No",
+              "price": 132
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas",
+      "title": "LeoVegas",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:05Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 280
+            },
+            {
+              "name": "USA",
+              "price": -121
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -167,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:26Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 270
+            },
+            {
+              "name": "USA",
+              "price": -123
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:26Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -185
+            },
+            {
+              "name": "No",
+              "price": 132
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "casumo",
+      "title": "Casumo",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 280
+            },
+            {
+              "name": "USA",
+              "price": -121
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -167,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_nl",
+      "title": "Unibet (NL)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 295
+            },
+            {
+              "name": "USA",
+              "price": -114
+            },
+            {
+              "name": "Draw",
+              "price": 330
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -167,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grosvenor",
+      "title": "Grosvenor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:15Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 280
+            },
+            {
+              "name": "USA",
+              "price": -125
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -167,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 280
+            },
+            {
+              "name": "USA",
+              "price": -121
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -167,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-26T00:57:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": -305,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": 205,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 163,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -230,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 525,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -1115,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -770,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 430,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 215,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -335,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -148,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 108,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 575,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -1250,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 1500,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -5000,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:57:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -590,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 360,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -10000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 155,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -167,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 900,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 375,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -560,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 1300,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -210,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -2500,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T00:57:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 195,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 295,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": -1667,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -715,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -205,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -124,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -360,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 430,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": 128,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -278,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -480,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": 650,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 390,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 148,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 240,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -835,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -177,
+              "point": 10.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-26T00:57:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -670,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -129,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 250,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 390,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -106,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -385,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:51Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -186
+            },
+            {
+              "name": "No",
+              "price": 132
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T00:57:51Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 285
+            },
+            {
+              "name": "USA",
+              "price": 128
+            },
+            {
+              "name": "Draw",
+              "price": 135
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T00:57:51Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kenan Yildiz",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Auston Trusty",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Mark Alexander McKenzie",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Oguz Aydin",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Miles Robinson",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Orkun Kokcu",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Mehmet Zeki Celik",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Eren Elmali",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Arda Guler",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Pepi",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Salih Ozcan",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Brendan Aaronson",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Joseph Scally",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Giovanni Reyna",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Ozan Kabak",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Weah",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Sebastian Berhalter",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulkerim Bardakci",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Baris Alper Yilmaz",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Weston McKennie",
+              "price": 430
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-26T00:57:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Giovanni Reyna",
+              "price": 525,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brendan Aaronson",
+              "price": 105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kenan Yildiz",
+              "price": 340,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kenan Yildiz",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Eren Elmali",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mehmet Zeki Celik",
+              "price": 475,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Timothy Weah",
+              "price": 105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": -200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": 210,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Timothy Weah",
+              "price": 475,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Weston McKennie",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mark Alexander McKenzie",
+              "price": 430,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdulkerim Bardakci",
+              "price": 475,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sebastian Berhalter",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Arda Guler",
+              "price": -148,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Arda Guler",
+              "price": 280,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Orkun Kokcu",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Oguz Aydin",
+              "price": 550,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Auston Trusty",
+              "price": 430,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ozan Kabak",
+              "price": 370,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": 650,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Oguz Aydin",
+              "price": 120,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Giovanni Reyna",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Orkun Kokcu",
+              "price": 160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Salih Ozcan",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Baris Alper Yilmaz",
+              "price": 430,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Joseph Scally",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Baris Alper Yilmaz",
+              "price": -104,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Brendan Aaronson",
+              "price": 475,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Miles Robinson",
+              "price": 400,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas_se",
+      "title": "LeoVegas (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:05Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 280
+            },
+            {
+              "name": "USA",
+              "price": -121
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 275
+            },
+            {
+              "name": "USA",
+              "price": -110
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": -327,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": 211,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 146,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -213,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 458,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -990,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -750,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 387,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -140,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -102,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 222,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -349,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 571,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -1520,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": -120,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -115,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -150,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 110,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -400,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -205,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 195,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 260,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 145,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -195,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -285,
+              "point": 11.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -165
+            },
+            {
+              "name": "No",
+              "price": 130
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 290
+            },
+            {
+              "name": "USA",
+              "price": 145
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ricardo Pepi",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Giovanni Reyna",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Brendan Aaronson",
+              "price": 295
+            },
+            {
+              "name": "Yes",
+              "description": "Arda Guler",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Weston McKennie",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Kenan Yildiz",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Weah",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Baris Alper Yilmaz",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Oguz Aydin",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Orkun Kokcu",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Sebastian Berhalter",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Salih Ozcan",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Auston Trusty",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Joseph Scally",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Mark Alexander McKenzie",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Miles Robinson",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulkerim Bardakci",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Ozan Kabak",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Eren Elmali",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Mehmet Zeki Celik",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ricardo Pepi",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Weston McKennie",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Brendan Aaronson",
+              "price": 135
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Weah",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Sebastian Berhalter",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Arda Guler",
+              "price": 185
+            },
+            {
+              "name": "Yes",
+              "description": "Oguz Aydin",
+              "price": 205
+            },
+            {
+              "name": "Yes",
+              "description": "Kenan Yildiz",
+              "price": 215
+            },
+            {
+              "name": "Yes",
+              "description": "Baris Alper Yilmaz",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Orkun Kokcu",
+              "price": 245
+            },
+            {
+              "name": "Yes",
+              "description": "Joseph Scally",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Salih Ozcan",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Eren Elmali",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Mehmet Zeki Celik",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Auston Trusty",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Miles Robinson",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulkerim Bardakci",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Ozan Kabak",
+              "price": 1300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:56:21Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 270
+            },
+            {
+              "name": "USA",
+              "price": -117
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:56:21Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -101,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -121,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "everygame",
+      "title": "Everygame",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:56:56Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 245
+            },
+            {
+              "name": "USA",
+              "price": -110
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sport888",
+      "title": "888sport",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:26Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 230
+            },
+            {
+              "name": "USA",
+              "price": -118
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:56:55Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 240
+            },
+            {
+              "name": "USA",
+              "price": -110
+            },
+            {
+              "name": "Draw",
+              "price": 290
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:56:55Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -167,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:56:55Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -175
+            },
+            {
+              "name": "No",
+              "price": 130
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:56:55Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -167,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T00:57:43Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ricardo Pepi",
+              "price": 162
+            },
+            {
+              "name": "Yes",
+              "description": "Kenan Yildiz",
+              "price": 333
+            },
+            {
+              "name": "Yes",
+              "description": "Giovanni Reyna",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Arda Guler",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Baris Alper Yilmaz",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Brendan Aaronson",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Oguz Aydin",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Weston McKennie",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Orkun Kokcu",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Weah",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Sebastian Berhalter",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Salih Ozcan",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ozan Kabak",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulkerim Bardakci",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Mehmet Zeki Celik",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Miles Robinson",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Joseph Scally",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Mark Alexander McKenzie",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Auston Trusty",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Eren Elmali",
+              "price": 1600
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-26T00:57:43Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Arda Guler",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Arda Guler",
+              "price": 260,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Arda Guler",
+              "price": 750,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Arda Guler",
+              "price": 1800,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Kenan Yildiz",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kenan Yildiz",
+              "price": 280,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Kenan Yildiz",
+              "price": 800,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Kenan Yildiz",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Oguz Aydin",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Oguz Aydin",
+              "price": 450,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Oguz Aydin",
+              "price": 1200,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Oguz Aydin",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Orkun Kokcu",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Orkun Kokcu",
+              "price": 450,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Orkun Kokcu",
+              "price": 1200,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Orkun Kokcu",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Baris Alper Yilmaz",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Baris Alper Yilmaz",
+              "price": 450,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Baris Alper Yilmaz",
+              "price": 1200,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Baris Alper Yilmaz",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Ozan Kabak",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ozan Kabak",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Salih Ozcan",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Salih Ozcan",
+              "price": 1400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Eren Elmali",
+              "price": 333,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Eren Elmali",
+              "price": 1600,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Mehmet Zeki Celik",
+              "price": 375,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mehmet Zeki Celik",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Abdulkerim Bardakci",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdulkerim Bardakci",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": -250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": 188,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": 500,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": 1100,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Giovanni Reyna",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Giovanni Reyna",
+              "price": 260,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Giovanni Reyna",
+              "price": 750,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Giovanni Reyna",
+              "price": 1800,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Weston McKennie",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Weston McKennie",
+              "price": 280,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Weston McKennie",
+              "price": 800,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Weston McKennie",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Brendan Aaronson",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Brendan Aaronson",
+              "price": 333,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Brendan Aaronson",
+              "price": 900,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Brendan Aaronson",
+              "price": 2200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Timothy Weah",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Timothy Weah",
+              "price": 450,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Timothy Weah",
+              "price": 1200,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Timothy Weah",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Sebastian Berhalter",
+              "price": 115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sebastian Berhalter",
+              "price": 500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Sebastian Berhalter",
+              "price": 1400,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Sebastian Berhalter",
+              "price": 4000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Joseph Scally",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Joseph Scally",
+              "price": 1400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Mark Alexander McKenzie",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mark Alexander McKenzie",
+              "price": 1400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Auston Trusty",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Auston Trusty",
+              "price": 1400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Miles Robinson",
+              "price": 333,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Miles Robinson",
+              "price": 1600,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boylesports",
+      "title": "BoyleSports",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 260
+            },
+            {
+              "name": "USA",
+              "price": -120
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:40Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 250
+            },
+            {
+              "name": "USA",
+              "price": -110
+            },
+            {
+              "name": "Draw",
+              "price": 290
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:40Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -182
+            },
+            {
+              "name": "No",
+              "price": 130
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:57:40Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 1400,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -175,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -588,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 145,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -10000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 333,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 700,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 360,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 1200,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -556,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -1667,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T00:57:40Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 260
+            },
+            {
+              "name": "USA",
+              "price": 130
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 250
+            },
+            {
+              "name": "USA",
+              "price": -110
+            },
+            {
+              "name": "Draw",
+              "price": 290
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -182
+            },
+            {
+              "name": "No",
+              "price": 130
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -175,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 1400,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -588,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 145,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -5000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 333,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 700,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 360,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 1400,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -556,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -1667,
+              "point": 5.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T00:57:48Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 260
+            },
+            {
+              "name": "USA",
+              "price": 130
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:56:25Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 250
+            },
+            {
+              "name": "USA",
+              "price": -109
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:56:25Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 102,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-26T00:57:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": -300,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": -145,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": 120,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 160,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -195,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -400,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 300,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -128,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 108,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": 158,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": -193,
+              "point": 2.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-26T00:57:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Turkey",
+              "price": 105,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Turkey",
+              "price": -140,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "USA",
+              "price": -140,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "USA",
+              "price": 105,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:57:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -575,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -360,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": -222,
+              "point": 2.25
+            },
+            {
+              "name": "Over",
+              "price": -160,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -130,
+              "point": 2.75
+            },
+            {
+              "name": "Over",
+              "price": 130,
+              "point": 3.25
+            },
+            {
+              "name": "Over",
+              "price": 158,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 205,
+              "point": 3.75
+            },
+            {
+              "name": "Over",
+              "price": 290,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 275,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": 180,
+              "point": 2.25
+            },
+            {
+              "name": "Under",
+              "price": 132,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 110,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": -157,
+              "point": 3.25
+            },
+            {
+              "name": "Under",
+              "price": -193,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -255,
+              "point": 3.75
+            },
+            {
+              "name": "Under",
+              "price": -380,
+              "point": 4.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-26T00:57:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -325,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 220,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 230,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -125,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -310,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-26T00:57:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -285,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -255,
+              "point": 8.0
+            },
+            {
+              "name": "Over",
+              "price": -172,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -148,
+              "point": 9.0
+            },
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 10.0
+            },
+            {
+              "name": "Over",
+              "price": 147,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 185,
+              "point": 11.0
+            },
+            {
+              "name": "Over",
+              "price": 230,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 205,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 188,
+              "point": 8.0
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 113,
+              "point": 9.0
+            },
+            {
+              "name": "Under",
+              "price": -120,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -145,
+              "point": 10.0
+            },
+            {
+              "name": "Under",
+              "price": -195,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -250,
+              "point": 11.0
+            },
+            {
+              "name": "Under",
+              "price": -325,
+              "point": 11.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:12Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -175
+            },
+            {
+              "name": "No",
+              "price": 132
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-26T00:57:12Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 125
+            },
+            {
+              "name": "USA",
+              "price": -121
+            },
+            {
+              "name": "Draw",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T00:57:12Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 150
+            },
+            {
+              "name": "USA",
+              "price": -183
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T00:57:12Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Eren Elmali",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Yunus Akgun",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Haji Wright",
+              "price": 155
+            },
+            {
+              "name": "Yes",
+              "description": "Caglar Soyuncu",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Alejandro Zendejas",
+              "price": 245
+            },
+            {
+              "name": "Yes",
+              "description": "Sebastian Berhalter",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Miles Robinson",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Weston McKennie",
+              "price": 295
+            },
+            {
+              "name": "Yes",
+              "description": "Ferdi Kadioglu",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Kenan Yildiz",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Salih Ozcan",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Auston Trusty",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Weah",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Antonee Robinson",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ismail Yuksek",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Oguz Aydin",
+              "price": 425
+            },
+            {
+              "name": "Yes",
+              "description": "Alex Freeman",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Hakan Calhanoglu",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Giovanni Reyna",
+              "price": 215
+            },
+            {
+              "name": "Yes",
+              "description": "Kaan Ayhan",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Mark Alexander McKenzie",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Orkun Kokcu",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Christian Pulisic",
+              "price": 165
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Ream",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Brendan Aaronson",
+              "price": 245
+            },
+            {
+              "name": "Yes",
+              "description": "Sergino Dest",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulkerim Bardakci",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Merih Demiral",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Chris Richards",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Folarin Balogun",
+              "price": 135
+            },
+            {
+              "name": "Yes",
+              "description": "Tyler Adams",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Deniz Gul",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Irfan Can Kahveci",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Joseph Scally",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Arda Guler",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Pepi",
+              "price": 155
+            },
+            {
+              "name": "Yes",
+              "description": "Ozan Kabak",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "No Scorer",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Samet Akaydin",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Roldan",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Mehmet Zeki Celik",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Malik Tillman",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Can Yilmaz Uzun",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Baris Alper Yilmaz",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Mert Muldur",
+              "price": 2200
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-26T00:57:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 102,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -122,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betclic_fr",
+      "title": "Betclic (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:56:26Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 260
+            },
+            {
+              "name": "USA",
+              "price": -111
+            },
+            {
+              "name": "Draw",
+              "price": 325
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_de",
+      "title": "Winamax (DE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:17Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 255
+            },
+            {
+              "name": "USA",
+              "price": -114
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tipico_de",
+      "title": "Tipico",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:26Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 270
+            },
+            {
+              "name": "USA",
+              "price": -120
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 267
+            },
+            {
+              "name": "USA",
+              "price": -110
+            },
+            {
+              "name": "Draw",
+              "price": 328
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 104,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -120,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:57:16Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -135,
+              "point": 2.75
+            },
+            {
+              "name": "Over",
+              "price": 131,
+              "point": 3.25
+            },
+            {
+              "name": "Under",
+              "price": 119,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": -148,
+              "point": 3.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmu_fr",
+      "title": "PMU (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:55:38Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 290
+            },
+            {
+              "name": "USA",
+              "price": -118
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:55:38Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -180,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_fr",
+      "title": "Unibet (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:26Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 275
+            },
+            {
+              "name": "USA",
+              "price": -114
+            },
+            {
+              "name": "Draw",
+              "price": 330
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:05Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 264
+            },
+            {
+              "name": "USA",
+              "price": -103
+            },
+            {
+              "name": "Draw",
+              "price": 326
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:05Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -162,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 139,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:05Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -192
+            },
+            {
+              "name": "No",
+              "price": 140
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:56:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -10000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -3333,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": -820,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -518,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": -163,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": 151,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 264,
+              "point": 4.0
+            },
+            {
+              "name": "Over",
+              "price": 330,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 660,
+              "point": 5.0
+            },
+            {
+              "name": "Over",
+              "price": 730,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": 1600,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 2800,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 1400,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 1050,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 370,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 275,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": 140,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -123,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -189,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -417,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": -617,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -3571,
+              "point": 5.0
+            },
+            {
+              "name": "Under",
+              "price": -6667,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -4000,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -14286,
+              "point": 7.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-26T00:55:01Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -649,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -345,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": -114,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 177,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 266,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 600,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 2000,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 258,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -227,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -385,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -1205,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -6667,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-26T00:56:06Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Folarin Balogun",
+              "price": 155
+            },
+            {
+              "name": "Yes",
+              "description": "Ricardo Pepi",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Haji Wright",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Christian Pulisic",
+              "price": 190
+            },
+            {
+              "name": "Yes",
+              "description": "Brendan Aaronson",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Muhammed Akturkoglu",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Arda Guler",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Weston McKennie",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Kenan Yildiz",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Malik Tillman",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Deniz Gul",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Giovanni Reyna",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Oguz Aydin",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Yunus Akgun",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Can Yilmaz Uzun",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Alejandro Zendejas",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Orkun Kokcu",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Baris Alper Yilmaz",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Hakan Calhanoglu",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Weah",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Sergino Dest",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Cristian Roldan",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Miles Robinson",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Sebastian Berhalter",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Alex Freeman",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Auston Trusty",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Joseph Scally",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Salih Ozcan",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Mark Alexander McKenzie",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Tyler Adams",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Antonee Robinson",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Merih Demiral",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Mehmet Zeki Celik",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Chris Richards",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Samet Akaydin",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ozan Kabak",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ismail Yuksek",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ferdi Kadioglu",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Timothy Ream",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Caglar Soyuncu",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulkerim Bardakci",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Mert Muldur",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Eren Elmali",
+              "price": 1600
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-26T00:56:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Hakan Calhanoglu",
+              "price": 107,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Abdulkerim Bardakci",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Salih Ozcan",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Auston Trusty",
+              "price": 475,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Miles Robinson",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Weston McKennie",
+              "price": -118,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Weston McKennie",
+              "price": 475,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Weston McKennie",
+              "price": 3000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Timothy Weah",
+              "price": -156,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Timothy Weah",
+              "price": 310,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Timothy Weah",
+              "price": 3000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Joseph Scally",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ozan Kabak",
+              "price": 235,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ozan Kabak",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brendan Aaronson",
+              "price": -147,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Brendan Aaronson",
+              "price": 340,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brendan Aaronson",
+              "price": 1600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": -250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": 205,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": 750,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ricardo Pepi",
+              "price": 2500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Giovanni Reyna",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Giovanni Reyna",
+              "price": 425,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Giovanni Reyna",
+              "price": 1200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Orkun Kokcu",
+              "price": -116,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Orkun Kokcu",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Orkun Kokcu",
+              "price": 3500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Sebastian Berhalter",
+              "price": 135,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sebastian Berhalter",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Sebastian Berhalter",
+              "price": 6400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Muhammed Akturkoglu",
+              "price": -154,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Folarin Balogun",
+              "price": 135,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Eren Elmali",
+              "price": 390,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Mehmet Zeki Celik",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Oguz Aydin",
+              "price": -116,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Oguz Aydin",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Oguz Aydin",
+              "price": 1900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Arda Guler",
+              "price": -175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Arda Guler",
+              "price": 295,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Arda Guler",
+              "price": 1100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Baris Alper Yilmaz",
+              "price": -111,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Baris Alper Yilmaz",
+              "price": 475,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Baris Alper Yilmaz",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kenan Yildiz",
+              "price": -143,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kenan Yildiz",
+              "price": 295,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kenan Yildiz",
+              "price": 1400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Mark Alexander McKenzie",
+              "price": 475,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:49Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 275
+            },
+            {
+              "name": "USA",
+              "price": 100
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-26T00:57:49Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 280
+            },
+            {
+              "name": "USA",
+              "price": 102
+            },
+            {
+              "name": "Draw",
+              "price": 330
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-26T00:57:49Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -152
+            },
+            {
+              "name": "No",
+              "price": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:18Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 260
+            },
+            {
+              "name": "USA",
+              "price": -115
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betway",
+      "title": "Betway",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:17Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 250
+            },
+            {
+              "name": "USA",
+              "price": -114
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:56:37Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 255
+            },
+            {
+              "name": "USA",
+              "price": -120
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "codere_it",
+      "title": "Codere (IT)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:26Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 265
+            },
+            {
+              "name": "USA",
+              "price": -111
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -169,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 117,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-06-26T00:57:26Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -5000,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -556,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -169,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 144,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 310,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 600,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 310,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 117,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -213,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -556,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -1667,
+              "point": 5.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:06Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 265
+            },
+            {
+              "name": "USA",
+              "price": -115
+            },
+            {
+              "name": "Draw",
+              "price": 330
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:06Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 105,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -125,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 267
+            },
+            {
+              "name": "USA",
+              "price": -109
+            },
+            {
+              "name": "Draw",
+              "price": 324
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 145,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -175,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 305
+            },
+            {
+              "name": "USA",
+              "price": 140
+            },
+            {
+              "name": "Draw",
+              "price": 160
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 140,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -170,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betvictor",
+      "title": "Bet Victor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:56:37Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 275
+            },
+            {
+              "name": "USA",
+              "price": -118
+            },
+            {
+              "name": "Draw",
+              "price": 290
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nordicbet",
+      "title": "Nordic Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:08Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 280
+            },
+            {
+              "name": "USA",
+              "price": -109
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:08Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -161,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betsson",
+      "title": "Betsson",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Turkey",
+              "price": 270
+            },
+            {
+              "name": "USA",
+              "price": -105
+            },
+            {
+              "name": "Draw",
+              "price": 295
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-26T00:57:37Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -161,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 130,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

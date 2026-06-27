@@ -1,0 +1,258 @@
+{
+  "Haiti": {
+    "finished": 26,
+    "sampled": [
+      {
+        "date": "2021-03-25",
+        "comp": "World Cup - Qualification CONCACAF",
+        "opp": "Belize",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2021-06-16",
+        "comp": "World Cup - Qualification CONCACAF",
+        "opp": "Canada",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2022-06-07",
+        "comp": "CONCACAF Nations League",
+        "opp": "Montserrat",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2023-03-28",
+        "comp": "CONCACAF Nations League",
+        "opp": "Bermuda",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2023-07-03",
+        "comp": "CONCACAF Gold Cup",
+        "opp": "Honduras",
+        "fouls": 5,
+        "pop": true
+      },
+      {
+        "date": "2023-10-16",
+        "comp": "CONCACAF Nations League",
+        "opp": "Jamaica",
+        "fouls": 18,
+        "pop": true
+      },
+      {
+        "date": "2024-09-09",
+        "comp": "CONCACAF Nations League",
+        "opp": "Sint Maarten",
+        "fouls": 5,
+        "pop": true
+      },
+      {
+        "date": "2024-11-19",
+        "comp": "CONCACAF Nations League",
+        "opp": "Puerto Rico",
+        "fouls": 16,
+        "pop": true
+      }
+    ],
+    "pop": 4,
+    "comp_pop": 4,
+    "comp_total": 8
+  },
+  "Panama": {
+    "finished": 61,
+    "sampled": [
+      {
+        "date": "2021-03-26",
+        "comp": "World Cup - Qualification CONCACAF",
+        "opp": "Barbados",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2021-10-08",
+        "comp": "World Cup - Qualification CONCACAF",
+        "opp": "El Salvador",
+        "fouls": 21,
+        "pop": true
+      },
+      {
+        "date": "2022-02-03",
+        "comp": "World Cup - Qualification CONCACAF",
+        "opp": "Mexico",
+        "fouls": 11,
+        "pop": true
+      },
+      {
+        "date": "2022-11-05",
+        "comp": "Friendlies",
+        "opp": "Qatar",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2023-06-15",
+        "comp": "CONCACAF Nations League",
+        "opp": "Canada",
+        "fouls": 14,
+        "pop": true
+      },
+      {
+        "date": "2023-09-11",
+        "comp": "CONCACAF Nations League",
+        "opp": "Guatemala",
+        "fouls": 16,
+        "pop": true
+      },
+      {
+        "date": "2024-06-24",
+        "comp": "Copa America",
+        "opp": "Uruguay",
+        "fouls": 12,
+        "pop": true
+      },
+      {
+        "date": "2025-03-24",
+        "comp": "CONCACAF Nations League",
+        "opp": "Mexico",
+        "fouls": 10,
+        "pop": true
+      }
+    ],
+    "pop": 6,
+    "comp_pop": 6,
+    "comp_total": 7
+  },
+  "Jordan": {
+    "finished": 35,
+    "sampled": [
+      {
+        "date": "2019-09-05",
+        "comp": "World Cup - Qualification Asia",
+        "opp": "Chinese Taipei",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2021-06-07",
+        "comp": "World Cup - Qualification Asia",
+        "opp": "Nepal",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2022-06-01",
+        "comp": "Friendlies",
+        "opp": "Australia",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2022-09-26",
+        "comp": "Friendlies",
+        "opp": "Oman",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2023-06-19",
+        "comp": "Friendlies",
+        "opp": "Jamaica",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2024-01-05",
+        "comp": "Friendlies",
+        "opp": "Qatar",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2024-01-29",
+        "comp": "Asian Cup",
+        "opp": "Iraq",
+        "fouls": 4,
+        "pop": true
+      },
+      {
+        "date": "2024-08-29",
+        "comp": "Friendlies",
+        "opp": "North Korea",
+        "fouls": null,
+        "pop": false
+      }
+    ],
+    "pop": 1,
+    "comp_pop": 1,
+    "comp_total": 3
+  },
+  "South Africa": {
+    "finished": 53,
+    "sampled": [
+      {
+        "date": "2021-09-03",
+        "comp": "World Cup - Qualification Africa",
+        "opp": "Zimbabwe",
+        "fouls": 18,
+        "pop": true
+      },
+      {
+        "date": "2022-03-29",
+        "comp": "Friendlies",
+        "opp": "France",
+        "fouls": 11,
+        "pop": true
+      },
+      {
+        "date": "2023-03-24",
+        "comp": "Africa Cup of Nations - Qualification",
+        "opp": "Liberia",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2023-09-09",
+        "comp": "Friendlies",
+        "opp": "Namibia",
+        "fouls": 5,
+        "pop": true
+      },
+      {
+        "date": "2024-01-21",
+        "comp": "Africa Cup of Nations",
+        "opp": "Namibia",
+        "fouls": 19,
+        "pop": true
+      },
+      {
+        "date": "2024-06-26",
+        "comp": "COSAFA Cup",
+        "opp": "Mozambique",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2025-08-08",
+        "comp": "African Nations Championship",
+        "opp": "Algeria",
+        "fouls": null,
+        "pop": false
+      },
+      {
+        "date": "2025-10-14",
+        "comp": "World Cup - Qualification Africa",
+        "opp": "Rwanda",
+        "fouls": 12,
+        "pop": true
+      }
+    ],
+    "pop": 5,
+    "comp_pop": 3,
+    "comp_total": 6
+  }
+}

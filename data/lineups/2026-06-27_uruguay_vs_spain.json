@@ -1,0 +1,11 @@
+{
+  "match": "Uruguay vs Spain",
+  "kickoff_utc": "2026-06-27T00:00:00Z",
+  "captured_at": "2026-06-26T23:30:00Z",
+  "source": "official confirmed XIs (Oddschecker / SI / RotoWire, T-30)",
+  "notes": "Núñez confirmed STARTING (lone striker). Dani Olmo BENCHED (named among Spain subs) -> bench_high_usage (quality attacker likely to feature). Olmo Q3 is 2H-player-SOT (no market exists) so it stays PENDING regardless of his status.",
+  "players": {
+    "Darwin Núñez": {"team": "Uruguay", "status": "starter", "role": "central_attacker"},
+    "Dani Olmo": {"team": "Spain", "status": "bench_high_usage", "role": "attacking_midfielder"}
+  }
+}

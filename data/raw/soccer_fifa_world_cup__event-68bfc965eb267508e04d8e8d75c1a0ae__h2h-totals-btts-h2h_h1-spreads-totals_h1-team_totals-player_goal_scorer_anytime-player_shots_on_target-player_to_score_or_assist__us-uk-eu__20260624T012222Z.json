@@ -1,0 +1,4928 @@
+{
+  "id": "68bfc965eb267508e04d8e8d75c1a0ae",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-24T02:00:00Z",
+  "home_team": "Colombia",
+  "away_team": "DR Congo",
+  "bookmakers": [
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:48Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -185
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 270
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:21:48Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 114
+            },
+            {
+              "name": "No",
+              "price": -159
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "casumo",
+      "title": "Casumo",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:59Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -180
+            },
+            {
+              "name": "DR Congo",
+              "price": 575
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:21:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 117,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -152,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas",
+      "title": "LeoVegas",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:15Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -180
+            },
+            {
+              "name": "DR Congo",
+              "price": 575
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:22:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 117,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -152,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_nl",
+      "title": "Unibet (NL)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:48Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -167
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 295
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:21:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 117,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -152,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_uk",
+      "title": "Unibet (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:12Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -182
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_fr",
+      "title": "Unibet (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:35Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -175
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -180
+            },
+            {
+              "name": "DR Congo",
+              "price": 575
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 117,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -152,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:21:44Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 114
+            },
+            {
+              "name": "No",
+              "price": -159
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T01:21:45Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": 115
+            },
+            {
+              "name": "DR Congo",
+              "price": 525
+            },
+            {
+              "name": "Draw",
+              "price": 118
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T01:21:45Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Yoane Wissa",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Mojica",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Jefferson Lerma",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Steve Kapuadi",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Axel Tuanzebe",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Javier Suarez Charris",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Samuel Moutoussamy",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Daniel Munoz",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Edo Kayembe",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Wan-Bissaka",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 145
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Puerta",
+              "price": 575
+            },
+            {
+              "name": "Yes",
+              "description": "Davinson Sanchez",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Lucumi",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Bakambu",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Arias",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Arthur Masuaku",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "James Rodriguez",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T01:21:45Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Gustavo Puerta",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Lucumi",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aaron Wan-Bissaka",
+              "price": 460,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jefferson Lerma",
+              "price": 140,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": -195,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cedric Bakambu",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cedric Bakambu",
+              "price": 105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 450,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 160,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Yoane Wissa",
+              "price": 320,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "James Rodriguez",
+              "price": -122,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "James Rodriguez",
+              "price": 340,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Steve Kapuadi",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edo Kayembe",
+              "price": 175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Axel Tuanzebe",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Arthur Masuaku",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Davinson Sanchez",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Puerta",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": 220,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Arias",
+              "price": -130,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": 650,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jefferson Lerma",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Samuel Moutoussamy",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": -275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Yoane Wissa",
+              "price": -127,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Mojica",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Daniel Munoz",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edo Kayembe",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Arias",
+              "price": 320,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:49Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -200
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grosvenor",
+      "title": "Grosvenor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:35Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -200
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 295
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:21:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 117,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -152,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmu_fr",
+      "title": "PMU (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -167
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 285
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 112,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -159,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:00Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -199
+            },
+            {
+              "name": "DR Congo",
+              "price": 601
+            },
+            {
+              "name": "Draw",
+              "price": 289
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T01:22:00Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -177,
+              "point": -0.5
+            },
+            {
+              "name": "DR Congo",
+              "price": 143,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:22:00Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 119,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -139,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T01:22:00Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": 118
+            },
+            {
+              "name": "DR Congo",
+              "price": 596
+            },
+            {
+              "name": "Draw",
+              "price": 126
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T01:22:00Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -221,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 169,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_se",
+      "title": "Unibet (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -167
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 295
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -148,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:12Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -185
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 270
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:22:12Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 114
+            },
+            {
+              "name": "No",
+              "price": -159
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas_se",
+      "title": "LeoVegas (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:12Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -180
+            },
+            {
+              "name": "DR Congo",
+              "price": 575
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -182
+            },
+            {
+              "name": "DR Congo",
+              "price": 655
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": 159,
+              "point": -1.5
+            },
+            {
+              "name": "DR Congo",
+              "price": -186,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 117,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -135,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 126
+            },
+            {
+              "name": "No",
+              "price": -172
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T01:22:09Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 143
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Javier Suarez Charris",
+              "price": 165
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Cordoba",
+              "price": 165
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Camilo Hernandez Suarez",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Carlos Andres Gomez",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Quintero",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "James Rodriguez",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Yoane Wissa",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Arias",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Jorge Carrascal",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Bakambu",
+              "price": 430
+            },
+            {
+              "name": "Yes",
+              "description": "Fiston Kalala Mayele",
+              "price": 430
+            },
+            {
+              "name": "Yes",
+              "description": "Juan Camilo Portilla",
+              "price": 470
+            },
+            {
+              "name": "Yes",
+              "description": "Simon Banza",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Jefferson Lerma",
+              "price": 590
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Puerta",
+              "price": 590
+            },
+            {
+              "name": "Yes",
+              "description": "Richard Rios Montoya",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Elia Meschak",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Nathanael Mbuku",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Kevin Castano",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Daniel Munoz",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Mojica",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Lucumi",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Davinson Sanchez",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Gedeon Kalulu",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Noah Sadiki",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Charles Pickel",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Tshibola",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Axel Tuanzebe",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Ngal'ayel Mukau",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Samuel Moutoussamy",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Edo Kayembe",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Arthur Masuaku",
+              "price": 2100
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Wan-Bissaka",
+              "price": 2100
+            },
+            {
+              "name": "Yes",
+              "description": "Steve Kapuadi",
+              "price": 2200
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T01:22:09Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Arthur Masuaku",
+              "price": 265,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Arthur Masuaku",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cedric Bakambu",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cedric Bakambu",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cedric Bakambu",
+              "price": 1600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "James Rodriguez",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "James Rodriguez",
+              "price": 280,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "James Rodriguez",
+              "price": 850,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jefferson Lerma",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jefferson Lerma",
+              "price": 850,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jefferson Lerma",
+              "price": 5400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Mojica",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Mojica",
+              "price": 1900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Axel Tuanzebe",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Davinson Sanchez",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Davinson Sanchez",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Yoane Wissa",
+              "price": -133,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Yoane Wissa",
+              "price": 425,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Yoane Wissa",
+              "price": 1300,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Aaron Wan-Bissaka",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Samuel Moutoussamy",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Samuel Moutoussamy",
+              "price": 1900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Edo Kayembe",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edo Kayembe",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Edo Kayembe",
+              "price": 2800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Lucumi",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": -222,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": 165,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": 550,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": 2000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": -222,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 240,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 550,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Daniel Munoz",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Daniel Munoz",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Daniel Munoz",
+              "price": 6900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Arias",
+              "price": -133,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Arias",
+              "price": 360,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Arias",
+              "price": 1100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Steve Kapuadi",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ngal'ayel Mukau",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ngal'ayel Mukau",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Puerta",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Puerta",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Puerta",
+              "price": 5400,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betclic_fr",
+      "title": "Betclic (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:19:17Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -182
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:49Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -185
+            },
+            {
+              "name": "DR Congo",
+              "price": 540
+            },
+            {
+              "name": "Draw",
+              "price": 290
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T01:21:49Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -105,
+              "point": -1.0
+            },
+            {
+              "name": "DR Congo",
+              "price": -116,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:21:49Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 115,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -141,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -188
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 275
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coolbet",
+      "title": "Coolbet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:48Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -179
+            },
+            {
+              "name": "DR Congo",
+              "price": 640
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:21:48Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -139,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:12Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -200
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:21:45Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "price": -167
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:49Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -200
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:22:09Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 110
+            },
+            {
+              "name": "No",
+              "price": -149
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T01:22:09Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "James Rodriguez",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Javier Suarez Charris",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Daniel Munoz",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Puerta",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Davinson Sanchez",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Mojica",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Jefferson Lerma",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Lucumi",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Arias",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 163
+            },
+            {
+              "name": "Yes",
+              "description": "Ngal'ayel Mukau",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Yoane Wissa",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Steve Kapuadi",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Axel Tuanzebe",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Samuel Moutoussamy",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Wan-Bissaka",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Edo Kayembe",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Arthur Masuaku",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Bakambu",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 1400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:59Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -195
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:21:35Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "price": -152
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T01:21:35Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": 100
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 115
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T01:21:35Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Javier Suarez Charris",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "James Rodriguez",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Arias",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Yoane Wissa",
+              "price": 410
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Bakambu",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Puerta",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Jefferson Lerma",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Daniel Munoz",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Edo Kayembe",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Davinson Sanchez",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Samuel Moutoussamy",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Ngal'ayel Mukau",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Lucumi",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Mojica",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Wan-Bissaka",
+              "price": 2700
+            },
+            {
+              "name": "Yes",
+              "description": "Arthur Masuaku",
+              "price": 2700
+            },
+            {
+              "name": "Yes",
+              "description": "Axel Tuanzebe",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Steve Kapuadi",
+              "price": 4000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T01:21:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": 2000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 2500,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": 155,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 185,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "James Rodriguez",
+              "price": 270,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Arias",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Yoane Wissa",
+              "price": 420,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cedric Bakambu",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Puerta",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jefferson Lerma",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Daniel Munoz",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Edo Kayembe",
+              "price": 1500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Davinson Sanchez",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Samuel Moutoussamy",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": -300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": -260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "James Rodriguez",
+              "price": -185,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Arias",
+              "price": -155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Yoane Wissa",
+              "price": -135,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cedric Bakambu",
+              "price": -115,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Puerta",
+              "price": 165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jefferson Lerma",
+              "price": 165,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Daniel Munoz",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edo Kayembe",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Samuel Moutoussamy",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Davinson Sanchez",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ngal'ayel Mukau",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Mojica",
+              "price": 430,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Lucumi",
+              "price": 440,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 470,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Arthur Masuaku",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aaron Wan-Bissaka",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Steve Kapuadi",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Axel Tuanzebe",
+              "price": 800,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": 550,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 700,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "James Rodriguez",
+              "price": 1100,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Arias",
+              "price": 1500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Yoane Wissa",
+              "price": 1800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Cedric Bakambu",
+              "price": 2200,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-24T01:21:35Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": -105
+            },
+            {
+              "name": "Yes",
+              "description": "James Rodriguez",
+              "price": -105
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Javier Suarez Charris",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Arias",
+              "price": 135
+            },
+            {
+              "name": "Yes",
+              "description": "Jefferson Lerma",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Daniel Munoz",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Yoane Wissa",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Bakambu",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Puerta",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Mojica",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Edo Kayembe",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Davinson Sanchez",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Lucumi",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Samuel Moutoussamy",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Arthur Masuaku",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ngal'ayel Mukau",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Wan-Bissaka",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Steve Kapuadi",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Axel Tuanzebe",
+              "price": 1400
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T01:21:35Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": 164,
+              "point": -1.5
+            },
+            {
+              "name": "DR Congo",
+              "price": -215,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T01:21:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Colombia",
+              "price": -128,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Colombia",
+              "price": 100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "DR Congo",
+              "price": -113,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "DR Congo",
+              "price": -113,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:21:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 116,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -142,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T01:21:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -240,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 182,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_eu",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:12Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -175
+            },
+            {
+              "name": "DR Congo",
+              "price": 680
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T01:22:12Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -172
+            },
+            {
+              "name": "DR Congo",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -175
+            },
+            {
+              "name": "DR Congo",
+              "price": 680
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -172
+            },
+            {
+              "name": "DR Congo",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 132
+            },
+            {
+              "name": "No",
+              "price": -135
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 192
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Javier Suarez Charris",
+              "price": 196
+            },
+            {
+              "name": "Yes",
+              "description": "James Rodriguez",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Arias",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Yoane Wissa",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Bakambu",
+              "price": 540
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Puerta",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Jefferson Lerma",
+              "price": 1450
+            },
+            {
+              "name": "Yes",
+              "description": "Daniel Munoz",
+              "price": 1250
+            },
+            {
+              "name": "Yes",
+              "description": "Edo Kayembe",
+              "price": 1750
+            },
+            {
+              "name": "Yes",
+              "description": "Davinson Sanchez",
+              "price": 1550
+            },
+            {
+              "name": "Yes",
+              "description": "Samuel Moutoussamy",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Lucumi",
+              "price": 2300
+            },
+            {
+              "name": "Yes",
+              "description": "Ngal'ayel Mukau",
+              "price": 2700
+            },
+            {
+              "name": "Yes",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 3100
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Mojica",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Arthur Masuaku",
+              "price": 3100
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Wan-Bissaka",
+              "price": 4300
+            },
+            {
+              "name": "Yes",
+              "description": "Axel Tuanzebe",
+              "price": 3700
+            },
+            {
+              "name": "Yes",
+              "description": "Steve Kapuadi",
+              "price": 2600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "smarkets",
+      "title": "Smarkets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:12Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -179
+            },
+            {
+              "name": "DR Congo",
+              "price": 660
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T01:22:12Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -172
+            },
+            {
+              "name": "DR Congo",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -180
+            },
+            {
+              "name": "DR Congo",
+              "price": 645
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -104,
+              "point": -1.0
+            },
+            {
+              "name": "DR Congo",
+              "price": -103,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -109,
+              "point": 2.25
+            },
+            {
+              "name": "Under",
+              "price": -102,
+              "point": 2.25
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:22:18Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 126
+            },
+            {
+              "name": "No",
+              "price": -154
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T01:22:18Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": 112
+            },
+            {
+              "name": "DR Congo",
+              "price": 668
+            },
+            {
+              "name": "Draw",
+              "price": 131
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T01:22:18Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Javier Suarez Charris",
+              "price": 182
+            },
+            {
+              "name": "Yes",
+              "description": "James Rodriguez",
+              "price": 235
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Cordoba",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Arias",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Bakambu",
+              "price": 410
+            },
+            {
+              "name": "Yes",
+              "description": "Jefferson Lerma",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Yoane Wissa",
+              "price": 410
+            },
+            {
+              "name": "Yes",
+              "description": "Jaminton Campaz",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Richard Rios Montoya",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Davinson Sanchez",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Nathanael Mbuku",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Daniel Munoz",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Elia Meschak",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Puerta",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Edo Kayembe",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Mojica",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Willer Ditta",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Santiago Arias",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Lucumi",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Wan-Bissaka",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Samuel Moutoussamy",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Charles Pickel",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Noah Sadiki",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Gedeon Kalulu",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Ngal'ayel Mukau",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Dylan Batubinsika",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Arthur Masuaku",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Axel Tuanzebe",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Steve Kapuadi",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 160
+            },
+            {
+              "name": "No",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": -196
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Javier Suarez Charris",
+              "price": 180
+            },
+            {
+              "name": "No",
+              "description": "Luis Javier Suarez Charris",
+              "price": -220
+            },
+            {
+              "name": "Yes",
+              "description": "James Rodriguez",
+              "price": 313
+            },
+            {
+              "name": "No",
+              "description": "James Rodriguez",
+              "price": -399
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Arias",
+              "price": 383
+            },
+            {
+              "name": "No",
+              "description": "Jhon Arias",
+              "price": -497
+            },
+            {
+              "name": "Yes",
+              "description": "Yoane Wissa",
+              "price": 428
+            },
+            {
+              "name": "No",
+              "description": "Yoane Wissa",
+              "price": -594
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Bakambu",
+              "price": 433
+            },
+            {
+              "name": "No",
+              "description": "Cedric Bakambu",
+              "price": -617
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T01:22:18Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Colombia",
+              "price": -123,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Colombia",
+              "price": 101,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "DR Congo",
+              "price": -110,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "DR Congo",
+              "price": -110,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T01:22:18Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 111,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -125,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -189
+            },
+            {
+              "name": "DR Congo",
+              "price": 655
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -109,
+              "point": -1.0
+            },
+            {
+              "name": "DR Congo",
+              "price": -107,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -136,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T01:21:32Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": 110
+            },
+            {
+              "name": "DR Congo",
+              "price": 655
+            },
+            {
+              "name": "Draw",
+              "price": 126
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T01:21:32Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Colombia",
+              "price": -128,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Colombia",
+              "price": 108,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "DR Congo",
+              "price": -110,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "DR Congo",
+              "price": -110,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T01:21:32Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 115,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -135,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:20:28Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -192
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 295
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T01:20:28Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -110,
+              "point": -1.0
+            },
+            {
+              "name": "DR Congo",
+              "price": -110,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:20:28Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 2.25
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 2.25
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:21:15Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "price": -160
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T01:21:15Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -410
+            },
+            {
+              "name": "DR Congo",
+              "price": 305
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T01:21:15Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Luis Javier Suarez Charris",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Daniel Munoz",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ngal'ayel Mukau",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Yoane Wissa",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Arias",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Arthur Masuaku",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Edo Kayembe",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Mojica",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Jefferson Lerma",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Puerta",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Samuel Moutoussamy",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Davinson Sanchez",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Lucumi",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "James Rodriguez",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Steve Kapuadi",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Bakambu",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Wan-Bissaka",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Axel Tuanzebe",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 3000
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T01:21:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 108,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -128,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "everygame",
+      "title": "Everygame",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:29Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -189
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 290
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:47Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -195
+            },
+            {
+              "name": "DR Congo",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:22:18Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "price": -155
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T01:22:18Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": 110
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 125
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T01:22:18Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Javier Suarez Charris",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "James Rodriguez",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Arias",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Bakambu",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Yoane Wissa",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Edo Kayembe",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Puerta",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Daniel Munoz",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Davinson Sanchez",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Jefferson Lerma",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Samuel Moutoussamy",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Mojica",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Arthur Masuaku",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Lucumi",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Ngal'ayel Mukau",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Axel Tuanzebe",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Steve Kapuadi",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Wan-Bissaka",
+              "price": 5000
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-24T01:22:18Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Javier Suarez Charris",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "James Rodriguez",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Arias",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Puerta",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Mojica",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Daniel Munoz",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Yoane Wissa",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Bakambu",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Edo Kayembe",
+              "price": 425
+            },
+            {
+              "name": "Yes",
+              "description": "Jefferson Lerma",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Davinson Sanchez",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ngal'ayel Mukau",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Samuel Moutoussamy",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Arthur Masuaku",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Wan-Bissaka",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Lucumi",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Axel Tuanzebe",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Steve Kapuadi",
+              "price": 2200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:38Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -189
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:21:38Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "price": -167
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T01:21:38Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": 105
+            },
+            {
+              "name": "DR Congo",
+              "price": 475
+            },
+            {
+              "name": "Draw",
+              "price": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:48Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -189
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:21:48Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -167
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T01:21:48Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": 105
+            },
+            {
+              "name": "DR Congo",
+              "price": 500
+            },
+            {
+              "name": "Draw",
+              "price": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:59Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -190
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:21:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 115,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -145,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:21:59Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 125
+            },
+            {
+              "name": "No",
+              "price": -165
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T01:21:12Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": 105
+            },
+            {
+              "name": "DR Congo",
+              "price": 500
+            },
+            {
+              "name": "Draw",
+              "price": 120
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T01:21:12Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Luis Javier Suarez Charris",
+              "price": 135
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "James Rodriguez",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Arias",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Yoane Wissa",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Bakambu",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Puerta",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Jefferson Lerma",
+              "price": 625
+            },
+            {
+              "name": "Yes",
+              "description": "Edo Kayembe",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Daniel Munoz",
+              "price": 725
+            },
+            {
+              "name": "Yes",
+              "description": "Davinson Sanchez",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Lucumi",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Mojica",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Samuel Moutoussamy",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Ngal'ayel Mukau",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Arthur Masuaku",
+              "price": 1450
+            },
+            {
+              "name": "Yes",
+              "description": "Axel Tuanzebe",
+              "price": 1650
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Wan-Bissaka",
+              "price": 1750
+            },
+            {
+              "name": "Yes",
+              "description": "Steve Kapuadi",
+              "price": 1800
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T01:21:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Colombia",
+              "price": -130,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Colombia",
+              "price": -105,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "DR Congo",
+              "price": -115,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "DR Congo",
+              "price": -118,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T01:21:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -225,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 170,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boylesports",
+      "title": "BoyleSports",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:23Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -200
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sport888",
+      "title": "888sport",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:47Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -200
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 270
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:23Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -200
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 280
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:21:23Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -150,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:21:23Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "price": -162
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T01:21:54Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 162
+            },
+            {
+              "name": "Yes",
+              "description": "Luis Javier Suarez Charris",
+              "price": 125
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Arias",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "James Rodriguez",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Cedric Bakambu",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Yoane Wissa",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Edo Kayembe",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Gustavo Puerta",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Jefferson Lerma",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Daniel Munoz",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Davinson Sanchez",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Samuel Moutoussamy",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Johan Mojica",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Arthur Masuaku",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Jhon Lucumi",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ngal'ayel Mukau",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Axel Tuanzebe",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Steve Kapuadi",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Aaron Wan-Bissaka",
+              "price": 2500
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T01:21:54Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": -225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": 190,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": 550,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Luis Javier Suarez Charris",
+              "price": 1200,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": -182,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 230,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 650,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Luis Fernando Diaz Marulanda",
+              "price": 1600,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Arias",
+              "price": -138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Arias",
+              "price": 290,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Arias",
+              "price": 850,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Arias",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "James Rodriguez",
+              "price": -138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "James Rodriguez",
+              "price": 290,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "James Rodriguez",
+              "price": 850,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "James Rodriguez",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Jefferson Lerma",
+              "price": -110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jefferson Lerma",
+              "price": 380,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jefferson Lerma",
+              "price": 1100,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Jefferson Lerma",
+              "price": 2500,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Puerta",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Puerta",
+              "price": 450,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Puerta",
+              "price": 1200,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Gustavo Puerta",
+              "price": 3300,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Daniel Munoz",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Daniel Munoz",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Davinson Sanchez",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Davinson Sanchez",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Johan Mojica",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Johan Mojica",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Lucumi",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jhon Lucumi",
+              "price": 1400,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Yoane Wissa",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Yoane Wissa",
+              "price": 280,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Yoane Wissa",
+              "price": 800,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Yoane Wissa",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Cedric Bakambu",
+              "price": -118,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cedric Bakambu",
+              "price": 375,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Cedric Bakambu",
+              "price": 1000,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Cedric Bakambu",
+              "price": 2500,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Edo Kayembe",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edo Kayembe",
+              "price": 700,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Samuel Moutoussamy",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Samuel Moutoussamy",
+              "price": 850,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ngal'ayel Mukau",
+              "price": 210,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ngal'ayel Mukau",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Aaron Wan-Bissaka",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Aaron Wan-Bissaka",
+              "price": 1800,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Chancel Mbemba Mangulu",
+              "price": 2000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Arthur Masuaku",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Arthur Masuaku",
+              "price": 2200,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Steve Kapuadi",
+              "price": 480,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Steve Kapuadi",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Axel Tuanzebe",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Axel Tuanzebe",
+              "price": 2800,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_de",
+      "title": "Winamax (DE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:01Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -200
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tipico_de",
+      "title": "Tipico",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:36Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -200
+            },
+            {
+              "name": "DR Congo",
+              "price": 620
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "codere_it",
+      "title": "Codere (IT)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:12Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -185
+            },
+            {
+              "name": "DR Congo",
+              "price": 560
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:22:12Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 106,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -154,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -195
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -112,
+              "point": -1.0
+            },
+            {
+              "name": "DR Congo",
+              "price": -108,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -270,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 210,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": 105
+            },
+            {
+              "name": "DR Congo",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 126
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": -130,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -200
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -120,
+              "point": -1.0
+            },
+            {
+              "name": "DR Congo",
+              "price": 100,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:22:11Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -140,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:36Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -189
+            },
+            {
+              "name": "DR Congo",
+              "price": 655
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T01:21:36Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -109,
+              "point": -1.0
+            },
+            {
+              "name": "DR Congo",
+              "price": -107,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T01:21:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 120,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -136,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betway",
+      "title": "Betway",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:12Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -200
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -175
+            },
+            {
+              "name": "DR Congo",
+              "price": 680
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -172
+            },
+            {
+              "name": "DR Congo",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 320
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -102,
+              "point": -1.0
+            },
+            {
+              "name": "DR Congo",
+              "price": 100,
+              "point": 1.0
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T01:22:13Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": 132
+            },
+            {
+              "name": "No",
+              "price": -135
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:35Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -190
+            },
+            {
+              "name": "DR Congo",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:43Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -190
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 285
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betvictor",
+      "title": "Bet Victor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:22:05Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -200
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 310
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_sb_uk",
+      "title": "Betfair Sportsbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T01:21:59Z",
+          "outcomes": [
+            {
+              "name": "Colombia",
+              "price": -227
+            },
+            {
+              "name": "DR Congo",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 240
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

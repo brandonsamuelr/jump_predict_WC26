@@ -1,0 +1,6845 @@
+{
+  "id": "512ac18beb5aa936a59f7ea3e497ada2",
+  "sport_key": "soccer_fifa_world_cup",
+  "sport_title": "FIFA World Cup",
+  "commence_time": "2026-06-24T19:05:00Z",
+  "home_team": "Bosnia & Herzegovina",
+  "away_team": "Qatar",
+  "bookmakers": [
+    {
+      "key": "coolbet",
+      "title": "Coolbet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:44Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -227
+            },
+            {
+              "name": "Qatar",
+              "price": 630
+            },
+            {
+              "name": "Draw",
+              "price": 420
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:44Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -127,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_fr",
+      "title": "Unibet (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -270
+            },
+            {
+              "name": "Qatar",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tipico_de",
+      "title": "Tipico",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:40Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -270
+            },
+            {
+              "name": "Qatar",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 420
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "onexbet",
+      "title": "1xBet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -230
+            },
+            {
+              "name": "Qatar",
+              "price": 618
+            },
+            {
+              "name": "Draw",
+              "price": 413
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": 122,
+              "point": -1.5
+            },
+            {
+              "name": "Qatar",
+              "price": -152,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -177,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 142,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -132
+            },
+            {
+              "name": "No",
+              "price": 106
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T18:58:34Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -667,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": -364,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "price": -127,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": 168,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "price": 255,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 700,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 1800,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 442,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": 274,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 102,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -213,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "price": -338,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -1613,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -5000,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:58:33Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Haris Tabakovic",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Edin Dzeko",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Samed Bazdar",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Ermedin Demirovic",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Jovo Lukic",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Kerim Alajbegovic",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Esmir Bajraktarevic",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Ermin Mahmic",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Almoez",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Armin Gigovic",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Al Aaeldin",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Akram Afif",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Hassan Khalid Al Haidos",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Hadziahmetovic",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Dzenis Burnic",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Mohammed Muntari",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Amar Memic",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Alganehi",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Sunjic",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Benjamin Tahirovic",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Basic",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Edmilson Junior",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Arjan Malic",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Tahsin Mohammed Jamshid",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Stjepan Radeljic",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Katic",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Yusuf Abdurisag",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Nihad Mujakic",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Sead Kolasinac",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulaziz Hatem",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Tarik Muharemovic",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Amar Dedic",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Dennis Hadzikadunic",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Karim Boudiaf",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Boualem Khoukhi",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Assim Madibo",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Ayoub Al-Oui",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed Al-Mannai",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Fathi",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Miguel",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "El Hashmi El Hussain Mohi Aldin",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Michel Mendes",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Homam Ahmed",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Gueye Laye",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Sultan Al Brake",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T18:58:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Ahmed Fathi",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Karim Boudiaf",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": -400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": 120,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": 400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": 1200,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Boualem Khoukhi",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sead Kolasinac",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sead Kolasinac",
+              "price": 1800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Akram Afif",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Akram Afif",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Akram Afif",
+              "price": 3500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Stjepan Radeljic",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Stjepan Radeljic",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Miguel",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Miguel",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": -250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": 175,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": 700,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": 2000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Nikola Katic",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nikola Katic",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nikola Katic",
+              "price": 4500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Sunjic",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Sunjic",
+              "price": 2000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Hassan Khalid Al Haidos",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hassan Khalid Al Haidos",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Hassan Khalid Al Haidos",
+              "price": 3500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Sultan Al Brake",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Esmir Bajraktarevic",
+              "price": -125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Esmir Bajraktarevic",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Esmir Bajraktarevic",
+              "price": 1600,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Basic",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Basic",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Basic",
+              "price": 2000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Arjan Malic",
+              "price": 225,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Arjan Malic",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": -175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": 275,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": 2000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Gueye Laye",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edmilson Junior",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edmilson Junior",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Edmilson Junior",
+              "price": 3000,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:04Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 575
+            },
+            {
+              "name": "Draw",
+              "price": 410
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 390
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 162,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -210,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 2000,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -215,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 164,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -1400,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 680,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 440,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -700,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 1060,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -3500,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -520,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 1300,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -5000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -142,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 112,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 3300,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 118,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -158,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 225,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -320,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 1280,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -7000,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -140,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 106,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 2200,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 370,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -600,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -650,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 390,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -2200,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -275,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 198,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 630,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -1400,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 880,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -3000,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 235,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -340,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 122,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -162,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 490,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -900,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -192,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 152,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 2900,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 1500,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -10000,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 880,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -3000,
+              "point": 6.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -4000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -1500,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -650,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -330,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -190,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 145,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 240,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 390,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": 600,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": 1000,
+              "point": 14.5
+            },
+            {
+              "name": "Over",
+              "price": 1700,
+              "point": 15.5
+            },
+            {
+              "name": "Over",
+              "price": 880,
+              "point": 14.5
+            },
+            {
+              "name": "Over",
+              "price": -1600,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "price": -104,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -650,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": -5000,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": 158,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -320,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 580,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": 1260,
+              "point": 15.5
+            },
+            {
+              "name": "Over",
+              "price": 250,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": 390,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": -182,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": 1600,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 750,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": 390,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 210,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -140,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -220,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -370,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -600,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -1100,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -2000,
+              "point": 14.5
+            },
+            {
+              "name": "Under",
+              "price": -5000,
+              "point": 15.5
+            },
+            {
+              "name": "Under",
+              "price": -10000,
+              "point": 16.5
+            },
+            {
+              "name": "Under",
+              "price": -3000,
+              "point": 14.5
+            },
+            {
+              "name": "Under",
+              "price": 680,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "price": -128,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 390,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": 1200,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": -220,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 225,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -1200,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -6000,
+              "point": 15.5
+            },
+            {
+              "name": "Under",
+              "price": -360,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": -650,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": 136,
+              "point": 8.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -112
+            },
+            {
+              "name": "No",
+              "price": -112
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -340
+            },
+            {
+              "name": "Qatar",
+              "price": 380
+            },
+            {
+              "name": "Draw",
+              "price": 800
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -120
+            },
+            {
+              "name": "Qatar",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 145
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Edin Dzeko",
+              "price": 100
+            },
+            {
+              "name": "Yes",
+              "description": "Ermedin Demirovic",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Kerim Alajbegovic",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Esmir Bajraktarevic",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Akram Afif",
+              "price": 390
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Basic",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Sunjic",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Edmilson Junior",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Katic",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Stjepan Radeljic",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Arjan Malic",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Sead Kolasinac",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Karim Boudiaf",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Boualem Khoukhi",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Miguel",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Fathi",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Sultan Al Brake",
+              "price": 3000
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": 1100,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": 1400,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": 105,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": 120,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": 230,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Esmir Bajraktarevic",
+              "price": 330,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Basic",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Edmilson Junior",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Akram Afif",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Nikola Katic",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Stjepan Radeljic",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Boualem Khoukhi",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Sunjic",
+              "price": 1900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Karim Boudiaf",
+              "price": 2700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 2700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Sead Kolasinac",
+              "price": 2700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Arjan Malic",
+              "price": 2700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": -450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": -380,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": -220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Esmir Bajraktarevic",
+              "price": -160,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Basic",
+              "price": -105,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edmilson Junior",
+              "price": 125,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Akram Afif",
+              "price": 135,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nikola Katic",
+              "price": 155,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Stjepan Radeljic",
+              "price": 190,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Boualem Khoukhi",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Sunjic",
+              "price": 230,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sead Kolasinac",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Arjan Malic",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Karim Boudiaf",
+              "price": 310,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Fathi",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Miguel",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sultan Al Brake",
+              "price": 700,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": 360,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": 430,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": 900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Esmir Bajraktarevic",
+              "price": 1400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Basic",
+              "price": 2700,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Edin Dzeko",
+              "price": -175
+            },
+            {
+              "name": "Yes",
+              "description": "Ermedin Demirovic",
+              "price": -120
+            },
+            {
+              "name": "Yes",
+              "description": "Kerim Alajbegovic",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Esmir Bajraktarevic",
+              "price": 120
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Basic",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Sead Kolasinac",
+              "price": 195
+            },
+            {
+              "name": "Yes",
+              "description": "Akram Afif",
+              "price": 210
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Sunjic",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Stjepan Radeljic",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Edmilson Junior",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Katic",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Arjan Malic",
+              "price": 420
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Fathi",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Karim Boudiaf",
+              "price": 700
+            },
+            {
+              "name": "Yes",
+              "description": "Sultan Al Brake",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Boualem Khoukhi",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Miguel",
+              "price": 1000
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": 116,
+              "point": -1.5
+            },
+            {
+              "name": "Qatar",
+              "price": -148,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 162,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -210,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -142,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 112,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -500,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 122,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:58:59Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 142,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -182,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gtbets",
+      "title": "GTbets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -267
+            },
+            {
+              "name": "Qatar",
+              "price": 591
+            },
+            {
+              "name": "Draw",
+              "price": 398
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": 113,
+              "point": -1.5
+            },
+            {
+              "name": "Qatar",
+              "price": -134,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -159,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -117
+            },
+            {
+              "name": "Qatar",
+              "price": 586
+            },
+            {
+              "name": "Draw",
+              "price": 162
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 141,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -196,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_uk",
+      "title": "Unibet (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfred_uk",
+      "title": "Betfred (UK)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 360
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "paddypower",
+      "title": "Paddy Power",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -275
+            },
+            {
+              "name": "Qatar",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 375
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:39Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skybet",
+      "title": "Sky Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:53Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -278
+            },
+            {
+              "name": "Qatar",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:27Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -120
+            },
+            {
+              "name": "No",
+              "price": -110
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:58:27Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ivan Basic",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Esmir Bajraktarevic",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Sunjic",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Sead Kolasinac",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Ermedin Demirovic",
+              "price": 138
+            },
+            {
+              "name": "Yes",
+              "description": "Kerim Alajbegovic",
+              "price": 225
+            },
+            {
+              "name": "Yes",
+              "description": "Stjepan Radeljic",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Edin Dzeko",
+              "price": 100
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Katic",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Arjan Malic",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Karim Boudiaf",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Sultan Al Brake",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Boualem Khoukhi",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Miguel",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Edmilson Junior",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Fathi",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Akram Afif",
+              "price": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "smarkets",
+      "title": "Smarkets",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:08Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -222
+            },
+            {
+              "name": "Qatar",
+              "price": 660
+            },
+            {
+              "name": "Draw",
+              "price": 410
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T18:59:08Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -213
+            },
+            {
+              "name": "Qatar",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 430
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_eu",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:04Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -227
+            },
+            {
+              "name": "Qatar",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 430
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T18:59:04Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -222
+            },
+            {
+              "name": "Qatar",
+              "price": 720
+            },
+            {
+              "name": "Draw",
+              "price": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_ex_uk",
+      "title": "Betfair",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:04Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -217
+            },
+            {
+              "name": "Qatar",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 420
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T18:59:04Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -213
+            },
+            {
+              "name": "Qatar",
+              "price": 720
+            },
+            {
+              "name": "Draw",
+              "price": 430
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T18:59:11Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -137,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -357,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 132,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 330,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:59:11Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -152,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 174,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 146,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -185,
+              "point": 10.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:11Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -106
+            },
+            {
+              "name": "No",
+              "price": 104
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:59:11Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Edin Dzeko",
+              "price": 132
+            },
+            {
+              "name": "Yes",
+              "description": "Ermedin Demirovic",
+              "price": 172
+            },
+            {
+              "name": "Yes",
+              "description": "Kerim Alajbegovic",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Esmir Bajraktarevic",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Akram Afif",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Basic",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Edmilson Junior",
+              "price": 660
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Sunjic",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Katic",
+              "price": 820
+            },
+            {
+              "name": "Yes",
+              "description": "Stjepan Radeljic",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Arjan Malic",
+              "price": 1250
+            },
+            {
+              "name": "Yes",
+              "description": "Sead Kolasinac",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 2300
+            },
+            {
+              "name": "Yes",
+              "description": "Karim Boudiaf",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Boualem Khoukhi",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Fathi",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Miguel",
+              "price": 2400
+            },
+            {
+              "name": "Yes",
+              "description": "Sultan Al Brake",
+              "price": 3900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -228
+            },
+            {
+              "name": "Qatar",
+              "price": 640
+            },
+            {
+              "name": "Draw",
+              "price": 420
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": 103,
+              "point": -1.25
+            },
+            {
+              "name": "Qatar",
+              "price": -111,
+              "point": 1.25
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": 104,
+              "point": 2.75
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -149,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 114,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -147,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 113,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -163,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -296,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "price": 101,
+              "point": 4.0
+            },
+            {
+              "name": "Under",
+              "price": 134,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 223,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -127,
+              "point": 4.0
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -117,
+              "point": 9.0
+            },
+            {
+              "name": "Over",
+              "price": -495,
+              "point": 7.0
+            },
+            {
+              "name": "Over",
+              "price": -289,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -227,
+              "point": 8.0
+            },
+            {
+              "name": "Over",
+              "price": -155,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 107,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 141,
+              "point": 10.0
+            },
+            {
+              "name": "Over",
+              "price": 167,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 227,
+              "point": 11.0
+            },
+            {
+              "name": "Under",
+              "price": -104,
+              "point": 9.0
+            },
+            {
+              "name": "Under",
+              "price": 283,
+              "point": 7.0
+            },
+            {
+              "name": "Under",
+              "price": 193,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 162,
+              "point": 8.0
+            },
+            {
+              "name": "Under",
+              "price": 119,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -139,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -192,
+              "point": 10.0
+            },
+            {
+              "name": "Under",
+              "price": -242,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -368,
+              "point": 11.0
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -115
+            },
+            {
+              "name": "No",
+              "price": -105
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -377
+            },
+            {
+              "name": "Qatar",
+              "price": 383
+            },
+            {
+              "name": "Draw",
+              "price": 920
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -103
+            },
+            {
+              "name": "Qatar",
+              "price": 583
+            },
+            {
+              "name": "Draw",
+              "price": 163
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Edin Dzeko",
+              "price": 106
+            },
+            {
+              "name": "Yes",
+              "description": "Samed Bazdar",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Kerim Alajbegovic",
+              "price": 243
+            },
+            {
+              "name": "Yes",
+              "description": "Ermedin Demirovic",
+              "price": 159
+            },
+            {
+              "name": "Yes",
+              "description": "Jovo Lukic",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Ermin Mahmic",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Sunjic",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Esmir Bajraktarevic",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Dzenis Burnic",
+              "price": 460
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Al Aaeldin",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Armin Gigovic",
+              "price": 399
+            },
+            {
+              "name": "Yes",
+              "description": "Akram Afif",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Basic",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Benjamin Tahirovic",
+              "price": 480
+            },
+            {
+              "name": "Yes",
+              "description": "Ali Almoez",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Edmilson Junior",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Amar Memic",
+              "price": 375
+            },
+            {
+              "name": "Yes",
+              "description": "Amir Hadziahmetovic",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Yusuf Abdurisag",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Sead Kolasinac",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Stjepan Radeljic",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Katic",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Nihad Mujakic",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Amar Dedic",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Dennis Hadzikadunic",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Abdulaziz Hatem",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Boualem Khoukhi",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Sultan Al Brake",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Lucas Michel Mendes",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Fathi",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Miguel",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Karim Boudiaf",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Ayoub Al-Oui",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Al Hashmi Al Hussain",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Mohamed Al-Mannai",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Edin Dzeko",
+              "price": 120
+            },
+            {
+              "name": "No",
+              "description": "Edin Dzeko",
+              "price": -145
+            },
+            {
+              "name": "Yes",
+              "description": "Ermedin Demirovic",
+              "price": 152
+            },
+            {
+              "name": "No",
+              "description": "Ermedin Demirovic",
+              "price": -185
+            },
+            {
+              "name": "Yes",
+              "description": "Kerim Alajbegovic",
+              "price": 286
+            },
+            {
+              "name": "No",
+              "description": "Kerim Alajbegovic",
+              "price": -361
+            },
+            {
+              "name": "Yes",
+              "description": "Akram Afif",
+              "price": 426
+            },
+            {
+              "name": "No",
+              "description": "Akram Afif",
+              "price": -558
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 160,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -197,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -140,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 115,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 111,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -124,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -245
+            },
+            {
+              "name": "Qatar",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 414
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": 120,
+              "point": -1.5
+            },
+            {
+              "name": "Qatar",
+              "price": -136,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:02Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 107,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -123,
+              "point": 3.0
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:34Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -105
+            },
+            {
+              "name": "Qatar",
+              "price": 525
+            },
+            {
+              "name": "Draw",
+              "price": 165
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T18:58:34Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 165,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -185,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -138,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 118,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:58:34Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -155,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "price": 135,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "casumo",
+      "title": "Casumo",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:15Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 420
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -175,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 132,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas_se",
+      "title": "LeoVegas (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 420
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "virginbet",
+      "title": "Virgin Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -263
+            },
+            {
+              "name": "Qatar",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -130
+            },
+            {
+              "name": "No",
+              "price": -108
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "leovegas",
+      "title": "LeoVegas",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 420
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -175,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 132,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_nl",
+      "title": "Unibet (NL)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -240
+            },
+            {
+              "name": "Qatar",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 440
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -175,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 132,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grosvenor",
+      "title": "Grosvenor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 440
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -175,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 132,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:15Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 420
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -175,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 132,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -1430,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 600,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -235,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 165,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 140,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 900,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -2500,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 370,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -670,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -162,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 118,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 1050,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -3335,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 300,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -480,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -121,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 200,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -625,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 430,
+              "point": 13.5
+            },
+            {
+              "name": "Over",
+              "price": 295,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "price": -195,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 130,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -335,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -113,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -286,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 370,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -835,
+              "point": 13.5
+            },
+            {
+              "name": "Under",
+              "price": -480,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": 140,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -180,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 225,
+              "point": 7.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 255,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -670,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -385,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -108,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 380,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -130
+            },
+            {
+              "name": "No",
+              "price": -108
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -125
+            },
+            {
+              "name": "Qatar",
+              "price": 510
+            },
+            {
+              "name": "Draw",
+              "price": 150
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Boualem Khoukhi",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Edin Dzeko",
+              "price": 108
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Fathi",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Esmir Bajraktarevic",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Miguel",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Karim Boudiaf",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Akram Afif",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Katic",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Sultan Al Brake",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ermedin Demirovic",
+              "price": 165
+            },
+            {
+              "name": "Yes",
+              "description": "Kerim Alajbegovic",
+              "price": 160
+            },
+            {
+              "name": "Yes",
+              "description": "Stjepan Radeljic",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Arjan Malic",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Sunjic",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Edmilson Junior",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Basic",
+              "price": 430
+            },
+            {
+              "name": "Yes",
+              "description": "Sead Kolasinac",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T18:59:07Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": 850,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Nikola Katic",
+              "price": 310,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edmilson Junior",
+              "price": 145,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Akram Afif",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Fathi",
+              "price": 510,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": 260,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Boualem Khoukhi",
+              "price": 330,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Esmir Bajraktarevic",
+              "price": 400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": 350,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": 240,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Sunjic",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Karim Boudiaf",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Stjepan Radeljic",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": 130,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Akram Afif",
+              "price": 133,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sead Kolasinac",
+              "price": 360,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Esmir Bajraktarevic",
+              "price": -112,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": -177,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Sunjic",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": 750,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Miguel",
+              "price": 540,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": -345,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edmilson Junior",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Basic",
+              "price": 205,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sultan Al Brake",
+              "price": 440,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Arjan Malic",
+              "price": 310,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livescorebet",
+      "title": "LiveScore Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:40Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -263
+            },
+            {
+              "name": "Qatar",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:40Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -130
+            },
+            {
+              "name": "No",
+              "price": -108
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unibet_se",
+      "title": "Unibet (SE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -240
+            },
+            {
+              "name": "Qatar",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 440
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -165,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 135,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmu_fr",
+      "title": "PMU (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 440
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -182,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 125,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:05Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -235
+            },
+            {
+              "name": "Qatar",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T18:58:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -1480,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 563,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -217,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 148,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 147,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -216,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 373,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -710,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 810,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -4300,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -166,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 116,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 284,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -477,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 890,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -7200,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T18:58:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 115,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -155,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -175,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 125,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T18:58:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -140,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 100,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:58:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -285,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -165,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 100,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 165,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 255,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 195,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -140,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -230,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -390,
+              "point": 11.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:15Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -120
+            },
+            {
+              "name": "No",
+              "price": -105
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:15Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -110
+            },
+            {
+              "name": "Qatar",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 160
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:58:15Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Edin Dzeko",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Ermedin Demirovic",
+              "price": 165
+            },
+            {
+              "name": "Yes",
+              "description": "Kerim Alajbegovic",
+              "price": 235
+            },
+            {
+              "name": "Yes",
+              "description": "Esmir Bajraktarevic",
+              "price": 235
+            },
+            {
+              "name": "Yes",
+              "description": "Akram Afif",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Edmilson Junior",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Basic",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Sunjic",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Katic",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Karim Boudiaf",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Boualem Khoukhi",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Fathi",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "No Scorer",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Stjepan Radeljic",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Sead Kolasinac",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Miguel",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Arjan Malic",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Sultan Al Brake",
+              "price": 2500
+            }
+          ]
+        },
+        {
+          "key": "player_to_score_or_assist",
+          "last_update": "2026-06-24T18:58:15Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Edin Dzeko",
+              "price": -155
+            },
+            {
+              "name": "Yes",
+              "description": "Ermedin Demirovic",
+              "price": -105
+            },
+            {
+              "name": "Yes",
+              "description": "Kerim Alajbegovic",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Esmir Bajraktarevic",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Basic",
+              "price": 155
+            },
+            {
+              "name": "Yes",
+              "description": "Akram Afif",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Edmilson Junior",
+              "price": 280
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Sunjic",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Sead Kolasinac",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Katic",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Karim Boudiaf",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Arjan Malic",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Stjepan Radeljic",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Fathi",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Miguel",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Sultan Al Brake",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Boualem Khoukhi",
+              "price": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:55Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -238
+            },
+            {
+              "name": "Qatar",
+              "price": 580
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:58:55Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": 116,
+              "point": -1.5
+            },
+            {
+              "name": "Qatar",
+              "price": -142,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:55Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 109,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -133,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sport888",
+      "title": "888sport",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 360
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill",
+      "title": "William Hill",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 375
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -162,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 120,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -133
+            },
+            {
+              "name": "No",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:58:22Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Edin Dzeko",
+              "price": -120
+            },
+            {
+              "name": "Yes",
+              "description": "Ermedin Demirovic",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Kerim Alajbegovic",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Esmir Bajraktarevic",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Akram Afif",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Basic",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Edmilson Junior",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Sunjic",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Katic",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Sead Kolasinac",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Arjan Malic",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Stjepan Radeljic",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Karim Boudiaf",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Boualem Khoukhi",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Fathi",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Miguel",
+              "price": 1200
+            },
+            {
+              "name": "Yes",
+              "description": "Sultan Al Brake",
+              "price": 1600
+            }
+          ]
+        },
+        {
+          "key": "player_shots_on_target",
+          "last_update": "2026-06-24T18:58:22Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": -500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": -105,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": 280,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Edin Dzeko",
+              "price": 650,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": -333,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": 138,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": 380,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Ermedin Demirovic",
+              "price": 850,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": -175,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": 240,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": 700,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Kerim Alajbegovic",
+              "price": 1600,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Esmir Bajraktarevic",
+              "price": -150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Esmir Bajraktarevic",
+              "price": 280,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Esmir Bajraktarevic",
+              "price": 800,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Esmir Bajraktarevic",
+              "price": 2000,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Basic",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Basic",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Sunjic",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ivan Sunjic",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Nikola Katic",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Nikola Katic",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Arjan Malic",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Arjan Malic",
+              "price": 1000,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Stjepan Radeljic",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Stjepan Radeljic",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Sead Kolasinac",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sead Kolasinac",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Edmilson Junior",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Edmilson Junior",
+              "price": 480,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Edmilson Junior",
+              "price": 1400,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Edmilson Junior",
+              "price": 3500,
+              "point": 3.0
+            },
+            {
+              "name": "Over",
+              "description": "Akram Afif",
+              "price": 138,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Akram Afif",
+              "price": 600,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 900,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Boualem Khoukhi",
+              "price": 275,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Boualem Khoukhi",
+              "price": 1100,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Miguel",
+              "price": 333,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Pedro Miguel",
+              "price": 1600,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Karim Boudiaf",
+              "price": 333,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Karim Boudiaf",
+              "price": 1600,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Fathi",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ahmed Fathi",
+              "price": 2500,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Sultan Al Brake",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Sultan Al Brake",
+              "price": 2500,
+              "point": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "everygame",
+      "title": "Everygame",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:02Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boylesports",
+      "title": "BoyleSports",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -275
+            },
+            {
+              "name": "Qatar",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ladbrokes_uk",
+      "title": "Ladbrokes",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -227
+            },
+            {
+              "name": "Qatar",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -120
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:52Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -118
+            },
+            {
+              "name": "Qatar",
+              "price": 450
+            },
+            {
+              "name": "Draw",
+              "price": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "coral",
+      "title": "Coral",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -227
+            },
+            {
+              "name": "Qatar",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -120
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -118
+            },
+            {
+              "name": "Qatar",
+              "price": 450
+            },
+            {
+              "name": "Draw",
+              "price": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -235
+            },
+            {
+              "name": "Qatar",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -145,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -110
+            },
+            {
+              "name": "No",
+              "price": -118
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -200,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 145,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -1000,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 575,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 155,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -210,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 400,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -625,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -145,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -525,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 1300,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -3000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 4000,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -160,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 110,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 105,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -155,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 180,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -275,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 125,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -185,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -190,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 130,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 260,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -400,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 145,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "price": -150,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": -375,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 105,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": 250,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": -190,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": 140,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": -350,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": 225,
+              "point": 11.5
+            },
+            {
+              "name": "Over",
+              "price": -650,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "price": 360,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "price": -125,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": 135,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": 225,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": -350,
+              "point": 11.5
+            },
+            {
+              "name": "Under",
+              "price": 400,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "price": -600,
+              "point": 12.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -118,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "price": -550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "price": 270,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": 750,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -120,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "price": -425,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": -1600,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -350
+            },
+            {
+              "name": "Qatar",
+              "price": 375
+            },
+            {
+              "name": "Draw",
+              "price": 800
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -118
+            },
+            {
+              "name": "Qatar",
+              "price": 475
+            },
+            {
+              "name": "Draw",
+              "price": 155
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Edin Dzeko",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Ermedin Demirovic",
+              "price": 135
+            },
+            {
+              "name": "Yes",
+              "description": "Kerim Alajbegovic",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Esmir Bajraktarevic",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Akram Afif",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Edmilson Junior",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Basic",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Sunjic",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Katic",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Stjepan Radeljic",
+              "price": 675
+            },
+            {
+              "name": "Yes",
+              "description": "Arjan Malic",
+              "price": 725
+            },
+            {
+              "name": "Yes",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 875
+            },
+            {
+              "name": "Yes",
+              "description": "Sead Kolasinac",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Fathi",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Karim Boudiaf",
+              "price": 1050
+            },
+            {
+              "name": "Yes",
+              "description": "Boualem Khoukhi",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Miguel",
+              "price": 1150
+            },
+            {
+              "name": "Yes",
+              "description": "Sultan Al Brake",
+              "price": 1350
+            }
+          ]
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -200,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 145,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -145,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 110,
+              "point": 0.5
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:58:50Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 145,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "price": -190,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:57:10Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -245
+            },
+            {
+              "name": "Qatar",
+              "price": 600
+            },
+            {
+              "name": "Draw",
+              "price": 395
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:57:10Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -108,
+              "point": -1.25
+            },
+            {
+              "name": "Qatar",
+              "price": -112,
+              "point": 1.25
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:57:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -118,
+              "point": 2.75
+            },
+            {
+              "name": "Under",
+              "price": -102,
+              "point": 2.75
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-06-24T18:58:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -1000,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -190,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": 156,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": -108,
+              "point": 2.0
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -112,
+              "point": 2.0
+            },
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 163,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -155,
+              "point": 0.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 128,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 193,
+              "point": 1.0
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -240,
+              "point": 1.0
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": 345,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": -470,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_team_totals_corners",
+          "last_update": "2026-06-24T18:58:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Bosnia & Herzegovina",
+              "price": 110,
+              "point": 6.5
+            },
+            {
+              "name": "Under",
+              "description": "Bosnia & Herzegovina",
+              "price": -145,
+              "point": 6.5
+            },
+            {
+              "name": "Over",
+              "description": "Qatar",
+              "price": -175,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "description": "Qatar",
+              "price": 132,
+              "point": 2.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_cards",
+          "last_update": "2026-06-24T18:58:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -370,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "price": -150,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "price": 135,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "price": 255,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 115,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -180,
+              "point": 4.5
+            }
+          ]
+        },
+        {
+          "key": "alternate_totals_corners",
+          "last_update": "2026-06-24T18:58:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -526,
+              "point": 7.0
+            },
+            {
+              "name": "Over",
+              "price": -300,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "price": -235,
+              "point": 8.0
+            },
+            {
+              "name": "Over",
+              "price": -175,
+              "point": 8.5
+            },
+            {
+              "name": "Over",
+              "price": -122,
+              "point": 9.0
+            },
+            {
+              "name": "Over",
+              "price": -102,
+              "point": 9.5
+            },
+            {
+              "name": "Over",
+              "price": 132,
+              "point": 10.0
+            },
+            {
+              "name": "Over",
+              "price": 147,
+              "point": 10.5
+            },
+            {
+              "name": "Over",
+              "price": 225,
+              "point": 11.0
+            },
+            {
+              "name": "Under",
+              "price": 350,
+              "point": 7.0
+            },
+            {
+              "name": "Under",
+              "price": 215,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "price": 175,
+              "point": 8.0
+            },
+            {
+              "name": "Under",
+              "price": 132,
+              "point": 8.5
+            },
+            {
+              "name": "Under",
+              "price": -108,
+              "point": 9.0
+            },
+            {
+              "name": "Under",
+              "price": -128,
+              "point": 9.5
+            },
+            {
+              "name": "Under",
+              "price": -175,
+              "point": 10.0
+            },
+            {
+              "name": "Under",
+              "price": -195,
+              "point": 10.5
+            },
+            {
+              "name": "Under",
+              "price": -315,
+              "point": 11.0
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:58:17Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -120
+            },
+            {
+              "name": "No",
+              "price": -110
+            }
+          ]
+        },
+        {
+          "key": "corners_1x2",
+          "last_update": "2026-06-24T18:58:17Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -375
+            },
+            {
+              "name": "Qatar",
+              "price": 380
+            },
+            {
+              "name": "Draw",
+              "price": 775
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:17Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -420
+            },
+            {
+              "name": "Qatar",
+              "price": 315
+            }
+          ]
+        },
+        {
+          "key": "player_goal_scorer_anytime",
+          "last_update": "2026-06-24T18:58:17Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Boualem Khoukhi",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Pedro Miguel",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Ahmed Fathi",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Sunjic",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Nikola Katic",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Jassem Gaber Abdulsallam",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Ivan Basic",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Akram Afif",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Edin Dzeko",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Sultan Al Brake",
+              "price": 2500
+            },
+            {
+              "name": "Yes",
+              "description": "Ermedin Demirovic",
+              "price": 165
+            },
+            {
+              "name": "Yes",
+              "description": "Karim Boudiaf",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Edmilson Junior",
+              "price": 475
+            },
+            {
+              "name": "Yes",
+              "description": "No Scorer",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Sead Kolasinac",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Kerim Alajbegovic",
+              "price": 235
+            },
+            {
+              "name": "Yes",
+              "description": "Esmir Bajraktarevic",
+              "price": 235
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:58:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 110,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -130,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betclic_fr",
+      "title": "Betclic (FR)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:54:03Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -278
+            },
+            {
+              "name": "Qatar",
+              "price": 675
+            },
+            {
+              "name": "Draw",
+              "price": 425
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "winamax_de",
+      "title": "Winamax (DE)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:04Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -244
+            },
+            {
+              "name": "Qatar",
+              "price": 575
+            },
+            {
+              "name": "Draw",
+              "price": 420
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "codere_it",
+      "title": "Codere (IT)",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -244
+            },
+            {
+              "name": "Qatar",
+              "price": 620
+            },
+            {
+              "name": "Draw",
+              "price": 390
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:14Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -164,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 113,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:15Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -245
+            },
+            {
+              "name": "Qatar",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 414
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:59:15Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": 120,
+              "point": -1.5
+            },
+            {
+              "name": "Qatar",
+              "price": -136,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:59:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 107,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -123,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "matchbook",
+      "title": "Matchbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -217
+            },
+            {
+              "name": "Qatar",
+              "price": 680
+            },
+            {
+              "name": "Draw",
+              "price": 410
+            }
+          ]
+        },
+        {
+          "key": "h2h_lay",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -213
+            },
+            {
+              "name": "Qatar",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 430
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": 104,
+              "point": -1.25
+            },
+            {
+              "name": "Qatar",
+              "price": -108,
+              "point": 1.25
+            }
+          ]
+        },
+        {
+          "key": "btts",
+          "last_update": "2026-06-24T18:59:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "price": -106
+            },
+            {
+              "name": "No",
+              "price": 104
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betway",
+      "title": "Betway",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:40Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:39Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 630
+            },
+            {
+              "name": "Draw",
+              "price": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:39Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -245
+            },
+            {
+              "name": "Qatar",
+              "price": 575
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betanysports",
+      "title": "BetAnything",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:33Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -250
+            },
+            {
+              "name": "Qatar",
+              "price": 620
+            },
+            {
+              "name": "Draw",
+              "price": 455
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:58:33Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": 120,
+              "point": -1.5
+            },
+            {
+              "name": "Qatar",
+              "price": -140,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 170,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "price": -200,
+              "point": 3.5
+            }
+          ]
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-06-24T18:58:33Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -105
+            },
+            {
+              "name": "Qatar",
+              "price": 525
+            },
+            {
+              "name": "Draw",
+              "price": 156
+            }
+          ]
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-06-24T18:58:33Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 112,
+              "point": 1.25
+            },
+            {
+              "name": "Under",
+              "price": -132,
+              "point": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betvictor",
+      "title": "Bet Victor",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:56Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -275
+            },
+            {
+              "name": "Qatar",
+              "price": 700
+            },
+            {
+              "name": "Draw",
+              "price": 380
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nordicbet",
+      "title": "Nordic Bet",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -238
+            },
+            {
+              "name": "Qatar",
+              "price": 610
+            },
+            {
+              "name": "Draw",
+              "price": 415
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -182,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 145,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betsson",
+      "title": "Betsson",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:53Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -238
+            },
+            {
+              "name": "Qatar",
+              "price": 650
+            },
+            {
+              "name": "Draw",
+              "price": 395
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:53Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -154,
+              "point": 2.5
+            },
+            {
+              "name": "Under",
+              "price": 128,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:28Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -245
+            },
+            {
+              "name": "Qatar",
+              "price": 640
+            },
+            {
+              "name": "Draw",
+              "price": 420
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-06-24T18:58:28Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": 125,
+              "point": -1.5
+            },
+            {
+              "name": "Qatar",
+              "price": -145,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-06-24T18:58:28Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": 115,
+              "point": 3.0
+            },
+            {
+              "name": "Under",
+              "price": -135,
+              "point": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betfair_sb_uk",
+      "title": "Betfair Sportsbook",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-06-24T18:58:51Z",
+          "outcomes": [
+            {
+              "name": "Bosnia & Herzegovina",
+              "price": -278
+            },
+            {
+              "name": "Qatar",
+              "price": 550
+            },
+            {
+              "name": "Draw",
+              "price": 300
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

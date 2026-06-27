@@ -1,0 +1,1 @@
+{"intercept": -0.15904108815117698, "favorite_gap_coef": -0.7103605270890322, "convention": "A=target team; favorite_gap=A_winprob-opp_winprob (de-vigged); y=1 if A fouls>opp, ties->0", "oos": {"brier_flat": 0.25, "brier_model": 0.2477563983515494, "dBrier_vs_flat": -0.0022436016484506105, "dBrier_vs_baserate": -0.0006687930626167737}}
