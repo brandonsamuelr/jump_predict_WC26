@@ -1,0 +1,11 @@
+match,q,type,tier,class,k,c_hat,p_hat,mode,SUBMIT,d_base,action
+Algeria vs Austria,Q1,team_more_fouls,FOUL_CMP,FOUL_CMP,1.0,0.5,0.459,edge,0.459,0.0,KEEP
+Algeria vs Austria,Q2,team_more_sot_2h,RATE_SOT_CMP,RATE_SOT,1.0,0.542,0.504,edge,0.504,0.0,KEEP
+Algeria vs Austria,Q3,team_first_goal_2h,FIRST_GOAL_2H,FIRST_GOAL_2H,1.0,0.493,0.418,edge,0.418,0.0,KEEP
+Algeria vs Austria,Q4,team_more_goals_2h,ENGINE_GOALS_H1MKT,ENGINE,1.0,0.53,0.359,edge,0.359,0.0,KEEP
+Algeria vs Austria,Q5,team_more_cards,MORE_CARDS,MORE_CARDS,1.0,0.499,0.424,edge,0.424,0.0,KEEP
+Algeria vs Austria,Q6,team_win,MARKET,MARKET,1.0,0.621,0.274,edge,0.274,0.0,KEEP
+Algeria vs Austria,Q7,total_corners_over,CORNERS_OK,CORNERS,1.0,0.493,0.325,edge,0.325,0.0,KEEP
+Algeria vs Austria,Q8,team_sot_over,SOT_COUNT,SOT_COUNT,1.0,0.481,0.269,edge,0.269,0.0,KEEP
+Algeria vs Austria,Q9,player_sot_over,PENDING,SHADOW,0.0,0.471,,shadow,0.471,0.0,KEEP
+Algeria vs Austria,Q10,team_sot_over,SOT_COUNT,SOT_COUNT,1.0,0.481,0.665,edge,0.665,0.0,KEEP

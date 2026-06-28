@@ -18,12 +18,25 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import pandas as pd
 from odds_lib.measurement import LOG_PATH, score_rows, tier_report, match_report
+from odds_lib import prop_devig_shadow as PDS
 
 
 def main():
     if not LOG_PATH.exists():
         print(f"no measurement log yet at {LOG_PATH}; run scripts/log_slate.py first")
         return
+
+    # AUTO-HARVEST the prop de-vig shadow: join lock-time snapshots to newly-resolved
+    # outcomes (idempotent). This is how "does tiered beat flat on outcomes" accumulates
+    # without a manual call. Defensive: never let the shadow break the report.
+    try:
+        n_new = PDS.harvest()
+        if n_new:
+            print(f"[prop-devig-shadow] harvested {n_new} newly-resolved prop(s); see "
+                  f"`.venv/bin/python -m odds_lib.prop_devig_shadow` for tiered-vs-flat.\n")
+    except Exception as e:  # noqa: BLE001
+        print(f"[prop-devig-shadow] harvest skipped: {e}\n")
+
     df = pd.read_csv(LOG_PATH, dtype=str)
     scored = score_rows(df)
     total = len(df)

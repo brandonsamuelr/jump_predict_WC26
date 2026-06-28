@@ -1,0 +1,11 @@
+match,q,type,tier,class,k,c_hat,p_hat,mode,SUBMIT,d_base,action
+Croatia vs Ghana,Q1,team_offsides_over,OFFSIDES_FLOOR,OFFSIDES,1.0,0.485,0.427,edge,0.427,0.0,KEEP
+Croatia vs Ghana,Q2,penalty_or_red_card,PENALTY_BASE,PENALTY,1.0,0.389,0.316,edge,0.316,0.0,KEEP
+Croatia vs Ghana,Q3,player_sot_2h_over,PENDING,SHADOW,0.0,0.478,,shadow,0.478,0.0,KEEP
+Croatia vs Ghana,Q4,total_sot_2h_over,RATE_SOT,RATE_SOT,1.0,0.623,0.621,edge,0.621,0.0,KEEP
+Croatia vs Ghana,Q5,team_win,MARKET,MARKET,1.0,0.621,0.531,edge,0.531,0.0,KEEP
+Croatia vs Ghana,Q6,halftime_team_win,MARKET,MARKET,1.0,0.493,0.373,edge,0.373,0.0,KEEP
+Croatia vs Ghana,Q7,team_score_2h,ENGINE_GOALS_H1MKT,ENGINE,1.0,0.529,0.576,edge,0.576,0.0,KEEP
+Croatia vs Ghana,Q8,total_corners_over,CORNERS_OK,CORNERS,1.0,0.493,0.483,edge,0.483,0.0,KEEP
+Croatia vs Ghana,Q9,team_sot_over,SOT_COUNT,SOT_COUNT,1.0,0.481,0.327,edge,0.327,0.0,KEEP
+Croatia vs Ghana,Q10,player_sot_over,PENDING,SHADOW,0.0,0.471,,shadow,0.471,0.0,KEEP

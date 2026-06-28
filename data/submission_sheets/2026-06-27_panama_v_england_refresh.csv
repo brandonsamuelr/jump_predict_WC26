@@ -1,0 +1,11 @@
+match,q,type,tier,class,k,c_hat,p_hat,mode,SUBMIT,d_base,action
+Panama vs England,Q1,team_more_fouls,FOUL_CMP,FOUL_CMP,1.0,0.5,0.597,edge,0.597,0.0,KEEP
+Panama vs England,Q2,total_sot_2h_over,RATE_SOT,RATE_SOT,1.0,0.623,0.745,edge,0.745,0.0,KEEP
+Panama vs England,Q3,compound_first_goal_score_2h,ENGINE_GOALS_H1MKT,ENGINE,1.0,0.304,0.131,edge,0.131,0.0,KEEP
+Panama vs England,Q4,penalty_or_red_card,PENALTY_BASE,PENALTY,1.0,0.389,0.316,edge,0.316,0.0,KEEP
+Panama vs England,Q5,team_score_any,TEAMGOALS_OK,TEAMGOALS,1.0,0.427,0.446,edge,0.446,0.0,KEEP
+Panama vs England,Q6,halftime_draw,MARKET,MARKET,1.0,0.427,0.265,edge,0.265,0.0,KEEP
+Panama vs England,Q7,match_total_over,MARKET,MARKET,1.0,0.497,0.674,edge,0.674,0.0,KEEP
+Panama vs England,Q8,total_corners_2h_over,PENDING,SHADOW,0.0,0.493,,shadow,0.493,0.0,KEEP
+Panama vs England,Q9,player_sot_over,PENDING,SHADOW,0.0,0.471,,shadow,0.471,0.0,KEEP
+Panama vs England,Q10,player_sot_over,PENDING,SHADOW,0.0,0.471,,shadow,0.471,0.0,KEEP

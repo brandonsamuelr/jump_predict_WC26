@@ -49,19 +49,31 @@ from typing import Any
 from .odds import odds_to_prob, DEFAULT_SHARP_BOOKS
 
 
-# --- Documented one-sided overround haircuts -------------------------------
-# A Yes-only quote's implied prob carries vig we cannot strip exactly. We
-# divide by a documented, conservative single-selection overround. These are
-# market-typical assumptions, NOT derived from the data, and the output is
-# flagged accordingly. Override per call if you have a better estimate.
-ANYTIME_SCORER_OVERROUND = 1.12  # scorer markets carry heavy per-selection vig
-SOT_OVERROUND = 1.06             # binary over/under 0.5 SOT, tighter book margin
-# Direct "to score or assist" market. One-sided ~50% event; UNCALIBRATED
-# estimate (we only see the Yes side) — refine when two-sided data exists. Less
-# proportional juice than anytime-scorer because it is a more balanced market.
-SCORE_OR_ASSIST_OVERROUND = 1.10
+# --- TIERED prop de-vig (measure, don't type) ------------------------------
+# A prop's implied prob is vig-inclusive. We strip the margin by the BEST
+# available source, in priority order; the per-prop choice is recorded in
+# PropPricing.overround_source so it is auditable, never silent:
+#   a. exact_two_sided        -- the SAME player has BOTH sides quoted: de-vig
+#                                exactly per book (p = aff/(aff+neg)). No prior.
+#   b. same_slate_market_prior-- target one-sided, but OTHER players in the same
+#                                game+market have both sides: use their median
+#                                two-sided booksum as a market-specific overround.
+#                                (Selection-biased toward liquid/favorite players
+#                                -> overround_source makes it auditable vs tier a.)
+#   c. global_player_prop_prior- nothing two-sided anywhere: the MEASURED global
+#                                player-prop booksum prior below.
+# NO privileged per-market constants (the old 1.06/1.10/1.12). The global prior
+# is MEASURED from our own feed (median two-sided booksum across 177 two-sided
+# anytime-scorer quotes = 1.045), refreshable -- not a typed guess.
+GLOBAL_PLAYER_PROP_OVERROUND = 1.045
 
-SOURCE_TAG = "one_sided_prop_market_adjusted"
+# R32 SHADOW ONLY (NOT a tuning target): for each resolved prop we log what each
+# flat candidate would have produced next to the tiered output + outcome, to test
+# whether the TIERED logic beats any flat constant -- never to refit a constant on
+# a small sample (the n=9 SOT trap). See odds_lib/prop_devig_shadow.py.
+SHADOW_OVERROUND_CANDIDATES = (1.045, 1.06, 1.10, 1.12)
+
+SOURCE_TAG = "prop_market_tiered_devig"
 
 
 @dataclass(frozen=True)
@@ -69,7 +81,6 @@ class PropSpec:
     api_market: str
     needs_point: bool
     point: float | None
-    overround: float
     confidence: str  # "direct" | "partial"
     note: str = ""
     # True ONLY for mappings VERIFIED to be a directional lower bound whose
@@ -87,14 +98,12 @@ PROP_EQUIVALENCE: dict[str, PropSpec | None] = {
         api_market="player_goal_scorer_anytime",
         needs_point=False,
         point=None,
-        overround=ANYTIME_SCORER_OVERROUND,
         confidence="direct",
     ),
     "player_sot_over": PropSpec(
         api_market="player_shots_on_target",
         needs_point=True,
         point=0.5,
-        overround=SOT_OVERROUND,
         confidence="direct",
         note="1+ SOT == Over 0.5 shots on target",
     ),
@@ -102,7 +111,6 @@ PROP_EQUIVALENCE: dict[str, PropSpec | None] = {
         api_market="player_goal_scorer_anytime",
         needs_point=False,
         point=None,
-        overround=ANYTIME_SCORER_OVERROUND,
         confidence="partial",
         note="anytime-scorer is a LOWER BOUND on goal-or-assist; partial only",
         # VERIFIED lower bound: scoring-or-assisting is a SUPERSET of scoring,
@@ -143,6 +151,11 @@ class PropPricing:
     lower_bound: bool = False  # market_prob is a definitional lower bound on the question
     source: str = ""           # "" | "direct" | "proxy_floor" (goal_or_assist routing)
     floor_prob: float | None = None  # anytime-goal lower-bound value (for audit)
+    # de-vig provenance (step 5): which tier produced overround_used, and how many
+    # samples backed it. exact_two_sided | same_slate_market_prior | global_player_prop_prior.
+    # prior_n = both-sided books (tier a) or same-slate booksum samples (tier b).
+    overround_source: str = ""
+    overround_prior_n: int = 0
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -201,66 +214,59 @@ def match_player(query: str, candidates: list[str]) -> str | None:
 
 
 @dataclass
-class _Quote:
+class _Sided:
     book: str
-    implied_raw: float
+    aff: float            # affirmative (Over/Yes) implied prob
+    neg: float | None     # negative (Under/No) implied prob, None if one-sided
     is_sharp: bool
 
 
-def _extract_quotes(
-    game: dict,
-    api_market: str,
-    player: str,
-    point: float | None,
-    sharp_books: tuple[str, ...],
-) -> tuple[list[_Quote], list[str]]:
-    """Pull Yes/Over-side quotes for one player+market+point across books.
+def _extract_sided(game, api_market, player, point, sharp_books):
+    """Per-book (aff, neg) implied for the target player, candidate names, and
+    the same-slate/market two-sided booksums from OTHER players (the tier-b prior).
 
-    Returns ``(quotes, all_candidate_player_names)``. De-dupes books that
-    appear under several region keys (keeps the first). Never invents a
-    No-side.
-    """
-    # First, gather candidate player names present in this market so the
-    # caller can report "player not quoted" vs "market absent" distinctly.
+    aff = Over/Yes side; neg = Under/No side (None if the book is one-sided).
+    The No side is CAPTURED now (the old extractor discarded it) -- that is what
+    makes exact two-sided de-vig possible."""
     candidates: set[str] = set()
-    by_book: dict[str, _Quote] = {}
+    by_book: dict[str, _Sided] = {}
+    slate_booksums: list[float] = []
 
     for bk in game.get("bookmakers", []):
         title = bk.get("title", "")
         for mkt in bk.get("markets", []):
             if mkt.get("key") != api_market:
                 continue
-            # collect candidates and find this player's outcome
-            outcomes = mkt.get("outcomes", [])
-            local_names = [
-                (o.get("description") or o.get("name") or "") for o in outcomes
-            ]
-            candidates.update(n for n in local_names if n)
-            matched_name = match_player(player, local_names)
-            if matched_name is None:
-                continue
-            for o in outcomes:
+            permap: dict[str, dict[str, float]] = {}
+            for o in mkt.get("outcomes", []):
                 desc = o.get("description") or o.get("name") or ""
-                if desc != matched_name:
+                if not desc:
                     continue
-                side = (o.get("name") or "").strip().lower()
-                # Yes-only: keep the affirmative side; skip explicit No/Under.
-                if side in ("no", "under"):
-                    continue
+                candidates.add(desc)
                 if point is not None:
                     pt = o.get("point")
                     if pt is None or float(pt) != float(point):
                         continue
-                price = int(o["price"])
-                implied = float(odds_to_prob([price])[0])
-                # de-dupe by book title (region duplicates)
-                if title not in by_book:
-                    by_book[title] = _Quote(
-                        book=title,
-                        implied_raw=implied,
-                        is_sharp=title in sharp_books,
-                    )
-    return list(by_book.values()), sorted(candidates)
+                try:
+                    ip = float(odds_to_prob([int(o["price"])])[0])
+                except (KeyError, ValueError, TypeError):
+                    continue
+                side = (o.get("name") or "").strip().lower()
+                d = permap.setdefault(desc, {})
+                if side in ("over", "yes"):
+                    d["aff"] = ip
+                elif side in ("under", "no"):
+                    d["neg"] = ip
+            matched = match_player(player, list(permap.keys()))
+            # tier-b prior samples: OTHER players quoted two-sided in this book
+            for nm, d in permap.items():
+                if nm != matched and "aff" in d and "neg" in d and (d["aff"] + d["neg"]) > 0:
+                    slate_booksums.append(d["aff"] + d["neg"])
+            if matched and "aff" in permap.get(matched, {}) and title not in by_book:
+                by_book[title] = _Sided(book=title, aff=permap[matched]["aff"],
+                                        neg=permap[matched].get("neg"),
+                                        is_sharp=title in sharp_books)
+    return by_book, sorted(candidates), slate_booksums
 
 
 def _liquidity_flag(book_count: int, sharp_count: int) -> str:
@@ -273,23 +279,50 @@ def _liquidity_flag(book_count: int, sharp_count: int) -> str:
     return "low"
 
 
-def _price_market_quotes(game, api_market, overround, target_player, point, sharp_books):
-    """Mean vig-adjusted prob for one player in one market, or None if unquoted.
-    Returns a small dict of pricing stats (raw, adj, book_count, sharp, books,
-    liquidity). Shared by the single-market path and the goal-or-assist
-    two-market routing."""
-    quotes, candidates = _extract_quotes(game, api_market, target_player, point, sharp_books)
-    if not candidates or not quotes:
-        return None
-    sharp_quotes = [q for q in quotes if q.is_sharp]
-    chosen = sharp_quotes if sharp_quotes else quotes
-    raw = sum(q.implied_raw for q in chosen) / len(chosen)
+def _median(xs: list[float]) -> float:
+    s = sorted(xs)
+    n = len(s)
+    return s[n // 2] if n % 2 else (s[n // 2 - 1] + s[n // 2]) / 2.0
+
+
+def devig_tiered(game, api_market, target_player, point, sharp_books):
+    """TIERED prop de-vig. Returns ``(result | None, status)``.
+
+    status: "ok" | "market_absent" | "player_not_quoted". On "ok", result carries
+    raw, adj (de-vigged p), overround, source, prior_n, book_count, sharp, books,
+    liquidity. Priority: exact_two_sided > same_slate_market_prior > global prior.
+    NO per-market privileged constant -- a SOT prop and a scorer prop with the same
+    de-vig context get the SAME treatment."""
+    by_book, candidates, slate_booksums = _extract_sided(
+        game, api_market, target_player, point, sharp_books)
+    if not candidates:
+        return None, "market_absent"
+    if not by_book:
+        return None, "player_not_quoted"
+    sharp = [s for s in by_book.values() if s.is_sharp]
+    chosen = sharp if sharp else list(by_book.values())
+    raw = sum(s.aff for s in chosen) / len(chosen)
+    both = [s for s in chosen if s.neg is not None]
+    if both:                                          # tier a: exact two-sided
+        adj = sum(s.aff / (s.aff + s.neg) for s in both) / len(both)
+        overround = sum(s.aff + s.neg for s in both) / len(both)
+        source, prior_n = "exact_two_sided", len(both)
+    elif slate_booksums:                              # tier b: same-slate prior
+        overround = _median(slate_booksums)
+        adj = raw / overround
+        source, prior_n = "same_slate_market_prior", len(slate_booksums)
+    else:                                             # tier c: global measured prior
+        overround = GLOBAL_PLAYER_PROP_OVERROUND
+        adj = raw / overround
+        source, prior_n = "global_player_prop_prior", 0
+    bc, sc = len(by_book), len(sharp)
     return {
-        "raw": raw, "adj": raw / overround,
-        "book_count": len(quotes), "sharp": len(sharp_quotes),
-        "books": ", ".join(sorted(q.book for q in quotes)),
-        "liquidity": _liquidity_flag(len(quotes), len(sharp_quotes)),
-    }
+        "raw": raw, "adj": adj, "overround": overround,
+        "source": source, "prior_n": prior_n,
+        "book_count": bc, "sharp": sc,
+        "books": ", ".join(sorted(by_book.keys())),
+        "liquidity": _liquidity_flag(bc, sc),
+    }, "ok"
 
 
 def price_player_prop(
@@ -332,11 +365,13 @@ def price_player_prop(
     # goal-or-assist: prefer the DIRECT score-or-assist market when present, with
     # the anytime-goal value as a definitional lower-bound guard; fall back to the
     # anytime-goal LOWER BOUND proxy (+ submission clamp) when no direct market.
+    # Both legs use the TIERED de-vig -- anytime-scorer routes to exact two-sided
+    # where books quote the No side, which is what corrects the old 1.12 over-strip.
     if qt == "player_goal_or_assist":
-        direct = _price_market_quotes(game, "player_to_score_or_assist",
-                                      SCORE_OR_ASSIST_OVERROUND, target_player, None, sharp_books)
-        floor = _price_market_quotes(game, "player_goal_scorer_anytime",
-                                     ANYTIME_SCORER_OVERROUND, target_player, None, sharp_books)
+        direct, _ = devig_tiered(game, "player_to_score_or_assist",
+                                 target_player, None, sharp_books)
+        floor, _ = devig_tiered(game, "player_goal_scorer_anytime",
+                                target_player, None, sharp_books)
         if direct is None and floor is None:
             return _unsupported("unsupported_market_absent",
                                 "no score_or_assist and no anytime-goal market for this player/game")
@@ -349,60 +384,60 @@ def price_player_prop(
                 mapped=True, status="goal_or_assist_direct", confidence="direct",
                 api_market="player_to_score_or_assist", source_tag=SOURCE_TAG,
                 market_prob_raw=round(direct["raw"], 4), market_prob_vig_adjusted=round(p, 4),
-                overround_used=SCORE_OR_ASSIST_OVERROUND,
+                overround_used=round(direct["overround"], 4),
                 book_count=direct["book_count"], sharp_book_count=direct["sharp"],
                 books_used=direct["books"], liquidity_flag=direct["liquidity"],
                 note=(f"DIRECT score_or_assist; anytime_floor="
                       f"{None if floor_adj is None else round(floor_adj, 4)}; floor_active={floor_active}"),
                 lower_bound=False, source="direct",
                 floor_prob=(None if floor_adj is None else round(floor_adj, 4)),
+                overround_source=direct["source"], overround_prior_n=direct["prior_n"],
             )
         return PropPricing(   # floor-only fallback: anytime-goal LOWER BOUND proxy
             question_type=qt, target_player=target_player, line=line,
             mapped=True, status="goal_or_assist_proxy_floor", confidence="partial",
             api_market="player_goal_scorer_anytime", source_tag=SOURCE_TAG,
             market_prob_raw=round(floor["raw"], 4), market_prob_vig_adjusted=round(floor["adj"], 4),
-            overround_used=ANYTIME_SCORER_OVERROUND,
+            overround_used=round(floor["overround"], 4),
             book_count=floor["book_count"], sharp_book_count=floor["sharp"],
             books_used=floor["books"], liquidity_flag=floor["liquidity"],
             note="no direct score_or_assist market; anytime-goal LOWER BOUND proxy (+ clamp)",
             lower_bound=True, source="proxy_floor", floor_prob=round(floor["adj"], 4),
+            overround_source=floor["source"], overround_prior_n=floor["prior_n"],
         )
 
-    quotes, candidates = _extract_quotes(
-        game, spec.api_market, target_player, spec.point, sharp_books
-    )
-    if not candidates:
+    res, status = devig_tiered(game, spec.api_market, target_player, spec.point, sharp_books)
+    if status == "market_absent":
         return _unsupported(
             "unsupported_market_absent",
             f"book feed has no {spec.api_market} market for this game",
         )
-    if not quotes:
+    if status == "player_not_quoted":
         return _unsupported(
             "unsupported_player_not_quoted",
-            f"{target_player!r} not quoted in {spec.api_market} "
-            f"(market has {len(candidates)} other players)",
+            f"{target_player!r} not quoted in {spec.api_market}",
         )
 
-    sharp_quotes = [q for q in quotes if q.is_sharp]
-    chosen = sharp_quotes if sharp_quotes else quotes
-    raw = sum(q.implied_raw for q in chosen) / len(chosen)
-    adj = raw / spec.overround
-
-    status = "mapped_one_sided" if spec.confidence == "direct" else "partial_one_sided"
+    # status_tag records the de-vig quality: a two-sided exact de-vig is a CLEANER
+    # read than a one-sided prior-adjusted one, even for a "direct" mapping.
+    if res["source"] == "exact_two_sided":
+        status_tag = "mapped_two_sided"
+    else:
+        status_tag = "mapped_one_sided" if spec.confidence == "direct" else "partial_one_sided"
     return PropPricing(
         question_type=qt, target_player=target_player, line=line,
-        mapped=True, status=status, confidence=spec.confidence,
+        mapped=True, status=status_tag, confidence=spec.confidence,
         api_market=spec.api_market, source_tag=SOURCE_TAG,
-        market_prob_raw=round(raw, 4),
-        market_prob_vig_adjusted=round(adj, 4),
-        overround_used=spec.overround,
-        book_count=len(quotes),
-        sharp_book_count=len(sharp_quotes),
-        books_used=", ".join(sorted(q.book for q in quotes)),
-        liquidity_flag=_liquidity_flag(len(quotes), len(sharp_quotes)),
+        market_prob_raw=round(res["raw"], 4),
+        market_prob_vig_adjusted=round(res["adj"], 4),
+        overround_used=round(res["overround"], 4),
+        book_count=res["book_count"],
+        sharp_book_count=res["sharp"],
+        books_used=res["books"],
+        liquidity_flag=res["liquidity"],
         note=spec.note,
         lower_bound=spec.lower_bound,
+        overround_source=res["source"], overround_prior_n=res["prior_n"],
     )
 
 
@@ -437,10 +472,11 @@ __all__ = [
     "SUB_PROFILE",
     "minutes_scaled_sub",
     "PROP_EQUIVALENCE",
-    "ANYTIME_SCORER_OVERROUND",
-    "SOT_OVERROUND",
+    "GLOBAL_PLAYER_PROP_OVERROUND",
+    "SHADOW_OVERROUND_CANDIDATES",
     "SOURCE_TAG",
     "match_player",
+    "devig_tiered",
     "price_player_prop",
     "is_lower_bound_prop",
 ]

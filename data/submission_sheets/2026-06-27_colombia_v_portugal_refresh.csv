@@ -1,0 +1,11 @@
+match,q,type,tier,class,k,c_hat,p_hat,mode,SUBMIT,d_base,action
+Colombia vs Portugal,Q1,team_offsides_over,OFFSIDES_TEAM,OFFSIDES,1.0,0.485,0.405,edge,0.405,0.0,KEEP
+Colombia vs Portugal,Q2,team_more_sot_2h,RATE_SOT_CMP,RATE_SOT,1.0,0.542,0.264,edge,0.264,0.0,KEEP
+Colombia vs Portugal,Q3,penalty_or_red_card,PENALTY_BASE,PENALTY,1.0,0.389,0.316,edge,0.316,0.0,KEEP
+Colombia vs Portugal,Q4,compound_btts_over_2_5,ENGINE_GOALS,ENGINE,1.0,0.392,0.458,edge,0.458,0.0,KEEP
+Colombia vs Portugal,Q5,team_win,MARKET,MARKET,1.0,0.621,0.243,edge,0.243,0.0,KEEP
+Colombia vs Portugal,Q6,team_sot_over,SOT_COUNT,SOT_COUNT,1.0,0.481,0.494,edge,0.494,0.0,KEEP
+Colombia vs Portugal,Q7,team_sot_over,SOT_COUNT,SOT_COUNT,1.0,0.481,0.763,edge,0.763,0.0,KEEP
+Colombia vs Portugal,Q8,total_corners_2h_over,PENDING,SHADOW,0.0,0.493,,shadow,0.493,0.0,KEEP
+Colombia vs Portugal,Q9,player_goal,PENDING,SHADOW,0.0,0.36,,shadow,0.36,0.0,KEEP
+Colombia vs Portugal,Q10,player_sot_over,PENDING,SHADOW,0.0,0.471,,shadow,0.471,0.0,KEEP

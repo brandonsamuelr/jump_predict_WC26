@@ -1,0 +1,11 @@
+match,q,type,tier,class,k,c_hat,p_hat,mode,SUBMIT,d_base,action
+Jordan vs Argentina,Q1,team_corners_1h_over,PENDING,SHADOW,0.0,0.493,,shadow,0.493,0.0,KEEP
+Jordan vs Argentina,Q2,team_offsides_over,OFFSIDES_FLOOR,OFFSIDES,1.0,0.485,0.427,edge,0.427,0.0,KEEP
+Jordan vs Argentina,Q3,team_more_fouls,FOUL_CMP,FOUL_CMP,1.0,0.5,0.599,edge,0.599,0.0,KEEP
+Jordan vs Argentina,Q4,team_more_sot_2h,RATE_SOT_CMP,RATE_SOT,1.0,0.542,0.88,edge,0.88,0.0,KEEP
+Jordan vs Argentina,Q5,penalty_or_red_card,PENALTY_BASE,PENALTY,1.0,0.389,0.316,edge,0.316,0.0,KEEP
+Jordan vs Argentina,Q6,team_score_any,TEAMGOALS_OK,TEAMGOALS,1.0,0.427,0.381,edge,0.381,0.0,KEEP
+Jordan vs Argentina,Q7,match_total_under,MARKET,MARKET,1.0,0.474,0.376,edge,0.376,0.0,KEEP
+Jordan vs Argentina,Q8,team_score_2h,ENGINE_GOALS_H1MKT,ENGINE,1.0,0.529,0.268,edge,0.268,0.0,KEEP
+Jordan vs Argentina,Q9,player_goal_or_assist,PENDING,SHADOW,0.0,0.325,,shadow,0.325,0.0,KEEP
+Jordan vs Argentina,Q10,team_sot_over,SOT_COUNT,SOT_COUNT,1.0,0.481,0.751,edge,0.751,0.0,KEEP

@@ -15,7 +15,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from odds_lib.player_prop_pricing import price_player_prop, match_player
+from odds_lib.player_prop_pricing import (
+    price_player_prop, match_player, GLOBAL_PLAYER_PROP_OVERROUND)
 
 
 def _game_both_markets() -> dict:
@@ -123,6 +124,56 @@ def test_vig_adjustment_lowers_prob():
     r = price_player_prop("player_goal", "Riyad Mahrez", None,
                           _game_both_markets())
     assert r.market_prob_vig_adjusted < r.market_prob_raw
+
+
+# --- tiered de-vig (exact > same-slate prior > global), with provenance -------
+
+def test_tier_a_exact_two_sided_scorer():
+    # player quoted BOTH Yes and No -> EXACT two-sided de-vig, not a typed/prior strip
+    game = {"bookmakers": [{"title": "Pinnacle", "markets": [
+        {"key": "player_goal_scorer_anytime", "outcomes": [
+            {"name": "Yes", "description": "Harry Kane", "price": -110},
+            {"name": "No", "description": "Harry Kane", "price": -110}]}]}]}
+    r = price_player_prop("player_goal", "Harry Kane", None, game)
+    assert r.overround_source == "exact_two_sided" and r.status == "mapped_two_sided"
+    assert abs(r.market_prob_vig_adjusted - 0.5) < 1e-3          # symmetric -> 0.5
+    assert 1.03 < r.overround_used < 1.06                        # MEASURED booksum, not a constant
+
+
+def test_tier_b_same_slate_market_prior():
+    # target one-sided, but ANOTHER player in the same market is two-sided ->
+    # use that player's booksum as the market-specific prior (auditably tagged)
+    game = {"bookmakers": [{"title": "Pinnacle", "markets": [
+        {"key": "player_shots_on_target", "outcomes": [
+            {"name": "Over", "description": "Target Guy", "point": 0.5, "price": -120},
+            {"name": "Over", "description": "Other Guy", "point": 0.5, "price": -110},
+            {"name": "Under", "description": "Other Guy", "point": 0.5, "price": -110}]}]}]}
+    r = price_player_prop("player_sot_over", "Target Guy", 0.5, game)
+    assert r.overround_source == "same_slate_market_prior" and r.overround_prior_n == 1
+    assert abs(r.overround_used - 1.0476) < 0.01                 # the OTHER player's booksum
+
+
+def test_tier_c_global_prior_when_nothing_two_sided():
+    game = {"bookmakers": [{"title": "Pinnacle", "markets": [
+        {"key": "player_shots_on_target", "outcomes": [
+            {"name": "Over", "description": "Lonely Guy", "point": 0.5, "price": -120}]}]}]}
+    r = price_player_prop("player_sot_over", "Lonely Guy", 0.5, game)
+    assert r.overround_source == "global_player_prop_prior"
+    assert r.overround_used == GLOBAL_PLAYER_PROP_OVERROUND
+
+
+def test_no_privileged_per_market_constant():
+    # SOT and scorer, each one-sided-alone, get the SAME overround (the global
+    # measured prior) -- the old 1.06 (SOT) vs 1.12 (scorer) privilege is gone.
+    sot = {"bookmakers": [{"title": "Pinnacle", "markets": [
+        {"key": "player_shots_on_target", "outcomes": [
+            {"name": "Over", "description": "Common Name", "point": 0.5, "price": 120}]}]}]}
+    scorer = {"bookmakers": [{"title": "Pinnacle", "markets": [
+        {"key": "player_goal_scorer_anytime", "outcomes": [
+            {"name": "Yes", "description": "Common Name", "price": 120}]}]}]}
+    rs = price_player_prop("player_sot_over", "Common Name", 0.5, sot)
+    rg = price_player_prop("player_goal", "Common Name", None, scorer)
+    assert rs.overround_used == rg.overround_used == GLOBAL_PLAYER_PROP_OVERROUND
 
 
 if __name__ == "__main__":

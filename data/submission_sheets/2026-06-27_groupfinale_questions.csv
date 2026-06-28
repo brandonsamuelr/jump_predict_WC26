@@ -1,0 +1,61 @@
+match,home,away,question_number,question_type,target_team,line,target_player,flag,event_id
+Panama vs England,Panama,England,Q1,team_more_fouls,Panama,,,,4be17c8e1ccfecb0f2a5ef79e045c415
+Panama vs England,Panama,England,Q2,total_sot_2h_over,,3.5,,,4be17c8e1ccfecb0f2a5ef79e045c415
+Panama vs England,Panama,England,Q3,compound_first_goal_score_2h,Panama,,,compound: PAN first & ENG 2H,4be17c8e1ccfecb0f2a5ef79e045c415
+Panama vs England,Panama,England,Q4,penalty_or_red_card,,,,,4be17c8e1ccfecb0f2a5ef79e045c415
+Panama vs England,Panama,England,Q5,team_score_any,Panama,,,,4be17c8e1ccfecb0f2a5ef79e045c415
+Panama vs England,Panama,England,Q6,halftime_draw,,,,,4be17c8e1ccfecb0f2a5ef79e045c415
+Panama vs England,Panama,England,Q7,match_total_over,,2.5,,,4be17c8e1ccfecb0f2a5ef79e045c415
+Panama vs England,Panama,England,Q8,total_corners_2h_over,,4.5,,GAP,4be17c8e1ccfecb0f2a5ef79e045c415
+Panama vs England,Panama,England,Q9,player_sot_over,Panama,0.5,José Fajardo,PROP,4be17c8e1ccfecb0f2a5ef79e045c415
+Panama vs England,Panama,England,Q10,player_sot_over,England,0.5,Harry Kane,PROP+rotation,4be17c8e1ccfecb0f2a5ef79e045c415
+Croatia vs Ghana,Croatia,Ghana,Q1,team_offsides_over,Ghana,2,,,537c0997cd899394f47f16545b7068b2
+Croatia vs Ghana,Croatia,Ghana,Q2,penalty_or_red_card,,,,,537c0997cd899394f47f16545b7068b2
+Croatia vs Ghana,Croatia,Ghana,Q3,player_sot_2h_over,Croatia,0.5,Luka Sučić,PROP+2H_SOT_derive,537c0997cd899394f47f16545b7068b2
+Croatia vs Ghana,Croatia,Ghana,Q4,total_sot_2h_over,,3.5,,,537c0997cd899394f47f16545b7068b2
+Croatia vs Ghana,Croatia,Ghana,Q5,team_win,Croatia,,,,537c0997cd899394f47f16545b7068b2
+Croatia vs Ghana,Croatia,Ghana,Q6,halftime_team_win,Croatia,,,,537c0997cd899394f47f16545b7068b2
+Croatia vs Ghana,Croatia,Ghana,Q7,team_score_2h,Croatia,,,,537c0997cd899394f47f16545b7068b2
+Croatia vs Ghana,Croatia,Ghana,Q8,total_corners_over,,8.5,,,537c0997cd899394f47f16545b7068b2
+Croatia vs Ghana,Croatia,Ghana,Q9,team_sot_over,Croatia,5.5,,,537c0997cd899394f47f16545b7068b2
+Croatia vs Ghana,Croatia,Ghana,Q10,player_sot_over,Ghana,0.5,Antoine Semenyo,PROP,537c0997cd899394f47f16545b7068b2
+DR Congo vs Uzbekistan,DR Congo,Uzbekistan,Q1,team_more_fouls,Uzbekistan,,,,13eab94a136b9c264ba974cf437a5f71
+DR Congo vs Uzbekistan,DR Congo,Uzbekistan,Q2,team_offsides_over,Uzbekistan,2,,,13eab94a136b9c264ba974cf437a5f71
+DR Congo vs Uzbekistan,DR Congo,Uzbekistan,Q3,both_teams_sot_2h_1plus,,,,,13eab94a136b9c264ba974cf437a5f71
+DR Congo vs Uzbekistan,DR Congo,Uzbekistan,Q4,compound_btts_over_2_5,,,,,13eab94a136b9c264ba974cf437a5f71
+DR Congo vs Uzbekistan,DR Congo,Uzbekistan,Q5,penalty_or_red_card,,,,,13eab94a136b9c264ba974cf437a5f71
+DR Congo vs Uzbekistan,DR Congo,Uzbekistan,Q6,team_more_sot_2h,Uzbekistan,,,,13eab94a136b9c264ba974cf437a5f71
+DR Congo vs Uzbekistan,DR Congo,Uzbekistan,Q7,player_sot_2h_over,Uzbekistan,0.5,Eldor Shomurodov,PROP+2H_SOT_derive,13eab94a136b9c264ba974cf437a5f71
+DR Congo vs Uzbekistan,DR Congo,Uzbekistan,Q8,team_win,DR Congo,,,,13eab94a136b9c264ba974cf437a5f71
+DR Congo vs Uzbekistan,DR Congo,Uzbekistan,Q9,player_goal_or_assist,DR Congo,,Cédric Bakambu,PROP,13eab94a136b9c264ba974cf437a5f71
+DR Congo vs Uzbekistan,DR Congo,Uzbekistan,Q10,team_corners_over,Uzbekistan,4.5,,,13eab94a136b9c264ba974cf437a5f71
+Colombia vs Portugal,Colombia,Portugal,Q1,team_offsides_over,Colombia,2,,,67ae5751c401a98409b8566ae4897069
+Colombia vs Portugal,Colombia,Portugal,Q2,team_more_sot_2h,Colombia,,,,67ae5751c401a98409b8566ae4897069
+Colombia vs Portugal,Colombia,Portugal,Q3,penalty_or_red_card,,,,,67ae5751c401a98409b8566ae4897069
+Colombia vs Portugal,Colombia,Portugal,Q4,compound_btts_over_2_5,,,,,67ae5751c401a98409b8566ae4897069
+Colombia vs Portugal,Colombia,Portugal,Q5,team_win,Colombia,,,,67ae5751c401a98409b8566ae4897069
+Colombia vs Portugal,Colombia,Portugal,Q6,team_sot_over,Colombia,3.5,,,67ae5751c401a98409b8566ae4897069
+Colombia vs Portugal,Colombia,Portugal,Q7,team_sot_over,Portugal,3.5,,,67ae5751c401a98409b8566ae4897069
+Colombia vs Portugal,Colombia,Portugal,Q8,total_corners_2h_over,,4.5,,GAP,67ae5751c401a98409b8566ae4897069
+Colombia vs Portugal,Colombia,Portugal,Q9,player_goal,Colombia,,Luis Díaz,PROP,67ae5751c401a98409b8566ae4897069
+Colombia vs Portugal,Colombia,Portugal,Q10,player_sot_over,Portugal,0.5,Gonçalo Ramos,PROP,67ae5751c401a98409b8566ae4897069
+Jordan vs Argentina,Jordan,Argentina,Q1,team_corners_1h_over,Argentina,0.5,,GAP,54697f453437ab26276d773be1d72e9b
+Jordan vs Argentina,Jordan,Argentina,Q2,team_offsides_over,Jordan,2,,,54697f453437ab26276d773be1d72e9b
+Jordan vs Argentina,Jordan,Argentina,Q3,team_more_fouls,Jordan,,,,54697f453437ab26276d773be1d72e9b
+Jordan vs Argentina,Jordan,Argentina,Q4,team_more_sot_2h,Argentina,,,ROTATION,54697f453437ab26276d773be1d72e9b
+Jordan vs Argentina,Jordan,Argentina,Q5,penalty_or_red_card,,,,,54697f453437ab26276d773be1d72e9b
+Jordan vs Argentina,Jordan,Argentina,Q6,team_score_any,Jordan,,,,54697f453437ab26276d773be1d72e9b
+Jordan vs Argentina,Jordan,Argentina,Q7,match_total_under,,2.5,,,54697f453437ab26276d773be1d72e9b
+Jordan vs Argentina,Jordan,Argentina,Q8,team_score_2h,Jordan,,,,54697f453437ab26276d773be1d72e9b
+Jordan vs Argentina,Jordan,Argentina,Q9,player_goal_or_assist,Jordan,,Mousa Al-Taamari,PROP,54697f453437ab26276d773be1d72e9b
+Jordan vs Argentina,Jordan,Argentina,Q10,team_sot_over,Argentina,5.5,,ROTATION,54697f453437ab26276d773be1d72e9b
+Algeria vs Austria,Algeria,Austria,Q1,team_more_fouls,Algeria,,,,8756200e539155e571557c4f2e0d7f05
+Algeria vs Austria,Algeria,Austria,Q2,team_more_sot_2h,Austria,,,,8756200e539155e571557c4f2e0d7f05
+Algeria vs Austria,Algeria,Austria,Q3,team_first_goal_2h,Austria,,,,8756200e539155e571557c4f2e0d7f05
+Algeria vs Austria,Algeria,Austria,Q4,team_more_goals_2h,Austria,,,,8756200e539155e571557c4f2e0d7f05
+Algeria vs Austria,Algeria,Austria,Q5,team_more_cards,Austria,,,,8756200e539155e571557c4f2e0d7f05
+Algeria vs Austria,Algeria,Austria,Q6,team_win,Algeria,,,,8756200e539155e571557c4f2e0d7f05
+Algeria vs Austria,Algeria,Austria,Q7,total_corners_over,,8.5,,,8756200e539155e571557c4f2e0d7f05
+Algeria vs Austria,Algeria,Austria,Q8,team_sot_over,Austria,4.5,,,8756200e539155e571557c4f2e0d7f05
+Algeria vs Austria,Algeria,Austria,Q9,player_sot_over,Austria,0.5,Marcel Sabitzer,PROP,8756200e539155e571557c4f2e0d7f05
+Algeria vs Austria,Algeria,Austria,Q10,team_sot_over,Algeria,2.5,,,8756200e539155e571557c4f2e0d7f05

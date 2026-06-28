@@ -35,6 +35,7 @@ from odds_lib.optimizer import optimize
 from odds_lib.edge import compute_edge_table
 from odds_lib.lineups import load_lineup
 from odds_lib.measurement import LOG_PATH, build_edge_frame
+from odds_lib import prop_devig_shadow as PDS
 
 SPORT = "soccer_fifa_world_cup"
 REFRESH_MARKETS = ("h2h,totals,btts,h2h_h1,spreads,totals_h1,team_totals,"
@@ -148,6 +149,13 @@ def main():
         out = []
         for _, r in rows.iterrows():
             tier, p_hat, mkt = slate.resolve_row(r.to_dict(), c, game, model, lineup=lineup)
+            # AUTO-CAPTURE the tiered prop de-vig snapshot for the R32 shadow (market-priced
+            # starter props only; self-skips others). Defensive: a shadow failure must NEVER
+            # block the lock -- harvest joins outcomes later via scripts/measure.py.
+            try:
+                PDS.capture_pending(match, r.to_dict(), game, tier)
+            except Exception as e:  # noqa: BLE001 -- shadow is best-effort, never fatal
+                print(f"[prop-devig-shadow] capture skipped for {r['question_number']}: {e}")
             fe = field.estimate(r["question_type"])
             sub = optimize(tier=tier, question_type=r["question_type"],
                            p_hat=p_hat, shadow=fe.q_hat, table=edge_table,

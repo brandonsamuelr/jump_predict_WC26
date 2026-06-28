@@ -1,0 +1,11 @@
+match,q,type,tier,class,k,c_hat,p_hat,mode,SUBMIT,d_base,action
+DR Congo vs Uzbekistan,Q1,team_more_fouls,FOUL_CMP,FOUL_CMP,1.0,0.5,0.529,edge,0.529,0.0,KEEP
+DR Congo vs Uzbekistan,Q2,team_offsides_over,OFFSIDES_FLOOR,OFFSIDES,1.0,0.485,0.427,edge,0.427,0.0,KEEP
+DR Congo vs Uzbekistan,Q3,both_teams_sot_2h_1plus,BOTH_SOT_2H,BOTH_SOT_2H,1.0,0.696,0.73,edge,0.73,0.0,KEEP
+DR Congo vs Uzbekistan,Q4,compound_btts_over_2_5,ENGINE_GOALS,ENGINE,1.0,0.392,0.321,edge,0.321,0.0,KEEP
+DR Congo vs Uzbekistan,Q5,penalty_or_red_card,PENALTY_BASE,PENALTY,1.0,0.389,0.316,edge,0.316,0.0,KEEP
+DR Congo vs Uzbekistan,Q6,team_more_sot_2h,RATE_SOT_CMP,RATE_SOT,1.0,0.542,0.193,edge,0.193,0.0,KEEP
+DR Congo vs Uzbekistan,Q7,player_sot_2h_over,PENDING,SHADOW,0.0,0.478,,shadow,0.478,0.0,KEEP
+DR Congo vs Uzbekistan,Q8,team_win,MARKET,MARKET,1.0,0.621,0.569,edge,0.569,0.0,KEEP
+DR Congo vs Uzbekistan,Q9,player_goal_or_assist,PENDING,SHADOW,0.0,0.325,,shadow,0.325,0.0,KEEP
+DR Congo vs Uzbekistan,Q10,team_corners_over,CORNERS_OK,CORNERS,1.0,0.392,0.305,edge,0.305,0.0,KEEP
